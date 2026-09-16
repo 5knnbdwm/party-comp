@@ -113,78 +113,12 @@
   ],
   "gaps": [
     {
-      "key": "parliamentary_group_website",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_full",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_short",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_easy_language",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_html",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
       "key": "points_list",
       "checked_at": "2026-09-16T19:10:11.655Z",
       "note": "Tracked sources did not establish this item.",
       "searched": [
         "https://mieterpartei-jetzt.de/index.php/zehn-punkte-sofort-programm-als-erste-hilfe-fuer-mieterinnen/"
       ]
-    },
-    {
-      "key": "program_immediate",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "lead_candidate",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "social_account",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "coalition_position",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "sondierung_status",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "election_result",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
     }
   ]
 }

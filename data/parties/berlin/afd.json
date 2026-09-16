@@ -119,66 +119,6 @@
       "searched": [
         "https://afd-fraktion.berlin/"
       ]
-    },
-    {
-      "key": "program_short",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_easy_language",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_html",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "points_list",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "program_immediate",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "lead_candidate",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "social_account",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "coalition_position",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "sondierung_status",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
-    },
-    {
-      "key": "election_result",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "No official source was identified during the archive pass.",
-      "searched": []
     }
   ]
 }
