@@ -2928,5 +2928,115 @@
     "publisher_type": "parliamentary_group",
     "added_at": "2026-09-16T21:01:00.000Z",
     "found_on": "https://www.spdfraktion-berlin.de/"
+  },
+  {
+    "url": "https://gruene.berlin/nachrichten",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "other",
+    "label": "Nachrichten der Berliner Grünen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene.berlin/"
+  },
+  {
+    "url": "https://gruene.berlin/pressemitteilungen",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "press_release",
+    "label": "Pressemitteilungen der Berliner Grünen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene.berlin/"
+  },
+  {
+    "url": "https://gruene.berlin/nachrichten/mit-werner-graf-ins-rote-rathaus-berliner-gruene-stellen-wahlkampagne-vor_3821",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Berliner Grüne stellen Wahlkampagne mit Werner Graf vor",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene.berlin/nachrichten"
+  },
+  {
+    "url": "https://gruene.berlin/raus-aus-dem-rueckwaerts-mit-werner-graf",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "lead_candidate_page",
+    "label": "Werner Graf, Bürgermeisterkandidat der Berliner Grünen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene.berlin/berlin-waehlt/unser-spitzenduo-fuer-berlin"
+  },
+  {
+    "url": "https://gruene-fraktion.berlin/pressemitteilungen/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "press_release",
+    "label": "Pressemitteilungen der Grünen Fraktion Berlin",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene-fraktion.berlin/"
+  },
+  {
+    "url": "https://gruene-fraktion.berlin/pressemitteilungen/klimagerecht-bezahlbar-und-frei-gruenes-konzept-fuer/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "press_release",
+    "label": "Grünes Konzept für ein klimagerechtes, bezahlbares und freies Berlin",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://gruene-fraktion.berlin/pressemitteilungen/"
+  },
+  {
+    "url": "https://www.rbb24.de/politik/berlin-wahl-2026/spitzenkandidaten/werner-graf-gruene-buendnis90-portraet.html",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "rbb-Porträt: Werner Grafs Koalitionsposition",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://www.google.com/search?q=Werner+Graf+Koalition+Berlin+Wahl+2026+Gr%C3%BCne+CDU+SPD+Linke+AfD"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-wortgefechte-bei-letzter-abgeordnetenhaussitzung-vor-der-wahl-100.html",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "rbb-Bericht zur Koalitionsaussage Werner Grafs im Abgeordnetenhaus",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://www.google.com/search?q=Werner+Graf+Koalition+Linke+SPD+CDU+10.+September+2026"
+  },
+  {
+    "url": "https://www.tagesspiegel.de/berlin/wahl-zum-abgeordnetenhaus-grunen-spitzenkandidat-will-mit-spd-und-linken-koalieren-15986202.html",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Tagesspiegel: Werner Graf will mit SPD und Linken koalieren",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Agruene.berlin+Koalition+Werner+Graf+Berlin+Wahl+2026"
+  },
+  {
+    "url": "https://www.bz-berlin.de/berlin/werner-graf-was-geht-und-was-moeglich-ist-im-wahlkampf-6aa3f682240b302c8a84167f",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "B.Z.-Interview mit Werner Graf vor der Berlin-Wahl",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://www.google.com/search?q=Werner+Graf+keine+Koalition+AfD+CDU+Berlin+2026"
+  },
+  {
+    "url": "https://www.juedische-allgemeine.de/politik/keine-koalition-an-der-antisemiten-beteiligt-sind/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Jüdische Allgemeine: Interview mit Werner Graf zu Koalitionsbedingungen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:58:02.000Z",
+    "found_on": "https://www.google.com/search?q=Werner+Graf+keine+Koalition+AfD+CDU+Berlin+2026"
   }
 ]

@@ -417,6 +417,59 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "26. August 2026: Bevorzugt eine Koalition mit Linken und SPD, kann sich auch eine Zusammenarbeit mit der CDU vorstellen und schließt nur eine Zusammenarbeit mit der AfD aus.",
+      "observed_at": "2026-09-16T20:58:56.933Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205856933Z_8e3e009a",
+          "quote": "Inhaltlich sei seine Präferenz klar eine Koalition mit Linken und SPD - wobei Graf infrage stellt, wie regierungsfähig und -willig die Linke in Berlin ist. Auch eine Zusammenarbeit mit der CDU kann Graf sich vorstellen, wenngleich die programmatischen Schnittmengen da deutlich geringer sind.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T205856933Z_8e3e009a",
+          "quote": "Die einzige rote Linie ist für Graf eine Zusammenarbeit mit der AfD. Darüber hinaus will er für alle möglichen Koalitionen offenbleiben.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "27. August 2026: Bevorzugt ein Bündnis mit SPD und Linken und will die CDU in die Opposition schicken.",
+      "observed_at": "2026-09-16T20:59:11.792Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205911792Z_9ada4495",
+          "quote": "Grünen-Spitzenkandidat Werner Graf hat sich klar gegen eine Koalition seiner Partei mit CDU-Beteiligung nach der Wahl zum Abgeordnetenhaus ausgesprochen. „Aus meiner Präferenz für ein Bündnis mit SPD und Linken und auch aus unserem Wunsch, die CDU in die Opposition zu schicken, habe ich nie einen Hehl gemacht“, sagte Graf dem „Tagesspiegel“.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "10. September 2026: Erteilt einer Koalition mit der CDU eine Absage und spricht sich für ein Bündnis mit Linken und SPD aus.",
+      "observed_at": "2026-09-16T20:59:04.132Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205904132Z_481c9247",
+          "quote": "Der Spitzenkandidat der Grünen, Werner Graf, erteilte einer Koalition mit der CDU eine Absage. Er sprach sich für ein Bündnis mit Linken und SPD aus.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "15. September 2026: Schließt eine Koalition aus, an der Antisemiten beteiligt sind, sowie eine Regierung, die von Antisemiten oder deren Stimmen abhängig ist; verlangt einen Koalitionsvertrag, der den Kampf gegen Antisemitismus verstärkt.",
+      "observed_at": "2026-09-16T20:59:30.339Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205930339Z_3e59ecc7",
+          "quote": "Ich kann versichern: Mit mir wird es keine Koalition geben, an der Antisemiten beteiligt sind. Wir dürfen auch keine Regierung bilden, die in irgendeiner Weise von Antisemiten abhängig ist oder mit deren Stimmen gewählt wurde, aus dem Linken-Kreisverband Neukölln zum Beispiel. Das darf auf keinen Fall sein und deshalb werden wir uns nach der Wahl ganz genau ansehen, welche Personen aus den problematischen Kreisverbänden ins Abgeordnetenhaus eingezogen sind. Der künftige Koalitionsvertrag muss im Kampf gegen Antisemitismus sehr eindeutig sein und diesen Kampf weiter verstärken – in alle Richtungen.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

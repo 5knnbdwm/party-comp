@@ -132,3 +132,22 @@
 - Die Aussage vom 6. August schließt eine Koalition mit der Linken nicht pauschal aus. Sie knüpft den Ausschluss an die Bedingung, dass Enteignung zur Voraussetzung der Koalition gemacht wird.
 - Die Startseite und Presseübersicht des Landesverbands, Krachs Kandidatenseite sowie die Startseite und Presseübersicht der Abgeordnetenhausfraktion enthielten bis zum 16. September keine neuere direkte Koalitionsaussage. Ein Tagesspiegel-Interview vom 4. August war im lokalen Capture hinter der Bezahlschranke unvollständig und wurde deshalb nicht als Quelle für einen Fakt verwendet.
 - Die Wayback-Anfragen für die vier neu erfassten Koalitionsquellen schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
+
+## berlin/gruene
+
+### Fakten
+
+- `coalition_position`, 26. August 2026: Werner Graf bevorzugt eine Koalition mit Linken und SPD, kann sich auch eine Zusammenarbeit mit der CDU vorstellen und schließt nur eine Zusammenarbeit mit der AfD aus. Quelle: https://www.rbb24.de/politik/berlin-wahl-2026/spitzenkandidaten/werner-graf-gruene-buendnis90-portraet.html
+- `coalition_position`, 27. August 2026: Graf bevorzugt ein Bündnis mit SPD und Linken und will die CDU in die Opposition schicken. Quelle: https://www.tagesspiegel.de/berlin/wahl-zum-abgeordnetenhaus-grunen-spitzenkandidat-will-mit-spd-und-linken-koalieren-15986202.html
+- `coalition_position`, 10. September 2026: Graf erteilt einer Koalition mit der CDU eine Absage und spricht sich für ein Bündnis mit Linken und SPD aus. Quelle: https://www.tagesschau.de/inland/regional/berlin/rbb-wortgefechte-bei-letzter-abgeordnetenhaussitzung-vor-der-wahl-100.html
+- `coalition_position`, 15. September 2026: Graf schließt eine Koalition aus, an der Antisemiten beteiligt sind, sowie eine Regierung, die von Antisemiten oder deren Stimmen abhängig ist. Der Koalitionsvertrag müsse den Kampf gegen Antisemitismus verstärken. Quelle: https://www.juedische-allgemeine.de/politik/keine-koalition-an-der-antisemiten-beteiligt-sind/
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Werner Graf und Bettina Jarasch waren bereits als Spitzenduo erfasst. Die offizielle Kandidatenseite bestätigt beide: https://gruene.berlin/berlin-waehlt/unser-spitzenduo-fuer-berlin
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Zwischen dem 26. und 27. August änderte sich Grafs öffentlich wiedergegebene Haltung zur CDU. Am 26. August berichtete der rbb, er könne sich eine Zusammenarbeit vorstellen. Einen Tag später sagte Graf dem Tagesspiegel, er wolle die CDU in die Opposition schicken. Am 10. September erteilte er einer CDU-Koalition erneut eine Absage.
+- Die Aussage vom 15. September schließt eine Koalition mit der Linken nicht pauschal aus. Graf knüpft eine mögliche Regierung an die beteiligten Personen, ihre Stimmen und eine eindeutige Festlegung im Koalitionsvertrag gegen Antisemitismus.
+- Die Startseite, Nachrichten- und Presseübersicht, die Wahlkampfvorstellung und die Kandidatenseite des Landesverbands sowie die Startseite, Presseübersicht und das Zukunftskonzept der Abgeordnetenhausfraktion enthielten keine neuere, gleich konkrete Koalitionsaussage. Die offizielle Wahlkampfvorstellung vom 5. Juni nennt nur das Ziel, Kai Wegner abzulösen und Schwarz-Rot zu beenden.
+- Der B.Z.-Beitrag vom 15. September war im Browser lesbar, ließ sich mit dem Archivskript aber nur mit HTTP 403 erfassen. Er wurde deshalb nicht als Faktquelle verwendet.
+- Die Wayback-Anfragen für die fünf erfolgreich lokal erfassten Koalitionsseiten schlugen mit HTTP 500, 523 oder 429 fehl.
