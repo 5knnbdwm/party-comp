@@ -3128,5 +3128,105 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T21:01:42.000Z",
     "found_on": "https://www.google.com/search?q=Berlin+Wahl+2026+Linke+Koalition+Elif+Eralp+SPD+Gr%C3%BCne+CDU+AfD"
+  },
+  {
+    "url": "https://afd.berlin/aktuelles/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "Aktuelles des AfD-Landesverbands Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://afd.berlin/abgeordnetenhauswahl/"
+  },
+  {
+    "url": "https://afd.berlin/presse/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "Presseseite des AfD-Landesverbands Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://afd.berlin/abgeordnetenhauswahl/"
+  },
+  {
+    "url": "https://afd.berlin/dr-kristin-brinker/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "lead_candidate_page",
+    "label": "Dr. Kristin Brinker: Spitzenkandidatin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://afd.berlin/abgeordnetenhauswahl/"
+  },
+  {
+    "url": "https://afd-fraktion.berlin/pressemitteilungen/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "Pressemitteilungen der AfD-Hauptstadtfraktion",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://afd-fraktion.berlin/"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-kristin-brinker-von-der-afd-die-kandidatin-hinter-der-brandmauer-100.html",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "rbb-Porträt: Brinker zu Gesprächen und Brandmauer",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.tagesschau.de/inland/landtagswahlen/berlin/2026"
+  },
+  {
+    "url": "https://www.bz-berlin.de/berlin/afd-spitzenkandidatin-will-fluechtlingsklassen-und-umwege-fuer-radfahrer-6a9d14f43c4ff4f6c5cfeb6a",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "B.Z.-Interview: Brinker hält Mitregieren weiter für möglich",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.google.com/search?q=Kristin+Brinker+Koalition+Berlin+Wahl+2026+AfD"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-berlin-wahl-welche-koalitionen-moeglich-sind-100.html",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "rbb-Analyse möglicher Koalitionen nach der Berlin-Wahl",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.tagesschau.de/inland/landtagswahlen/berlin/2026"
+  },
+  {
+    "url": "https://www.rbb-online.de/abendschau/7plus/wahl-2026/spitzenkandidaten/afd-spitzenkandidatin-brinker.html",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "rbb-Abendschau: Spitzenkandidatin Kristin Brinker",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.google.com/search?q=Kristin+Brinker+Koalition+Berlin+Wahl+2026+AfD"
+  },
+  {
+    "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101425182/berlin-wahl-2026-das-ist-die-afd-spitzenkandidatin-kristin-brinker.html",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "t-online-Porträt der AfD-Spitzenkandidatin Kristin Brinker",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.google.com/search?q=Kristin+Brinker+Koalition+Berlin+Wahl+2026+AfD"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/landtagswahlen/berlin/2026",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "Tagesschau-Themenseite zur Berlin-Wahl 2026",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:04:56.000Z",
+    "found_on": "https://www.google.com/search?q=Kristin+Brinker+Koalition+Berlin+Wahl+2026+AfD"
   }
 ]

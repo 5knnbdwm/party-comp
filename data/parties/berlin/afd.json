@@ -293,6 +293,30 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "28. August 2026: Ist zu Gesprächen mit allen Parteien bereit.",
+      "observed_at": "2026-09-16T21:05:33.510Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210533510Z_24467ef8",
+          "quote": "Das ist ja der Fehler der letzten Jahre gewesen im Umgang mit uns, dass man zu oft Gespräche einfach abgelehnt hat. Ich gehe auf Jeden zu.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "28. August 2026: Lehnt die Brandmauer der anderen Parteien ab und erwartet, dass sie scheitert.",
+      "observed_at": "2026-09-16T21:05:33.510Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210533510Z_24467ef8",
+          "quote": "Brinker nennt die \"Brandmauer\" der anderen Parteien einen \"Schutzwall für die eigenen Machtoptionen\" und prognostiziert: \"die scheitern damit\".",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

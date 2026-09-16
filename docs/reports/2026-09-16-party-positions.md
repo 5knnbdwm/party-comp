@@ -168,3 +168,19 @@
 - Die jüngste Präferenz für SPD und Grüne steht unter der von Eralp am 14. September genannten Bedingung zur Vergesellschaftung. Im selben Interview ging sie trotz der ablehnenden Aussage des SPD-Spitzenkandidaten davon aus, dass nach der Wahl eine Verständigung möglich sei.
 - Die Startseite, die Aktuelles- und Presseübersicht, die Wahlseite und die Seiten der Abgeordnetenhausfraktion enthielten keine ebenso konkrete aktuelle Aussage zu den gewünschten Koalitionspartnern. Die offizielle Nominierungsseite und Eralps eigene Seite bestätigen ihre Spitzenkandidatur.
 - Die Wayback-Anfragen für die drei Koalitionsquellen schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## berlin/afd
+
+### Fakten
+
+- `coalition_position`, 28. August 2026: Kristin Brinker ist zu Gesprächen mit allen Parteien bereit. Quelle: https://www.tagesschau.de/inland/regional/berlin/rbb-kristin-brinker-von-der-afd-die-kandidatin-hinter-der-brandmauer-100.html
+- `coalition_position`, 28. August 2026: Brinker lehnt die Brandmauer der anderen Parteien ab und erwartet, dass sie scheitert. Quelle: https://www.tagesschau.de/inland/regional/berlin/rbb-kristin-brinker-von-der-afd-die-kandidatin-hinter-der-brandmauer-100.html
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Dr. Kristin Brinker war bereits als Spitzenkandidatin erfasst. Die neu archivierte offizielle Kandidatenseite bestätigt die Spitzenkandidatur: https://afd.berlin/dr-kristin-brinker/
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die Startseite, die Seiten `Aktuelles`, `Presse` und `Abgeordnetenhauswahl`, Brinkers Kandidatenseite und Wahlprogramm sowie die Startseite und Presseübersicht der Abgeordnetenhausfraktion enthielten keine konkrete Aussage zu gewünschten oder ausgeschlossenen Koalitionspartnern. Die jüngste gefundene klare Position stammt deshalb aus dem rbb-Porträt vom 28. August.
+- Ein B.Z.-Interview vom 16. September gibt Brinkers Antwort auf die fehlende Regierungsoption mit "Es ist noch nicht aller Tage Abend" wieder. Das ist keine konkrete Aussage zu einem Koalitionspartner. Zudem konnte das Archivskript die Seite nur mit HTTP 403 erfassen. Daraus wurde kein Fakt abgeleitet. Quelle: https://www.bz-berlin.de/berlin/afd-spitzenkandidatin-will-fluechtlingsklassen-und-umwege-fuer-radfahrer-6a9d14f43c4ff4f6c5cfeb6a
+- Eine rbb-Koalitionsanalyse vom 12. September nennt keine neue Position der AfD. Das rbb-Video vom 28. August und das t-online-Porträt vom 16. September enthalten ebenfalls keine weitere Koalitionsaussage.
+- Die Wayback-Anfragen für das rbb-Porträt und das B.Z.-Interview schlugen mit HTTP 500 fehl. Der lokale Capture des rbb-Porträts war erfolgreich.
