@@ -314,6 +314,132 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Sucht eine stabile Regierungsmehrheit über Gespräche mit Fraktionen oder einzelnen Abgeordneten; Kernpositionen zu Migration und innerer Sicherheit sollen vollständig umgesetzt werden.",
+      "observed_at": "2026-09-16T20:35:45.278Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203545278Z_37bc1ef3",
+          "quote": "Um im neu gewählten Landtag eine Regierungsmehrheit zu bekommen, werde er Gespräche führen mit \"einzelnen Fraktionen oder einzelnen Abgeordneten, die mit uns gemeinsam diese historische Aufgabe stemmen wollen\". Dafür wolle er \"jedem Akteur im Landtag von Sachsen-Anhalt selbstverständlich erst mal die Hand reichen\". Entsprechende Gespräche würden bereits heute angestoßen.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203545278Z_37bc1ef3",
+          "quote": "Die Suche nach einer Mehrheit solle unter der Maßgabe geschehen, dass Kernpositionen etwa bei Migration und innerer Sicherheit \"zu 100 Prozent umgesetzt\" würden, sagte er.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Bietet allen im Landtag vertretenen Parteien Sondierungen an, nennt CDU und BSW als Gesprächspartner und schließt eine Minderheitsregierung nicht aus.",
+      "observed_at": "2026-09-16T20:36:08.106Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203608106Z_ae82191b",
+          "quote": "Der Parlamentarische Geschäftsführer der AfD im Landtag von Sachsen-Anhalt, Tobias Rausch, kündigte in der Fernsehsendung an, am Dienstag allen im Landtag vertretenen Parteien Sondierungen anbieten zu wollen. Die Frage sei, ob die anderen Parteien bereit seien, mitzugehen. In gewissen Punkten sei man kompromissbereit. Auf die Nachfrage nach konkreten Angeboten nannte Rausch CDU und BSW als Gesprächspartner.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203608106Z_ae82191b",
+          "quote": "Rausch schloss eine Minderheitsregierung für Sachsen-Anhalt auf Nachfrage nicht aus.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-10: Will notfalls mit einer Stimme Mehrheit regieren; Siegmund will antreten, wenn die AfD ihre Kernpunkte durchsetzen kann.",
+      "observed_at": "2026-09-16T20:36:25.294Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203625294Z_c6f68907",
+          "quote": "Der AfD-Spitzenkandidat Siegmund sagte nach der konstituierenden Sitzung seiner Fraktion in Magdeburg, Ziel sei zwar die Bildung eines möglichst stabilen Landeskabinetts. Doch würde man notfalls auch mit nur einer Stimme mehr regieren. Er fügte hinzu, seine Fraktion führe derzeit weitere Gespräche mit anderen Abgeordneten. Sollte seine Partei hier ihre Kernpunkte durchsetzen, würde er als Ministerpräsident antreten.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-07: Bereits Austausch mit nicht genannten Kollegen anderer Parteien über eine mögliche Regierungszusammenarbeit.",
+      "observed_at": "2026-09-16T20:35:52.737Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203552737Z_31ad1556",
+          "quote": "Seine Partei habe sich bereits in der Nacht mit Kollegen anderer Parteien über die entsprechende Entwicklung ausgetauscht. Um welche Parteien es sich handelt, sagte Siegmund nicht.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-08: Alle im neuen Landtag vertretenen Parteien zu zeitnahen Sondierungsgesprächen eingeladen.",
+      "observed_at": "2026-09-16T20:36:16.462Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203616462Z_eb1c92ec",
+          "quote": "Die AfD lud am Dienstag alle im neuen Landtag vertretenen Parteien zu \"zeitnahen Sondierungsgesprächen\" ein.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Das BSW hat das Gesprächsangebot angenommen; CDU, SPD, Grüne und Linke haben es abgelehnt. Ort und Zeitpunkt des Gesprächs mit dem BSW waren noch offen.",
+      "observed_at": "2026-09-16T20:36:16.462Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203616462Z_eb1c92ec",
+          "quote": "Nach der Landtagswahl in Sachsen-Anhalt hat das BSW ein Angebot zu Gesprächen mit der AfD angenommen. Wie ein Sprecher des BSW am Mittwochabend mitteilte, sprach sich der Landesvorstand am Abend einstimmig dafür aus, mit der AfD zu sprechen.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203616462Z_eb1c92ec",
+          "quote": "Angaben zu Ort und Zeitpunkt machte der Sprecher nicht.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203616462Z_eb1c92ec",
+          "quote": "Außer dem BSW haben alle Parteien ein Sondierungsangebot der AfD abgelehnt. CDU, SPD, Grüne und Linke schließen jede Kooperation aus, das gilt auch außerhalb Sachsen-Anhalts.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-10: Die Fraktion führt weitere Gespräche mit nicht genannten Abgeordneten; ein formelles Gespräch mit dem BSW ist angekündigt, aber noch nicht terminiert.",
+      "observed_at": "2026-09-16T20:36:25.294Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203625294Z_c6f68907",
+          "quote": "Er fügte hinzu, seine Fraktion führe derzeit weitere Gespräche mit anderen Abgeordneten.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203625294Z_c6f68907",
+          "quote": "Ein Sondierungsangebot Siegmunds haben alle Parteien abgelehnt bis auf das BSW. Dieses hat sich zu einer punktuellen Zusammenarbeit grundsätzlich bereit erklärt.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203624101Z_75904021",
+          "quote": "Der Landesvorstand des BSW Sachsen-Anhalt habe einstimmig beschlossen, ein entsprechendes Angebot der AfD anzunehmen, teilte die Partei mit. Bei dem Treffen werde es um die Themen Energieversorgung, Bildung und Friedenspolitik gehen, hieß es.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Ulrich Siegmund",
+      "observed_at": "2026-09-16T19:10:25.951Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191025951Z_ffa6d72a",
+          "quote": "Euer Ulrich Siegmund\nMinisterpräsidentenkandidat",
+          "page": 3
+        }
+      ]
     }
   ],
   "gaps": [

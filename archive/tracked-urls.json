@@ -2508,5 +2508,85 @@
     "publisher_type": "party",
     "added_at": "2026-09-16T20:31:29.300Z",
     "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/afd-siegmund-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "Siegmund will stabile Mehrheit suchen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=AfD+Sachsen-Anhalt+Sondierungsgespr%C3%A4che+2026+Siegmund+Koalition"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/siegmund-afd-hat-bereits-gespraeche-mit-anderen-parteien-aufgenommen-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "Siegmund: AfD hat bereits Gespräche mit anderen Parteien aufgenommen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=AfD+Sachsen-Anhalt+Sondierungsgespr%C3%A4che+2026+Siegmund+Koalition"
+  },
+  {
+    "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/audio-afd-sondierung-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "AfD will allen Parteien Sondierungen anbieten",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=AfD+Sachsen-Anhalt+Sondierungsgespr%C3%A4che+2026+Siegmund+Koalition"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/regional/sachsenanhalt/regierungsbildung-sachsen-anhalt-fakt-ist-108,fakt-ist-nach-wahl-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "BSW für Minderheitsregierung der AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=AfD+Sachsen-Anhalt+Sondierungsgespr%C3%A4che+2026+Siegmund+Koalition"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/bsw-afd-sondierung-siegmund-regierungsbildung-sachsen-anhalt-wahl-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "Sachsen-Anhalt: BSW will mit AfD sondieren",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=Sachsen-Anhalt+AfD+BSW+Sondierung+Treffen+September+2026"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/gesellschaft/bsw-gespraeche-sachsen-anhalt-100.html",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "BSW startet in Gespräche mit AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=Sachsen-Anhalt+AfD+BSW+Sondierung+Treffen+September+2026"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/afd-will-notfalls-auch-mit-einer-stimme-mehrheit-regieren-100.html/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "AfD will notfalls auch mit einer Stimme Mehrheit regieren",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:35:20.000Z",
+    "found_on": "https://www.google.com/search?q=Siegmund+eine+Stimme+Mehrheit+September+2026"
+  },
+  {
+    "url": "https://afdfraktion-lsa.de/afd-fraktion-konstituiert-sich/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "press_release",
+    "label": "AfD-Fraktion konstituiert sich",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:37:00.000Z",
+    "found_on": "https://afdfraktion-lsa.de/aktuelles/"
   }
 ]

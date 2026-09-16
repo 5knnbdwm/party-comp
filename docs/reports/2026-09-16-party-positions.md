@@ -14,3 +14,23 @@
 - Die Aussagen widersprechen sich nicht. Die Position wird zwischen dem 7. und 15. September konkreter: vom fehlenden Regierungsauftrag über die Absage an die AfD bis zur ausdrücklichen Festlegung auf Opposition.
 - Für Gespräche mit anderen Parteien wurde weder auf den gelesenen offiziellen CDU-Seiten noch in der herangezogenen Pressequelle ein Hinweis gefunden. Die Erklärung vom 15. September schließt eine Beteiligung der CDU-Fraktion an der Regierungsbildung insgesamt aus.
 - Die für beide Koalitionsaussagen angeforderten Wayback-Snapshots schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## sachsen-anhalt/afd
+
+### Fakten
+
+- `coalition_position`, 7. September 2026: Die AfD sucht eine stabile Regierungsmehrheit über Gespräche mit Fraktionen oder einzelnen Abgeordneten. Ihre Kernpositionen zu Migration und innerer Sicherheit sollen vollständig umgesetzt werden. Quelle: https://www.tagesschau.de/inland/afd-siegmund-100.html
+- `coalition_position`, 7. September 2026: Tobias Rausch kündigt Sondierungsangebote an alle Landtagsparteien an, nennt CDU und BSW als Gesprächspartner und schließt eine Minderheitsregierung nicht aus. Quelle: https://www.tagesschau.de/inland/regional/sachsenanhalt/regierungsbildung-sachsen-anhalt-fakt-ist-108,fakt-ist-nach-wahl-100.html
+- `coalition_position`, 10. September 2026: Ulrich Siegmund will notfalls mit einer Stimme Mehrheit regieren. Er will als Ministerpräsident antreten, wenn die AfD ihre Kernpunkte durchsetzen kann. Quelle: https://www.deutschlandfunk.de/afd-will-notfalls-auch-mit-einer-stimme-mehrheit-regieren-100.html/
+- `sondierung_status`, 7. September 2026: Die AfD hatte sich bereits mit nicht genannten Kollegen anderer Parteien über eine mögliche Regierungszusammenarbeit ausgetauscht. Quelle: https://www.deutschlandfunk.de/siegmund-afd-hat-bereits-gespraeche-mit-anderen-parteien-aufgenommen-100.html
+- `sondierung_status`, 8. September 2026: Die AfD lud alle im neuen Landtag vertretenen Parteien zu zeitnahen Sondierungsgesprächen ein. Quelle: https://www.zdfheute.de/politik/deutschland/bsw-afd-sondierung-siegmund-regierungsbildung-sachsen-anhalt-wahl-100.html
+- `sondierung_status`, 9. September 2026: Das BSW nahm das Gesprächsangebot an. CDU, SPD, Grüne und Linke lehnten es ab. Ort und Zeitpunkt des Gesprächs mit dem BSW waren noch offen. Quelle: https://www.zdfheute.de/politik/deutschland/bsw-afd-sondierung-siegmund-regierungsbildung-sachsen-anhalt-wahl-100.html
+- `sondierung_status`, 10. September 2026: Die AfD-Fraktion führte nach Siegmunds Aussage weitere Gespräche mit nicht genannten Abgeordneten. Das angekündigte Gespräch mit dem BSW war weiterhin nicht terminiert. Quellen: https://www.deutschlandfunk.de/afd-will-notfalls-auch-mit-einer-stimme-mehrheit-regieren-100.html/ und https://www.tagesschau.de/inland/gesellschaft/bsw-gespraeche-sachsen-anhalt-100.html
+- `lead_candidate`: Ulrich Siegmund. Das Kurzprogramm nennt ihn Ministerpräsidentenkandidaten. Quelle: https://afd-lsa.de/wp-content/uploads/2026/08/LSA26_KURZPROGRAMM_A6_Final.pdf, Seite 3.
+
+### Hinweise
+
+- Siegmunds Position wurde zwischen dem 7. und 10. September weniger eng. Zunächst sprach er von einer stabilen Mehrheit. Am 10. September erklärte er, notfalls auch mit einer Stimme Mehrheit regieren zu wollen.
+- Die AfD-Websites enthielten keine eigene Mitteilung zu den Sondierungen. Die Meldung der Landtagsfraktion vom 10. September behandelt nur die Konstituierung und Vorstandswahl. Deshalb stammen die Koalitions- und Gesprächsfakten aus Pressequellen.
+- Bis zum 16. September fand sich in den gelesenen Quellen kein Beleg, dass das angekündigte formelle Gespräch mit dem BSW bereits stattgefunden hatte. Die Gespräche mit einzelnen Abgeordneten blieben ohne Namensnennung.
+- Alle acht neu angeforderten Wayback-Snapshots schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
