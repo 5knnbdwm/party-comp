@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { parseHTML, DOMParser } from 'linkedom';
 import { Readability } from '@mozilla/readability';
 import { captureSchema, trackedSchema, type Capture } from './archive-schema';
+import { ocrPdf } from './archive-ocr';
 export const root = resolve(import.meta.dir, '..');
 export const digest = (bytes: Uint8Array | string) => new Bun.CryptoHasher('sha256').update(bytes).digest('hex');
 export async function readCaptures(): Promise<Capture[]> {
@@ -78,6 +79,7 @@ async function capture(url:string, previous:Capture|undefined, wayback:boolean):
   // A blob keeps its original extraction, even after parser versions change.
   if (await Bun.file(`${root}/${textPath}`).exists()) text = await Bun.file(`${root}/${textPath}`).text();
   await store(textPath,text);
+  if (pdf && !text.trim()) await ocrPdf(blob, sha);
   Object.assign(result,{sha256:sha,text_sha256:digest(text),blob,text:textPath,bytes:bytes.length,content_changed:previous?previous.sha256!==sha:null,text_changed:previous?previous.text_sha256!==digest(text):null});
  } catch(error) {result.error=String(error);result.pdf_info=null;}
  if (wayback) {

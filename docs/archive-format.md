@@ -17,6 +17,7 @@ archive/
   captures.jsonl             append-only log, one line per fetch
   blobs/<sha256>.<ext>       raw bytes exactly as fetched, never modified
   text/<sha256>.txt          extracted text of that blob, for diffing
+  ocr/<sha256>.txt           OCR text for scanned PDFs with an empty text layer
 data/
   parties/<state>/<party-slug>.json
 scripts/
@@ -89,6 +90,8 @@ Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never
 - A failed fetch still gets a line, with `http_status` and `error` set and the hash fields `null`. A document that disappears is evidence too.
 - `pdf_info` is `null` for non-PDFs. `wayback_url` is `null` when no snapshot was requested or the request failed.
 - Blobs are content-addressed, so identical bytes are stored once.
+- A scanned PDF has an empty text file. The fetch script then writes OCR text to `archive/ocr/<sha256>.txt`, with pages separated by form feeds, using Tesseract with `vendor/tessdata/deu.traineddata`. The capture record does not change; OCR text is derived and can be regenerated with `bun scripts/archive-ocr.ts`. Quotes from scanned PDFs are copied from the OCR text, including its OCR spelling.
+- `archive/blobs`, `archive/text` and `archive/ocr` are not in git. `captures.jsonl` holds their hashes, so a restored copy can be verified.
 
 ## Party facts
 
@@ -122,7 +125,13 @@ Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never
 - `facts` is append-only. When a value changes, add a new fact with the same `key` and a later `observed_at`. The current value is the latest one per key, and the older entries are the history.
 - Every source names a capture id that exists in `captures.jsonl`. `quote` is verbatim text from that capture. `page` is set for PDFs.
 - A fact with several values, such as two lead candidates, gets one fact per value.
-- `gaps` records what we looked for and did not find, with the pages checked. It keeps "not found on date X" separate from "never existed".
+- The quotes must show the value, not just mention the party. `bun scripts/archive-validate.ts` enforces this for simple values:
+  - `name_full`, `name_short`, `lead_candidate`: a quote contains the value, ignoring case and whitespace.
+  - `ballot_list_number`, `seats_before_election`: a quote contains the number. Zero seats needs no number.
+  - `election_result`: the quotes contain the vote share, as `43.8` or `43,8`, and the seat count.
+  - URL keys and `social_account`: a source capture is of that URL, or a quote contains it.
+  - Judgement keys such as `coalition_position` and `sondierung_status` are checked by review, not by the validator.
+- `gaps` records what we looked for and did not find. It keeps "not found on date X" separate from "never existed". Every gap lists at least one searched page, and each searched page has a capture from before `checked_at`, so the page as we saw it is on record. An item with neither a fact nor a gap has not been checked yet.
 
 Fact keys:
 

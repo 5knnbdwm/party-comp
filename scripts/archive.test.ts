@@ -9,7 +9,7 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
   await mkdir(`${directory}/scripts`);
   await mkdir(`${directory}/archive`);
   await symlink(`${root}/node_modules`, `${directory}/node_modules`, 'dir');
-  for (const name of ['archive-fetch.ts', 'archive-schema.ts', 'archive-validate.ts']) {
+  for (const name of ['archive-fetch.ts', 'archive-ocr.ts', 'archive-schema.ts', 'archive-validate.ts']) {
     await copyFile(`${root}/scripts/${name}`, `${directory}/scripts/${name}`);
   }
   let version = 1;
@@ -61,6 +61,20 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
     expect(third[4].content_changed).toBe(true);
     expect(third[4].text_changed).toBe(true);
     expect((await run('archive-validate.ts')).code).toBe(0);
+
+    // Facts must show their value in a quote, and gaps must name captured pages.
+    const partyPath = `${directory}/data/parties/berlin/test.json`;
+    const fact = (value: string) => ({ key: 'name_full', value, observed_at: new Date().toISOString(), sources: [{ capture: third[4].id, quote: 'Programm', page: null }] });
+    const gap = (searched: string[]) => ({ key: 'lead_candidate', checked_at: new Date().toISOString(), note: 'Not on the page.', searched });
+    const writeParty = (facts: unknown[], gaps: unknown[]) => Bun.write(partyPath, JSON.stringify({ state: 'berlin', slug: 'test', facts, gaps }));
+    await writeParty([fact('Programm')], [gap([document])]);
+    expect((await run('archive-validate.ts')).code).toBe(0);
+    await writeParty([fact('Andere Partei')], []);
+    expect((await run('archive-validate.ts')).stderr).toContain('name_full not supported by its sources');
+    await writeParty([], [gap([])]);
+    expect((await run('archive-validate.ts')).stderr).toContain('lists no searched pages');
+    await writeParty([], []);
+
     await Bun.write(`${directory}/${third[4].blob}`, 'corrupted');
     expect((await run('archive-validate.ts')).code).toBe(1);
   } finally {

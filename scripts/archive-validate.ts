@@ -1,7 +1,28 @@
 import { trackedSchema, captureSchema, partySchema } from './archive-schema';
 import { root, digest } from './archive-fetch';
+import { ocrPath } from './archive-ocr';
+import type { Party } from './archive-schema';
 const errors:string[]=[];
 const check=(condition:unknown,message:string)=>{if(!condition)errors.push(message);};
+const normal=(value:string)=>value.normalize('NFKC').replace(/\u00ad/g,'').replace(/\s+/g,' ').toLowerCase();
+const bareUrl=(value:string)=>value.toLowerCase().replace(/^https?:\/\//,'').replace(/^www\./,'').replace(/[?#].*$/,'').replace(/\/+$/,'');
+// Matches 43.8 as "43.8" or "43,8", and 22 as a whole number, never as part of 122.
+const hasNumber=(text:string,value:number)=>{const [whole,fraction]=String(value).split('.');return new RegExp(`(^|[^\\d])${whole}${fraction?`[.,]${fraction}`:'([.,]0+)?'}([^\\d]|$)`).test(text);};
+
+/** Why a fact's sources fail to show its value, or null. Judgement keys such as coalition_position are not checked. */
+function unsupported(fact:Party['facts'][number],quotes:string,urls:string[]):string|null{
+ const hasUrl=(value:string)=>urls.some(url=>bareUrl(url)===bareUrl(value))||quotes.includes(bareUrl(value));
+ switch(fact.key){
+  case 'name_full':case 'name_short':case 'lead_candidate':return quotes.includes(normal(fact.value))?null:`no quote contains "${fact.value}"`;
+  case 'ballot_list_number':return hasNumber(quotes,fact.value)?null:`no quote contains ${fact.value}`;
+  // Zero seats means the party is absent from the member list, so there is no number to quote.
+  case 'seats_before_election':return fact.value===0||hasNumber(quotes,fact.value)?null:`no quote contains ${fact.value}`;
+  case 'election_result':return hasNumber(quotes,fact.value.second_vote_pct)&&hasNumber(quotes,fact.value.seats)?null:`quotes do not contain ${fact.value.second_vote_pct}% and ${fact.value.seats} seats`;
+  case 'website':case 'state_association_website':case 'parliamentary_group_website':case 'program':return hasUrl(fact.value)?null:`neither a source URL nor a quote matches ${fact.value}`;
+  case 'social_account':return hasUrl(fact.value.url)?null:`neither a source URL nor a quote matches ${fact.value.url}`;
+  default:return null;
+ }
+}
 async function main(){
  const tracked=trackedSchema.parse(await Bun.file(`${root}/archive/tracked-urls.json`).json());
  const captures=(await Bun.file(`${root}/archive/captures.jsonl`).text()).split('\n').filter(Boolean).map(line=>captureSchema.parse(JSON.parse(line)));
@@ -37,16 +58,30 @@ async function main(){
   check(path===`data/parties/${party.state}/${party.slug}.json`,`${path}: state or slug mismatch`);
   for(const fact of party.facts){
    if(fact.key==='program')check(tracked.some(t=>t.url===fact.value),`${path}: untracked program`);
+   const quotes:string[]=[];const urls:string[]=[];
    for(const source of fact.sources){const capture=byId.get(source.capture);check(capture,`${path}: unknown capture ${source.capture}`);if(!capture)continue;
     check(!capture.error,`${path}: source is failed capture`);
     check(fact.observed_at>=capture.retrieved_at,`${path}: fact predates capture`);
     check(capture.pdf_info?source.page!==null&&source.page<=capture.pdf_info.pages:source.page===null,`${path}: invalid source page`);
-    const text=capture.text?await Bun.file(`${root}/${capture.text}`).text():'';
+    let text=capture.text?await Bun.file(`${root}/${capture.text}`).text():'';
+    // Scanned PDFs have no text layer; quotes are checked against their OCR text instead.
+    if(capture.pdf_info&&capture.sha256&&!text.trim()){
+     const ocr=Bun.file(`${root}/${ocrPath(capture.sha256)}`);
+     check(await ocr.exists(),`${path}: scanned PDF ${source.capture} has no OCR text, run bun scripts/archive-ocr.ts`);
+     if(await ocr.exists())text=await ocr.text();
+    }
     const raw=capture.blob?.endsWith('.html')?await Bun.file(`${root}/${capture.blob}`).text():'';
     const pages = text.split('\f').filter((page, index) => index !== 0 || page.trim());
     const quoted=capture.pdf_info&&source.page?pages[source.page-1]??'':text;
-    check((capture.pdf_info && !text.trim()) || quoted.includes(source.quote)||raw.includes(source.quote),`${path}: quote absent from capture ${source.capture}: ${source.quote.slice(0,60)}`);
+    check(quoted.includes(source.quote)||raw.includes(source.quote),`${path}: quote absent from capture ${source.capture}: ${source.quote.slice(0,60)}`);
+    quotes.push(normal(source.quote));urls.push(capture.url);if(capture.final_url)urls.push(capture.final_url);
    }
+   const problem=unsupported(fact,quotes.join('\n'),urls);
+   check(!problem,`${path}: ${fact.key} not supported by its sources: ${problem}`);
+  }
+  for(const gap of party.gaps){
+   check(gap.searched.length>0,`${path}: gap ${gap.key} lists no searched pages`);
+   for(const url of gap.searched)check(captures.some(capture=>capture.url===url&&capture.retrieved_at<=gap.checked_at),`${path}: gap ${gap.key} searched ${url} without a capture before checked_at`);
   }
  }
  if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Valid: ${tracked.length} tracked URLs, ${captures.length} captures, ${parties} party files.`);
