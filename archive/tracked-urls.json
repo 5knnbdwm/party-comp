@@ -2868,5 +2868,65 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T20:50:43.000Z",
     "found_on": "https://www.google.com/search?q=Stefan+Evers+Koalition+AfD+Linke+SPD+Gr%C3%BCne+Berlin+Wahl+September+2026"
+  },
+  {
+    "url": "https://spd.berlin/pressemitteilungen/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "press_release",
+    "label": "Pressemitteilungen der SPD Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:53:38.000Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://spd.berlin/pressemitteilung/krach-kein-koalitionsausschluss-aber-keine-konstellation-mit-kai-wegner/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "Krach: Kein Koalitionsausschluss, aber keine Konstellation mit Kai Wegner",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:53:38.000Z",
+    "found_on": "https://spd.berlin/pressemitteilungen/"
+  },
+  {
+    "url": "https://berlin.t-online.de/region/berlin/id_101340306/berliner-spd-kandidat-krach-haelt-zusammenarbeit-mit-evers-fuer-moeglich.html",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "t-online: Krach hält Zusammenarbeit mit Evers für möglich",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:53:38.000Z",
+    "found_on": "https://www.google.com/search?q=Steffen+Krach+Koalition+September+2026+Berlin+SPD"
+  },
+  {
+    "url": "https://www.tagesspiegel.de/berlin/die-umfragen-sind-scheisse-aber-berlins-spd-spitzenkandidat-steffen-krach-uber-den-zustand-seiner-partei-15902545.html",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "Tagesspiegel interview with Steffen Krach on coalition options",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:53:38.000Z",
+    "found_on": "https://www.google.com/search?q=Steffen+Krach+Koalition+September+2026+Berlin+SPD"
+  },
+  {
+    "url": "https://taz.de/SPD-Spitzenkandidat-ueber-Enteignungen/!6202334/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "taz: Steffen Krach sieht eine rote Linie bei Enteignungen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:53:38.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Aspd.berlin+Krach+Enteignung+Linke+Koalition+August+2026"
+  },
+  {
+    "url": "https://www.spdfraktion-berlin.de/pressemitteilungen",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "press_release",
+    "label": "Pressemitteilungen der SPD-Fraktion Berlin",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T21:01:00.000Z",
+    "found_on": "https://www.spdfraktion-berlin.de/"
   }
 ]

@@ -405,6 +405,59 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "9. Juli 2026: Schließt nur eine Koalition mit der AfD aus.",
+      "observed_at": "2026-09-16T20:59:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205410212Z_600073d9",
+          "quote": "Ich schließe keine Koalition aus, mit der Ausnahme der AfD.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "9. Juli 2026: Kai Wegner soll in keiner Konstellation einem künftigen Senat angehören.",
+      "observed_at": "2026-09-16T20:59:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205410212Z_600073d9",
+          "quote": "Aber ich werde es in keiner Konstellation zulassen, dass Kai Wegner in einem künftigen Senat eine Rolle übernehmen kann.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "13. Juli 2026: Hält eine Zusammenarbeit mit der CDU unter Stefan Evers nach der Wahl für möglich.",
+      "observed_at": "2026-09-16T20:59:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205418088Z_ac74a33c",
+          "quote": "Mit Stefan Evers arbeiten wir aktuell zusammen und natürlich ist das auch eine Möglichkeit für die Zukunft",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "6. August 2026: Tritt in keine Koalition ein, die Enteignung zur Voraussetzung macht.",
+      "observed_at": "2026-09-16T20:59:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205149195Z_621b725a",
+          "quote": "Ich werde in keine Koalition eintreten, die Enteignung zur Voraussetzung macht",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T205437065Z_7362afd3",
+          "quote": "Wenn das die rote Linie ist für die Linkspartei, dann müssen sie gucken, mit welcher Koalition sie das umsetzen wollen – mit der SPD jedenfalls nicht",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

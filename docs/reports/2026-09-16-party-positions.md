@@ -114,3 +114,21 @@
 - Die Startseite und Presseseite des CDU-Landesverbands, die Kampagnenseiten berlin-wird.de und stefan-evers.de sowie die Startseite und Presseübersicht der CDU-Fraktion enthielten keine direkte, vollständige Aussage zu möglichen Koalitionen. Die jüngste klare Aussage fand sich in der ZDF-Berichterstattung vom 12. September.
 - Ein Tagesspiegel-Interview vom 5. August gibt Evers' Ziel wieder, Berlin "aus der politischen Mitte heraus" zu regieren, benennt aber keine Koalitionspartner. Der rbb-Beitrag vom 6. August behandelt rote Linien von SPD, Grünen und Linken, nicht eine zusätzliche Koalitionsfestlegung der CDU.
 - Die Wayback-Anfragen für das Tagesspiegel-Interview, den ZDF-Beitrag und den rbb-Beitrag schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## berlin/spd
+
+### Fakten
+
+- `coalition_position`, 9. Juli 2026: Die SPD schließt nur eine Koalition mit der AfD aus. Quelle: https://spd.berlin/pressemitteilung/krach-kein-koalitionsausschluss-aber-keine-konstellation-mit-kai-wegner/
+- `coalition_position`, 9. Juli 2026: Steffen Krach will in keiner Konstellation zulassen, dass Kai Wegner einem künftigen Senat angehört. Quelle: https://spd.berlin/pressemitteilung/krach-kein-koalitionsausschluss-aber-keine-konstellation-mit-kai-wegner/
+- `coalition_position`, 13. Juli 2026: Krach hält eine Zusammenarbeit mit der CDU unter Stefan Evers nach der Wahl für möglich. Quelle: https://berlin.t-online.de/region/berlin/id_101340306/berliner-spd-kandidat-krach-haelt-zusammenarbeit-mit-evers-fuer-moeglich.html
+- `coalition_position`, 6. August 2026: Krach tritt in keine Koalition ein, die Enteignung zur Voraussetzung macht. Quellen: https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-abgeordnetenhaus-wahlkampf-koalitionen-bedingungen-spd-linke-gruene-cdu.html und https://taz.de/SPD-Spitzenkandidat-ueber-Enteignungen/!6202334/
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Steffen Krach war bereits als Spitzenkandidat erfasst. Seine offizielle Kandidatenseite bestätigt die Kandidatur: https://spd.berlin/steffen-krach/
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die Aussage vom 13. Juli widerspricht der vom 9. Juli nicht. Krach hatte die Zusammenarbeit mit Kai Wegner persönlich ausgeschlossen, nicht mit der CDU. Nach dem Kandidatenwechsel nannte er eine Zusammenarbeit mit Stefan Evers möglich.
+- Die Aussage vom 6. August schließt eine Koalition mit der Linken nicht pauschal aus. Sie knüpft den Ausschluss an die Bedingung, dass Enteignung zur Voraussetzung der Koalition gemacht wird.
+- Die Startseite und Presseübersicht des Landesverbands, Krachs Kandidatenseite sowie die Startseite und Presseübersicht der Abgeordnetenhausfraktion enthielten bis zum 16. September keine neuere direkte Koalitionsaussage. Ein Tagesspiegel-Interview vom 4. August war im lokalen Capture hinter der Bezahlschranke unvollständig und wurde deshalb nicht als Quelle für einen Fakt verwendet.
+- Die Wayback-Anfragen für die vier neu erfassten Koalitionsquellen schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
