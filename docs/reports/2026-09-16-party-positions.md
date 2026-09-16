@@ -184,3 +184,23 @@
 - Ein B.Z.-Interview vom 16. September gibt Brinkers Antwort auf die fehlende Regierungsoption mit "Es ist noch nicht aller Tage Abend" wieder. Das ist keine konkrete Aussage zu einem Koalitionspartner. Zudem konnte das Archivskript die Seite nur mit HTTP 403 erfassen. Daraus wurde kein Fakt abgeleitet. Quelle: https://www.bz-berlin.de/berlin/afd-spitzenkandidatin-will-fluechtlingsklassen-und-umwege-fuer-radfahrer-6a9d14f43c4ff4f6c5cfeb6a
 - Eine rbb-Koalitionsanalyse vom 12. September nennt keine neue Position der AfD. Das rbb-Video vom 28. August und das t-online-Porträt vom 16. September enthalten ebenfalls keine weitere Koalitionsaussage.
 - Die Wayback-Anfragen für das rbb-Porträt und das B.Z.-Interview schlugen mit HTTP 500 fehl. Der lokale Capture des rbb-Porträts war erfolgreich.
+
+## berlin/bsw
+
+### Fakten
+
+- `lead_candidate`, Stand 16. September 2026: Alexander King. Quelle: https://bsw.berlin/allgemein/alexander-king-und-michael-lueders-fuehren-bsw-in-den-berliner-wahlkampf/
+- `lead_candidate`, Stand 16. September 2026: Michael Lüders. Quelle: https://bsw.berlin/allgemein/alexander-king-und-michael-lueders-fuehren-bsw-in-den-berliner-wahlkampf/
+- `coalition_position`, 3. Oktober 2025: Alexander King will nur mit Partnern regieren, die gemeinsame Politik umsetzen. Er schließt nach einem Einzug auch die Opposition nicht aus. Quelle: https://berlin.t-online.de/region/berlin/id_100940972/berliner-bsw-chef-king-im-interview-ueber-die-gruenen-afd-und-moskau-reisen.html
+- `coalition_position`, 3. Oktober 2025: King schließt eine Koalition mit der AfD aus. Eine Koalition mit den Grünen und, abgeschwächt, mit der Linken kann er sich nur schwer vorstellen. Die größten Schnittmengen sieht er mit der SPD, macht Sondierungen aber von der Gesamtkonstellation und den Inhalten abhängig. Quelle: https://berlin.t-online.de/region/berlin/id_100940972/berliner-bsw-chef-king-im-interview-ueber-die-gruenen-afd-und-moskau-reisen.html
+- `coalition_position`, 21. August 2026: Michael Lüders schließt eine Koalition mit der AfD aus. Laut Lüders ist sie im BSW-Parteiprogramm nicht vorgesehen und wird von niemandem auf Führungsebene angestrebt. Quelle: https://www.welt.de/politik/deutschland/article6a887729c3692834ff6d8b19/bsw-die-afd-ist-fuer-mich-ein-politischer-gegner-parteivize-lueders-stellt-position-klar.html
+- `coalition_position`, 12. September 2026: King bezeichnet die inhaltlichen Schnittmengen mit der AfD als "überschaubar" und lehnt deren Positionen zu Remigration, Mieten, Sozialpolitik und Militär ab. Zugleich verteidigt er sachbezogene Gespräche mit der AfD in Sachsen-Anhalt. Quelle: https://www.rbb24.de/politik/berlin-wahl-2026/spitzenkandidaten/alexander-king-bsw-plan-fuer-berlin-interview.html
+
+### Hinweise
+
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die offizielle Mitteilung vom 25. Januar bezeichnet King und Lüders als Doppelspitze, die die Landesliste anführt. Die bereits archivierte Kandidatenseite bestätigt die Listenplätze 1 und 2, bezeichnet die beiden aber nicht ausdrücklich als Spitzenkandidaten.
+- Die jüngste Aussage vom 12. September wiederholt den Koalitionsausschluss nicht ausdrücklich. Sie steht nicht im Widerspruch zu Lüders' Ausschluss vom 21. August oder Kings Ausschluss vom 3. Oktober 2025. King unterscheidet zwischen einer Koalition und sachbezogener Zusammenarbeit.
+- Die offizielle Mitteilung vom 25. Januar lädt themenbezogen alle zur Zusammenarbeit ein, nennt aber keine Koalitionspräferenz. Die Startseite, die Seite `Aktuelles`, Kandidatenseite, Programmseite und Wahlprogramme enthielten keine neuere konkrete Aussage zu gewünschten Koalitionspartnern. Zwei Beiträge vom 9. und 17. Juli lehnen ein AfD-Verbot beziehungsweise die Brandmauer-Rhetorik ab, treffen aber keine Aussage zu einer Koalition.
+- Das BSW hatte vor der Wahl keine Abgeordnetenhausfraktion. Eine Fraktionsseite war deshalb nicht zu durchsuchen.
+- Die Wayback-Anfragen für die drei Faktquellen und die zwei thematisch verwandten offiziellen Beiträge schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

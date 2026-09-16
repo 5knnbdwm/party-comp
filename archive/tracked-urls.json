@@ -3228,5 +3228,85 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T21:04:56.000Z",
     "found_on": "https://www.google.com/search?q=Kristin+Brinker+Koalition+Berlin+Wahl+2026+AfD"
+  },
+  {
+    "url": "https://www.alexander-king.de/allgemein/alexander-king-und-michael-lueders-fuehren-bsw-in-den-berliner-wahlkampf",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "lead_candidate_page",
+    "label": "Alexander King und Michael L\u00fcders f\u00fchren BSW in den Berliner Wahlkampf",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:07:38.000Z",
+    "found_on": "https://bsw.berlin/bsw-kandidaten-agh-wahl-2026/"
+  },
+  {
+    "url": "https://www.rbb24.de/politik/berlin-wahl-2026/spitzenkandidaten/alexander-king-bsw-plan-fuer-berlin-interview.html",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "rbb24-Interview: King distanziert sich von AfD-Programmatik",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:07:38.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Arbb24.de+Berlin+Wahl+2026+Alexander+King+AfD+Koalition+Interview+13.09.2026"
+  },
+  {
+    "url": "https://www.welt.de/politik/deutschland/article6a887729c3692834ff6d8b19/bsw-die-afd-ist-fuer-mich-ein-politischer-gegner-parteivize-lueders-stellt-position-klar.html",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "WELT: Michael L\u00fcders schlie\u00dft Koalition mit der AfD aus",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:07:38.000Z",
+    "found_on": "https://www.google.com/search?q=%22Michael+L%C3%BCders%22+%22Koalition%22+Berlin+Wahl+2026+BSW"
+  },
+  {
+    "url": "https://berlin.t-online.de/region/berlin/id_100940972/berliner-bsw-chef-king-im-interview-ueber-die-gruenen-afd-und-moskau-reisen.html",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "t-online-Interview: King zu Koalitionsoptionen des Berliner BSW",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:07:38.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Aalexander-king.de+Koalition+AfD+Berlin+BSW+2026"
+  },
+  {
+    "url": "https://bsw.berlin/aktuelles-bsw/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Aktuelles des BSW Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:11:54.000Z",
+    "found_on": "https://bsw.berlin/"
+  },
+  {
+    "url": "https://bsw.berlin/allgemein/mythos-brandmauer-ein-moralisches-bollwerk-als-politisches-ablenkungsmanoever/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Mythos Brandmauer: Ein moralisches Bollwerk als politisches Ablenkungsman\u00f6ver",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:11:54.000Z",
+    "found_on": "https://bsw.berlin/aktuelles-bsw/"
+  },
+  {
+    "url": "https://bsw.berlin/allgemein/auseinandersetzung-statt-afd-verbot/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Auseinandersetzung statt AfD-Verbot",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:11:54.000Z",
+    "found_on": "https://bsw.berlin/aktuelles-bsw/"
+  },
+  {
+    "url": "https://bsw.berlin/allgemein/alexander-king-und-michael-lueders-fuehren-bsw-in-den-berliner-wahlkampf/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "lead_candidate_page",
+    "label": "Alexander King und Michael L\u00fcders f\u00fchren BSW in den Berliner Wahlkampf",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:11:54.000Z",
+    "found_on": "https://bsw.berlin/aktuelles-bsw/"
   }
 ]
