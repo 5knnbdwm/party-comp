@@ -121,6 +121,78 @@
       ],
       "key": "website",
       "value": "https://www.fdp.de/"
+    },
+    {
+      "observed_at": "2026-09-16T21:15:50.592Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T211550592Z_7c289fc1",
+          "quote": "Die Freien Demokraten Berlin haben ihre Liste für die Abgeordnetenhauswahl aufgestellt. Christoph Meyer führt die Freien Demokraten als Spitzenkandidat in den Wahlkampf.",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Christoph Meyer"
+    },
+    {
+      "observed_at": "2026-09-16T21:16:01.226Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T211601226Z_c9f6a24c",
+          "quote": "Frage: Ist der Umgang mit dem politischen Islam für Sie mit Blick auf die Berliner Wahl eine politische rote Linie? Könnten Sie – sofern die FDP den Einzug ins Abgeordnetenhaus schaffen sollte – eine Regierung unterstützen, die weiterhin Organisationen fördert, die Sie dem legalistischen Islamismus zurechnen?\nMeyer: Die klare Antwort lautet: nein. Ich erwarte auch von allen anderen im Abgeordnetenhaus vertretenen Parteien eine ebenso deutliche Haltung.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": "Lehnt am 30. August 2026 die Unterstützung einer Regierung ab, die weiterhin Organisationen fördert, die Meyer dem legalistischen Islamismus zurechnet."
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/marenjasperwinter"
+      },
+      "observed_at": "2026-09-16T21:19:15.357Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T211550592Z_7c289fc1",
+          "quote": "https://www.instagram.com/marenjasperwinter/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "lead_candidate",
+        "url": "https://twitter.com/Meyer_FDP"
+      },
+      "observed_at": "2026-09-16T21:19:15.364Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T211600925Z_01817664",
+          "quote": "https://twitter.com/Meyer_FDP",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/christoph.meyer.berlin"
+      },
+      "observed_at": "2026-09-16T21:19:15.364Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T211600925Z_01817664",
+          "quote": "https://www.facebook.com/christoph.meyer.berlin",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

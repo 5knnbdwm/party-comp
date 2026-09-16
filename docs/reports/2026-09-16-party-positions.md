@@ -204,3 +204,20 @@
 - Die offizielle Mitteilung vom 25. Januar lädt themenbezogen alle zur Zusammenarbeit ein, nennt aber keine Koalitionspräferenz. Die Startseite, die Seite `Aktuelles`, Kandidatenseite, Programmseite und Wahlprogramme enthielten keine neuere konkrete Aussage zu gewünschten Koalitionspartnern. Zwei Beiträge vom 9. und 17. Juli lehnen ein AfD-Verbot beziehungsweise die Brandmauer-Rhetorik ab, treffen aber keine Aussage zu einer Koalition.
 - Das BSW hatte vor der Wahl keine Abgeordnetenhausfraktion. Eine Fraktionsseite war deshalb nicht zu durchsuchen.
 - Die Wayback-Anfragen für die drei Faktquellen und die zwei thematisch verwandten offiziellen Beiträge schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## berlin/fdp
+
+### Fakten
+
+- `lead_candidate`, Stand 16. September 2026: Christoph Meyer. Quelle: https://www.fdp.de/freie-demokraten-stellen-weichen-fuer-die-abgeordnetenhauswahl
+- `coalition_position`, 30. August 2026: Meyer lehnt die Unterstützung einer Regierung ab, die weiterhin Organisationen fördert, die er dem legalistischen Islamismus zurechnet. Quelle: https://www.fdp.de/pressemitteilung/meyer-interview-wir-stellen-uns-dem-islamismus-jeder-form-entgegen
+- `social_account`, Stand 16. September 2026: Instagram-Konto von Maren Jasper-Winter, verlinkt von der Kandidierendenliste. Quelle: https://www.fdp.de/freie-demokraten-stellen-weichen-fuer-die-abgeordnetenhauswahl
+- `social_account`, Stand 16. September 2026: X- und Facebook-Konto von Christoph Meyer, verlinkt von seiner offiziellen FDP-Seite. Quelle: https://www.fdp.de/person/christoph-meyer
+
+### Hinweise
+
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die offizielle FDP-Seite vom 10. Juli nennt als Ziel, ein Bündnis aus Linken, Grünen und SPD zu verhindern. Die Mitteilung vom 6. August fordert die SPD auf, eine Koalition mit der Linken auszuschließen. Beide lokalen Captures enthalten wegen der vorgeschalteten Einwilligungsseite nur den Cookie-Hinweis. Die Aussagen wurden deshalb nicht als Fakten erfasst.
+- Ein Interview der Berliner Zeitung vom 10. September behandelt Meyers Haltung zu Koalitionen mit AfD, Linken und BSW. Der lokale Capture enthält hinter der Bezahlschranke nur Titel und Einleitung, nicht die betreffende Passage. Daraus wurde kein Fakt abgeleitet. Quelle: https://www.berliner-zeitung.de/article/fdp-spitzenkandidat-meyer-in-berlin-bereitet-mir-die-linkspartei-groessere-sorgen-als-die-afd-10362452
+- Die Startseite, die Neuigkeitenübersicht, die Kandidierendenliste und zwei offizielle Seiten zur Nominierung beziehungsweise Bestätigung Meyers sowie die Mitteilungen und Interviews vom 10. Juli, 6., 25., 30. und 31. August und die Presseinterviews vom 31. August und 10. September wurden auf neuere oder abweichende Koalitionsaussagen geprüft. Die FDP hatte vor der Wahl keine Abgeordnetenhausfraktion.
+- Die Wayback-Anfragen für die drei offiziellen Koalitionsseiten und die zwei Presseinterviews schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

@@ -3308,5 +3308,135 @@
     "publisher_type": "party",
     "added_at": "2026-09-16T21:11:54.000Z",
     "found_on": "https://bsw.berlin/aktuelles-bsw/"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/aktuell",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "other",
+    "label": "Neuigkeiten der FDP Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp-berlin.de/"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/ein-starkes-team-fuer-eine-stadt-die-wieder-funktioniert",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Kandidierendenliste der FDP Berlin zur Abgeordnetenhauswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp-berlin.de/"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/fdp-berlin-nominiert-christoph-meyer-und-maren-jasper-winter-fuer-die-abgeordnetenhauswahl-2026",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "FDP Berlin nominiert Christoph Meyer als Spitzenkandidaten",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp-berlin.de/aktuell"
+  },
+  {
+    "url": "https://www.fdp.de/freie-demokraten-stellen-weichen-fuer-die-abgeordnetenhauswahl",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Freie Demokraten stellen Weichen für die Abgeordnetenhauswahl",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Afdp-berlin.de+Berlin+Wahl+2026+Spitzenkandidat+FDP+Koalition"
+  },
+  {
+    "url": "https://www.fdp.de/christoph-meyer-im-amt-als-landesvorsitzender-bestaetigt",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Christoph Meyer im Amt als Landesvorsitzender bestätigt",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Afdp-berlin.de+Berlin+Wahl+2026+Spitzenkandidat+FDP+Koalition"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/cdu-machtwechsel-ohne-neuanfang-fdp-fordert-echten-politikwechsel-am-20-september",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "FDP Berlin zum Wechsel des CDU-Spitzenkandidaten",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp-berlin.de/aktuell"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/absage-die-linke-fdp-fordert-von-spd-klares-nein-zu-enteignungen",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "FDP Berlin fordert von der SPD eine Absage an Die Linke",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp-berlin.de/aktuell"
+  },
+  {
+    "url": "https://www.fdp.de/person/christoph-meyer",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Christoph Meyer bei der FDP",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Afdp-berlin.de+Berlin+Wahl+2026+Spitzenkandidat+FDP+Koalition"
+  },
+  {
+    "url": "https://www.fdp.de/pressemitteilung/meyer-interview-wir-stellen-uns-dem-islamismus-jeder-form-entgegen",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "FDP-Wiedergabe eines Interviews mit Christoph Meyer",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=%22Christoph+Meyer%22+%22Koalition%22+Berlin+FDP+September+2026"
+  },
+  {
+    "url": "https://www.tagesspiegel.de/berlin/fdp-spitzenkandidat-christoph-meyer-im-gesprach-funf-jahre-fdp-pur-wurden-das-wohnungsproblem-losen-15985043.html",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "Tagesspiegel-Interview mit Christoph Meyer",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=%22Christoph+Meyer%22+%22keine+Koalition%22+Berlin+2026+FDP"
+  },
+  {
+    "url": "https://www.berliner-zeitung.de/article/fdp-spitzenkandidat-meyer-in-berlin-bereitet-mir-die-linkspartei-groessere-sorgen-als-die-afd-10362452",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "Berliner-Zeitung-Interview mit Christoph Meyer zu Koalitionen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=%22Christoph+Meyer%22+%22Koalition%22+Berlin+FDP+September+2026"
+  },
+  {
+    "url": "https://www.fdp.de/pressemitteilung/hagenmeyer-statement-die-buergerinnen-und-buerger-fuehlen-sich-von-dieser",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "press_release",
+    "label": "Statement von Martin Hagen und Christoph Meyer vor der Berlin-Wahl",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Afdp.de+Christoph+Meyer+Berlin+Wahl+Linksb%C3%BCndnis"
+  },
+  {
+    "url": "https://www.fdp.de/meyer-klare-kante-gegen-islamismus",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "press_release",
+    "label": "Meyer: Klare Kante gegen Islamismus",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:15:08.000Z",
+    "found_on": "https://www.fdp.de/pressemitteilung/meyer-interview-wir-stellen-uns-dem-islamismus-jeder-form-entgegen"
   }
 ]
