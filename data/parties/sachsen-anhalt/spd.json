@@ -218,6 +218,64 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Hält einen überparteilichen Ministerpräsidenten nicht für die erste Wahl, lehnt ihn aber nicht grundsätzlich ab, wenn er eine Blockade lösen könnte.",
+      "observed_at": "2026-09-16T20:40:28.815Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204028815Z_c2dddd2b",
+          "quote": "Die SPD ist nach der Wahl offen, notfalls einen künftigen überparteilichen Ministerpräsidenten in Sachsen-Anhalt zu unterstützen. Spitzenkandidat Armin Willingmann sagte, die erste Wahl sei ein solcher Kandidat nicht. \"Aber wenn es zur Auflösung einer Blockade führen könnte, sollte man es auch nicht a priori ablehnen.\"",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Sieht keine Grundlage für Gespräche über eine Zusammenarbeit mit der AfD.",
+      "observed_at": "2026-09-16T20:32:03.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203203194Z_17870965",
+          "quote": "Das Ergebnis der Landtagswahl nehme man zur Kenntnis, man respektiere die Entscheidung der Wählerinnen und Wähler, betonten Kleemann und Schmidt. \"Es verändert jedoch weder unsere politischen Grundüberzeugungen noch unsere Bewertung der AfD. Für Gespräche über eine Zusammenarbeit zwischen unseren Parteien besteht daher aus unserer Sicht keine Grundlage.\"",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-11: Schließt eine politische Zusammenarbeit mit der AfD aus und verlangt vom BSW Klarheit zu dessen Gesprächen mit der AfD.",
+      "observed_at": "2026-09-16T20:40:21.540Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204021540Z_077979e8",
+          "quote": "Hier zeigt sich die hässliche Fratze einer Politik, deren Sprache und Vorstellungen erneut an totalitäre Vorbilder erinnern. Das beantwortet auch die Frage, warum eine politische Zusammenarbeit mit der AfD für uns ausgeschlossen ist. Es geht um das politische System und das Gesellschaftsbild, das dahintersteht.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T204021540Z_077979e8",
+          "quote": "Und dazu kann das BSW nicht schweigen. Wer sich gegen Aufrüstung stellt und gleichzeitig Gespräche mit der AfD über politische Zusammenarbeit führen will, muss eine einfache Frage beantworten: Sind solche Vorstellungen für das BSW mit einer politischen Zusammenarbeit vereinbar oder nicht?“",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Einladung der AfD zu Gesprächen über eine Regierungsbildung erhalten und abgelehnt.",
+      "observed_at": "2026-09-16T20:32:03.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203203194Z_17870965",
+          "quote": "Auch die Sozialdemokraten haben die Einladung ausgeschlagen. \"Zwischen der SPD und der AfD bestehen grundlegende politische und normative Gegensätze\", antworteten die beiden Landesvorsitzenden Juliane Kleemann und Andreas Schmidt.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T203203194Z_17870965",
+          "quote": "Für Gespräche über eine Zusammenarbeit zwischen unseren Parteien besteht daher aus unserer Sicht keine Grundlage.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

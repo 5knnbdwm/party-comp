@@ -34,3 +34,20 @@
 - Die AfD-Websites enthielten keine eigene Mitteilung zu den Sondierungen. Die Meldung der Landtagsfraktion vom 10. September behandelt nur die Konstituierung und Vorstandswahl. Deshalb stammen die Koalitions- und Gesprächsfakten aus Pressequellen.
 - Bis zum 16. September fand sich in den gelesenen Quellen kein Beleg, dass das angekündigte formelle Gespräch mit dem BSW bereits stattgefunden hatte. Die Gespräche mit einzelnen Abgeordneten blieben ohne Namensnennung.
 - Alle acht neu angeforderten Wayback-Snapshots schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
+
+## sachsen-anhalt/spd
+
+### Fakten
+
+- `coalition_position`, 7. September 2026: Die SPD hält einen überparteilichen Ministerpräsidenten nicht für die erste Wahl, lehnt ihn aber nicht grundsätzlich ab, wenn er eine Blockade lösen könnte. Quelle: https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-154,wahl-594.html
+- `coalition_position`, 9. September 2026: Die SPD sieht keine Grundlage für Gespräche über eine Zusammenarbeit mit der AfD. Quelle: https://www.n-tv.de/politik/Fuenf-Einladungen-und-vier-Absagen-fuer-die-AfD-id31288376.html
+- `coalition_position`, 11. September 2026: Die SPD-Landtagsfraktion schließt eine politische Zusammenarbeit mit der AfD aus und verlangt vom BSW Klarheit zu dessen Gesprächen mit der AfD. Quelle: https://spd-lsa.de/pressemitteilungen/spd-verlangt-klarheit-vom-bsw/
+- `sondierung_status`, 9. September 2026: Die SPD erhielt eine Einladung der AfD zu Gesprächen über eine Regierungsbildung und lehnte sie ab. Quelle: https://www.n-tv.de/politik/Fuenf-Einladungen-und-vier-Absagen-fuer-die-AfD-id31288376.html
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Armin Willingmann war bereits als Spitzenkandidat erfasst. Die zusätzlich gelesene offizielle Kandidatenseite bestätigt dies: https://spdsachsenanhalt.de/spitzenkandidat/
+- Bis zum 16. September fand sich auf der Startseite, der Nachrichtenübersicht und der Presse-und-Service-Seite des Landesverbands sowie auf der Startseite und der Pressemeldungsübersicht der Landtagsfraktion kein Hinweis auf Sondierungen mit anderen Parteien.
+- Der SPD-Landrat Markus Bauer sprach sich am 8. September für Gespräche und mögliche Kooperationen mit der AfD aus. Spitzenkandidat Armin Willingmann widersprach noch am selben Tag und schloss Gespräche und Zusammenarbeit aus. Bauers Aussage wurde deshalb nicht als Position der Landespartei erfasst. Quelle: https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-166,wahl-598.html
+- Die Position der Landespartei ist in den erfassten Aussagen konsistent: keine Zusammenarbeit mit der AfD. Die Aussage zum überparteilichen Ministerpräsidenten steht dazu nicht ausdrücklich im Widerspruch, obwohl der BSW-Vorschlag wechselnde Mehrheiten unter Einbeziehung der AfD vorsah.
+- Die vier angeforderten Wayback-Snapshots für Koalitionsaussagen schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.

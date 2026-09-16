@@ -2588,5 +2588,75 @@
     "publisher_type": "parliamentary_group",
     "added_at": "2026-09-16T20:37:00.000Z",
     "found_on": "https://afdfraktion-lsa.de/aktuelles/"
+  },
+  {
+    "url": "https://spd-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "parliamentary_group_website",
+    "label": "SPD-Landtagsfraktion Sachsen-Anhalt: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://spdsachsenanhalt.de/personen-und-kontakte/"
+  },
+  {
+    "url": "https://spd-lsa.de/presse",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "other",
+    "label": "SPD-Landtagsfraktion Sachsen-Anhalt: Pressemeldungen",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://spd-lsa.de/"
+  },
+  {
+    "url": "https://spd-lsa.de/pressemitteilungen/spd-verlangt-klarheit-vom-bsw/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "SPD verlangt Klarheit vom BSW",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://spd-lsa.de/"
+  },
+  {
+    "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-154,wahl-594.html",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "SPD würde überparteilichen Ministerpräsidenten notfalls stützen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://www.google.com/search?q=Armin+Willingmann+SPD+Sachsen-Anhalt+Koalition+Sondierung+7+September+2026"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/spd-in-sachsen-anhalt-koennte-ueberparteilichem-ministerpraesidenten-zustimmen-100.html",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "SPD könnte überparteilichem Ministerpräsidenten zustimmen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://www.google.com/search?q=Armin+Willingmann+SPD+Sachsen-Anhalt+Koalition+Sondierung+7+September+2026"
+  },
+  {
+    "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-166,wahl-598.html",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "Willingmann lehnt Gespräche mit AfD ab",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://www.google.com/search?q=Armin+Willingmann+SPD+Sachsen-Anhalt+AfD+Zusammenarbeit+8+September+2026"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/spitzenkandidat/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "lead_candidate_page",
+    "label": "Prof. Dr. Armin Willingmann: Spitzenkandidat",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:39:50.000Z",
+    "found_on": "https://spdsachsenanhalt.de/landtagswahl-2026/"
   }
 ]
