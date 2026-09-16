@@ -2478,5 +2478,35 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T20:00:00.000Z",
     "found_on": "https://www.wahlrecht.de/"
+  },
+  {
+    "url": "https://www.cdufraktion.de/2026/cdu-fraktion-neue-aufstellung-fuer-eine-starke-opposition/",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "CDU-Fraktion: Neue Aufstellung für eine starke Opposition",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:31:29.300Z",
+    "found_on": "https://www.cdufraktion.de/"
+  },
+  {
+    "url": "https://www.n-tv.de/politik/Fuenf-Einladungen-und-vier-Absagen-fuer-die-AfD-id31288376.html",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Fünf Einladungen und vier Absagen für die AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:31:29.300Z",
+    "found_on": "https://www.google.com/search?q=CDU+Sachsen-Anhalt+Sondierungsgespr%C3%A4che+2026"
+  },
+  {
+    "url": "https://www.cdulsa.de/landesparteitag2026",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "lead_candidate_page",
+    "label": "Landesparteitag 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:31:29.300Z",
+    "found_on": "https://www.cdulsa.de/"
   }
 ]

@@ -49,7 +49,10 @@ async function main() {
  for (const capture of await readCaptures()) if (!capture.error) latest.set(capture.url, capture);
  let added = 0;
  for await (const path of new Bun.Glob('data/parties/**/*.json').scan(root)) {
-  const party = partySchema.parse(await Bun.file(`${root}/${path}`).json());
+  // Validate with the schema, but edit and write the file as read, so untouched facts keep their key order.
+  const file = await Bun.file(`${root}/${path}`).json();
+  const party = partySchema.parse(file);
+  const before = added;
   const stateSite = party.facts.findLast(fact => fact.key === 'state_association_website')?.value;
   // Pages whose links count as official: the state association site, the parliamentary group site, lead candidate pages.
   const pages = tracked.flatMap(item => {
@@ -82,12 +85,12 @@ async function main() {
     const key = `${page.linkedFrom} ${profile.platform} ${profile.handle}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    party.facts.push({key:'social_account', value:{platform:profile.platform, linked_from:page.linkedFrom, url:profile.url}, observed_at:new Date().toISOString(), sources:[{capture:capture.id, quote:href, page:null}]});
+    file.facts.push({key:'social_account', value:{platform:profile.platform, linked_from:page.linkedFrom, url:profile.url}, observed_at:new Date().toISOString(), sources:[{capture:capture.id, quote:href, page:null}]});
     added++;
     console.log(`${party.state}/${party.slug} ${page.linkedFrom} ${profile.platform} ${profile.url}`);
    }
   }
-  await Bun.write(`${root}/${path}`, JSON.stringify(party, null, 2) + '\n');
+  if (added > before) await Bun.write(`${root}/${path}`, JSON.stringify(file, null, 2) + '\n');
  }
  console.log(`Added ${added} social_account facts.`);
 }

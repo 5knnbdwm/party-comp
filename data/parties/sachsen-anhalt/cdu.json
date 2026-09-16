@@ -302,6 +302,78 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Sieht den Auftrag zur Bildung einer Landesregierung nicht bei der CDU.",
+      "observed_at": "2026-09-16T19:39:20.774Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T193920774Z_430c09e1",
+          "quote": "Der Auftrag zur Bildung einer Landesregierung liegt nach dem Willen der Wählerinnen und Wähler nicht bei der CDU.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Lehnt eine Zusammenarbeit mit der AfD ab und nimmt deren Gesprächsangebot nicht an.",
+      "observed_at": "2026-09-16T20:32:03.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203203194Z_17870965",
+          "quote": "\"Wir werden dieses Gesprächsangebot nicht annehmen\", sagte sie. \"Unsere Haltung ist klar: Eine Zusammenarbeit mit der vom Landesverfassungsschutz als gesichert rechtsextremistisch eingestuften AfD Sachsen-Anhalt lehnen wir ab.\"",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-15: Richtet sich auf Oppositionsarbeit ein; die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung.",
+      "observed_at": "2026-09-16T20:31:54.096Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203154096Z_9044f9bc",
+          "quote": "„Wir sind als Opposition in einer neuen Rolle. Unsere Herausforderung wird eine andere sein als bisher. Wir richten uns auf eine konstruktive Oppositionsarbeit ein. An der Regierungsbildung wird sich die CDU-Fraktion nicht beteiligen. Die Analyse der Wahl haben wir begonnen und werden sie fortsetzen. Inhaltlich wollen wir uns auf die Themen konzentrieren, bei denen uns als CDU-Fraktion von den Menschen besondere Lösungskompetenz zugeschrieben wird.“",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Gesprächsangebot der AfD erhalten und abgelehnt.",
+      "observed_at": "2026-09-16T20:32:03.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203203194Z_17870965",
+          "quote": "Eine CDU-Sprecherin bestätigte den Eingang des AfD-Schreibens. \"Wir werden dieses Gesprächsangebot nicht annehmen\", sagte sie.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-15: Die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung.",
+      "observed_at": "2026-09-16T20:31:54.096Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203154096Z_9044f9bc",
+          "quote": "Wir richten uns auf eine konstruktive Oppositionsarbeit ein. An der Regierungsbildung wird sich die CDU-Fraktion nicht beteiligen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Sven Schulze",
+      "observed_at": "2026-09-16T20:32:10.721Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203210721Z_8b108479",
+          "quote": "Ihr Sven Schulze\nLandesvorsitzender der CDU Sachsen-Anhalt\nund Spitzenkandidat für die Landtagswahl",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
