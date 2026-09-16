@@ -100,3 +100,17 @@
 - Die Aussagen sind nicht vollständig widerspruchsfrei. Wittig schloss am 7. September eine Koalition aus. Ein MDR-Rückblick vom 14. September berichtet dagegen, Wittig und Schulze hätten eine Koalition auf der Pressekonferenz nach der Fraktionsgründung auf mehrere Nachfragen nicht mehr klar ausgeschlossen. Da der Rückblick keine wörtliche Aussage wiedergibt, wurde daraus kein eigener Fakt abgeleitet. Quelle: https://www.mdr.de/nachrichten/sachsen-anhalt/afd-bsw-nach-der-wahl-102,gespraeche-afd-bsw-100.html
 - Die neuesten gelesenen Quellen berichten nur von der Annahme des schriftlichen Gesprächsangebots. Bis zum 16. September fand sich kein Beleg, dass das angekündigte Treffen mit der AfD schon stattgefunden hatte oder dass das BSW Gespräche mit CDU, SPD, Grünen oder Linken führte.
 - Die fünf neu angeforderten Wayback-Snapshots schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
+
+## berlin/cdu
+
+### Fakten
+
+- `coalition_position`, 12. September 2026: Die CDU schließt Koalitionen mit der AfD und der Linken aus. Quelle: https://www.zdfheute.de/politik/deutschland/berlin-wahl-abgeordnetenhaus-buergermeister-cdu-linke-zweikampf-100.html
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Stefan Evers war bereits als Spitzenkandidat erfasst. Seine Kampagnenseite bestätigt seine Kandidatur für die Abgeordnetenhauswahl am 20. September 2026: https://www.stefan-evers.de/
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die Startseite und Presseseite des CDU-Landesverbands, die Kampagnenseiten berlin-wird.de und stefan-evers.de sowie die Startseite und Presseübersicht der CDU-Fraktion enthielten keine direkte, vollständige Aussage zu möglichen Koalitionen. Die jüngste klare Aussage fand sich in der ZDF-Berichterstattung vom 12. September.
+- Ein Tagesspiegel-Interview vom 5. August gibt Evers' Ziel wieder, Berlin "aus der politischen Mitte heraus" zu regieren, benennt aber keine Koalitionspartner. Der rbb-Beitrag vom 6. August behandelt rote Linien von SPD, Grünen und Linken, nicht eine zusätzliche Koalitionsfestlegung der CDU.
+- Die Wayback-Anfragen für das Tagesspiegel-Interview, den ZDF-Beitrag und den rbb-Beitrag schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

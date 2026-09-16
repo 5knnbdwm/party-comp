@@ -2798,5 +2798,75 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T21:00:00.000Z",
     "found_on": "https://www.google.com/search?q=BSW+Sachsen-Anhalt+Regierungsbildung+Minderheitsregierung+Thomas+Schulze+Claudia+Wittig+September+2026"
+  },
+  {
+    "url": "https://www.cdu.berlin/presse",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "press_release",
+    "label": "CDU Berlin: Presse",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.cdu.berlin/"
+  },
+  {
+    "url": "https://cdu-fraktion-berlin.de/Pressemitteilungen_p_28.html",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "press_release",
+    "label": "CDU-Fraktion Berlin: Pressemitteilungen",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "http://www.cdu-fraktion.berlin.de/"
+  },
+  {
+    "url": "https://www.berlin-wird.de/",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "lead_candidate_page",
+    "label": "CDU Berlin campaign site",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.cdu.berlin/"
+  },
+  {
+    "url": "https://www.stefan-evers.de/",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "lead_candidate_page",
+    "label": "Stefan Evers: campaign homepage",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.cdu.de/landtagswahlen-2026/"
+  },
+  {
+    "url": "https://www.tagesspiegel.de/checkpoint/cdu-spitzenkandidat-stefan-evers-im-checkpoint-podcast-ich-will-nicht-dass-berlin-abdriftet-15901887.html",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Interview with Stefan Evers: Ich will nicht, dass Berlin abdriftet",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.stefan-evers.de/"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/berlin-wahl-abgeordnetenhaus-buergermeister-cdu-linke-zweikampf-100.html",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "ZDF: CDU and Linke in Berlin election contest",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.google.com/search?q=Stefan+Evers+Koalition+AfD+Linke+SPD+Gr%C3%BCne+Berlin+Wahl+September+2026"
+  },
+  {
+    "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-abgeordnetenhaus-wahlkampf-koalitionen-bedingungen-spd-linke-gruene-cdu.html",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "rbb: Berliner Wahlkämpfer verheddern sich in roten Linien",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:50:43.000Z",
+    "found_on": "https://www.google.com/search?q=Stefan+Evers+Koalition+AfD+Linke+SPD+Gr%C3%BCne+Berlin+Wahl+September+2026"
   }
 ]
