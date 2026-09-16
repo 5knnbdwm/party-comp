@@ -590,6 +590,42 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-06: Will verhindern, dass die AfD Regierungsmacht bekommt.",
+      "observed_at": "2026-09-16T20:44:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204317897Z_6383410f",
+          "quote": "Die AfD darf keine Regierungsmacht bekommen: Das stand heute für viele Wählerinnen und Wähler im Vordergrund.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Lehnt Gespräche und eine Zusammenarbeit mit der AfD ab.",
+      "observed_at": "2026-09-16T20:44:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204346208Z_88507f74",
+          "quote": "Die AfD Sachsen-Anhalt hat nach der Landtagswahl die im Landtag vertretenen Parteien zu Sondierungsgesprächen eingeladen. Die Landesvorsitzenden der Linken Sachsen-Anhalt, Janina Böttger und Hendrik Lange, lehnen Gespräche und eine Zusammenarbeit mit der AfD ab.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Von der AfD zu Sondierungsgesprächen eingeladen; Die Linke lehnt die Gespräche ab.",
+      "observed_at": "2026-09-16T20:44:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204346208Z_88507f74",
+          "quote": "Die AfD Sachsen-Anhalt hat nach der Landtagswahl die im Landtag vertretenen Parteien zu Sondierungsgesprächen eingeladen. Die Landesvorsitzenden der Linken Sachsen-Anhalt, Janina Böttger und Hendrik Lange, lehnen Gespräche und eine Zusammenarbeit mit der AfD ab.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

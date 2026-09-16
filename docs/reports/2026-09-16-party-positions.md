@@ -51,3 +51,18 @@
 - Der SPD-Landrat Markus Bauer sprach sich am 8. September für Gespräche und mögliche Kooperationen mit der AfD aus. Spitzenkandidat Armin Willingmann widersprach noch am selben Tag und schloss Gespräche und Zusammenarbeit aus. Bauers Aussage wurde deshalb nicht als Position der Landespartei erfasst. Quelle: https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-166,wahl-598.html
 - Die Position der Landespartei ist in den erfassten Aussagen konsistent: keine Zusammenarbeit mit der AfD. Die Aussage zum überparteilichen Ministerpräsidenten steht dazu nicht ausdrücklich im Widerspruch, obwohl der BSW-Vorschlag wechselnde Mehrheiten unter Einbeziehung der AfD vorsah.
 - Die vier angeforderten Wayback-Snapshots für Koalitionsaussagen schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
+
+## sachsen-anhalt/linke
+
+### Fakten
+
+- `coalition_position`, 6. September 2026: Die Linke will verhindern, dass die AfD Regierungsmacht bekommt. Quelle: https://www.dielinke-sachsen-anhalt.de/aktuell-1/detail/news/wir-sind-und-bleiben-das-antifaschistische-bollwerk/
+- `coalition_position`, 9. September 2026: Die Linke lehnt Gespräche und eine Zusammenarbeit mit der AfD ab. Quelle: https://www.dielinke-sachsen-anhalt.de/aktuell-1/detail/news/die-linke-lehnt-sondierungsgespraeche-mit-der-afd-ab/
+- `sondierung_status`, 9. September 2026: Die AfD lud Die Linke zu Sondierungsgesprächen ein. Die Linke lehnte die Gespräche ab. Quelle: https://www.dielinke-sachsen-anhalt.de/aktuell-1/detail/news/die-linke-lehnt-sondierungsgespraeche-mit-der-afd-ab/
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Eva von Angern war bereits als Spitzenkandidatin erfasst.
+- Auf der Startseite, der Positionsübersicht, der Presseübersicht und der Wahlseite des Landesverbands sowie auf der Startseite und der Presseübersicht der Landtagsfraktion fand sich bis zum 16. September kein Hinweis auf Sondierungen mit einer anderen Partei.
+- Die Aussagen vom 6. und 9. September widersprechen sich nicht. Die spätere Erklärung nennt mit der Absage an Gespräche und Zusammenarbeit die konkrete Folge der Position vom Wahlabend.
+- Die beiden angeforderten Wayback-Snapshots schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

@@ -2658,5 +2658,45 @@
     "publisher_type": "party",
     "added_at": "2026-09-16T20:39:50.000Z",
     "found_on": "https://spdsachsenanhalt.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/aktuell-1/positionen/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "other",
+    "label": "Die Linke Sachsen-Anhalt: Positionen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:42:46.000Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/aktuell-1/presse/presseerklaerungen/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "other",
+    "label": "Die Linke Sachsen-Anhalt: Presseerklaerungen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:42:46.000Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.dielinke-fraktion-lsa.de/presse/pressemitteilungen/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "other",
+    "label": "Fraktion Die Linke Sachsen-Anhalt: Pressemitteilungen",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:42:46.000Z",
+    "found_on": "https://www.dielinke-fraktion-lsa.de/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/aktuell-1/detail/news/wir-sind-und-bleiben-das-antifaschistische-bollwerk/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "Wir sind und bleiben das antifaschistische Bollwerk",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:43:00.000Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
   }
 ]
