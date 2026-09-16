@@ -2748,5 +2748,55 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T20:47:00.000Z",
     "found_on": "https://www.google.com/search?q=Sachsen-Anhalt+Gr%C3%BCne+Sondierung+Gespr%C3%A4che+2026+Susan+Sziborra-Seidlitz"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/sachsen-anhalt-bsw-regierungsbildung-100.html",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "BSW sieht nur wenige Schnittmengen mit der AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:00:00.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Ast.bsw-vg.de+Sachsen-Anhalt+BSW+Sondierung+AfD+September+2026"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/bsw-nimmt-gespraechsangebot-der-afd-an-alle-anderen-lehnen-ab-100.html",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "BSW nimmt Gesprächsangebot der AfD an",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:00:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Sachsen-Anhalt+Sondierungsgespr%C3%A4ch+AfD+Treffen+16.+September+2026"
+  },
+  {
+    "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/afd-bsw-nach-der-wahl-102,gespraeche-afd-bsw-100.html",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "AfD und BSW: Wie aus Abgrenzung Gesprächsbereitschaft wurde",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:00:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Sachsen-Anhalt+Sondierungsgespr%C3%A4ch+AfD+Treffen+16.+September+2026"
+  },
+  {
+    "url": "https://www.n-tv.de/politik/Fuenf-Abgeordnete-sind-weder-fuer-noch-gegen-Siegmund-id31276988.html",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "Fünf BSW-Abgeordnete sind weder für noch gegen Siegmund",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:00:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Sachsen-Anhalt+Regierungsbildung+Minderheitsregierung+Thomas+Schulze+Claudia+Wittig+September+2026"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/afd-regierungsoptionen-bsw-sachsen-anhalt-wahl-100.html",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "AfD lotet Optionen aus und das BSW reagiert",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:00:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Sachsen-Anhalt+Regierungsbildung+Minderheitsregierung+Thomas+Schulze+Claudia+Wittig+September+2026"
   }
 ]

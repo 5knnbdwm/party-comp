@@ -318,6 +318,71 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Beteiligt sich nicht an einer Brandmauer und will sachbezogen mit allen Parteien sprechen.",
+      "observed_at": "2026-09-16T19:39:36.669Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T193936669Z_21920b21",
+          "quote": "Sachsen-Anhalt bekommt eine konsequente Friedenspartei, die sich an dem Brandmauer-Theater im Landtag nicht beteiligt und sachbezogen mit allen Parteien spricht, um das Leben der Bürger zu verbessern!",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Schließt eine Koalition mit der AfD aus, ist aber für Gespräche über Projekte und wechselnde Mehrheiten offen.",
+      "observed_at": "2026-09-16T20:36:08.106Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203608106Z_ae82191b",
+          "quote": "Das BSW sieht nach der Landtagswahl in Sachsen-Anhalt derzeit keine Koalition mit der AfD in Sachsen-Anhalt. Auf die Frage, ob das BSW die AfD in einer Koalition stützen will, erklärte Wittig: \"Wir haben immer gesagt, wir gehen in keine Koalition.\" Man werde mit der AfD über Projekte reden. Mit wechselnden Mehrheiten zu regieren hält das BSW laut Wittig für demokratischer.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-07: Erwägt im dritten Wahlgang eine Enthaltung bei Ulrich Siegmund und will zeitnah einen überparteilichen Kandidaten für das Amt des Ministerpräsidenten vorschlagen.",
+      "observed_at": "2026-09-16T20:48:53.158Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204853158Z_d100d961",
+          "quote": "BSW-Spitzenkandidat Thomas Schulze deutete im Deutschlandfunk an, dass sich die neue Landtagsfraktion seiner Partei bei der Wahl eines Ministerpräsidenten im dritten Wahlgang enthalten könnte. Dann würde Siegmund im Landtag eine einfache Mehrheit reichen. Man müsse aber abwarten, ob Siegmund sich der Wahl stellen werde. Das BSW wolle zeitnah einen überparteilichen Kandidaten für das Amt des Ministerpräsidenten vorschlagen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-08: Will keinen AfD-Ministerpräsidenten unterstützen, sucht mit allen Parteien einen überparteilichen Ministerpräsidenten und ist für Zusammenarbeit in Sachfragen offen.",
+      "observed_at": "2026-09-16T20:48:29.238Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204829238Z_a45c026b",
+          "quote": "Damit werde ihre Partei die Wahl eines AfD-Ministerpräsidenten in Sachsen-Anhalt auch nicht unterstützen, wie Mohamed Ali ankündigte. Einen konkreten Namen für einen \"überparteilichen Kandidaten\" wollte sie jedoch nicht nennen. \"Natürlich haben wir unsere Vorstellungen - und wir sind offen dafür, in Gespräche zu gehen mit allen Parteien, um so eine Person zu finden.\"",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T204829238Z_a45c026b",
+          "quote": "Überschneidungen sieht sie jedoch beim Thema Energie. Man wolle in Sachsen-Anhalt eine Bundesratsinitiative für bezahlbare Energie durchsetzen. In Sachfragen sei eine Zusammenarbeit denkbar: \"Man muss bereit sein, in der Sache auch über Parteigrenzen hinweg zusammenzuarbeiten. Und diese Offenheit bringen wir mit. Wir werden uns ganz konsequent an die Sacharbeit halten\", sagte Mohamed Ali im Interview mit Bayern 2.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Hat das Gesprächsangebot der AfD angenommen; bei dem geplanten Treffen soll es um Energieversorgung, Bildung und Friedenspolitik gehen. Ort und Zeitpunkt waren noch offen.",
+      "observed_at": "2026-09-16T20:36:16.462Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T203616462Z_eb1c92ec",
+          "quote": "Nach der Landtagswahl in Sachsen-Anhalt hat das BSW ein Angebot zu Gesprächen mit der AfD angenommen. Wie ein Sprecher des BSW am Mittwochabend mitteilte, sprach sich der Landesvorstand am Abend einstimmig dafür aus, mit der AfD zu sprechen.\nBeim Treffen mit der AfD werden wir uns über die Themen Energieversorgung, Bildung und Friedenspolitik austauschen.\n„\nMittteilung des BSW in Sachsen-Anhalt\nAngaben zu Ort und Zeitpunkt machte der Sprecher nicht.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

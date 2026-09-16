@@ -82,3 +82,21 @@
 - Die Offenheit für einen unabhängigen Ministerpräsidenten steht laut der eigenen Erklärung nicht für eine Annäherung an das BSW. Die Grünen schließen in derselben Erklärung eine Koalition und weitergehende politische Verabredungen mit dem BSW aus.
 - Auf der Startseite, der Presseübersicht, den Beitragsarchiven zur Landtagswahl 2026 und zu Koalitionen sowie auf der Startseite und der Presseübersicht der Landtagsfraktion fand sich bis zum 16. September kein Hinweis auf weitere Sondierungsgespräche oder eine neuere Koalitionsposition.
 - Die angeforderten Wayback-Snapshots für beide Koalitionsquellen schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## sachsen-anhalt/bsw
+
+### Fakten
+
+- `coalition_position`, 7. September 2026: Das BSW beteiligt sich nicht an einer Brandmauer und will sachbezogen mit allen Parteien sprechen. Quelle: https://bsw-vg.de/wir-sind-drin-wahlparty-in-sachsen-anhalt/
+- `coalition_position`, 7. September 2026: Claudia Wittig schließt eine Koalition mit der AfD aus, ist aber für Gespräche über Projekte und wechselnde Mehrheiten offen. Quelle: https://www.tagesschau.de/inland/regional/sachsenanhalt/regierungsbildung-sachsen-anhalt-fakt-ist-108,fakt-ist-nach-wahl-100.html
+- `coalition_position`, 7. September 2026: Thomas Schulze erwägt im dritten Wahlgang eine Enthaltung bei Ulrich Siegmund und will zeitnah einen überparteilichen Kandidaten für das Amt des Ministerpräsidenten vorschlagen. Quelle: https://www.zdfheute.de/politik/deutschland/afd-regierungsoptionen-bsw-sachsen-anhalt-wahl-100.html
+- `coalition_position`, 8. September 2026: Amira Mohamed Ali will keinen AfD-Ministerpräsidenten unterstützen, sucht mit allen Parteien einen überparteilichen Ministerpräsidenten und ist für Zusammenarbeit in Sachfragen offen. Quelle: https://www.tagesschau.de/inland/sachsen-anhalt-bsw-regierungsbildung-100.html
+- `sondierung_status`, 9. September 2026: Der BSW-Landesvorstand nahm das Gesprächsangebot der AfD einstimmig an. Bei dem geplanten Treffen soll es um Energieversorgung, Bildung und Friedenspolitik gehen. Ort und Zeitpunkt waren noch offen. Quelle: https://www.zdfheute.de/politik/deutschland/bsw-afd-sondierung-siegmund-regierungsbildung-sachsen-anhalt-wahl-100.html
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Thomas Schulze und Dr. Claudia Wittig waren bereits als Spitzenkandidaten erfasst.
+- Die offizielle BSW-Mitteilung vom 7. September belegt die Bereitschaft zu Sachgesprächen mit allen Parteien. Die Landesseite, ihre Nachrichtenübersicht und ihr Pressearchiv enthielten bis zum 16. September keine eigene Mitteilung zur Annahme der AfD-Einladung. Dafür wurden die Startseite, die Nachrichtenübersicht, das Pressearchiv, die Seite zur Landtagsfraktion und die Mitteilung der Bundespartei vom 7. September gelesen.
+- Die Aussagen sind nicht vollständig widerspruchsfrei. Wittig schloss am 7. September eine Koalition aus. Ein MDR-Rückblick vom 14. September berichtet dagegen, Wittig und Schulze hätten eine Koalition auf der Pressekonferenz nach der Fraktionsgründung auf mehrere Nachfragen nicht mehr klar ausgeschlossen. Da der Rückblick keine wörtliche Aussage wiedergibt, wurde daraus kein eigener Fakt abgeleitet. Quelle: https://www.mdr.de/nachrichten/sachsen-anhalt/afd-bsw-nach-der-wahl-102,gespraeche-afd-bsw-100.html
+- Die neuesten gelesenen Quellen berichten nur von der Annahme des schriftlichen Gesprächsangebots. Bis zum 16. September fand sich kein Beleg, dass das angekündigte Treffen mit der AfD schon stattgefunden hatte oder dass das BSW Gespräche mit CDU, SPD, Grünen oder Linken führte.
+- Die fünf neu angeforderten Wayback-Snapshots schlugen mit HTTP 500 oder 429 fehl. Die lokalen Captures waren erfolgreich.
