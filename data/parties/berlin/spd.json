@@ -1,0 +1,268 @@
+{
+  "state": "berlin",
+  "slug": "spd",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "2. Sozialdemokratische Partei Deutschlands",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Sozialdemokratische Partei Deutschlands"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "SPD",
+          "page": 6
+        }
+      ],
+      "key": "name_short",
+      "value": "SPD"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "2. Sozialdemokratische Partei Deutschlands",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "2. Sozialdemokratische Partei Deutschlands",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 2
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191043786Z_d5c21f44",
+          "quote": "Wieder Berlin mit Steffen Krach",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191043938Z_ca2da506",
+          "quote": "Information in Leichte Sprache",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/leichte-sprache/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191115840Z_379f8cfe",
+          "quote": "Abgeordnetenhauswahl 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191116279Z_3beebf86",
+          "quote": "Wahlprogramm der SPD Berlin 2026",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.epub"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191118208Z_bb88a2ac",
+          "quote": "Wahl zum Berliner",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/media/2026/08/Kurzwahlprogramm-2026-LS-v1-5-WEB.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 36
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191222194Z_041f9bd6",
+          "quote": "Berlin muss wieder für alle bezahlbar sein. Beim Wohnen, im Alltag und durch gute Arbeit.",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/berlin-wieder-bezahlbar/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191222347Z_d1ce573b",
+          "quote": "Wir machen Berlin zur familienfreundlichsten Metropole in Europa. Für uns heißt Familie Vielfalt: Ob alleinerziehend, Frau und Mann, queer, Patchwork, jung oder alt.",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/berlin-wieder-eine-familie/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191223348Z_ddd5468f",
+          "quote": "Wir bauen und investieren in die Infrastruktur, in Straßen und Schienen, Brücken, öffentliche Verkehrsmittel und Gebäude. Wir beenden das Baustellenchaos durch moderne Koordination",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/wieder-eine-stadt-die-sauber-laeuft/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191224402Z_be574b2a",
+          "quote": "Berlin hat das Potential die Gesundheitsmetropole Europas zu werden. Mit medizinischer Spitzenforschung, einer modernen Versorgung und einer erfolgreichen Gesundheitswirtschaft.",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd.berlin/wahlprogramm/wieder-hauptstadt-der-gesundheit/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190925181Z_663e7844",
+          "quote": "Am Sonntag mit allen drei Stimmen SPD wählen.",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://spd.berlin/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190912896Z_cb276857",
+          "quote": "Inhaltsbereich",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.spd.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://www.spdfraktion-berlin.de/"
+      ]
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

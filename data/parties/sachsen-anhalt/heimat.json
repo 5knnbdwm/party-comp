@@ -1,0 +1,170 @@
+{
+  "state": "sachsen-anhalt",
+  "slug": "heimat",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "15. Die Heimat",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Die Heimat"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "\"HEIMAT\"",
+          "page": null
+        }
+      ],
+      "key": "name_short",
+      "value": "HEIMAT"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "\"HEIMAT\"",
+          "page": null
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "\"HEIMAT\"",
+          "page": null
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 13
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190919310Z_644f576e",
+          "quote": "HEIMAT IST DER GRUNDPFEILER UNSERER IDENTITÄT",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://die-heimat.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "state_association_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_full",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+# Scratch files and agent run logs stay local. Transcripts include personal agent instructions.
+tmp/
+runs/
+# Raw captures stay out of git for now: 150 MB of third-party documents.
+# captures.jsonl keeps their hashes, so a restored copy can be verified.
+archive/blobs/
+archive/text/
+archive/ocr/
+vendor/

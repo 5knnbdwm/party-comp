@@ -1,0 +1,190 @@
+{
+  "state": "berlin",
+  "slug": "mieterpartei",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "11. Mieterpartei",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Mieterpartei"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "MIETERPARTEI",
+          "page": 81
+        }
+      ],
+      "key": "name_short",
+      "value": "MIETERPARTEI"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "11. Mieterpartei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "11. Mieterpartei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 11
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191235736Z_78a129f7",
+          "quote": "„Zehn-Punkte-Sofort-Programm“ als „Erste Hilfe“ für MieterInnen",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://mieterpartei-jetzt.de/index.php/zehn-punkte-sofort-programm-als-erste-hilfe-fuer-mieterinnen/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191114191Z_c937213b",
+          "quote": "Wir kandidieren in Reinickendorf mit BVV Liste und einem Direktkandidaten",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://mieterpartei-jetzt.de/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191114191Z_c937213b",
+          "quote": "Wir kandidieren in Reinickendorf mit BVV Liste und einem Direktkandidaten",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://mieterpartei-jetzt.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_full",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://mieterpartei-jetzt.de/index.php/zehn-punkte-sofort-programm-als-erste-hilfe-fuer-mieterinnen/"
+      ]
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

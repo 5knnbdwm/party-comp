@@ -1,0 +1,268 @@
+{
+  "state": "berlin",
+  "slug": "gruene",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "3. BÜNDNIS 90/DIE GRÜNEN",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "GRÜNE",
+          "page": 6
+        }
+      ],
+      "key": "name_short",
+      "value": "GRÜNE"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "3. BÜNDNIS 90/DIE GRÜNEN",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "3. BÜNDNIS 90/DIE GRÜNEN",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 3
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191118356Z_db07990e",
+          "quote": "Wahlprogramm zur Abgeordnetenhauswahl 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191119113Z_39e49a88",
+          "quote": "für die Wahl zum",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Leichte_Sprache_Online.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 33
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191225453Z_3c99d688",
+          "quote": "Politik ändern. Berlin bleiben.",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-praeambel"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191225658Z_766f8578",
+          "quote": "Berlin ist unsere gemeinsame Lebensgrundlage: Großstadt, Naturraum und Zuhause zugleich. Wie wir mit ihr umgehen, entscheidet darüber, ob Berlin auch in Zukunft lebenswert bleibt. ",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-1"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191226700Z_966a64c2",
+          "quote": "Berlin ist unser gemeinsames Zuhause. Die Frage sozialer Gerechtigkeit und gesellschaftlichen Zusammenhalts entscheidet sich hier vor Ort, im öffentlichen Raum wie in den eigenen v",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-2"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191227765Z_1f000e4c",
+          "quote": "Berlin steht für Aufbruch und Wandel, für die Kraft, Neues zu wagen und Chancen zu nutzen. Doch die Stadt steht an einem Wendepunkt: marode Brücken, ausfallende Züge, verstopfte St",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-3"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191228865Z_f258c4a1",
+          "quote": "Berlin lebt Vielfalt",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-4"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191229916Z_2fb8ce0c",
+          "quote": "Berlin begleitet ein Leben lang",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-5"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191230963Z_8988301e",
+          "quote": "Berlin funktioniert zuverlässig",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-6"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926497Z_2da422ce",
+          "quote": "KEINE VERSPRECHEN.",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://gruene.berlin/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914401Z_ad6a22d5",
+          "quote": "Landtagswahlen 2026",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.gruene.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://gruene-fraktion.berlin/"
+      ]
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

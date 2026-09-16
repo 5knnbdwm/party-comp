@@ -1,0 +1,164 @@
+{
+  "state": "berlin",
+  "slug": "bergpartei",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "16. bergpartei, die überpartei",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "bergpartei, die überpartei"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "B*",
+          "page": 17
+        }
+      ],
+      "key": "name_short",
+      "value": "B*"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "16. bergpartei, die überpartei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "16. bergpartei, die überpartei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 16
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    }
+  ],
+  "gaps": [
+    {
+      "key": "state_association_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_full",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

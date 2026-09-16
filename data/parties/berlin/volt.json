@@ -1,0 +1,212 @@
+{
+  "state": "berlin",
+  "slug": "volt",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "9. Volt Deutschland",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Volt Deutschland"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "Volt",
+          "page": 6
+        }
+      ],
+      "key": "name_short",
+      "value": "Volt"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "9. Volt Deutschland",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "9. Volt Deutschland",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 9
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191124554Z_515828c1",
+          "quote": "Programm zur Wahl des",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191125555Z_00384717",
+          "quote": "Manifesto for the 2026 Berlin House of",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm_2026agh_english.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191126564Z_b494ed16",
+          "quote": "Kurzwahlprogramm zur Wahl des",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/kurzwahlprogramm-2026-final.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191127456Z_9a57e2b2",
+          "quote": "Mini Manifesto for the 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/minimanifesto-volt-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191012511Z_a0d035c2",
+          "quote": "unf*ck berlin",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://voltdeutschland.org/berlin"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190923368Z_96eeb5e9",
+          "quote": "HOLEN WIR UNS",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://voltdeutschland.org/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

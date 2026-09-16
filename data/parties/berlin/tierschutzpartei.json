@@ -1,0 +1,218 @@
+{
+  "state": "berlin",
+  "slug": "tierschutzpartei",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "7. PARTEI MENSCH KLIMA TIERSCHUTZ",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "PARTEI MENSCH KLIMA TIERSCHUTZ"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "Tierschutzpartei",
+          "page": 14
+        }
+      ],
+      "key": "name_short",
+      "value": "Tierschutzpartei"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "7. PARTEI MENSCH KLIMA TIERSCHUTZ",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "7. PARTEI MENSCH KLIMA TIERSCHUTZ",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 7
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191119653Z_1632f9b3",
+          "quote": "WA H L P R O G R A M M",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191120126Z_0c06b60b",
+          "quote": "K U R Z WA H L P R O G R A M M",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://berlin.tierschutzpartei.de/kurzwahlprogramm-berlin-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191121028Z_feeb1dac",
+          "quote": "Wahlprogramm in einfacher Sprache",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026-einfache-sprache.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191121912Z_1cb7421a",
+          "quote": "E L E C T I O N P L AT F O R M",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026-en.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191123347Z_c8e9de05",
+          "quote": "Tierschutzpartei:                                                  Unser Team für Berlin                                                                  Berlin-Wahl",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://berlin.tierschutzpartei.de/flyer-berlin-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926822Z_9f686ab0",
+          "quote": "Pressemitteilung",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/berlin/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190915937Z_2fc33be5",
+          "quote": "Erschütternde Aufnahmen aus einem Milchviehbetrieb in Leizen im Landkreis Mecklenburgische Seenplatte zeigen festliegende Rinder, die offenbar tagelang ohne ausreichende Hilfe blie",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.tierschutzpartei.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

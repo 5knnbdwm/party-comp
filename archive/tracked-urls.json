@@ -1,0 +1,2472 @@
+[
+  {
+    "url": "https://statistik.sachsen-anhalt.de/themen/gebiet-und-wahlen/wahlen/landtagswahl-2026/wahlvorschlaege",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Amtliche Wahlunterlagen 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:52:52.367Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/zu-den-wahlen/landtagswahl"
+  },
+  {
+    "url": "https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/allgemeine-informationen/abl_2026_36_2273_2644_98lwl.pdf?ts=1788850674",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Amtliche Wahlunterlagen 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:52:52.367Z",
+    "found_on": "https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/allgemeine-informationen/artikel.1578239.php"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Amtliche Wahlunterlagen 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:52:52.367Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/zu-den-wahlen/landtagswahl"
+  },
+  {
+    "url": "https://wahlen.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MI/wahlen/Pressemitteilungen/2026_07_24_Landeswahlvorschlaege_zugelassen.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Zugelassene Landeswahlvorschläge",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:53:25.144Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/aktuelles"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/land.html",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Landesergebnis",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:53:33.535Z",
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Vorläufiges Landesergebnis",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:53:56.231Z",
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html"
+  },
+  {
+    "url": "https://statistik.sachsen-anhalt.de/fileadmin/Bibliothek/Landesaemter/StaLa/startseite/Themen/Wahlen/Tabellen/Auswertung_VOeff_FgMI.xlsx",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "candidate_list",
+    "label": "Zugelassene Bewerberinnen und Bewerber",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T18:53:56.486Z",
+    "found_on": "https://statistik.sachsen-anhalt.de/themen/gebiet-und-wahlen/wahlen/landtagswahl-2026/wahlvorschlaege"
+  },
+  {
+    "url": "https://www.cdulsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://www.cdu.de/",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.cdu.de/"
+  },
+  {
+    "url": "https://afd-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://www.afd.de/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.afd.de/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.die-linke.de/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-linke.de/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://spdsachsenanhalt.de/"
+  },
+  {
+    "url": "https://www.spd.de/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.spd.de/"
+  },
+  {
+    "url": "https://www.fdp-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.fdp-lsa.de/"
+  },
+  {
+    "url": "https://www.fdp.de/",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.fdp.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://www.gruene.de/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.gruene.de/"
+  },
+  {
+    "url": "https://www.freiewaehler-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "freie-waehler",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.freiewaehler-lsa.de/"
+  },
+  {
+    "url": "https://www.freiewaehler.eu/",
+    "state": "sachsen-anhalt",
+    "party": "freie-waehler",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.freiewaehler.eu/"
+  },
+  {
+    "url": "https://diebasis-st.de/",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://diebasis-st.de/"
+  },
+  {
+    "url": "https://diebasis-partei.de/",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://diebasis-partei.de/"
+  },
+  {
+    "url": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/sachsen-anhalt/",
+    "state": "sachsen-anhalt",
+    "party": "tierschutzpartei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/sachsen-anhalt/"
+  },
+  {
+    "url": "https://www.tierschutzpartei.de/",
+    "state": "sachsen-anhalt",
+    "party": "tierschutzpartei",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.tierschutzpartei.de/"
+  },
+  {
+    "url": "https://gartenpartei.eu/",
+    "state": "sachsen-anhalt",
+    "party": "gartenpartei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://gartenpartei.eu/"
+  },
+  {
+    "url": "https://www.die-partei-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "die-partei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-partei-lsa.de/"
+  },
+  {
+    "url": "https://www.die-partei.de/",
+    "state": "sachsen-anhalt",
+    "party": "die-partei",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-partei.de/"
+  },
+  {
+    "url": "https://www.tierschutzallianz.de/",
+    "state": "sachsen-anhalt",
+    "party": "tierschutzallianz",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.tierschutzallianz.de/"
+  },
+  {
+    "url": "https://www.heimat-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "heimat",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.heimat-lsa.de/"
+  },
+  {
+    "url": "https://die-heimat.de/",
+    "state": "sachsen-anhalt",
+    "party": "heimat",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://die-heimat.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://bsw-vg.de/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://bsw-vg.de/"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/",
+    "state": "sachsen-anhalt",
+    "party": "pdf",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://partei-des-fortschritts.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt"
+  },
+  {
+    "url": "https://voltdeutschland.org/",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://voltdeutschland.org/"
+  },
+  {
+    "url": "https://www.cdu.berlin/",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.cdu.berlin/"
+  },
+  {
+    "url": "https://www.cdu.de/",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.cdu.de/"
+  },
+  {
+    "url": "https://afd.berlin/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://afd.berlin/"
+  },
+  {
+    "url": "https://www.afd.de/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.afd.de/"
+  },
+  {
+    "url": "https://dielinke.berlin/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://dielinke.berlin/"
+  },
+  {
+    "url": "https://www.die-linke.de/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-linke.de/"
+  },
+  {
+    "url": "https://spd.berlin/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://www.spd.de/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.spd.de/"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.fdp-berlin.de/"
+  },
+  {
+    "url": "https://www.fdp.de/",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.fdp.de/"
+  },
+  {
+    "url": "https://gruene.berlin/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://gruene.berlin/"
+  },
+  {
+    "url": "https://www.gruene.de/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.gruene.de/"
+  },
+  {
+    "url": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/berlin/",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/berlin/"
+  },
+  {
+    "url": "https://www.tierschutzpartei.de/",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.tierschutzpartei.de/"
+  },
+  {
+    "url": "https://die-partei.berlin/",
+    "state": "berlin",
+    "party": "die-partei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://die-partei.berlin/"
+  },
+  {
+    "url": "https://www.die-partei.de/",
+    "state": "berlin",
+    "party": "die-partei",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-partei.de/"
+  },
+  {
+    "url": "https://heimat-berlin.de/",
+    "state": "berlin",
+    "party": "heimat",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://heimat-berlin.de/"
+  },
+  {
+    "url": "https://die-heimat.de/",
+    "state": "berlin",
+    "party": "heimat",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://die-heimat.de/"
+  },
+  {
+    "url": "https://be.bsw-vg.de/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://be.bsw-vg.de/"
+  },
+  {
+    "url": "https://bsw-vg.de/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://bsw-vg.de/"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/",
+    "state": "berlin",
+    "party": "pdf",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://partei-des-fortschritts.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/berlin",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://voltdeutschland.org/berlin"
+  },
+  {
+    "url": "https://voltdeutschland.org/",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://voltdeutschland.org/"
+  },
+  {
+    "url": "https://www.die-urbane.de/",
+    "state": "berlin",
+    "party": "urbane",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.die-urbane.de/"
+  },
+  {
+    "url": "https://www.dkp-berlin.info/",
+    "state": "berlin",
+    "party": "dkp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.dkp-berlin.info/"
+  },
+  {
+    "url": "https://dkp.de/",
+    "state": "berlin",
+    "party": "dkp",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://dkp.de/"
+  },
+  {
+    "url": "https://www.oedp-berlin.de/",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.oedp-berlin.de/"
+  },
+  {
+    "url": "https://www.oedp.de/",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.oedp.de/"
+  },
+  {
+    "url": "https://www.bergpartei.de/",
+    "state": "berlin",
+    "party": "bergpartei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.bergpartei.de/"
+  },
+  {
+    "url": "https://www.gleichheit.de/",
+    "state": "berlin",
+    "party": "sgp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.gleichheit.de/"
+  },
+  {
+    "url": "https://mera25.de/berlin/",
+    "state": "berlin",
+    "party": "mera25",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://mera25.de/berlin/"
+  },
+  {
+    "url": "https://mera25.de/",
+    "state": "berlin",
+    "party": "mera25",
+    "kind": "party_website",
+    "label": "Bundespartei: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://mera25.de/"
+  },
+  {
+    "url": "https://www.feministischepartei.de/",
+    "state": "berlin",
+    "party": "die-frauen",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:55:03.237Z",
+    "found_on": "https://www.feministischepartei.de/"
+  },
+  {
+    "url": "https://www.cdulsa.de/landtagswahl-2026",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://www.cdulsa.de/sites/www.cdulsa.de/files/downloads/regierungsprogramm_ltw_web.pdf",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://www.cdufraktion.de/",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://afd-lsa.de/landtagswahl/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://afd-lsa.de/wp-content/uploads/2026/08/LSA26_KURZPROGRAMM_A6_Final.pdf",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "program_short",
+    "label": "program_short",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://afdfraktion-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/wahlen/landtagswahl-2026/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/wahlen/landtagswahl-2026/"
+  },
+  {
+    "url": "https://www.dielinke-fraktion-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/aktuell-1/detail/news/die-linke-lehnt-sondierungsgespraeche-mit-der-afd-ab/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "coalition_statement",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/06/Wahlprogramm-der-SPD-Sachsen-Anhalt-zur-Landtagswahl-2026.pdf?x27726",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://spdsachsenanhalt.de/"
+  },
+  {
+    "url": "https://www.fdp-lsa.de/ltw-26",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.fdp.de/termin/landtagswahl-sachsen-anhalt-0"
+  },
+  {
+    "url": "https://www.fdp-lsa.de/unser-wahlprogramm-einfach-erklaert",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "program_easy_language",
+    "label": "program_easy_language",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.fdp-lsa.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/programm2026/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/programm2026/programm-lesen/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.gruene-lsa.de/programm2026/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/team2026/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "candidate_list",
+    "label": "candidate_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://gruene-fraktion-lsa.de/start/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://fw-harz.de/wahlen/landtagswahl-2026",
+    "state": "sachsen-anhalt",
+    "party": "freie-waehler",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://fw-harz.de/"
+  },
+  {
+    "url": "https://diebasis-st.de/wahlprogramm/",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "other",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://diebasis-st.de/wahlen/"
+  },
+  {
+    "url": "https://diebasis-st.de/wahlen/",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.294Z",
+    "found_on": "https://diebasis-st.de/"
+  },
+  {
+    "url": "https://gartenpartei.eu/3342-2/",
+    "state": "sachsen-anhalt",
+    "party": "gartenpartei",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.295Z",
+    "found_on": "https://gartenpartei.eu/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.295Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/landtagswahl-2026/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "candidate_list",
+    "label": "candidate_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:03.295Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.293Z",
+    "found_on": "https://www.cdu.berlin/"
+  },
+  {
+    "url": "https://afd.berlin/abgeordnetenhauswahl/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://afd.berlin/"
+  },
+  {
+    "url": "https://afd.berlin/sofortprogramm/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "position_paper",
+    "label": "Sofortprogramm: verlinktes PDF von 2024, kein Nachweis für Wahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://afd.berlin/"
+  },
+  {
+    "url": "https://afd-fraktion.berlin/",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://afd.berlin/"
+  },
+  {
+    "url": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://dielinke.berlin/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/leichte-sprache/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_easy_language",
+    "label": "program_easy_language",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://spd.berlin/steffen-krach/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "lead_candidate_page",
+    "label": "lead_candidate_page",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://spd.berlin/fraktion/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://spd.berlin/"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://gruene.berlin/"
+  },
+  {
+    "url": "https://gruene.berlin/berlin-waehlt/unser-spitzenduo-fuer-berlin",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "lead_candidate_page",
+    "label": "lead_candidate_page",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://gruene.berlin/"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/berlin/"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://www.tierschutzpartei.de/partei/struktur/landesverbaende/berlin/"
+  },
+  {
+    "url": "https://www.cdulsa.de/artikel/nachtrag-zum-pressestatement-landesvorstandssitzung-am-792026",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "coalition_statement",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://www.svenschulze2026.de/",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "lead_candidate_page",
+    "label": "lead_candidate_page",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://www.cdulsa.de/"
+  },
+  {
+    "url": "https://vision2026.de/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://www.tierschutzallianz.de/wp-content/uploads/go-x/u/d4c62c2a-e565-4a63-a2b7-ca29e8b9f8ad/Wahlprogramm_LTW2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "tierschutzallianz",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://www.tierschutzallianz.de/"
+  },
+  {
+    "url": "https://bsw-vg.de/wir-sind-drin-wahlparty-in-sachsen-anhalt/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "coalition_statement",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://bsw-vg.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/landtagsfraktion/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt/wahlprogramm-fuer-die-landtagswahl-in-sachsen-anhalt",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_html",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt/menschen/kandidierende-landtagswahl-2026",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "candidate_list",
+    "label": "candidate_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt/neuigkeiten/unser-kurzwahlprogramm-ist-da",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:56:26.294Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt"
+  },
+  {
+    "url": "https://www.fdp-berlin.de/beschluss/wahlprogramm-zur-abgeordnetenhauswahl-2026",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://www.fdp-berlin.de/beschluesse"
+  },
+  {
+    "url": "https://die-partei-berlin.de/",
+    "state": "berlin",
+    "party": "die-partei",
+    "kind": "program_html",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://www.die-partei.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/berlin/programm/programme/programme-positionen",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://voltdeutschland.org/berlin"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/wahl-zum-abgeordnetenhaus-berlin/",
+    "state": "berlin",
+    "party": "pdf",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://partei-des-fortschritts.de/"
+  },
+  {
+    "url": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://www.oedp-berlin.de/"
+  },
+  {
+    "url": "https://www.die-urbane.de/wahlen.html",
+    "state": "berlin",
+    "party": "urbane",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:03.670Z",
+    "found_on": "https://www.die-urbane.de/"
+  },
+  {
+    "url": "https://berlin.dkp.de/",
+    "state": "berlin",
+    "party": "dkp",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:25.030Z",
+    "found_on": "https://dkp.de/"
+  },
+  {
+    "url": "https://bsw.berlin/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:25.030Z",
+    "found_on": "https://be.bsw-vg.de/"
+  },
+  {
+    "url": "https://bsw.berlin/allgemein/landeswahlprogramm-des-berliner-bsw/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:25.030Z",
+    "found_on": "https://be.bsw-vg.de/"
+  },
+  {
+    "url": "https://bsw.berlin/bsw-kandidaten-agh-wahl-2026/",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "candidate_list",
+    "label": "candidate_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:25.030Z",
+    "found_on": "https://be.bsw-vg.de/"
+  },
+  {
+    "url": "https://fw-lsa.de/",
+    "state": "sachsen-anhalt",
+    "party": "freie-waehler",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:52.219Z",
+    "found_on": "https://www.freiewaehler.eu/"
+  },
+  {
+    "url": "https://die-partei-sachsen-anhalt.de/",
+    "state": "sachsen-anhalt",
+    "party": "die-partei",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:52.219Z",
+    "found_on": "https://www.die-partei.de/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/wahlprogramm/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:52.219Z",
+    "found_on": "https://spdsachsenanhalt.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:52.219Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt"
+  },
+  {
+    "url": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
+    "state": "berlin",
+    "party": "sgp",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:57:52.219Z",
+    "found_on": "https://www.gleichheit.de/"
+  },
+  {
+    "url": "https://afd-lsa.de/wp-content/uploads/2026/07/AfD_Sachsen-Anhalt_Regierungsprogramm_2026_230726-web.pdf",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://afd-lsa.de/landtagswahl/"
+  },
+  {
+    "url": "https://afd-lsa.de/wp-content/uploads/2026/07/100-Tage-Sofortprogramm.pdf",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "program_immediate",
+    "label": "program_immediate",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://afd-lsa.de/landtagswahl/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/fileadmin/aaa_download_lsa/Parteitage/10._LPT_2._Tagung_VV_LTW_2026/Beschluesse/2026-03-19_Landtagswahlprogramm__final_.pdf",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/wahlen/landtagswahl-2026/"
+  },
+  {
+    "url": "https://www.dielinke-sachsen-anhalt.de/fileadmin/aaa_download_lsa/Landtagswahl_2026/2026-03-19_Landtagswahlprogramm.docx",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.dielinke-sachsen-anhalt.de/wahlen/landtagswahl-2026/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/wp-content/uploads/2026/05/Programm-zur-Landtagswahl-2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.gruene-lsa.de/programm2026/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/wp-content/uploads/2026/07/Kurzwahlprogramm-digital.pdf",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "program_short",
+    "label": "program_short",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.gruene-lsa.de/programm2026/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/wp-content/uploads/2026/07/Wahlprogramm-Leichte-Sprache-%E2%80%93-Gruene-Sachsen-Anhalt.pdf",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "program_easy_language",
+    "label": "program_easy_language",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.gruene-lsa.de/programm2026/"
+  },
+  {
+    "url": "https://fw-harz.de/fileadmin/Dateien/Dokumente/2026/Pressemitteilung/LTW/Wahlprogramm_FREIE_WA%CC%88HLER_Landtagswahl_2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "freie-waehler",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://fw-harz.de/wahlen/landtagswahl-2026"
+  },
+  {
+    "url": "https://die-heimat.de/home/berlin/",
+    "state": "berlin",
+    "party": "heimat",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://die-heimat.de/"
+  },
+  {
+    "url": "https://www.feministischepartei.de/erststimme-sigrid-werner-fuer-berlin/",
+    "state": "berlin",
+    "party": "die-frauen",
+    "kind": "lead_candidate_page",
+    "label": "lead_candidate_page",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:20.820Z",
+    "found_on": "https://www.feministischepartei.de/"
+  },
+  {
+    "url": "https://mieterpartei-jetzt.de/",
+    "state": "berlin",
+    "party": "mieterpartei",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T18:59:57.658Z",
+    "found_on": "https://mieterpartei-jetzt.de/"
+  },
+  {
+    "url": "https://afd-lsa.de/wp-content/uploads/2026/07/Kernpunkte.pdf",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "points_list",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.914Z",
+    "found_on": "https://afd-lsa.de/landtagswahl/"
+  },
+  {
+    "url": "https://diebasis-st.de/wp-content/uploads/2026/07/WP-fuer-Sachsen-Anhalt-08.07.2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "program_full",
+    "label": "WP für Sachsen Anhalt 08.07.2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.925Z",
+    "found_on": "https://diebasis-st.de/wahlprogramm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/wp-content/uploads/2026/04/BSW_Landtagswahlprogramm_SachsenAnhalt.pdf",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_full",
+    "label": "Download: Das Landtagswahlprogramm als PDF herunterladen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.927Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "Zum Wahlprogramm als PDF",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.945Z",
+    "found_on": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
+  },
+  {
+    "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "Wieder Berlin – das Wahlprogramm 2026 der SPD Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.948Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.epub",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "SPD Berlin Wahlprogramm als eBook",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.948Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://spd.berlin/media/2026/08/Kurzwahlprogramm-2026-LS-v1-5-WEB.pdf",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_easy_language",
+    "label": "Wahl-Programm Leichte Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.951Z",
+    "found_on": "https://spd.berlin/wahlprogramm/leichte-sprache/"
+  },
+  {
+    "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_full",
+    "label": "Download PDF Wahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.957Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Leichte_Sprache_Online.pdf",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_easy_language",
+    "label": "Hier kannst du das Wahlprogramm in leichter Sprache als PDF-Datei herunterladen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.957Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "program_full",
+    "label": "Wahlprogramm öffnen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.962Z",
+    "found_on": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/kurzwahlprogramm-berlin-2026.pdf",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "program_short",
+    "label": "Kurzprogramm öffnen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.962Z",
+    "found_on": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026-einfache-sprache.pdf",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "program_easy_language",
+    "label": "Programm in einfacher Sprache öffnen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.962Z",
+    "found_on": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026-en.pdf",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "program_full",
+    "label": "Open English Platform",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.962Z",
+    "found_on": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+  },
+  {
+    "url": "https://berlin.tierschutzpartei.de/flyer-berlin-2026.pdf",
+    "state": "berlin",
+    "party": "tierschutzpartei",
+    "kind": "program_short",
+    "label": "Flyer öffnen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.962Z",
+    "found_on": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/volt_st_kurzwahlprogramm-2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_short",
+    "label": "Kurzfassung (pdf)",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.973Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/wahlprogramm-fuer-die-landtagswahl-in-sachsen-anhalt"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Programm zur Abgeordnetenhauswahl 2026 in Deutsch",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.985Z",
+    "found_on": "https://voltdeutschland.org/berlin/programm/programme/programme-positionen"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm_2026agh_english.pdf",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Programm zur Abgeordnetenhauswahl 2026 in Englisch",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.985Z",
+    "found_on": "https://voltdeutschland.org/berlin/programm/programme/programme-positionen"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/kurzwahlprogramm-2026-final.pdf",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "program_short",
+    "label": "Kurzwahlprogramm in_Deutsch",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.985Z",
+    "found_on": "https://voltdeutschland.org/berlin/programm/programme/programme-positionen"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/minimanifesto-volt-2026.pdf",
+    "state": "berlin",
+    "party": "volt",
+    "kind": "program_short",
+    "label": "Kurzwahlprogramm in_Englisch",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:27.985Z",
+    "found_on": "https://voltdeutschland.org/berlin/programm/programme/programme-positionen"
+  },
+  {
+    "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "program_full",
+    "label": "Wahlprogramm BSW Berlin AGH-Wahl 2026 (PDF Download)",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:45.721Z",
+    "found_on": "https://bsw.berlin/allgemein/landeswahlprogramm-des-berliner-bsw/"
+  },
+  {
+    "url": "https://bsw.berlin/wp-content/uploads/Kurzwahlprogramm-BSW-Berlin_2026.pdf",
+    "state": "berlin",
+    "party": "bsw",
+    "kind": "program_short",
+    "label": "Kurzwahlprogramm (PDF Download)",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:00:45.721Z",
+    "found_on": "https://bsw.berlin/allgemein/landeswahlprogramm-des-berliner-bsw/"
+  },
+  {
+    "url": "https://diebasis-st.de/hauptforderungen/",
+    "state": "sachsen-anhalt",
+    "party": "diebasis",
+    "kind": "points_list",
+    "label": "points_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://diebasis-st.de/"
+  },
+  {
+    "url": "https://berlin.dkp.de/berliner-wahlen/",
+    "state": "berlin",
+    "party": "dkp",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://berlin.dkp.de/"
+  },
+  {
+    "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026"
+  },
+  {
+    "url": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026/landesliste",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "candidate_list",
+    "label": "candidate_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026"
+  },
+  {
+    "url": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026/tv-spot-u-bahn-werbung-flyer-co",
+    "state": "berlin",
+    "party": "oedp",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026"
+  },
+  {
+    "url": "https://dielinke.berlin/wahlprogramm/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
+  },
+  {
+    "url": "https://admin.crm.fdp-berlin.de/sites/default/files/inline-files/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_1.pdf",
+    "state": "berlin",
+    "party": "fdp",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://www.fdp-berlin.de/beschluss/wahlprogramm-zur-abgeordnetenhauswahl-2026"
+  },
+  {
+    "url": "https://www.fdp-lsa.de/sites/default/files/2026-06/Freiheit%20hat%20nur%20eine%20Heimat%20%E2%80%93%20Wahlprogramm%20der%20FDP%20Sachsen-Anhalt%20zur%20Landagswahl%202026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:19.073Z",
+    "found_on": "https://www.fdp-lsa.de/ltw-26"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/das-parlament/fraktionen",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "Fraktionen im Abgeordnetenhaus",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-16T19:01:19.108Z",
+    "found_on": "https://www.parlament-berlin.de/das-parlament/abgeordnete"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Verzeichnisse_Sitzordnung_Plenarsaal/Abgeordnetenverzeichnis.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "other",
+    "label": "Abgeordnetenverzeichnis 8. Wahlperiode",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-16T19:01:19.142Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/landtag/abgeordnete/abgeordnetensuche"
+  },
+  {
+    "url": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1697177.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "12 Landeslisten und fünf Parteien mit Bezirkslisten",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T19:01:19.177Z",
+    "found_on": "https://www.berlin.de/wahlen/pressemitteilungen/"
+  },
+  {
+    "url": "https://wahlen.sachsen-anhalt.de/zu-den-wahlen/landtagswahl/faq-zur-landtagswahl-2026",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "other",
+    "label": "Parteien in der 8. Wahlperiode",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-16T19:01:19.211Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/zu-den-wahlen/landtagswahl"
+  },
+  {
+    "url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
+    "state": "berlin",
+    "party": "afd",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:01:31.546Z",
+    "found_on": "https://afd.berlin/abgeordnetenhauswahl/"
+  },
+  {
+    "url": "https://afd-lsa.de/aktuelles/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://afd-lsa.de/"
+  },
+  {
+    "url": "https://afdfraktion-lsa.de/aktuelles/",
+    "state": "sachsen-anhalt",
+    "party": "afd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://afdfraktion-lsa.de/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/aktuelles/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://spdsachsenanhalt.de/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/presse-und-service/",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://spdsachsenanhalt.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/aktuelles/news/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/service/pressekontakt/pressearchiv/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://st.bsw-vg.de/"
+  },
+  {
+    "url": "https://www.spdfraktion-berlin.de/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T19:02:54.706Z",
+    "found_on": "https://spd.berlin/fraktion/"
+  },
+  {
+    "url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/08/Wahlprogramm-einfache-Sprache.pdf?x27726",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "program_easy_language",
+    "label": "program_easy_language",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.966Z",
+    "found_on": "https://spdsachsenanhalt.de/wahlprogramm/"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/volt_st_wahlprogramm-2026_stand-05-08-2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Programm zur Landtagswahl in Sachsen-Anhalt 2026 in Deutsch (pdf)",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.973Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/0-vorwort.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Vorwort",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/0-unsere-vision-fur-sachsen-anhalt.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Unsere Vision für Sachsen-Anhalt",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/1-bildung,-forschung-&-jugend.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Bildung, Forschung & Jugend",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/2-gesundheit,-wohlbefinden-&-lebensqualitat.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Gesundheit, Wohlbefinden & Lebensqualität",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/3-wirtschaft,-strukturwandel-&-finanzen.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Wirtschaft, Strukturwandel & Finanzen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/4-energie,-umwelt-&-klima.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Energie, Umwelt & Klima",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/5-stadtentwicklung,-landlicher-raum-&-mobilitat.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Stadtentwicklung, Ländlicher Raum & Mobilität",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/6-digitales,-transparenz-&-verwaltung.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Digitales, Transparenz & Verwaltung",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/7-soziales,-inklusion-&-gesellschaftlicher-zusammenhalt.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Soziales, Inklusion & Gesellschaftlicher Zusammenhalt",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/8-landwirtschaft,-ernahrung-&-tierschutz.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Landwirtschaft, Ernährung & Tierschutz",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/9-kultur,-heimat-&-europa.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Kultur, Heimat & Europa",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/10-innen,-recht-&-bevolkerungsschutz.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Innen, Recht & Bevölkerungsschutz",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://voltdeutschland.org/storage/assets-sachsen-anhalt/pdf/landtagswahl-2026/vorstands-statement-sachsen-anhalt-ltw-2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_full",
+    "label": "Angst ist kein Programm: Jede Stimme für Volt zählt (pdf)",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:02:54.974Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/praeambel/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "Präambel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/1-frieden/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "1. Frieden",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/2-demokratie/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "2. Demokratie",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/3-finanzpolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "3. Finanzpolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/4-gleichstellungspolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "4. Gleichstellungspolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/5-bildungspolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "5. Bildungspolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/6-hochschulpolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "6. Hochschulpolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/7-sozialpolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "7. Sozialpolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/8-kultur-und-medien/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "8. Kultur und Medien",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/9-kommunalpolitik-und-wohnen/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "9. Kommunalpolitik und Wohnen",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/10-industrie-und-wirtschaftspolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "10. Industrie- und Wirtschaftspolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/11-europapolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "11. Europapolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/12-migrations-und-integrationspolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "12. Migrations- und Integrationspolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/13-verkehrspolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "13. Verkehrspolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/14-energie/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "14. Energie",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/15-landwirtschaft/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "15. Landwirtschaft",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/16-umwelt-und-klima/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "16. Umwelt und Klima",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/17-innenpolitik/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "17. Innenpolitik",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/18-justiz/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "18. Justiz",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/19-digitalisierung/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "19. Digitalisierung",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.waehlt-dielinke.de/kapitel/schluss/",
+    "state": "sachsen-anhalt",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "Schluss",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.912Z",
+    "found_on": "https://wahlprogramm26.waehlt-dielinke.de/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/1-friedenstuechtig-statt-kriegsbegeistert/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "1. Friedenstüchtig statt Kriegsbegeistert",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/2-demokratie-debatte/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "2. Demokratie & Debatte",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/3-wirtschaft-infrastruktur/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "3. Wirtschaft & Infrastruktur",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/meinungsfreiheit/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "4. Daseinsfürsorge & Kultur",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/5-gesellschaft-teilhabe/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "5. Gesellschaft & Teilhabe",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://st.bsw-vg.de/partei/programm/im-osten-geht-die-sonne-auf/",
+    "state": "sachsen-anhalt",
+    "party": "bsw",
+    "kind": "program_html",
+    "label": "Im Osten geht die Sonne auf.",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.915Z",
+    "found_on": "https://st.bsw-vg.de/partei/programm/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/berlin-wieder-bezahlbar/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "Berlin wieder bezahlbar",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.921Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/berlin-wieder-eine-familie/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "Berlin wieder eine Familie",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.921Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/wieder-eine-stadt-die-sauber-laeuft/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "Wieder eine Stadt, die sauber läuft",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.921Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://spd.berlin/wahlprogramm/wieder-hauptstadt-der-gesundheit/",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "Wieder Hauptstadt der Gesundheit",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.921Z",
+    "found_on": "https://spd.berlin/wahlprogramm/"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-praeambel",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Unser Wahlprogramm",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-1",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-2",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-3",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-4",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-5",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://gruene.berlin/wahlprogramm-neu/unser-wahlprogramm-kapitel-6",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Programmkapitel",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.925Z",
+    "found_on": "https://gruene.berlin/wahlprogramm"
+  },
+  {
+    "url": "https://mieterpartei-jetzt.de/index.php/wahlthemen/",
+    "state": "berlin",
+    "party": "mieterpartei",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.966Z",
+    "found_on": "https://mieterpartei-jetzt.de/"
+  },
+  {
+    "url": "https://mieterpartei-jetzt.de/index.php/zehn-punkte-sofort-programm-als-erste-hilfe-fuer-mieterinnen/",
+    "state": "berlin",
+    "party": "mieterpartei",
+    "kind": "points_list",
+    "label": "points_list",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.967Z",
+    "found_on": "https://mieterpartei-jetzt.de/"
+  },
+  {
+    "url": "https://mieterpartei-jetzt.de/index.php/6713-2/",
+    "state": "berlin",
+    "party": "mieterpartei",
+    "kind": "lead_candidate_page",
+    "label": "lead_candidate_page",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.967Z",
+    "found_on": "https://mieterpartei-jetzt.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/presse/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.967Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/category/pressemitteilung/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "other",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:04:21.967Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://die-partei-berlin.de/archiv/7778",
+    "state": "berlin",
+    "party": "die-partei",
+    "kind": "program_html",
+    "label": "program_html",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:05:31.127Z",
+    "found_on": "https://die-partei-berlin.de/"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/wp-content/uploads/2026/08/Wahlprogramm_PdF_Berlin_AHW2026.pdf",
+    "state": "berlin",
+    "party": "pdf",
+    "kind": "program_full",
+    "label": "program_full",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:05:31.127Z",
+    "found_on": "https://partei-des-fortschritts.de/wahl-zum-abgeordnetenhaus-berlin/"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/landesverband-berlin/",
+    "state": "berlin",
+    "party": "pdf",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:05:31.128Z",
+    "found_on": "https://partei-des-fortschritts.de/"
+  },
+  {
+    "url": "https://partei-des-fortschritts.de/landesverband-sachsen-anhalt/",
+    "state": "sachsen-anhalt",
+    "party": "pdf",
+    "kind": "party_website",
+    "label": "party_website",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:05:31.128Z",
+    "found_on": "https://partei-des-fortschritts.de/"
+  },
+  {
+    "url": "https://voltdeutschland.org/sachsen-anhalt/wahlprogramm-fuer-die-landtagswahl-in-sachsen-anhalt-in-leichter-sprache",
+    "state": "sachsen-anhalt",
+    "party": "volt",
+    "kind": "program_easy_language",
+    "label": "program_easy_language",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T19:05:31.128Z",
+    "found_on": "https://voltdeutschland.org/sachsen-anhalt/programm/programme/programme-positionen-statuten"
+  },
+  {
+    "url": "http://www.cdu-fraktion.berlin.de/",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T19:05:45.500Z",
+    "found_on": "https://www.parlament-berlin.de/das-parlament/fraktionen"
+  },
+  {
+    "url": "https://gruene-fraktion.berlin/",
+    "state": "berlin",
+    "party": "gruene",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T19:05:45.500Z",
+    "found_on": "https://www.parlament-berlin.de/das-parlament/fraktionen"
+  },
+  {
+    "url": "https://www.linksfraktion.berlin/aktuelles/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "parliamentary_group_website",
+    "label": "parliamentary_group_website",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T19:05:45.500Z",
+    "found_on": "https://www.parlament-berlin.de/das-parlament/fraktionen"
+  }
+]

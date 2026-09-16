@@ -1,0 +1,188 @@
+{
+  "state": "berlin",
+  "slug": "fdp",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "6. Freie Demokratische Partei",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Freie Demokratische Partei"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "FDP",
+          "page": 6
+        }
+      ],
+      "key": "name_short",
+      "value": "FDP"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "6. Freie Demokratische Partei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185252615Z_0600f239",
+          "quote": "6. Freie Demokratische Partei",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 6
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191057953Z_dda4450d",
+          "quote": "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend zu verbessern, sowie zur interessensgerechten Ausspielung unserer Angebote, verarbeiten wir Ihre Daten und arbeiten ",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://www.fdp-berlin.de/beschluss/wahlprogramm-zur-abgeordnetenhauswahl-2026"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191132862Z_ad2c2d52",
+          "quote": "Für die Freiheit.",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://admin.crm.fdp-berlin.de/sites/default/files/inline-files/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_1.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190450140Z_eaefd8e6",
+          "quote": "Fraktionen",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 0
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190925417Z_9e3fc2f1",
+          "quote": "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend zu verbessern, sowie zur interessensgerechten Ausspielung unserer Angebote, verarbeiten wir Ihre Daten und arbeiten ",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://www.fdp-berlin.de/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914110Z_f3218f56",
+          "quote": "Freie Demokraten",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.fdp.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

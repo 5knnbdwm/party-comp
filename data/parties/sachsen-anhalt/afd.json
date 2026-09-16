@@ -1,0 +1,206 @@
+{
+  "state": "sachsen-anhalt",
+  "slug": "afd",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "Alternative für Deutschland",
+          "page": 1
+        }
+      ],
+      "key": "name_full",
+      "value": "Alternative für Deutschland"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "Alternative für Deutschland",
+          "page": 1
+        }
+      ],
+      "key": "name_short",
+      "value": "AfD"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "Alternative für Deutschland",
+          "page": 1
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "Alternative für Deutschland",
+          "page": 1
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 2
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "prozent.wj.x",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T185254114Z_7870ee73",
+          "quote": "anzahl_sitze_wj",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "vorläufigen Ergebnis",
+          "page": null
+        }
+      ],
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 43.8,
+        "seats": 39,
+        "status": "preliminary"
+      }
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191025951Z_ffa6d72a",
+          "quote": "Kurzprogramm der AfD Sachsen-Anhalt",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://afd-lsa.de/wp-content/uploads/2026/08/LSA26_KURZPROGRAMM_A6_Final.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191107933Z_ac3f4772",
+          "quote": "Regierungsprogramm der AfD Sachsen-Anhalt",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://afd-lsa.de/wp-content/uploads/2026/07/AfD_Sachsen-Anhalt_Regierungsprogramm_2026_230726-web.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 22
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190908977Z_3e3fea2c",
+          "quote": "Siegmund, Kirchner: Klarstellung zur Remigrationsdebatte im Gesundheitswesen",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://afd-lsa.de/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190909920Z_8ade4d26",
+          "quote": "AfDR R2026-06-02T13:35:26+01:00",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.afd.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://afdfraktion-lsa.de/"
+      ]
+    },
+    {
+      "key": "program_easy_language",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_html",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://afd-lsa.de/wp-content/uploads/2026/07/Kernpunkte.pdf"
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}

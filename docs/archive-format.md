@@ -1,0 +1,149 @@
+# Archive format
+
+How the project stores party information and the documents it came from. The goal is to prove what a party published at a given time, and to detect when a party changes or removes something without saying so.
+
+Two layers:
+
+1. **Captures** in `archive/`: raw copies of fetched URLs. They are immutable and append-only.
+2. **Facts** in `data/parties/`: statements about a party. Each fact cites one or more captures.
+
+A fact without a capture behind it does not go into `data/`.
+
+## Layout
+
+```
+archive/
+  tracked-urls.json          URLs we re-fetch to detect changes
+  captures.jsonl             append-only log, one line per fetch
+  blobs/<sha256>.<ext>       raw bytes exactly as fetched, never modified
+  text/<sha256>.txt          extracted text of that blob, for diffing
+data/
+  parties/<state>/<party-slug>.json
+scripts/
+  archive-fetch.ts           fetches tracked URLs and appends captures
+```
+
+State slugs: `sachsen-anhalt`, `berlin`. Party slugs are lowercase ASCII, such as `afd`, `cdu`, `spd`, `gruene`, `linke`, `fdp`, `bsw`, `freie-waehler`, `tierschutzpartei`.
+
+All timestamps are ISO 8601 in UTC with a `Z` suffix, such as `2026-09-16T18:12:00Z`.
+
+## Tracked URLs
+
+`archive/tracked-urls.json` is an array. It lists every URL that backs a fact or holds a party document.
+
+```json
+{
+  "url": "https://example-party.de/wahlprogramm-2026.pdf",
+  "state": "sachsen-anhalt",
+  "party": "afd",
+  "kind": "program_full",
+  "label": "Wahlprogramm zur Landtagswahl 2026",
+  "publisher_type": "party",
+  "added_at": "2026-09-16T18:10:00Z",
+  "found_on": "https://example-party.de/programm"
+}
+```
+
+- `party` is `null` for URLs that cover all parties, such as the official list of admitted parties.
+- `found_on` is the page that linked this URL, so the discovery path can be checked again later.
+- `kind` is one of:
+  - `party_website`, `parliamentary_group_website`
+  - `program_full`, `program_short`, `program_easy_language`, `program_html`, `points_list`, `program_immediate`
+  - `candidate_list`, `lead_candidate_page`
+  - `election_authority_page`, `election_result`
+  - `coalition_statement`, `sondierungspapier`, `coalition_agreement`
+  - `position_paper`, `press_release`, `other`
+- `publisher_type` is one of `party`, `parliamentary_group`, `election_authority`, `parliament`, `government`, `press`.
+
+## Captures
+
+Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never edited or removed.
+
+```json
+{
+  "id": "cap_20260916T181200Z_3f9a1c2b",
+  "url": "https://example-party.de/wahlprogramm-2026.pdf",
+  "final_url": "https://example-party.de/wp-content/uploads/wahlprogramm-2026.pdf",
+  "retrieved_at": "2026-09-16T18:12:00Z",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "bytes": 2481734,
+  "sha256": "3f9a1c2b…",
+  "text_sha256": "a81d…",
+  "blob": "archive/blobs/3f9a1c2b….pdf",
+  "text": "archive/text/3f9a1c2b….txt",
+  "http_last_modified": "Tue, 01 Sep 2026 10:00:00 GMT",
+  "http_etag": "\"abc\"",
+  "pdf_info": { "title": "…", "creation_date": "…", "mod_date": "…", "pages": 84 },
+  "wayback_url": "https://web.archive.org/web/20260916181300/https://example-party.de/wahlprogramm-2026.pdf",
+  "previous_capture": "cap_20260910T090000Z_3f9a1c2b",
+  "content_changed": false,
+  "text_changed": false,
+  "error": null
+}
+```
+
+- `id` is `cap_` + compact `retrieved_at` + `_` + the first 8 hex characters of `sha256`.
+- `text_sha256` hashes the extracted text: `pdftotext -layout` for PDFs, readable main text for HTML. Byte changes often come from page chrome or PDF metadata alone. A change in `text_sha256` is the stronger signal that the content changed.
+- `previous_capture` is the latest earlier capture of the same `url`, or `null`. `content_changed` and `text_changed` compare against it, and are `null` on the first capture.
+- A failed fetch still gets a line, with `http_status` and `error` set and the hash fields `null`. A document that disappears is evidence too.
+- `pdf_info` is `null` for non-PDFs. `wayback_url` is `null` when no snapshot was requested or the request failed.
+- Blobs are content-addressed, so identical bytes are stored once.
+
+## Party facts
+
+`data/parties/<state>/<party-slug>.json`:
+
+```json
+{
+  "state": "sachsen-anhalt",
+  "slug": "afd",
+  "facts": [
+    {
+      "key": "lead_candidate",
+      "value": "Name Surname",
+      "observed_at": "2026-09-16T18:20:00Z",
+      "sources": [
+        { "capture": "cap_20260916T181500Z_77aa01de", "quote": "exact text from the source", "page": null }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "key": "program_short",
+      "checked_at": "2026-09-16T18:25:00Z",
+      "note": "No short program found on the party website or the state association site.",
+      "searched": ["https://example-party.de/programm"]
+    }
+  ]
+}
+```
+
+- `facts` is append-only. When a value changes, add a new fact with the same `key` and a later `observed_at`. The current value is the latest one per key, and the older entries are the history.
+- Every source names a capture id that exists in `captures.jsonl`. `quote` is verbatim text from that capture. `page` is set for PDFs.
+- A fact with several values, such as two lead candidates, gets one fact per value.
+- `gaps` records what we looked for and did not find, with the pages checked. It keeps "not found on date X" separate from "never existed".
+
+Fact keys:
+
+| Key | Value |
+|---|---|
+| `name_full`, `name_short` | Party name as used on the ballot. |
+| `website`, `state_association_website`, `parliamentary_group_website` | URL. |
+| `ballot_admitted` | `true` or `false`, from the election authority. |
+| `ballot_list_number` | Number or position on the ballot. |
+| `lead_candidate` | Person's name. |
+| `program` | Tracked URL of a program document. The tracked URL's `kind` says which type. |
+| `social_account` | Profile URL, value such as `{"platform":"x","owner":"party","url":"…"}`. `owner` is `party`, `parliamentary_group` or `lead_candidate`. |
+| `in_parliament_before_election` | `true` or `false`, with seat count if known. |
+| `seats_before_election` | Integer seat count immediately before the election, sourced separately from the previous election result. |
+| `ballot_scope` | `"Landesliste"`, `"Bezirkslisten"` or `"Nur Kreiswahlvorschläge"`. Distinguishes list admission from constituency-only admission. |
+| `election_result` | `{"second_vote_pct":…, "seats":…, "status":"preliminary"}`, or `"final"`. |
+| `coalition_position` | Short verbatim or near-verbatim statement on coalition options, with date. |
+| `sondierung_status` | Who the party is in exploratory or coalition talks with, as of `observed_at`. |
+
+When something important fits no key, add a key and document it in this table in the same change.
+
+## Re-fetching
+
+`bun scripts/archive-fetch.ts` fetches every tracked URL, stores new blobs and text, and appends captures. It prints every URL whose `text_changed` is `true` or whose fetch newly fails. Run it on a schedule to catch silent updates. To inspect a change, `diff` the two text files from the captures.

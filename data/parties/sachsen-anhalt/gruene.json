@@ -1,0 +1,222 @@
+{
+  "state": "sachsen-anhalt",
+  "slug": "gruene",
+  "facts": [
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "BÜNDNIS 90/DIE GRÜNEN",
+          "page": 1
+        }
+      ],
+      "key": "name_full",
+      "value": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "BÜNDNIS 90/DIE GRÜNEN",
+          "page": 1
+        }
+      ],
+      "key": "name_short",
+      "value": "GRÜNE"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "BÜNDNIS 90/DIE GRÜNEN",
+          "page": 1
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185325211Z_ebd4666a",
+          "quote": "BÜNDNIS 90/DIE GRÜNEN",
+          "page": 1
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 6
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "prozent.wj.x",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T185254114Z_7870ee73",
+          "quote": "anzahl_sitze_wj",
+          "page": null
+        },
+        {
+          "capture": "cap_20260916T185356293Z_2309c8f7",
+          "quote": "vorläufigen Ergebnis",
+          "page": null
+        }
+      ],
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 8.9,
+        "seats": 8,
+        "status": "preliminary"
+      }
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191032915Z_037c6f12",
+          "quote": "Nur mit Grün wird Zukunft draus.",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://www.gruene-lsa.de/programm2026/programm-lesen/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191110619Z_73130003",
+          "quote": "Sachsen-Anhalt ist wertvoll. Reich an Landschaften, an Geschichte, an",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.gruene-lsa.de/wp-content/uploads/2026/05/Programm-zur-Landtagswahl-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191110956Z_f374c21a",
+          "quote": "DA S G I B T ES                    Du willst ein lebenswertes",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.gruene-lsa.de/wp-content/uploads/2026/07/Kurzwahlprogramm-digital.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191111863Z_03174825",
+          "quote": "Bündnis 90/Die Grünen",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.gruene-lsa.de/wp-content/uploads/2026/07/Wahlprogramm-Leichte-Sprache-%E2%80%93-Gruene-Sachsen-Anhalt.pdf"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190451758Z_237739b3",
+          "quote": "Abgeordnetenverzeichnis",
+          "page": 1
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 6
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914303Z_abe3f1e8",
+          "quote": "Jetzt erst recht:",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://www.gruene-lsa.de/"
+    },
+    {
+      "observed_at": "2026-09-16T19:13:35.165Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914401Z_ad6a22d5",
+          "quote": "Landtagswahlen 2026",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.gruene.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "Tracked sources did not establish this item.",
+      "searched": [
+        "https://gruene-fraktion-lsa.de/start/"
+      ]
+    },
+    {
+      "key": "points_list",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "program_immediate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "lead_candidate",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "social_account",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "coalition_position",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    },
+    {
+      "key": "sondierung_status",
+      "checked_at": "2026-09-16T19:10:11.655Z",
+      "note": "No official source was identified during the archive pass.",
+      "searched": []
+    }
+  ]
+}
