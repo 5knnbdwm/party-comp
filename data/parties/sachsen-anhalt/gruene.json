@@ -168,8 +168,6 @@
       "value": "https://www.gruene.de/"
     },
     {
-      "key": "parliamentary_group_website",
-      "value": "https://gruene-fraktion-lsa.de/start/",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
@@ -177,16 +175,146 @@
           "quote": "F",
           "page": null
         }
-      ]
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://gruene-fraktion-lsa.de/start/"
     },
     {
-      "key": "lead_candidate",
-      "value": "Suse Sziborra-Seidlitz",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
           "capture": "cap_20260916T191034236Z_b9bd2f47",
           "quote": "Suse Sziborra-Seidlitz\nSpitzenkandidatin",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Suse Sziborra-Seidlitz"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/GRUENELSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.410Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914303Z_abe3f1e8",
+          "quote": "https://www.facebook.com/GRUENELSA/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@gruene_lsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.410Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914303Z_abe3f1e8",
+          "quote": "https://tiktok.com/@gruene_lsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/gruene_lsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.410Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190914303Z_abe3f1e8",
+          "quote": "https://instagram.com/gruene_lsa/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@gruenefraktionlsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.411Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191034885Z_6bd2b2e2",
+          "quote": "https://www.tiktok.com/@gruenefraktionlsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/GrueneFraktionLSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.411Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191034885Z_6bd2b2e2",
+          "quote": "https://www.facebook.com/GrueneFraktionLSA",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/gruenefraktionlsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.411Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191034885Z_6bd2b2e2",
+          "quote": "https://www.instagram.com/gruenefraktionlsa/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/user/GrueneFraktionLSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.411Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191034885Z_6bd2b2e2",
+          "quote": "https://www.youtube.com/user/GrueneFraktionLSA/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "parliamentary_group",
+        "url": "https://bsky.app/profile/gruenefraktionlsa.bsky.social"
+      },
+      "observed_at": "2026-09-16T20:29:56.411Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191034885Z_6bd2b2e2",
+          "quote": "https://bsky.app/profile/gruenefraktionlsa.bsky.social",
           "page": null
         }
       ]

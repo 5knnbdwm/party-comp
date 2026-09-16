@@ -408,8 +408,6 @@
       "value": "https://www.die-linke.de/"
     },
     {
-      "key": "parliamentary_group_website",
-      "value": "https://www.dielinke-fraktion-lsa.de/",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
@@ -417,16 +415,178 @@
           "quote": "H",
           "page": null
         }
-      ]
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://www.dielinke-fraktion-lsa.de/"
     },
     {
-      "key": "lead_candidate",
-      "value": "Eva von Angern",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
           "capture": "cap_20260916T190910040Z_8faa6ba0",
           "quote": "Zu den ersten Hochrechnungen der Landtagswahl in Sachsen-Anhalt erklären Spitzenkandidatin Eva von Angern und die Landesvorsitzenden Janina Böttger und Hendrik Lange:",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Eva von Angern"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/DieLinkeSachsenAnhalt"
+      },
+      "observed_at": "2026-09-16T20:29:56.395Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190910040Z_8faa6ba0",
+          "quote": "https://www.facebook.com/DieLinkeSachsenAnhalt",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/DIELINKELSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.395Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190910040Z_8faa6ba0",
+          "quote": "https://twitter.com/DIELINKELSA",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "state_party",
+        "url": "https://bsky.app/profile/die-linke.de"
+      },
+      "observed_at": "2026-09-16T20:29:56.395Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190910040Z_8faa6ba0",
+          "quote": "https://bsky.app/profile/die-linke.de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/dielinke.sachsenanhalt"
+      },
+      "observed_at": "2026-09-16T20:29:56.395Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190910040Z_8faa6ba0",
+          "quote": "https://www.instagram.com/dielinke.sachsenanhalt/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/user/dielinkelsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.395Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190910040Z_8faa6ba0",
+          "quote": "https://www.youtube.com/user/dielinkelsa/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/FraktionDIELINKE.LSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.398Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191028278Z_aa8d9f8c",
+          "quote": "https://www.facebook.com/FraktionDIELINKE.LSA",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "parliamentary_group",
+        "url": "https://bsky.app/profile/die-linke.de"
+      },
+      "observed_at": "2026-09-16T20:29:56.398Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191028278Z_aa8d9f8c",
+          "quote": "https://bsky.app/profile/die-linke.de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/linksfraktion_lsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.398Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191028278Z_aa8d9f8c",
+          "quote": "https://www.instagram.com/linksfraktion_lsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@linksfraktion.lsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.398Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191028278Z_aa8d9f8c",
+          "quote": "https://www.tiktok.com/@linksfraktion.lsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/@dielinke.fraktionlsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.398Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191028278Z_aa8d9f8c",
+          "quote": "https://www.youtube.com/@dielinke.fraktionlsa",
           "page": null
         }
       ]

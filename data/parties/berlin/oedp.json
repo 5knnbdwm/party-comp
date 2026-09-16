@@ -109,6 +109,70 @@
       ],
       "key": "website",
       "value": "https://www.oedp.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/oedpberlin.de"
+      },
+      "observed_at": "2026-09-16T20:29:56.227Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191013031Z_66e7445e",
+          "quote": "https://www.facebook.com/oedpberlin.de/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/oedpberlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.227Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191013031Z_66e7445e",
+          "quote": "https://twitter.com/oedpberlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/oedpberlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.227Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191013031Z_66e7445e",
+          "quote": "https://www.instagram.com/oedpberlin/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/channel/UC2gt52gAynY9WKYQkdHZwgg"
+      },
+      "observed_at": "2026-09-16T20:29:56.227Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191013031Z_66e7445e",
+          "quote": "https://www.youtube.com/channel/UC2gt52gAynY9WKYQkdHZwgg",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

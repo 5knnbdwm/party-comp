@@ -131,7 +131,8 @@ Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never
   - `election_result`: the quotes contain the vote share, as `43.8` or `43,8`, and the seat count.
   - URL keys and `social_account`: a source capture is of that URL, or a quote contains it.
   - Judgement keys such as `coalition_position` and `sondierung_status` are checked by review, not by the validator.
-- `gaps` records what we looked for and did not find. It keeps "not found on date X" separate from "never existed". Every gap lists at least one searched page, and each searched page has a capture from before `checked_at`, so the page as we saw it is on record. An item with neither a fact nor a gap has not been checked yet.
+- `bun scripts/extract-social-accounts.ts` adds `social_account` facts from captured official pages. It takes profile links from the site header, footer and navigation of state party and parliamentary group sites, and from the body of lead candidate pages, minus the party's own accounts. It skips posts, share buttons and feed widgets. Run it after capturing new official pages. It never adds a fact twice.
+- `gaps` records what we looked for and did not find. It keeps "not found on date X" separate from "never existed". Every gap lists at least one searched page, and each searched page has a capture from before `checked_at`, so the page as we saw it is on record. An item with neither a fact nor a gap has not been checked yet. The text files drop headers, footers and navigation, so links to social profiles, news pages and documents often exist only in the raw HTML blob. Search the blob before recording a gap.
 
 Fact keys:
 
@@ -143,7 +144,7 @@ Fact keys:
 | `ballot_list_number` | Number or position on the ballot. |
 | `lead_candidate` | Person's name. |
 | `program` | Tracked URL of a program document. The tracked URL's `kind` says which type. |
-| `social_account` | Profile URL, value such as `{"platform":"x","owner":"party","url":"…"}`. `owner` is `party`, `parliamentary_group` or `lead_candidate`. |
+| `social_account` | Profile URL, value such as `{"platform":"x","linked_from":"state_party","url":"…"}`. `linked_from` is `state_party`, `parliamentary_group` or `lead_candidate`: the kind of official page that links the profile. It records what the capture proves, not who runs the account. A state party site can link the federal party's or its lead candidate's profile. |
 | `in_parliament_before_election` | `true` or `false`, with seat count if known. |
 | `seats_before_election` | Integer seat count immediately before the election, sourced separately from the previous election result. |
 | `ballot_scope` | `"Landesliste"`, `"Bezirkslisten"` or `"Nur Kreiswahlvorschläge"`. Distinguishes list admission from constituency-only admission. |

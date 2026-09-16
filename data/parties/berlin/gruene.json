@@ -207,8 +207,6 @@
       "value": "https://www.gruene.de/"
     },
     {
-      "key": "parliamentary_group_website",
-      "value": "https://gruene-fraktion.berlin/",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
@@ -216,11 +214,11 @@
           "quote": "G",
           "page": null
         }
-      ]
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://gruene-fraktion.berlin/"
     },
     {
-      "key": "lead_candidate",
-      "value": "Werner Graf",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
@@ -228,16 +226,194 @@
           "quote": "Werner Graf, Spitzen- und Bürgermeisterkandidat für die Berlin-Wahl 2026",
           "page": null
         }
-      ]
+      ],
+      "key": "lead_candidate",
+      "value": "Werner Graf"
     },
     {
-      "key": "lead_candidate",
-      "value": "Bettina Jarasch",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
           "capture": "cap_20260916T191047059Z_020dda08",
           "quote": "Bettina Jarasch, Co-Spitzenkandidatin:",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Bettina Jarasch"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/gruene_berlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.298Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926497Z_2da422ce",
+          "quote": "https://www.instagram.com/gruene_berlin/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@gruene_berlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.298Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926497Z_2da422ce",
+          "quote": "https://www.tiktok.com/@gruene_berlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/gruene_berlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.298Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926497Z_2da422ce",
+          "quote": "https://twitter.com/gruene_berlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/user/grueneberlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.298Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190926497Z_2da422ce",
+          "quote": "https://www.youtube.com/user/grueneberlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/gruenefraktionb"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://www.instagram.com/gruenefraktionb",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "parliamentary_group",
+        "url": "https://x.com/GrueneFraktionB"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://x.com/GrueneFraktionB",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@gruenefraktionber"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://www.tiktok.com/@gruenefraktionber",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "parliamentary_group",
+        "url": "https://bsky.app/profile/gruenefraktionb.bsky.social"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://bsky.app/profile/gruenefraktionb.bsky.social",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/GrueneFraktionBerlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://www.facebook.com/GrueneFraktionBerlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/user/GrueneAGHBerlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.318Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191244228Z_d9663821",
+          "quote": "https://www.youtube.com/user/GrueneAGHBerlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/grafwer"
+      },
+      "observed_at": "2026-09-16T20:29:56.325Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191047395Z_202af83b",
+          "quote": "https://www.instagram.com/grafwer/?hl=de",
           "page": null
         }
       ]

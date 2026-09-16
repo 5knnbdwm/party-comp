@@ -109,6 +109,38 @@
       ],
       "key": "website",
       "value": "https://mieterpartei-jetzt.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/Mieterpartei"
+      },
+      "observed_at": "2026-09-16T20:29:56.175Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191114191Z_c937213b",
+          "quote": "https://www.facebook.com/Mieterpartei/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/MieterparteiB"
+      },
+      "observed_at": "2026-09-16T20:29:56.175Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191114191Z_c937213b",
+          "quote": "https://twitter.com/MieterparteiB",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

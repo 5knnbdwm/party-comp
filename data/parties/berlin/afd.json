@@ -111,8 +111,6 @@
       "value": "https://www.afd.de/"
     },
     {
-      "key": "parliamentary_group_website",
-      "value": "https://afd-fraktion.berlin/",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
@@ -120,16 +118,178 @@
           "quote": "Z",
           "page": null
         }
-      ]
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://afd-fraktion.berlin/"
     },
     {
-      "key": "lead_candidate",
-      "value": "Dr. Kristin Brinker",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
           "capture": "cap_20260916T185554086Z_095bebf4",
           "quote": "Unsere Bundessprecherin Alice Weidel und unsere Spitzenkandidatin Dr. Kristin Brinker waren zu Besuch bei der AfD Reinickendorf. 🇩🇪💙",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Dr. Kristin Brinker"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/afdberlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.253Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190923569Z_bdd04b18",
+          "quote": "https://www.facebook.com/afdberlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/afdberlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.254Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190923569Z_bdd04b18",
+          "quote": "https://twitter.com/afdberlin",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/channel/UCq2rogaxLtQFrYG3X3KYNww"
+      },
+      "observed_at": "2026-09-16T20:29:56.254Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190923569Z_bdd04b18",
+          "quote": "https://www.youtube.com/channel/UCq2rogaxLtQFrYG3X3KYNww",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/Hauptstadtfraktion"
+      },
+      "observed_at": "2026-09-16T20:29:56.267Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.facebook.com/Hauptstadtfraktion",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "parliamentary_group",
+        "url": "https://twitter.com/AfDFraktionAGH"
+      },
+      "observed_at": "2026-09-16T20:29:56.267Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://twitter.com/AfDFraktionAGH",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/channel/UCsys2EX3mERoBzRrPN-FmJg"
+      },
+      "observed_at": "2026-09-16T20:29:56.267Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.youtube.com/channel/UCsys2EX3mERoBzRrPN-FmJg",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/afdfraktionagh"
+      },
+      "observed_at": "2026-09-16T20:29:56.267Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.instagram.com/afdfraktionagh",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/c/AfDFraktionAbgeordnetenhausBerlin"
+      },
+      "observed_at": "2026-09-16T20:29:56.268Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.youtube.com/c/AfDFraktionAbgeordnetenhausBerlin/about",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/@HauptstadtfraktionimParlament"
+      },
+      "observed_at": "2026-09-16T20:29:56.269Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.youtube.com/@HauptstadtfraktionimParlament",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@hauptstadtfraktion"
+      },
+      "observed_at": "2026-09-16T20:29:56.269Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "https://www.tiktok.com/@hauptstadtfraktion",
           "page": null
         }
       ]

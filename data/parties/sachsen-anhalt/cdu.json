@@ -132,13 +132,173 @@
       "value": "https://www.cdu.de/"
     },
     {
-      "key": "parliamentary_group_website",
-      "value": "https://www.cdufraktion.de/",
       "observed_at": "2026-09-16T20:30:00.000Z",
       "sources": [
         {
           "capture": "cap_20260916T191023314Z_64ef7a6f",
           "quote": "C",
+          "page": null
+        }
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://www.cdufraktion.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@sven_schulze"
+      },
+      "observed_at": "2026-09-16T20:29:56.331Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190906871Z_f7ae49c1",
+          "quote": "https://www.tiktok.com/@sven_schulze",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/cdu_lsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.331Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190906871Z_f7ae49c1",
+          "quote": "http://instagram.com/cdu_lsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/cdulsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.331Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190906871Z_f7ae49c1",
+          "quote": "http://facebook.com/cdulsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/@CDU-Sachsen-Anhalt"
+      },
+      "observed_at": "2026-09-16T20:29:56.331Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190906871Z_f7ae49c1",
+          "quote": "https://www.youtube.com/@CDU-Sachsen-Anhalt",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/cdulsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.331Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T190906871Z_f7ae49c1",
+          "quote": "http://twitter.com/cdulsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/user/cdufraktion"
+      },
+      "observed_at": "2026-09-16T20:29:56.338Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191023314Z_64ef7a6f",
+          "quote": "https://www.youtube.com/user/cdufraktion/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "parliamentary_group",
+        "url": "https://twitter.com/cdufraktion_LSA"
+      },
+      "observed_at": "2026-09-16T20:29:56.338Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191023314Z_64ef7a6f",
+          "quote": "https://twitter.com/cdufraktion_LSA/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/cdufraktionlsa"
+      },
+      "observed_at": "2026-09-16T20:29:56.338Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191023314Z_64ef7a6f",
+          "quote": "https://www.instagram.com/cdufraktionlsa/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/sven.schulze.cdu"
+      },
+      "observed_at": "2026-09-16T20:29:56.344Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191049577Z_b652c551",
+          "quote": "https://www.instagram.com/sven.schulze.cdu/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/sven.schulze.1420"
+      },
+      "observed_at": "2026-09-16T20:29:56.344Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191049577Z_b652c551",
+          "quote": "https://www.facebook.com/sven.schulze.1420",
           "page": null
         }
       ]

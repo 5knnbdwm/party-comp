@@ -109,6 +109,86 @@
       ],
       "key": "website",
       "value": "https://www.gleichheit.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/gleichheit"
+      },
+      "observed_at": "2026-09-16T20:29:56.242Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191015453Z_8df4f5d7",
+          "quote": "https://twitter.com/gleichheit",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/sgp_ikvi"
+      },
+      "observed_at": "2026-09-16T20:29:56.242Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191015453Z_8df4f5d7",
+          "quote": "https://www.instagram.com/sgp_ikvi/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@sgp_ikvi"
+      },
+      "observed_at": "2026-09-16T20:29:56.242Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191015453Z_8df4f5d7",
+          "quote": "https://www.tiktok.com/@sgp_ikvi",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/Gleichheit"
+      },
+      "observed_at": "2026-09-16T20:29:56.242Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191015453Z_8df4f5d7",
+          "quote": "https://www.facebook.com/Gleichheit",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/GleichheitTV"
+      },
+      "observed_at": "2026-09-16T20:29:56.242Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191015453Z_8df4f5d7",
+          "quote": "https://www.youtube.com/GleichheitTV",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

@@ -20,7 +20,7 @@ export const factSchema = z.union([
  z.strictObject({...base,key:z.literal('in_parliament_before_election'),value:z.boolean()}),
  z.strictObject({...base,key:z.literal('seats_before_election'),value:z.number().int().nonnegative()}),
  z.strictObject({...base,key:z.literal('election_result'),value:z.strictObject({second_vote_pct:z.number().min(0).max(100),seats:z.number().int().nonnegative(),status:z.enum(['preliminary','final'])})}),
- z.strictObject({...base,key:z.literal('social_account'),value:z.strictObject({platform:z.enum(['x','instagram','facebook','tiktok','bluesky','youtube']),owner:z.enum(['party','parliamentary_group','lead_candidate']),url})})
+ z.strictObject({...base,key:z.literal('social_account'),value:z.strictObject({platform:z.enum(['x','instagram','facebook','tiktok','bluesky','youtube']),linked_from:z.enum(['state_party','parliamentary_group','lead_candidate']),url})})
 ]);
 export const partySchema = z.strictObject({state,slug,facts:z.array(factSchema),gaps:z.array(z.strictObject({key:z.string().min(1),checked_at:timestamp,note:z.string().min(1),searched:z.array(url)}))});
 export type Party = z.infer<typeof partySchema>;
