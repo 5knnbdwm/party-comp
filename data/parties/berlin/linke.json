@@ -79,7 +79,7 @@
       "sources": [
         {
           "capture": "cap_20260916T190450140Z_eaefd8e6",
-          "quote": "Fraktionen",
+          "quote": "LINKE (20)",
           "page": null
         }
       ],
@@ -109,12 +109,24 @@
       ],
       "key": "website",
       "value": "https://www.die-linke.de/"
+    },
+    {
+      "key": "parliamentary_group_website",
+      "value": "https://www.linksfraktion.berlin/aktuelles/",
+      "observed_at": "2026-09-16T20:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191245619Z_410c92d9",
+          "quote": "W",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
     {
       "key": "parliamentary_group_website",
-      "checked_at": "2026-09-16T19:10:11.655Z",
+      "checked_at": "2026-09-16T19:13:00.000Z",
       "note": "Tracked sources did not establish this item.",
       "searched": [
         "https://www.linksfraktion.berlin/aktuelles/"

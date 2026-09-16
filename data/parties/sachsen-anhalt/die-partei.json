@@ -7,7 +7,7 @@
       "sources": [
         {
           "capture": "cap_20260916T185325211Z_ebd4666a",
-          "quote": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+          "quote": "11 Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und\nbasisdemokratische Initiative (Die PARTEI)",
           "page": 1
         }
       ],
@@ -19,7 +19,7 @@
       "sources": [
         {
           "capture": "cap_20260916T185325211Z_ebd4666a",
-          "quote": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+          "quote": "11 Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und\nbasisdemokratische Initiative (Die PARTEI)",
           "page": 1
         }
       ],
@@ -31,7 +31,7 @@
       "sources": [
         {
           "capture": "cap_20260916T185325211Z_ebd4666a",
-          "quote": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+          "quote": "11 Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und\nbasisdemokratische Initiative (Die PARTEI)",
           "page": 1
         }
       ],
@@ -43,7 +43,7 @@
       "sources": [
         {
           "capture": "cap_20260916T185325211Z_ebd4666a",
-          "quote": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+          "quote": "11 Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und\nbasisdemokratische Initiative (Die PARTEI)",
           "page": 1
         }
       ],
@@ -55,17 +55,12 @@
       "sources": [
         {
           "capture": "cap_20260916T185356293Z_2309c8f7",
-          "quote": "prozent.wj.x",
+          "quote": "\"prozent.wj.x\":[\"NA\",77.8164584957914,27.3865372294011,0.970930070598723,99.0290699294013,17.2,43.8,8.6,9.3,2.6,8.9,1.2,0.1,1.1,0.6,0.3,0.6,\"NA\",5.3,0.2,0.3,\"NA\"]",
           "page": null
         },
         {
           "capture": "cap_20260916T185254114Z_7870ee73",
-          "quote": "anzahl_sitze_wj",
-          "page": null
-        },
-        {
-          "capture": "cap_20260916T185356293Z_2309c8f7",
-          "quote": "vorläufigen Ergebnis",
+          "quote": "\"anzahl_sitze_wj\":[15,39,8,8,8,5,0,83]",
           "page": null
         }
       ],

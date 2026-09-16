@@ -2468,5 +2468,15 @@
     "publisher_type": "parliamentary_group",
     "added_at": "2026-09-16T19:05:45.500Z",
     "found_on": "https://www.parlament-berlin.de/das-parlament/fraktionen"
+  },
+  {
+    "url": "https://www.wahlrecht.de/umfragen/landtage/berlin.htm",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "Wahlumfragen Berlin",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:00:00.000Z",
+    "found_on": "https://www.wahlrecht.de/"
   }
 ]

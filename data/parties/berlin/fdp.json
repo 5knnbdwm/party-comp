@@ -123,5 +123,14 @@
       "value": "https://www.fdp.de/"
     }
   ],
-  "gaps": []
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-16T20:30:00.000Z",
+      "note": "The party had no outgoing parliamentary group to check.",
+      "searched": [
+        "https://www.fdp-berlin.de/"
+      ]
+    }
+  ]
 }

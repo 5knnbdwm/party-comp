@@ -79,7 +79,7 @@
       "sources": [
         {
           "capture": "cap_20260916T190450140Z_eaefd8e6",
-          "quote": "Fraktionen",
+          "quote": "AfD (16)",
           "page": null
         }
       ],
@@ -109,12 +109,36 @@
       ],
       "key": "website",
       "value": "https://www.afd.de/"
+    },
+    {
+      "key": "parliamentary_group_website",
+      "value": "https://afd-fraktion.berlin/",
+      "observed_at": "2026-09-16T20:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T191042432Z_378f7f5a",
+          "quote": "Z",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Dr. Kristin Brinker",
+      "observed_at": "2026-09-16T20:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T185554086Z_095bebf4",
+          "quote": "Unsere Bundessprecherin Alice Weidel und unsere Spitzenkandidatin Dr. Kristin Brinker waren zu Besuch bei der AfD Reinickendorf. 🇩🇪💙",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
     {
       "key": "parliamentary_group_website",
-      "checked_at": "2026-09-16T19:10:11.655Z",
+      "checked_at": "2026-09-16T19:13:00.000Z",
       "note": "Tracked sources did not establish this item.",
       "searched": [
         "https://afd-fraktion.berlin/"

@@ -42,18 +42,6 @@
       "observed_at": "2026-09-16T19:13:35.165Z",
       "sources": [
         {
-          "capture": "cap_20260916T185356293Z_2309c8f7",
-          "quote": "\"HEIMAT\"",
-          "page": null
-        }
-      ],
-      "key": "ballot_list_number",
-      "value": 13
-    },
-    {
-      "observed_at": "2026-09-16T19:13:35.165Z",
-      "sources": [
-        {
           "capture": "cap_20260916T190451758Z_237739b3",
           "quote": "Abgeordnetenverzeichnis",
           "page": 1
