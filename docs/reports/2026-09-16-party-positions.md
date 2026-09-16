@@ -66,3 +66,19 @@
 - Auf der Startseite, der Positionsübersicht, der Presseübersicht und der Wahlseite des Landesverbands sowie auf der Startseite und der Presseübersicht der Landtagsfraktion fand sich bis zum 16. September kein Hinweis auf Sondierungen mit einer anderen Partei.
 - Die Aussagen vom 6. und 9. September widersprechen sich nicht. Die spätere Erklärung nennt mit der Absage an Gespräche und Zusammenarbeit die konkrete Folge der Position vom Wahlabend.
 - Die beiden angeforderten Wayback-Snapshots schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.
+
+## sachsen-anhalt/gruene
+
+### Fakten
+
+- `coalition_position`, 9. September 2026: Die Grünen wollen die Möglichkeit eines geeigneten unabhängigen Ministerpräsidenten und eines tragfähigen Weges nicht ausschlagen, wenn sich damit eine AfD-geführte Regierung und eine dauerhafte Blockade verhindern lassen. Quelle: https://www.gruene-lsa.de/wir-werden-nichts-unversucht-lassen-um-die-afd-noch-zu-verhindern/
+- `coalition_position`, 9. September 2026: Die Grünen halten das BSW nicht für einen verlässlichen Partner und streben weder eine Koalition noch weitergehende politische Verabredungen mit ihm an. Quelle: https://www.gruene-lsa.de/wir-werden-nichts-unversucht-lassen-um-die-afd-noch-zu-verhindern/
+- `coalition_position`, 9. September 2026: Die Grünen lehnen Gespräche mit der AfD über die Zukunft Sachsen-Anhalts ab. Quelle: https://www.n-tv.de/ticker/Susan-Sziborra-Seidlitz-nennt-Sondierungen-mit-der-AfD-absurd-id31286765.html
+- `sondierung_status`, 9. September 2026: Die Grünen haben Sondierungsgespräche mit der AfD über eine mögliche Regierungsbildung abgelehnt. Quelle: https://www.n-tv.de/ticker/Susan-Sziborra-Seidlitz-nennt-Sondierungen-mit-der-AfD-absurd-id31286765.html
+
+### Hinweise
+
+- Ein neuer `lead_candidate`-Fakt war nicht nötig. Suse Sziborra-Seidlitz war bereits als Spitzenkandidatin erfasst.
+- Die Offenheit für einen unabhängigen Ministerpräsidenten steht laut der eigenen Erklärung nicht für eine Annäherung an das BSW. Die Grünen schließen in derselben Erklärung eine Koalition und weitergehende politische Verabredungen mit dem BSW aus.
+- Auf der Startseite, der Presseübersicht, den Beitragsarchiven zur Landtagswahl 2026 und zu Koalitionen sowie auf der Startseite und der Presseübersicht der Landtagsfraktion fand sich bis zum 16. September kein Hinweis auf weitere Sondierungsgespräche oder eine neuere Koalitionsposition.
+- Die angeforderten Wayback-Snapshots für beide Koalitionsquellen schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

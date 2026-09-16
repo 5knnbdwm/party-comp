@@ -2698,5 +2698,55 @@
     "publisher_type": "party",
     "added_at": "2026-09-16T20:43:00.000Z",
     "found_on": "https://www.dielinke-sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/wir-werden-nichts-unversucht-lassen-um-die-afd-noch-zu-verhindern/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Wir werden nichts unversucht lassen, um die AfD noch zu verhindern",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:45:00.000Z",
+    "found_on": "https://www.gruene-lsa.de/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/category/landtagswahl-2026/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "Landtagswahl 2026: Beitragsarchiv",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:47:00.000Z",
+    "found_on": "https://www.gruene-lsa.de/category/pressemitteilung/"
+  },
+  {
+    "url": "https://www.gruene-lsa.de/category/koalition/",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "Koalition: Beitragsarchiv",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T20:47:00.000Z",
+    "found_on": "https://www.gruene-lsa.de/category/pressemitteilung/"
+  },
+  {
+    "url": "https://gruene-fraktion-lsa.de/pressemitteilungen",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "other",
+    "label": "Landtagsfraktion: Pressemitteilungen",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-16T20:47:00.000Z",
+    "found_on": "https://gruene-fraktion-lsa.de/start/"
+  },
+  {
+    "url": "https://www.n-tv.de/ticker/Susan-Sziborra-Seidlitz-nennt-Sondierungen-mit-der-AfD-absurd-id31286765.html",
+    "state": "sachsen-anhalt",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Grüne lehnen Gespräche ab: Susan Sziborra-Seidlitz nennt Sondierungen mit der AfD absurd",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T20:47:00.000Z",
+    "found_on": "https://www.google.com/search?q=Sachsen-Anhalt+Gr%C3%BCne+Sondierung+Gespr%C3%A4che+2026+Susan+Sziborra-Seidlitz"
   }
 ]

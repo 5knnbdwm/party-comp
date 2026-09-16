@@ -318,6 +318,54 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Will einen geeigneten unabhängigen Ministerpräsidenten und einen tragfähigen Weg nicht ausschlagen, wenn sich damit eine AfD-geführte Regierung und eine dauerhafte Blockade verhindern lassen.",
+      "observed_at": "2026-09-16T20:45:07.104Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204507104Z_9c5bedde",
+          "quote": "Ob eine solche Lösung überhaupt funktionieren kann, ist völlig offen. Aber wenn es eine geeignete Person und einen tragfähigen Weg gibt, damit sowohl eine faschistische Regierung als auch eine dauerhafte Blockade verhindert werden können, werden wir diese Chance nicht ausschlagen. Auch die SPD hat diese Möglichkeit nicht ausgeschlossen. Wir werden nichts unversucht lassen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Hält das BSW nicht für einen verlässlichen Partner und strebt weder eine Koalition noch weitergehende politische Verabredungen mit ihm an.",
+      "observed_at": "2026-09-16T20:45:07.104Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204507104Z_9c5bedde",
+          "quote": "Zwischen Grünen und BSW liegen politisch Welten. Wir halten das BSW nicht für einen verlässlichen Partner und streben weder eine Koalition noch weitergehende politische Verabredungen mit ihm an.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "2026-09-09: Lehnt Gespräche mit der AfD über die Zukunft Sachsen-Anhalts ab.",
+      "observed_at": "2026-09-16T20:46:06.097Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204606097Z_27f9bfe1",
+          "quote": "\"Es ist absurd anzunehmen, dass wir mit der rechtsextremen AfD Gespräche über die Zukunft unseres Landes führen werden\", sagte Spitzenkandidatin Susan Sziborra-Seidlitz der Deutschen Presse-Agentur.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": "2026-09-09: Sondierungsgespräche mit der AfD über eine mögliche Regierungsbildung abgelehnt.",
+      "observed_at": "2026-09-16T20:46:06.097Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204606097Z_27f9bfe1",
+          "quote": "Die Grünen haben Sondierungsgespräche mit der AfD über eine mögliche Regierungsbildung in Sachsen-Anhalt abgelehnt.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
