@@ -3038,5 +3038,95 @@
     "publisher_type": "press",
     "added_at": "2026-09-16T20:58:02.000Z",
     "found_on": "https://www.google.com/search?q=Werner+Graf+keine+Koalition+AfD+CDU+Berlin+2026"
+  },
+  {
+    "url": "https://dielinke.berlin/aktuelles/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "other",
+    "label": "Aktuelles der Linken Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://dielinke.berlin/"
+  },
+  {
+    "url": "https://dielinke.berlin/presse/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "press_release",
+    "label": "Pressemitteilungen der Linken Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://dielinke.berlin/"
+  },
+  {
+    "url": "https://dielinke.berlin/presse/pressefotos/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "lead_candidate_page",
+    "label": "Pressefotos von Elif Eralp",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://dielinke.berlin/presse/"
+  },
+  {
+    "url": "https://dielinke.berlin/landesparteitag/beschluesse/det/news/berlin-zurueckerobern-fuer-eine-rote-metropole/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "lead_candidate_page",
+    "label": "Nominierung von Elif Eralp als Spitzenkandidatin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Adielinke.berlin+Spitzenkandidatin+2026+Elif+Eralp"
+  },
+  {
+    "url": "https://elif-eralp.de/",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "lead_candidate_page",
+    "label": "Elif Eralp, Spitzenkandidatin der Linken Berlin",
+    "publisher_type": "party",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Adielinke.berlin+Spitzenkandidatin+2026+Elif+Eralp"
+  },
+  {
+    "url": "https://www.n-tv.de/politik/Wenn-die-Linke-an-die-Regierung-kommt-wird-vergesellschaftet-id31303300.html",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "n-tv-Interview mit Elif Eralp zu Koalitionsbedingungen",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=Elif+Eralp+Koalition+Berlin+2026"
+  },
+  {
+    "url": "https://berlin.t-online.de/region/berlin/id_101437742/berlin-wahl-2026-eralp-schliesst-koalition-mit-dem-bsw-aus.html",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "t-online: Elif Eralp schließt Koalition mit dem BSW aus",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=Elif+Eralp+Koalition+Berlin+2026"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/berlin-wahl-abgeordnetenhaus-buergermeister-cdu-linke-zweikampf-100.html",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "ZDFheute: Elif Eralp schließt Koalition mit der AfD aus",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=Elif+Eralp+Koalition+CDU+AfD+SPD+Gr%C3%BCne+Berlin+Wahl+September+2026"
+  },
+  {
+    "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-berlin-wahl-welche-koalitionen-moeglich-sind-100.html",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "other",
+    "label": "rbb-Analyse möglicher Koalitionen nach der Berlin-Wahl",
+    "publisher_type": "press",
+    "added_at": "2026-09-16T21:01:42.000Z",
+    "found_on": "https://www.google.com/search?q=Berlin+Wahl+2026+Linke+Koalition+Elif+Eralp+SPD+Gr%C3%BCne+CDU+AfD"
   }
 ]

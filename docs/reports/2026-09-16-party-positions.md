@@ -151,3 +151,20 @@
 - Die Startseite, Nachrichten- und Presseübersicht, die Wahlkampfvorstellung und die Kandidatenseite des Landesverbands sowie die Startseite, Presseübersicht und das Zukunftskonzept der Abgeordnetenhausfraktion enthielten keine neuere, gleich konkrete Koalitionsaussage. Die offizielle Wahlkampfvorstellung vom 5. Juni nennt nur das Ziel, Kai Wegner abzulösen und Schwarz-Rot zu beenden.
 - Der B.Z.-Beitrag vom 15. September war im Browser lesbar, ließ sich mit dem Archivskript aber nur mit HTTP 403 erfassen. Er wurde deshalb nicht als Faktquelle verwendet.
 - Die Wayback-Anfragen für die fünf erfolgreich lokal erfassten Koalitionsseiten schlugen mit HTTP 500, 523 oder 429 fehl.
+
+## berlin/linke
+
+### Fakten
+
+- `lead_candidate`, Stand 16. September 2026: Elif Eralp. Quelle: https://dielinke.berlin/landesparteitag/beschluesse/det/news/berlin-zurueckerobern-fuer-eine-rote-metropole/
+- `coalition_position`, 12. September 2026: Elif Eralp schließt eine Koalition mit der AfD aus. Quelle: https://www.zdfheute.de/politik/deutschland/berlin-wahl-abgeordnetenhaus-buergermeister-cdu-linke-zweikampf-100.html
+- `coalition_position`, 14. September 2026: Bei einer Regierungsbeteiligung der Linken verlangt Eralp eine konkrete Umsetzungsvereinbarung zur Vergesellschaftung. Ihr Ziel ist ein Gesetzentwurf im ersten Jahr. Quelle: https://www.n-tv.de/politik/Wenn-die-Linke-an-die-Regierung-kommt-wird-vergesellschaftet-id31303300.html
+- `coalition_position`, 16. September 2026: Eralp bevorzugt eine Koalition mit SPD und Grünen, besonders wegen der Schnittmengen in der Mietenpolitik. Quelle: https://berlin.t-online.de/region/berlin/id_101437742/berlin-wahl-2026-eralp-schliesst-koalition-mit-dem-bsw-aus.html
+- `coalition_position`, 16. September 2026: Eralp schließt eine Koalition mit dem BSW aus. Quelle: https://berlin.t-online.de/region/berlin/id_101437742/berlin-wahl-2026-eralp-schliesst-koalition-mit-dem-bsw-aus.html
+
+### Hinweise
+
+- `sondierung_status` gilt laut Aufgabe nur für Sachsen-Anhalt und wurde deshalb nicht ergänzt.
+- Die jüngste Präferenz für SPD und Grüne steht unter der von Eralp am 14. September genannten Bedingung zur Vergesellschaftung. Im selben Interview ging sie trotz der ablehnenden Aussage des SPD-Spitzenkandidaten davon aus, dass nach der Wahl eine Verständigung möglich sei.
+- Die Startseite, die Aktuelles- und Presseübersicht, die Wahlseite und die Seiten der Abgeordnetenhausfraktion enthielten keine ebenso konkrete aktuelle Aussage zu den gewünschten Koalitionspartnern. Die offizielle Nominierungsseite und Eralps eigene Seite bestätigen ihre Spitzenkandidatur.
+- Die Wayback-Anfragen für die drei Koalitionsquellen schlugen mit HTTP 500 fehl. Die lokalen Captures waren erfolgreich.

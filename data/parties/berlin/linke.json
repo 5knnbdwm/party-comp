@@ -297,6 +297,66 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Elif Eralp",
+      "observed_at": "2026-09-16T21:02:15.877Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210215877Z_cdf9428a",
+          "quote": "Als Spitzenkandidatin für die Abgeordnetenhauswahl 2026 nominieren wir Elif Eralp.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "12. September 2026: Schließt eine Koalition mit der AfD aus.",
+      "observed_at": "2026-09-16T21:02:32.423Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210232423Z_1c31d3a9",
+          "quote": "Sowohl Evers als auch Eralp haben eine Koalition mit der AfD ausgeschlossen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "14. September 2026: Besteht bei einer Regierungsbeteiligung der Linken auf einer konkreten Umsetzungsvereinbarung zur Vergesellschaftung; Ziel ist ein Gesetzentwurf im ersten Jahr.",
+      "observed_at": "2026-09-16T21:02:17.700Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210217700Z_ff76e6aa",
+          "quote": "Für uns braucht es auf jeden Fall eine konkrete Umsetzungsvereinbarung, mein Ziel ist es, im ersten Jahr einen Gesetzesentwurf zur Vergesellschaftung vorzulegen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "16. September 2026: Bevorzugt eine Koalition mit SPD und Grünen, besonders wegen der Schnittmengen in der Mietenpolitik.",
+      "observed_at": "2026-09-16T21:02:25.132Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210225132Z_441e679d",
+          "quote": "Ihre Koalitionspräferenz liegt nach eigenen Angaben bei SPD und Grünen – vor allem beim Thema Mieten sehe sie dort die meisten Schnittmengen.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": "16. September 2026: Schließt eine Koalition mit dem BSW aus.",
+      "observed_at": "2026-09-16T21:02:25.132Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T210225132Z_441e679d",
+          "quote": "Die Linken-Spitzenkandidatin Elif Eralp hat eine Koalition mit dem BSW vor der Berliner Abgeordnetenhauswahl klar ausgeschlossen. \"Das kann ich mir absolut nicht vorstellen\", sagte Eralp in einem Podcast des Mediums \"Politico\".",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
