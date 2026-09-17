@@ -1,0 +1,41 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "coalition_agreement_capture": "cap_20260917T112456902Z_3c822b01",
+  "promises": [
+    {
+      "id": "mecklenburg-vorpommern-1",
+      "kind": "measurable",
+      "quote": "Mit diesem Programm sollen in dieser Legislaturperiode 1.000 Stellen besetzt",
+      "capture": "cap_20260917T112456902Z_3c822b01",
+      "page": 44
+    },
+    {
+      "id": "mecklenburg-vorpommern-2",
+      "kind": "law",
+      "quote": "setzen und den internationalen Frauentag am 8. März durch eine Anpassung des Fei-",
+      "capture": "cap_20260917T112456902Z_3c822b01",
+      "page": 65
+    },
+    {
+      "id": "mecklenburg-vorpommern-3",
+      "kind": "budget",
+      "quote": "Zusätzlich führen wir das Senioren-Ticket ein (1 Euro pro",
+      "capture": "cap_20260917T112456902Z_3c822b01",
+      "page": 26
+    },
+    {
+      "id": "mecklenburg-vorpommern-4",
+      "kind": "vague",
+      "quote": "Wir wollen zu einem der führenden Standorte für klimaneutrales Wirtschaften werden,",
+      "capture": "cap_20260917T112456902Z_3c822b01",
+      "page": 24
+    },
+    {
+      "id": "mecklenburg-vorpommern-5",
+      "kind": "federal",
+      "quote": "die Koalitionspartner die Erhöhung des bundesweiten Mindestlohns auf 12 Euro je",
+      "capture": "cap_20260917T112456902Z_3c822b01",
+      "page": 20
+    }
+  ]
+}

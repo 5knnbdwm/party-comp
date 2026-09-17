@@ -3234,7 +3234,7 @@
     "state": "berlin",
     "party": "bsw",
     "kind": "lead_candidate_page",
-    "label": "Alexander King und Michael L\u00fcders f\u00fchren BSW in den Berliner Wahlkampf",
+    "label": "Alexander King und Michael Lüders führen BSW in den Berliner Wahlkampf",
     "publisher_type": "party",
     "added_at": "2026-09-16T21:07:38.000Z",
     "found_on": "https://bsw.berlin/bsw-kandidaten-agh-wahl-2026/"
@@ -3254,7 +3254,7 @@
     "state": "berlin",
     "party": "bsw",
     "kind": "coalition_statement",
-    "label": "WELT: Michael L\u00fcders schlie\u00dft Koalition mit der AfD aus",
+    "label": "WELT: Michael Lüders schließt Koalition mit der AfD aus",
     "publisher_type": "press",
     "added_at": "2026-09-16T21:07:38.000Z",
     "found_on": "https://www.google.com/search?q=%22Michael+L%C3%BCders%22+%22Koalition%22+Berlin+Wahl+2026+BSW"
@@ -3284,7 +3284,7 @@
     "state": "berlin",
     "party": "bsw",
     "kind": "other",
-    "label": "Mythos Brandmauer: Ein moralisches Bollwerk als politisches Ablenkungsman\u00f6ver",
+    "label": "Mythos Brandmauer: Ein moralisches Bollwerk als politisches Ablenkungsmanöver",
     "publisher_type": "party",
     "added_at": "2026-09-16T21:11:54.000Z",
     "found_on": "https://bsw.berlin/aktuelles-bsw/"
@@ -3304,7 +3304,7 @@
     "state": "berlin",
     "party": "bsw",
     "kind": "lead_candidate_page",
-    "label": "Alexander King und Michael L\u00fcders f\u00fchren BSW in den Berliner Wahlkampf",
+    "label": "Alexander King und Michael Lüders führen BSW in den Berliner Wahlkampf",
     "publisher_type": "party",
     "added_at": "2026-09-16T21:11:54.000Z",
     "found_on": "https://bsw.berlin/aktuelles-bsw/"
@@ -4998,5 +4998,165 @@
     "publisher_type": "parliament",
     "added_at": "2026-09-17T12:28:00Z",
     "found_on": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/der-bundesrat/berliner-bundesratsinitiativen-1616080.php"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/spdLandesverbandMecklenburgVorpommern/Downloads/Koalitionsvertrag-SPD-DIE-LINKE-MV-2021-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "coalition_agreement",
+    "label": "Koalitionsvereinbarung 2021-2026: Aufbruch 2030",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:24:40Z",
+    "found_on": "https://spd-mv.de/downloads-presse"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/spdLandesverbandMecklenburgVorpommern/Programm-21.06.2021.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "SPD Mecklenburg-Vorpommern Regierungsprogramm 2021-2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:24:40Z",
+    "found_on": "https://spd-mv.de/meldungen/das-programm-zur-landtagswahl-wurde-beschlossen"
+  },
+  {
+    "url": "https://www.originalsozial.de/fileadmin/dokumente_2021/LPT_Jun_2021_HRO/Beschluss_LT_WP_2021.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "Die Linke Mecklenburg-Vorpommern adopted Zukunftsprogramm 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:30:00Z",
+    "found_on": "https://www.die-linke-schwerin.de/politik/ausgabe-juni-2021/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/53356/8_027_plenarprotokoll_8_27",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "plenary_protocol",
+    "label": "Plenary protocol 8/27: 2022 supplementary budget",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.dokumentation.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/63097/8_090_plenarprotokoll_8_90",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "plenary_protocol",
+    "label": "Plenary protocol 8/90: status of the 1,000 school posts program",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.dokumentation.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/52063/viertes_gesetz_zur_aenderung_des_feiertagsgesetzes_mecklenburg_vorpommern.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Drucksache 8/404: bill to make 8 March a public holiday",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.dokumentation.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/53736/gesetz_und_verordnungsblatt_31_2022.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "gazette",
+    "label": "GVOBl. M-V 31/2022: fourth amendment to the Public Holidays Act",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter"
+  },
+  {
+    "url": "https://www.regierung-mv.de/Landesregierung/stk/Seniorenticket/",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "government_statement",
+    "label": "State government launch of the subsidized senior ticket",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.regierung-mv.de/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/52044/klimaschutz_im_dialog_entwickeln_ein_lebenswertes_mecklenburg_vorpommern_erhalten.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Drucksache 8/406: develop climate protection through dialogue",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.dokumentation.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/62729/anzahl_und_entwicklung_gruener_gewerbegebiete.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Drucksache 8/4185: number and development of green business parks",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.dokumentation.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.bmas.de/DE/Service/Presse/Meldungen/2022/mindestlohn-steigt-auf-12-euro.html",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Federal Ministry of Labour: statutory minimum wage rises to 12 euros",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:40:00Z",
+    "found_on": "https://www.bmas.de/"
+  },
+  {
+    "url": "https://www.regierung-mv.de/Landesregierung/wm/Presse/?id=221559&processor=processor.sa.pressemitteilung",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Transport ministry report on the mobility initiative and senior-ticket price",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:55:00Z",
+    "found_on": "https://www.regierung-mv.de/Landesregierung/wm/Presse/"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/spdLandesverbandMecklenburgVorpommern/SPD-Zukunftsprogramm.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "SPD Mecklenburg-Vorpommern Zukunftsprogramm, trial candidate for the 2021 program",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:25:00.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/fileadmin/dokumente_2021/LPT_Jun_2021_HRO/A1_Entwurf_Wahlprogramm_neu__1_.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "Die Linke MV Wahlprogramm 2021 draft, attempted URL (404)",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:25:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://www.originalsozial.de/fileadmin/dokumente_2021/LPT_Jun_2021_HRO/A1_Entwurf_Wahlprogramm_neu__1_.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "Die Linke MV Wahlprogramm 2021 draft, attempted URL (404)",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T11:25:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://www.wahlen-in-schwerin.de/sites/default/files/2021-09/Beschluss_LT_WP_2021.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Schwerin election office document from 2021, attempted URL (404)",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:25:00.000Z",
+    "found_on": "https://www.wahlen-in-schwerin.de/"
   }
 ]
