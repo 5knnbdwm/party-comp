@@ -124,7 +124,7 @@ Done when the report covers all five promises and both whole-state sections.
 ## Rules
 
 - Quotes are copied exactly from the capture's text, OCR text or raw HTML.
-- Only `scripts/archive-fetch.ts` writes captures.
+- Only `scripts/archive-fetch.ts` writes captures. Entries in `archive/tracked-urls.json` are append-only: keep URLs that failed or turned out irrelevant, since their captures stay in the log.
 - Change only `data/trial/<state>/`, `archive/tracked-urls.json` and your report. Leave `data/parties/` unchanged.
 - Keep the report as Markdown in `docs/reports/trial/`. Upload nothing anywhere: no Postplan, no gists, no pastebins. The only allowed external write is the Wayback request the fetch script makes.
 - Do not log in, post or submit forms. Search forms that only read, such as a parliament's document search, are fine.
