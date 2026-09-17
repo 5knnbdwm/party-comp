@@ -4598,5 +4598,245 @@
     "publisher_type": "press",
     "added_at": "2026-09-17T12:10:00.000Z",
     "found_on": "https://www.google.com/search?q=Peter+Schabbel+Koalition+BSW+Mecklenburg-Vorpommern+Landtagswahl+2026"
+  },
+  {
+    "url": "https://www.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/StK/STK/Startseite_pdf_Dokumente/Koalitionsvertrag_2021-2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "coalition_agreement",
+    "label": "Koalitionsvertrag 2021-2026: Wir gestalten Sachsen-Anhalt",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://sachsen-anhalt.de/politik-verwaltung/page/die-landesregierung"
+  },
+  {
+    "url": "https://www.kas.de/documents/291599/12884283/2021%2BCDU%2BST_LTW_Regierungsprogramm_Unser%2BHeimat%2Bunsere%2BVerantwortung.pdf/b70a04b0-6e98-9ee2-a855-7e61617f46f5?t=1655301851638",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "CDU-Regierungsprogramm zur Landtagswahl 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.kas.de/en/web/geschichte-der-cdu/wahlprogramme-des-cdu-landesverbands-sachsen-anhalt"
+  },
+  {
+    "url": "https://library.fes.de/pdf-files/bibliothek/ltw-programme/ltw2021-wahlprogramm_7884295.pdf",
+    "state": "sachsen-anhalt",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "SPD-Wahlprogramm zur Landtagswahl 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.fes.de/bibliothek/spd-sachsen-anhalt-wahlprogramme"
+  },
+  {
+    "url": "https://www.freiheit.org/sites/default/files/2022-01/in5-1123-st-wahlprgramm-ltw-2021.pdf",
+    "state": "sachsen-anhalt",
+    "party": "fdp",
+    "kind": "program_full",
+    "label": "FDP-Wahlprogramm zur Landtagswahl 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.freiheit.org/de/deutschland/landtagswahlprogramme-fdp-sachsen-anhalt"
+  },
+  {
+    "url": "https://integrationsportal.sachsen-anhalt.de/fileadmin/Bibliothek/AGSA/Integrationsbeauftragte/210911_Finaler_Koalitionsvertrag.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "coalition_agreement",
+    "label": "Koalitionsvertrag 2021-2026: final signed copy",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://integrationsportal.sachsen-anhalt.de/themen/integration/themenfeld-integration-im-koalitionsvertrag-des-landes"
+  },
+  {
+    "url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/regierungsprogramm_2021_cdulsa.pdf",
+    "state": "sachsen-anhalt",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "CDU-Regierungsprogramm zur Landtagswahl 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.abgeordnetenwatch.de/sachsen-anhalt/wahl-2021/wahlprogramme"
+  },
+  {
+    "url": "https://sachsen-anhalt.de/api/media/Regierungsbilanz_2021_2026-e3b0c442-1.pdf?collection=document",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Regierungsbilanz 2021-2026",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://sachsen-anhalt.de/politik-verwaltung/page/die-landesregierung"
+  },
+  {
+    "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_01_09_2025_Pressemitteilung_innenstaatssekretaer-ernennt-polizeianwaerterinnen-und-polizeianwaerter.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "statistic",
+    "label": "Police staffing and appointments, September 2025",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://presse.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_26_02_2026_Pressemitteilung_innenstaatssekretaer-ernennt-neue-polizeianwaerterinnen-und-polizeianwaerter.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Police appointments and 7,000-officer target, February 2026",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://presse.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://padoka.landtag.sachsen-anhalt.de/files/drs/wp8/drs/d1159rge.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Drs. 8/1159, draft Tariftreue- und Vergabegesetz",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/11-sitzungsperiode"
+  },
+  {
+    "url": "https://evergabe.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/StK/eVergabe/Uploads/Erlaeuterungen_TVergG_LSA.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "gazette",
+    "label": "Annotated Tariftreue- und Vergabegesetz of 7 December 2022",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://evergabe.sachsen-anhalt.de/geltende-regelungen/tariftreue-und-vergabegesetz-sachsen-anhalt"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MF/Dokumente/Haushalt/HHPL_2022/Epl_17_Staatskanzlei_und_Ministerium_fuer_Kultur_-_Kultur.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "2022 budget, section 17 culture",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushalt"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MF/Dokumente/Haushalt/HHPL_2024/Haushaltsplan_2024.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "2024 budget, section 17 culture",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushalt"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MF/Dokumente/Haushalt/HHPL_2025_2026/Haushaltsplan_2025_2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "2025 and 2026 budget, section 17 culture",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushalt"
+  },
+  {
+    "url": "https://www.sachsen-anhalt.de/fileadmin/Bibliothek/Landesjournal/Politik_und_Verwaltung/Staatskanzlei/KoaV-Bericht__Ressorts_erledigt__2024-05-21.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Coalition agreement implementation report, completed projects, 21 May 2024",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/fileadmin/user_upload/041stzg.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "plenary_protocol",
+    "label": "Plenary protocol 8/41 of 28 April 2023",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://mwu.sachsen-anhalt.de/artikel-detail/willingmann-bafoeg-staerker-an-lebensrealitaet-junger-menschen-anpassen",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Saxony-Anhalt supports Bundesrat BAfoeG reform resolution, 6 March 2026",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://mwu.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://lv.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/Landesvertretung/LV/Bundesrat_Erlaeuterungen_Ergebnisse/2026/Ergebnisse_1062._BR___Abstimmungsverhalten_von_Sachsen-Anhalt.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Saxony-Anhalt voting record, 1062nd Bundesrat session",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://lv.sachsen-anhalt.de/bundesrat/abstimmungsverhalten-sachsen-anhalts-im-bundesrat"
+  },
+  {
+    "url": "https://dserver.bundestag.de/brd/2026/0025-26.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Bundesrat Drs. 25/26, comprehensive BAfoeG reform resolution",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://www.bundesrat.de/"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/api/media/Haushaltsplan%202025%202026.pdf?collection=document",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "2025 and 2026 budget, section 17 culture, current media endpoint",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T10:41:06Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushalt"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/api/media/Haushaltsplan%202022-e3b0c442.pdf?collection=document",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "2022 state budget, current media endpoint",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:04:00Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushaltsplaene"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/haushalt-25-26",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Landtag adopted the 2025 and 2026 state budget",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:04:00Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/themen-und-dossiers/thema/finanzen"
+  },
+  {
+    "url": "https://evergabe.sachsen-anhalt.de/geltende-regelungen/tariftreue-und-vergabegesetz-sachsen-anhalt",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Official overview of the Tariftreue- und Vergabegesetz",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T11:04:00Z",
+    "found_on": "https://evergabe.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/sachsen-anhalt-hat-wieder-einen-haushalt",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Landtag adopted the 2022 state budget",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T11:08:00Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/themen-und-dossiers/thema/finanzen/seite/3"
   }
 ]

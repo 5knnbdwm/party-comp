@@ -1,0 +1,41 @@
+{
+  "state": "sachsen-anhalt",
+  "coalition_agreement_capture": "cap_20260917T104206450Z_5dbf6f91",
+  "promises": [
+    {
+      "id": "sachsen-anhalt-7000-police",
+      "kind": "measurable",
+      "quote": "Unser Ziel ist, binnen fünf Jahren mindestens 7.000 Polizeivollzugsbeamtinnen\n4100   und -beamte in der Polizei Sachsen-Anhalt im aktiven Dienst zu haben.",
+      "capture": "cap_20260917T104206450Z_5dbf6f91",
+      "page": 102
+    },
+    {
+      "id": "sachsen-anhalt-tariftreue-law",
+      "kind": "law",
+      "quote": "Bis Mitte des Jahres 2022 werden wir daher ein Tariftreue- und Vergabegesetz erarbeiten und\n335   verabschieden.",
+      "capture": "cap_20260917T104206450Z_5dbf6f91",
+      "page": 10
+    },
+    {
+      "id": "sachsen-anhalt-culture-foundation-funding",
+      "kind": "budget",
+      "quote": "Hierfür ist eine Grundfinanzierung der Stiftung unabdingbar, die die Koalitionspartner\n5602   versuchen, ab dem Haushaltsjahr 2022 mit Zuschüssen für laufende Zwecke in Höhe von 16,5\n5603   Millionen Euro im Jahr und einer sich an der Tarif- und Preisentwicklung orientierenden\n5604   jährlichen Anpassung sicherstellen werden.",
+      "capture": "cap_20260917T104206450Z_5dbf6f91",
+      "page": 138
+    },
+    {
+      "id": "sachsen-anhalt-counter-extremism",
+      "kind": "vague",
+      "quote": "Die Landesregierung wird in enger Zusammenarbeit mit allen\n3399   demokratischen Partnern aktiv dafür eintreten, jeglichen Formen von Extremismus, Rassismus\n3400   und Antisemitismus den Boden zu entziehen.",
+      "capture": "cap_20260917T104206450Z_5dbf6f91",
+      "page": 85
+    },
+    {
+      "id": "sachsen-anhalt-bafoeg-bundesrat",
+      "kind": "federal",
+      "quote": "Zur grundlegenden Reform des\n2424   BAföG werden wir eine Bundesratsinitiative einbringen. Ziel der Reform sind eine\n2425   elternunabhängige Förderung und der Verzicht auf die Rückzahlung empfangener Leistungen.",
+      "capture": "cap_20260917T104206450Z_5dbf6f91",
+      "page": 61
+    }
+  ]
+}

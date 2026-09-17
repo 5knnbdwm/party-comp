@@ -1,0 +1,290 @@
+{
+  "state": "sachsen-anhalt",
+  "mode": "select",
+  "model": "gpt-5.6-sol",
+  "traced_at": "2026-09-17T10:55:00Z",
+  "promises": [
+    {
+      "id": "sachsen-anhalt-7000-police",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T104214477Z_e577d9c1",
+          "quote": "   •   Die Polizei weiter stärken: Unsere Polizei muss für die zukünftigen Herausforde-\n       rungen gewappnet sein. Im Hinblick auf die hierfür notwendige Personalausstat-\n       tung und eine ausgewogene Altersstruktur wollen wir die Sollstärke von 7.000",
+          "page": 34
+        },
+        {
+          "party": "spd",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "quote": "        die Zahl der Polizeivollzugsbeamten auf\n        7.000.",
+          "page": 45
+        },
+        {
+          "party": "fdp",
+          "capture": "cap_20260917T104148192Z_3d4275e3",
+          "quote": "     • die Stellen im Polizeivollzugsdienst bis zum Ende der kommenden Wahlperiode auf 7000\n       erhöhen",
+          "page": 70
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "internal security",
+      "competence": "state",
+      "deadline": "2026-09-13",
+      "done_when": "At least 7,000 sworn police officers are in active service in the Sachsen-Anhalt state police by 2026-09-13.",
+      "events": [
+        {
+          "date": "2025-04-01",
+          "type": "statistic",
+          "summary": "The Interior Ministry reported about 6,400 active police officers, up from the low point of 5,822 but still 600 short of the target.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104629309Z_94cbcb68",
+              "quote": "durchschritten. Damals gab es 5.822 PVB, zum 1. April 2025 waren bereits rund 6.400 PVB in der Landespolizei tätig.",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "date": "2026-02-26",
+          "type": "announcement",
+          "summary": "The ministry said the minimum target of 7,000 remained in force, rather than reporting that it had been reached.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104639163Z_8c9a3acd",
+              "quote": "An der Mindestzielzahl von 7.000 Polizeivollzugsbeamtinnen und -beamten (PVB) wird unverändert festgehalten.",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "status": "partially_implemented",
+      "status_reasoning": "Staffing rose materially from 5,822 to about 6,400, so part of the numerical target was delivered. The latest captured count remains below 7,000, and a February 2026 statement still described 7,000 as a target. The five-year deadline passed on 2026-09-13 without a captured final count proving completion.",
+      "open_questions": [
+        "What was the active-service headcount on 2026-09-13? The latest exact official count found is from 2025-04-01.",
+        "Does the ministry's PVB count use exactly the same inclusion rules as the coalition agreement's phrase 'im aktiven Dienst'?"
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-tariftreue-law",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T104214477Z_e577d9c1",
+          "quote": "Das Landesvergabegesetz\n    wollen wir durch das Bundesvergabegesetz mit praktikablen und investitionsför-\n    dernden Schwellenwerten ersetzen.",
+          "page": 8
+        },
+        {
+          "party": "spd",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "quote": "     • das lange von der CDU blockierte mo-            nen Verantwortung übernehmen und ver-\n       derne Tariftreue- und Vergabegesetz. Es         bindliche Maßnahmen in ihrer Verantwor-\n       muss sicherstellen, dass öffentliche Aufträ-    tung umsetzen\n       ge nur an Unternehmen vergeben werden,\n       die sich an Tarifverträge halten.",
+          "page": 12
+        },
+        {
+          "party": "fdp",
+          "capture": "cap_20260917T104148192Z_3d4275e3",
+          "quote": "DAS VERGABERECHT VEREINFACHEN\nIn der Coronapandemie wurden, wie schon in anderen Krisen zuvor, die Vorschriften für die öffentliche\nVergabe deutlich entschlackt. Wir wollen diese Ausnahmen zur Regel machen und das Vergabegesetz\ngrundsätzlich auf das konzentrieren, was seine Aufgabe ist: dafür Sorge zu tragen, dass die öffentliche\nHand die wirtschaftlichsten Angebote erhält und Leistungen preiswert nach einem fairen Wettbewerb\nbezieht.",
+          "page": 11
+        }
+      ],
+      "adoption": "changed",
+      "topic": "public procurement and labor standards",
+      "competence": "state",
+      "deadline": "2022-06-30",
+      "done_when": "The Landtag passes a Sachsen-Anhalt procurement law that requires applicable tariff conditions for public contracts and provides a state procurement minimum wage where those conditions do not apply.",
+      "events": [
+        {
+          "date": "2022-05-12",
+          "type": "bill_introduced",
+          "summary": "The CDU, SPD and FDP parliamentary groups introduced the Tariftreue- und Vergabegesetz bill before the mid-year deadline.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104629626Z_a7f4d362",
+              "quote": "Entwurf eines Gesetzes zur Sicherung von Tariftreue, Sozialstandards und Wettbewerb bei\nder Vergabe öffentlicher Aufträge des Landes Sachsen-Anhalt (Tariftreue- und Vergabege-\nsetz Sachsen-Anhalt - TVergG LSA)",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2022-12-07",
+          "type": "law_passed",
+          "summary": "The law was enacted after the deadline and included a procurement-specific minimum hourly wage rule.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104630038Z_1113ecbb",
+              "quote": "           Tariftreue- und Vergabegesetz Sachsen-Anhalt (TVergG LSA)\n\n     vom 7. Dezember 2022 (GVBl. LSA 2022, S. 367)",
+              "page": 1
+            },
+            {
+              "capture": "cap_20260917T104630038Z_1113ecbb",
+              "quote": "öffentliche Auftraggeber öffentliche Aufträge an Unternehmen, wenn diese sich schriftlich\noder elektronisch verpflichten, ihren Arbeitnehmern bei der Ausführung der Leistung\nmindestens ein nach Maßgabe des Satzes 2 zu berechnendes Mindeststundenentgelt\n(vergabespezifisches Mindeststundenentgelt) zu zahlen.",
+              "page": 15
+            },
+            {
+              "capture": "cap_20260917T105030386Z_73ef053f",
+              "quote": "Für die Vergabe öffentlicher Aufträge in Sachsen-Anhalt gilt seit dem 1. März 2023 das Gesetz des Landes Sachsen-Anhalt zur Sicherung von Tariftreue, Sozialstandards und Wettbewerb bei der Vergabe öffentlicher Aufträge (Tariftreue- und Vergabegesetz Sachsen-Anhalt – TVergG LSA) vom 7. Dezember 2022.",
+              "page": null
+            }
+          ]
+        }
+      ],
+      "status": "approved",
+      "status_reasoning": "The Landtag passed the promised type of law with tariff-loyalty and procurement-minimum-wage provisions. Under the brief's vocabulary, a passed law is 'approved'. The coalition missed its mid-2022 enactment deadline because the law is dated 2022-12-07; it took effect on 2023-03-01.",
+      "open_questions": [
+        "The enacted tariff rule has statutory exceptions and uses representative or otherwise binding tariff conditions. A legal review should confirm that these qualifications still satisfy the coalition wording.",
+        "The model has no separate field for a missed deadline, so the delay exists only in the reasoning and timeline."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-culture-foundation-funding",
+      "program_sources": [],
+      "adoption": "not_in_programs",
+      "topic": "cultural heritage funding",
+      "competence": "state",
+      "deadline": "2022",
+      "done_when": "Each state budget from 2022 through 2026 appropriates at least EUR 16.5 million in annual operating grants for Kulturstiftung Sachsen-Anhalt, with later annual amounts adjusted upward for tariff and price developments.",
+      "events": [
+        {
+          "date": "2022-05-18",
+          "type": "budget_line",
+          "summary": "The adopted 2022 budget provided EUR 16.8828 million in operating institutional funding for Kulturstiftung Sachsen-Anhalt.",
+          "sources": [
+            {
+              "capture": "cap_20260917T105107548Z_0e6c6937",
+              "quote": "Am Ende der Debatte wurden der Haushalt und das Haushaltsbegleitgesetz 2022 mit den Stimmen der Koalitionsfraktionen von CDU, SPD und FDP beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T105025958Z_231b9ee6",
+              "quote": "             1. Institutionelle Förderung ( gem. FV)\n             für laufende Zwecke                                                       11.920.900         11.676.700          16.882.800",
+              "page": 2540
+            }
+          ]
+        },
+        {
+          "date": "2025-02-20",
+          "type": "budget_line",
+          "summary": "The enacted 2025/2026 plan records EUR 19.1888 million actual funding in 2023 and appropriations rising to EUR 23.4901 million in 2026; its 2024, 2025 and 2026 figures all exceed the floor.",
+          "sources": [
+            {
+              "capture": "cap_20260917T105030125Z_5cfe5750",
+              "quote": "Im Anschluss an die Debatte wurde den beiden Beschlussempfehlungen gefolgt und somit sowohl das Haushaltsgesetz als auch das Haushaltsbegleitgesetz beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T104708380Z_81967cce",
+              "quote": "                                                                        Ist 2023          Soll 2024            Soll 2025          Soll 2026\n             1. Institutionelle Förderung ( gem. FV)\n             für laufende Zwecke                                     19.188.800          22.420.900          23.293.600          23.490.100",
+              "page": 2812
+            }
+          ]
+        }
+      ],
+      "status": "approved",
+      "status_reasoning": "The 2022 appropriation was EUR 16.8828 million. The later budget table shows actual 2023 funding of EUR 19.1888 million and approved 2024-2026 amounts of EUR 22.4209 million, EUR 23.2936 million and EUR 23.4901 million. Every observed annual figure exceeds EUR 16.5 million and increases, but the budget records do not by themselves prove that every approved euro was paid.",
+      "open_questions": [
+        "Were the 2024-2026 appropriations fully disbursed? The decisive table labels 2024-2026 as Soll, not Ist.",
+        "What exact tariff and price indices governed each annual adjustment? The budget totals prove increases but do not expose the adjustment formula.",
+        "No governing-party election program contained the specific EUR 16.5 million annual operating-grant commitment."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-counter-extremism",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T104214477Z_e577d9c1",
+          "quote": "Eine wehrhafte Demokratie tritt allen Feinden einer offenen Gesell-\nschaft gleichermaßen entschieden entgegen. Wir gehen daher mit allen rechtlich gebote-\nnen Mitteln gegen Verfassungsfeinde, Antisemiten, Rechts- und Linksextremisten, auslän-\ndische Extremisten und Islamisten vor, die unser demokratisches Gemeinwesen schädigen\nwollen.",
+          "page": 34
+        },
+        {
+          "party": "spd",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "quote": "in jeder Form und in aller Deutlichkeit mit al-",
+          "page": 44
+        },
+        {
+          "party": "fdp",
+          "capture": "cap_20260917T104148192Z_3d4275e3",
+          "quote": "Für die FDP Sachsen-Anhalt steht fest: Null Toleranz gegenüber politischem und religiösem Extremismus.",
+          "page": 28
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "democracy and counter-extremism",
+      "competence": "mixed",
+      "deadline": null,
+      "done_when": null,
+      "events": [],
+      "status": "not_assessable",
+      "status_reasoning": "The commitment describes an enduring aim to deprive extremism, racism and antisemitism of their basis. It names neither an observable end state nor a bounded action. Turning it into a count of programs, funding or prosecutions would invent a narrower promise, so no done-when is defensible.",
+      "open_questions": [
+        "Should the adjacent sentence about making prevention work permanent and sustainably structured be split out as a separate, assessable promise?",
+        "The competence is mixed because state prevention and policing coexist with municipal, federal and civil-society action."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-bafoeg-bundesrat",
+      "program_sources": [
+        {
+          "party": "spd",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "quote": "eine grundlegende BAfÖG-Reform, die auf",
+          "page": 36
+        },
+        {
+          "party": "fdp",
+          "capture": "cap_20260917T104148192Z_3d4275e3",
+          "quote": "Studieren muss für jeden talentierten Menschen möglich sein. Die Aufnahme eines Studiums darf nicht\nabhängig sein vom Einkommen der Eltern. Deshalb setzen die Freien Demokraten neben der Einführung\neines grundsätzlich elternunabhängigen BAföG auf eine entsprechende soziale Infrastruktur an den",
+          "page": 31
+        }
+      ],
+      "adoption": "changed",
+      "topic": "student finance",
+      "competence": "federal",
+      "deadline": null,
+      "done_when": "Sachsen-Anhalt formally submits or joins a Bundesrat initiative that calls for both parent-independent BAföG and abolition of repayment for received benefits.",
+      "events": [
+        {
+          "date": "2023-04-28",
+          "type": "announcement",
+          "summary": "The science minister confirmed that parent-independent BAföG remained in the coalition agreement and said the government wanted to continue pursuing it, while tying it to the planned federal basic child allowance.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104631943Z_0a78f777",
+              "quote": "stehen. Deshalb wollen wir das auch weiter ver-",
+              "page": 170
+            }
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "type": "other",
+          "summary": "Sachsen-Anhalt voted for a BAföG reform resolution, but the official record lists Niedersachsen and Mecklenburg-Vorpommern as applicants and six other states as joiners, not Sachsen-Anhalt. The resolution also omitted the coalition's parent-independence and no-repayment tests.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104633121Z_014b6927",
+              "quote": "   13   Entschließung des Bundesrates für eine umfassende Reform des           - K - AIS - Fz -\n        BAföG\n\n        Antrag der Länder Niedersachsen, Mecklenburg-Vorpommern\n        Beitritt: Baden-Württemberg, Brandenburg, Bremen, Hamburg,\n        Hessen, Rheinland-Pfalz",
+              "page": 5
+            },
+            {
+              "capture": "cap_20260917T104633121Z_014b6927",
+              "quote": "        Ergebnis BR / Abstimmung ST:\n        Ziffer 1 der Ausschussempfehlungen sowie in der Schlussabstimmung\n        wurde zugestimmt, d. h., die Entschließung wurde nach Maßgabe\n        einer Änderung gefasst.",
+              "page": 5
+            },
+            {
+              "capture": "cap_20260917T104633428Z_45b3924a",
+              "quote": "Antrag\ndes Landes Niedersachsen",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "status": "announced",
+      "status_reasoning": "A minister reaffirmed the objective, but no captured record shows Sachsen-Anhalt submitting or joining an initiative with both promised elements. Supporting the 2026 resolution was related action, not partial completion of the state's explicit filing commitment, and that resolution did not contain either substantive test.",
+      "open_questions": [
+        "Did Sachsen-Anhalt submit or join an earlier Bundesrat initiative that PADOKA and general web searches did not surface?",
+        "Should a vote for another state's materially narrower resolution count as partial implementation even though the done-when is a formal state filing?",
+        "No matching CDU election-program commitment was found; the schema has no per-party absence field."
+      ]
+    }
+  ]
+}
