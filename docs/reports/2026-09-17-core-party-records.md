@@ -193,3 +193,31 @@ None. Each required item has at least one fact.
 - The social-account extractor classifies links in the body of a `lead_candidate_page` as `linked_from: "lead_candidate"`. Because the official lead-candidate page is the full state-list overview, it also yielded accounts for candidates below the two lead positions. The record keeps the extractor's page-based classification.
 - The captured Instagram link for Ole Krüger contains an encoded leading space, `https://instagram.com/%20olekrueger`. It is recorded exactly as extracted and was not fetched.
 - Wayback save requests for the two PDFs, all three HTML program sections, the climate program and the seven-reason priorities page returned HTTP 500 or 523 without snapshot URLs. Every local archive capture succeeded.
+
+## mecklenburg-vorpommern/fdp
+
+### Facts
+
+- 2026-09-17, `program` (`program_full`): "Programm zur Landtagswahl Mecklenburg-Vorpommern 2026", 152-page PDF. Source: https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf
+- 2026-09-17, `program` (`points_list`): "Programm zur Landtagswahl Mecklenburg-Vorpommern 2026", a 26-page version covering twelve top themes. Source: https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%2012%20Themen%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf
+- 2026-09-17, `program` (`program_easy_language`): "Programm zur Landtagswahl Mecklenburg-Vorpommern 2026 in einfacherer Sprache", 190-page PDF. Source: https://www.fdp-mv.de/sites/default/files/2026-09/Wahlprogramm%20einfachere%20Sprache.pdf
+- 2026-09-17, `lead_candidate`: Jakob Schirmer. The FDP identifies him as its lead candidate for the 2026 Mecklenburg-Vorpommern election. Source: https://www.fdp.de/person/jakob-schirmer
+- 2026-09-17, `lead_candidate`: Jessica Mendle. The FDP identifies her as an FDP lead candidate in Mecklenburg-Vorpommern and describes Schirmer and Mendle as its lead pair. Sources: https://www.fdp.de/fdp-fordert-generationengerechtigkeit-statt-ankuendigungspolitik and https://www.fdp.de/fdp-praesentiert-kampagne-fuer-alle-die-etwas-reissen-wollen
+- 2026-07-24, `coalition_position`: Jakob Schirmer, FDP lead candidate, categorically rules out coalitions with the AfD, Linke and BSW. Source: https://www.fdp.de/mehr-freiheit-mehr-zukunft-mehr-fuer-mecklenburg-vorpommern
+- 2026-09-12, `coalition_position`: Jakob Schirmer, FDP lead candidate, again rejects a coalition with the AfD at the Nordkurier election forum. Source: https://www.deutschlandfunk.de/spitzenkandidaten-in-mecklenburg-voprommern-debattieren-unter-anderem-ueber-koalitionsoptionen-106.html
+- 2026-09-17, `social_account`: X, https://x.com/jakob_schirmer. Source: https://www.fdp.de/person/jakob-schirmer
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/jakobschirmer_fdpmv. Source: https://www.fdp.de/person/jakob-schirmer
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/jessicamendle_fdpmv. Source: https://www.fdp.de/fdp-fordert-generationengerechtigkeit-statt-ankuendigungspolitik
+
+### Gaps
+
+None. Each required item has at least one fact.
+
+### Unclear or noteworthy
+
+- The party's election hub and program index expose the full program, the twelve-theme version and the simpler-language version. They expose no separate short program or immediate-action program.
+- The full program is available at two official URLs. Both captures have the same SHA-256 hash, so the record has one program fact and the second URL remains tracked as an alias: https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026_0.pdf
+- The state party calls Schirmer and Mendle its "Spitzenduo". Separate federal-party pages explicitly call Schirmer `Spitzenkandidat` and Mendle `FDP-Spitzenkandidatin`, so both are recorded.
+- The 12 September report refers to the FDP representative at the election forum, while the same captured page's image description identifies that representative as Jakob Schirmer. The July statement remains the latest captured position on coalitions with the Linke and BSW.
+- The FDP MV HTML pages redirect the archive fetcher to cookie-consent pages. They remain captured as discovery evidence but do not back facts. The program PDFs and the federal party's pages produced usable local captures.
+- Wayback save requests for all three program documents and the election hub returned HTTP 500 without snapshot URLs. The local archive captures succeeded.

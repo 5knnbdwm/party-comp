@@ -109,6 +109,153 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://www.fdpltmv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102643971Z_91699d39",
+          "quote": "Programm zur Landtagswahl\nMecklenburg-Vorpommern 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102659143Z_e53f76df",
+          "quote": "Programm zur Landtagswahl\n  Mecklenburg-Vorpommern 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%2012%20Themen%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102707129Z_287faf51",
+          "quote": "Programm zur Landtagswahl\nMecklenburg-Vorpommern 2026\n\nin einfacherer Sprache",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://www.fdp-mv.de/sites/default/files/2026-09/Wahlprogramm%20einfachere%20Sprache.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102724084Z_dd72f23f",
+          "quote": "Jakob Schirmer ist Spitzenkandidat der FDP Mecklenburg-Vorpommern zur Landtagswahl 2026.",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Jakob Schirmer"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102725097Z_f9b2229a",
+          "quote": "Jessica Mendle, FDP-Spitzenkandidatin in Mecklenburg-Vorpommern",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Jessica Mendle"
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102725686Z_a19386ae",
+          "quote": "Eine Koalition mit AfD, Linken oder BSW schließt Schirmer kategorisch aus.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-07-24",
+        "speaker": "Jakob Schirmer",
+        "speaker_role": "FDP-Spitzenkandidat",
+        "summary": "Schließt Koalitionen mit der AfD, der Linken und dem BSW kategorisch aus."
+      }
+    },
+    {
+      "observed_at": "2026-09-17T10:30:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102726203Z_b07d5316",
+          "quote": "Das Foto zeigt Daniel Peters (CDU) (l-r), Claudia Müller (Grüne), Leif-Erik Holm (AfD), Sabine Firnhaber (BSW), Jakob Schirmer (FDP), Hennis Herbst (Linke), und Manuela Schwesig (SPD), bei einem Wahl-Forum des Nordkuriers.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260917T102726203Z_b07d5316",
+          "quote": "Schwesig und die Vertreter von Linkspartei, CDU, Grünen, BSW und FDP erteilten einer Koalition mit der AfD erneut eine Absage.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-12",
+        "speaker": "Jakob Schirmer",
+        "speaker_role": "FDP-Spitzenkandidat",
+        "summary": "Erteilt einer Koalition mit der AfD erneut eine Absage."
+      }
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "lead_candidate",
+        "url": "https://x.com/jakob_schirmer"
+      },
+      "observed_at": "2026-09-17T10:29:18.906Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102724084Z_dd72f23f",
+          "quote": "https://x.com/jakob_schirmer",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/jakobschirmer_fdpmv"
+      },
+      "observed_at": "2026-09-17T10:29:18.906Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102724084Z_dd72f23f",
+          "quote": "https://www.instagram.com/jakobschirmer_fdpmv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/jessicamendle_fdpmv"
+      },
+      "observed_at": "2026-09-17T10:29:18.911Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T102725097Z_f9b2229a",
+          "quote": "https://www.instagram.com/jessicamendle_fdpmv/",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

@@ -763,7 +763,7 @@
     "url": "https://wahlprogramm26.waehlt-dielinke.de/",
     "state": "sachsen-anhalt",
     "party": "linke",
-    "kind": "program_html",
+    "kind": "other",
     "label": "program_html",
     "publisher_type": "party",
     "added_at": "2026-09-16T18:56:03.294Z",
@@ -4278,5 +4278,165 @@
     "publisher_type": "party",
     "added_at": "2026-09-17T10:24:00.000Z",
     "found_on": "https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/"
+  },
+  {
+    "url": "https://www.fdp-mv.de/landtagswahl-2026-13",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "other",
+    "label": "Landtagswahl 2026: Programmuebersicht und Schwerpunkte",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/"
+  },
+  {
+    "url": "https://www.fdp-mv.de/programm",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "other",
+    "label": "Programmindex",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "program_full",
+    "label": "Programm zur Landtagswahl Mecklenburg-Vorpommern 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026_0.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "program_full",
+    "label": "Programm zur Landtagswahl Mecklenburg-Vorpommern 2026 (zweite offizielle URL)",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/programm"
+  },
+  {
+    "url": "https://www.fdp-mv.de/sites/default/files/2026-06/Programm%20zur%20Landtagswahl%202026%20%E2%80%93%2012%20Themen%20%E2%80%93%20FDP%20Mecklenburg-Vorpommern.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "points_list",
+    "label": "Wahlprogramm zur Landtagswahl 2026: Unsere Top-Themen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp-mv.de/sites/default/files/2026-09/Wahlprogramm%20einfachere%20Sprache.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "program_easy_language",
+    "label": "Wahlprogramm zur Landtagswahl 2026 in einfacherer Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp-mv.de/person-overview/kandidaten-1",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "candidate_list",
+    "label": "Landesliste zur Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp.de/person/jakob-schirmer",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Jakob Schirmer",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/landtagswahl-2026-13"
+  },
+  {
+    "url": "https://www.fdp.de/fdp-praesentiert-kampagne-fuer-alle-die-etwas-reissen-wollen",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Spitzenduo Jakob Schirmer und Jessica Mendle",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/du-willst-was-reissen-jetzt-ist-die-chance-fdp-mecklenburg-vorpommern-startet-kampagne-zur"
+  },
+  {
+    "url": "https://www.fdp.de/fdp-fordert-generationengerechtigkeit-statt-ankuendigungspolitik",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "lead_candidate_page",
+    "label": "Jessica Mendle",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Afdp.de+Jessica+Mendle+Spitzenkandidatin+Mecklenburg-Vorpommern+2026"
+  },
+  {
+    "url": "https://www.fdp.de/mehr-freiheit-mehr-zukunft-mehr-fuer-mecklenburg-vorpommern",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "Jakob Schirmer schliesst Koalitionen mit AfD, Linken und BSW aus",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.google.com/search?q=Jakob+Schirmer+Koalition+FDP+Mecklenburg-Vorpommern+2026"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/spitzenkandidaten-in-mecklenburg-voprommern-debattieren-unter-anderem-ueber-koalitionsoptionen-106.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "coalition_statement",
+    "label": "Wahlforum: Absage der FDP an eine Koalition mit der AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.google.com/search?q=FDP+MV+Schirmer+Koalition+September+2026+Landtagswahl"
+  },
+  {
+    "url": "https://www.fdp-mv.de/articles",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "other",
+    "label": "Pressemitteilungen und Meldungen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/"
+  },
+  {
+    "url": "https://www.fdp-mv.de/fdp-mecklenburg-vorpommern-verabschiedet-landtagswahlprogramm",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "press_release",
+    "label": "FDP Mecklenburg-Vorpommern verabschiedet Landtagswahlprogramm",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/articles"
+  },
+  {
+    "url": "https://www.fdp-mv.de/du-willst-was-reissen-jetzt-ist-die-chance-fdp-mecklenburg-vorpommern-startet-kampagne-zur",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "press_release",
+    "label": "FDP Mecklenburg-Vorpommern startet Kampagne zur Landtagswahl",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/articles"
+  },
+  {
+    "url": "https://www.fdp-mv.de/die-verfassung-ist-kein-wahlkampfinstrument",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "press_release",
+    "label": "Die Verfassung ist kein Wahlkampfinstrument",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:25:00.000Z",
+    "found_on": "https://www.fdp-mv.de/articles"
   }
 ]
