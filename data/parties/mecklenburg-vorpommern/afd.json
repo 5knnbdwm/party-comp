@@ -1,0 +1,115 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "afd",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "2. Alternative für Deutschland - AfD",
+          "page": 3
+        }
+      ],
+      "key": "name_full",
+      "value": "Alternative für Deutschland"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "2. Alternative für Deutschland - AfD",
+          "page": 3
+        }
+      ],
+      "key": "name_short",
+      "value": "AfD"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "2. Alternative für Deutschland - AfD",
+          "page": 3
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "2. Alternative für Deutschland - AfD",
+          "page": 3
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 2
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 13
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "AfD – Landtagsfraktion MV: +++ Rufbus im Flächenland MV effizient und zielgenau weiterentwickeln +++",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://afd-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619470Z_3c30c37e",
+          "quote": "Informiert bleiben!",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.afd.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619698Z_045a3d64",
+          "quote": "Nikolaus Kramer: Quälvideo von Neubrandenburg verlangt entschlossene Antwort des Rechtsstaates",
+          "page": null
+        }
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://afd-fraktion-mv.de/"
+    }
+  ],
+  "gaps": []
+}

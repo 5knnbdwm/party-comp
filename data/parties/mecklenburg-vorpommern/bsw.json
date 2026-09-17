@@ -1,0 +1,101 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "bsw",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "13. Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit - BSW",
+          "page": 6
+        }
+      ],
+      "key": "name_full",
+      "value": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "13. Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit - BSW",
+          "page": 6
+        }
+      ],
+      "key": "name_short",
+      "value": "BSW"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "13. Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit - BSW",
+          "page": 6
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "13. Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit - BSW",
+          "page": 6
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 13
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "Herzlich willkommen beim Bündnis Sahra Wagenknecht (BSW) Mecklenburg-Vorpommern!",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://mv.bsw-vg.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094631274Z_cacee975",
+          "quote": "In unsicheren Zeiten braucht Deutschland einen klaren Kurs.",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://bsw-vg.de/"
+    }
+  ],
+  "gaps": [
+    {
+      "key": "parliamentary_group_website",
+      "checked_at": "2026-09-17T09:50:00.000Z",
+      "note": "The party was not represented in the outgoing Landtag, so it had no parliamentary group website.",
+      "searched": [
+        "https://www.landtag-mv.de/landtag/grundsaetzliches/parlamentarische-gremien/fraktionen",
+        "https://mv.bsw-vg.de/"
+      ]
+    }
+  ]
+}

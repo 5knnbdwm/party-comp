@@ -1,0 +1,115 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "gruene",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "5. BÜNDNIS 90/DIE GRÜNEN - GRÜNE",
+          "page": 5
+        }
+      ],
+      "key": "name_full",
+      "value": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "5. BÜNDNIS 90/DIE GRÜNEN - GRÜNE",
+          "page": 5
+        }
+      ],
+      "key": "name_short",
+      "value": "GRÜNE"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "5. BÜNDNIS 90/DIE GRÜNEN - GRÜNE",
+          "page": 5
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "5. BÜNDNIS 90/DIE GRÜNEN - GRÜNE",
+          "page": 5
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 5
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 4
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "Grüner Strom zieht Zukunftsinvestitionen nach MV",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://gruene-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627439Z_ad6a22d5",
+          "quote": "Landtagswahlen 2026",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.gruene.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627656Z_ca90596e",
+          "quote": "GRÜN IM SCHLOSS",
+          "page": null
+        }
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://gruene-fraktion-mv.de/"
+    }
+  ],
+  "gaps": []
+}

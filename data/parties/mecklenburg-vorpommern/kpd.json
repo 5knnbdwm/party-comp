@@ -1,0 +1,67 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "kpd",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "15. Kommunistische Partei Deutschlands - KPD",
+          "page": 7
+        }
+      ],
+      "key": "name_full",
+      "value": "Kommunistische Partei Deutschlands"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "15. Kommunistische Partei Deutschlands - KPD",
+          "page": 7
+        }
+      ],
+      "key": "name_short",
+      "value": "KPD"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "15. Kommunistische Partei Deutschlands - KPD",
+          "page": 7
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "15. Kommunistische Partei Deutschlands - KPD",
+          "page": 7
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 15
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": false
+    }
+  ],
+  "gaps": []
+}

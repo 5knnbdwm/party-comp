@@ -1,4 +1,5 @@
 {
   "sachsen-anhalt": ["afd", "cdu", "spd", "linke", "gruene", "bsw"],
-  "berlin": ["cdu", "spd", "gruene", "linke", "afd", "bsw", "fdp"]
+  "berlin": ["cdu", "spd", "gruene", "linke", "afd", "bsw", "fdp"],
+  "mecklenburg-vorpommern": ["spd", "afd", "cdu", "linke", "gruene", "fdp", "bsw"]
 }

@@ -3438,5 +3438,165 @@
     "publisher_type": "party",
     "added_at": "2026-09-16T21:15:08.000Z",
     "found_on": "https://www.fdp.de/pressemitteilung/meyer-interview-wir-stellen-uns-dem-islamismus-jeder-form-entgegen"
+  },
+  {
+    "url": "https://www.laiv-mv.de/static/LAIV/Wahlen/L-Bekanntmachungen/LTW%202026/Zugelassene%20Landeslisten%20zur%20Landtagswahl%202026%20AmtsBl.%20M-V%202026%20S.%20641.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Zugelassene Landeslisten für die Landtagswahl 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-17T09:43:35.000Z",
+    "found_on": "https://www.laiv-mv.de/Wahlen/Landtagswahlen/2026/"
+  },
+  {
+    "url": "https://www.landtag-mv.de/landtag/grundsaetzliches/parlamentarische-gremien/fraktionen",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Fraktionen und Sitzverteilung des 8. Landtages",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T09:43:35.000Z",
+    "found_on": "https://www.landtag-mv.de/landtag/grundsaetzliches/parlamentarische-gremien"
+  },
+  {
+    "url": "https://www.wahlrecht.de/umfragen/landtage/mecklenburg-vorpommern.htm",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Wahlumfragen Mecklenburg-Vorpommern",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T09:43:35.000Z",
+    "found_on": "https://www.wahlrecht.de/umfragen/landtage/"
+  },
+  {
+    "url": "https://spd-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://www.spd-fraktion-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "parliamentary_group_website",
+    "label": "Landtagsfraktion: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionsportraet/spd"
+  },
+  {
+    "url": "https://afd-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://afd-mv.de/"
+  },
+  {
+    "url": "https://afd-fraktion-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "parliamentary_group_website",
+    "label": "Landtagsfraktion: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionsportraet/afd"
+  },
+  {
+    "url": "https://cdu-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://cdu-mv.de/"
+  },
+  {
+    "url": "https://www.cdu-fraktion.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "parliamentary_group_website",
+    "label": "Landtagsfraktion: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionsportraet/cdu"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://www.linksfraktionmv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "parliamentary_group_website",
+    "label": "Landtagsfraktion: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionsportraet/die-linke"
+  },
+  {
+    "url": "https://gruene-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-fraktion-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "parliamentary_group_website",
+    "label": "Landtagsfraktion: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionsportraet/gruene"
+  },
+  {
+    "url": "https://www.fdp-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.fdp.de/seite/landesverbaende"
+  },
+  {
+    "url": "https://www.fdpltmv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "fdp",
+    "kind": "parliamentary_group_website",
+    "label": "Parlamentarische Gruppe: Startseite",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen/fraktionen-der-8-wahlperiode/fdp-gruppe"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "party_website",
+    "label": "Landesverband: Startseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:48:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
   }
 ]

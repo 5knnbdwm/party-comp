@@ -1,0 +1,115 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "cdu",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "3. Christlich Demokratische Union Deutschlands - CDU",
+          "page": 4
+        }
+      ],
+      "key": "name_full",
+      "value": "Christlich Demokratische Union Deutschlands"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "3. Christlich Demokratische Union Deutschlands - CDU",
+          "page": 4
+        }
+      ],
+      "key": "name_short",
+      "value": "CDU"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "3. Christlich Demokratische Union Deutschlands - CDU",
+          "page": 4
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "3. Christlich Demokratische Union Deutschlands - CDU",
+          "page": 4
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 3
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 12
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "Aktuelles",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://cdu-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621758Z_ce03320e",
+          "quote": "Foto: CDU/KI-gestützt bearbeitet",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.cdu.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "CDU Fraktion Mecklenburg-Vorpommern",
+          "page": null
+        }
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://www.cdu-fraktion.de/"
+    }
+  ],
+  "gaps": []
+}

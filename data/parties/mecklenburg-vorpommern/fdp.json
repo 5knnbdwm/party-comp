@@ -1,0 +1,115 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "slug": "fdp",
+  "facts": [
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "6. Freie Demokratische Partei - FDP",
+          "page": 5
+        }
+      ],
+      "key": "name_full",
+      "value": "Freie Demokratische Partei"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "6. Freie Demokratische Partei - FDP",
+          "page": 5
+        }
+      ],
+      "key": "name_short",
+      "value": "FDP"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "6. Freie Demokratische Partei - FDP",
+          "page": 5
+        }
+      ],
+      "key": "ballot_admitted",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094347902Z_48c1f152",
+          "quote": "6. Freie Demokratische Partei - FDP",
+          "page": 5
+        }
+      ],
+      "key": "ballot_list_number",
+      "value": 6
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "in_parliament_before_election",
+      "value": true
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094439739Z_9433f125",
+          "quote": "Jede Fraktion bzw. Gruppe hat ihren eigenen Platz im Plenarsaal: Vom Präsidium aus gesehen sitzt links DIE LINKE (9 Abgeordnete), daneben die SPD (34), Bündnis 90/Die Grünen (4), CDU (12), Gruppe der FDP (3) und rechts die AfD (13), sowie 4 weitere fraktionslose Abgeordnete, die keiner Gruppe angehören.",
+          "page": null
+        }
+      ],
+      "key": "seats_before_election",
+      "value": 3
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094628086Z_dff70810",
+          "quote": "Datenschutz - Impressum",
+          "page": null
+        }
+      ],
+      "key": "state_association_website",
+      "value": "https://www.fdp-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094629290Z_dc71b7f5",
+          "quote": "Freie Demokraten",
+          "page": null
+        }
+      ],
+      "key": "website",
+      "value": "https://www.fdp.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094629580Z_f99fee26",
+          "quote": "Datenschutz Impressum",
+          "page": null
+        }
+      ],
+      "key": "parliamentary_group_website",
+      "value": "https://www.fdpltmv.de/"
+    }
+  ],
+  "gaps": []
+}
