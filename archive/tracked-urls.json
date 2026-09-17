@@ -4148,5 +4148,135 @@
     "publisher_type": "press",
     "added_at": "2026-09-17T10:35:00.000Z",
     "found_on": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Landtagswahl 2026: Wahlprogramm und Hörfassung",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/?wpdmdl=33772",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "program_full",
+    "label": "Landtagswahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/?wpdmdl=34277",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "program_easy_language",
+    "label": "Landtagswahlprogramm 2026 in Leichter Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/klimaregierungsprogramm/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "points_list",
+    "label": "Klimaregierungsprogramm",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026-2/7-gruende-gruen/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "points_list",
+    "label": "Sieben Gründe, GRÜN zu wählen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "lead_candidate_page",
+    "label": "Landtagswahl 2026: Kandidierendenübersicht",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/presse/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "press_release",
+    "label": "Landesverband: Presse",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/programme/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "other",
+    "label": "Landesverband: Programme",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-fraktion-mv.de/presse/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "press_release",
+    "label": "Landtagsfraktion: Presse",
+    "publisher_type": "parliamentary_group",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-fraktion-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026-2/5-gruene-im-landtag-bedeutet-0-afd-regierung/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "5 Prozent Grüne im Landtag bedeutet 0 Prozent AfD-Regierung",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:16:30.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/?e-page-8a63804=4",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "coalition_statement",
+    "label": "Landtagswahl 2026: demokratische Mehrheit und rot-rot-grüne Option",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:22:00.000Z",
+    "found_on": "https://gruene-mv.de/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026/wahlprogramm-2026-2/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Landtagswahlprogramm 2026: HTML-Kapitel 6 bis 10",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:24:00.000Z",
+    "found_on": "https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/"
+  },
+  {
+    "url": "https://gruene-mv.de/landtagswahl-2026/wahlprogramm-2026-3/",
+    "state": "mecklenburg-vorpommern",
+    "party": "gruene",
+    "kind": "program_html",
+    "label": "Landtagswahlprogramm 2026: HTML-Kapitel 11 bis 17",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:24:00.000Z",
+    "found_on": "https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/"
   }
 ]

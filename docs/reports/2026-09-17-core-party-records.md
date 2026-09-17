@@ -135,3 +135,61 @@ None. Each required item has at least one fact.
 - The 16 September coalition statement names no individual speaker, so the fact attributes it to the state party. An earlier 31 August report quotes federal chair Ines Schwerdtner saying it would be good for Mecklenburg-Vorpommern if the Linke continued governing, while Oldenburg says there is more to repair and develop. The later party statement is the current position.
 - The Ostsee-Zeitung page about the CDU-Linke coalition question returned HTTP 403 to the archive fetcher and does not back a fact.
 - Wayback save requests for the HTML program and both program PDFs returned HTTP 500 without snapshot URLs. The local archive captures succeeded.
+
+## mecklenburg-vorpommern/gruene
+
+### Facts
+
+- 2026-09-17, `program` (`program_full`): "Klare Kante Zukunft. Für Mensch und Natur in MV", the 112-page Landtagswahlprogramm. Source: https://gruene-mv.de/?wpdmdl=33772
+- 2026-09-17, `program` (`program_easy_language`): "Das Wahl-Programm in Leichter Sprache", a 35-page PDF. Source: https://gruene-mv.de/?wpdmdl=34277
+- 2026-09-17, `program` (`program_html`): "Unser Wahlprogramm für die Landtagswahl 2026", the HTML version. Source: https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/
+- 2026-09-17, `program` (`points_list`): "Klimaregierungsprogramm", a ten-measure climate program. Source: https://gruene-mv.de/klimaregierungsprogramm/
+- 2026-09-17, `program` (`points_list`): "7 Gründe Grün", a campaign priorities list with three additional proposals. Source: https://gruene-mv.de/landtagswahl-2026-2/7-gruende-gruen/
+- 2026-09-17, `lead_candidate`: Claudia Müller, identified as `Spitzenkandidatin` and number one on the state list. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `lead_candidate`: Ole Krüger, identified as `Spitzenkandidat` and number two on the state list. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-08-26, `coalition_position`: Bündnis 90/Die Grünen Mecklenburg-Vorpommern seeks a red-red-green state government with Green participation. Source: https://gruene-mv.de/?e-page-8a63804=4
+- 2026-08-26, `coalition_position`: Claudia Müller, Green lead candidate, rules out AfD participation in the state government. Source: https://gruene-mv.de/?e-page-8a63804=4
+- 2026-08-26, `coalition_position`: Ole Krüger, Green lead candidate and state chair, seeks a stable red-red-green majority. Source: https://gruene-mv.de/?e-page-8a63804=4
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/gruenemv. Source: https://gruene-mv.de/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@gruenemv. Source: https://gruene-mv.de/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/gruenemv. Source: https://gruene-mv.de/
+- 2026-09-17, `social_account`: Bluesky, https://bsky.app/profile/gruenemv.bsky.social. Source: https://gruene-mv.de/
+- 2026-09-17, `social_account`: YouTube, https://youtube.com/user/GRUENEMV. Source: https://gruene-mv.de/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/gruenclaudia. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/%20olekrueger. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Bluesky, https://bsky.app/profile/did:plc:ktfbua2nkeoeudfzeojhnbog. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/ole.krueger. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/jutta_wegner_mdl. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/jutta.wegner.18. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/sebastian_hueller. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@sebastian_hueller. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/gruene.maya. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/rene.fuhrwerk. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/rene.fuhrwerk. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/anjaeggreen. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/jan_vdbosch. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@jan_vdbosch. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/mirozahra.gruene.mv. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/thomas_likes_chocolate. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/clata999. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/philipp_luebbert. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/philipp.luebbert.doemitz. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/martin_sorge. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/clemens.wloczka. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Bluesky, https://bsky.app/profile/dragondrop.bsky.social. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/kupferkopf06. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@bambusflieger6. Source: https://gruene-mv.de/landtagswahl-2026-2/landtagswahl-2026-unsere-kandidatinnen-2/
+
+### Gaps
+
+None. Each required item has at least one fact.
+
+### Unclear or noteworthy
+
+- The HTML election program is one document split across three pages. The recorded `program` value is the first page, covering the preamble and chapters 1 to 5. Chapters 6 to 10 and 11 to 17 are also tracked and captured at https://gruene-mv.de/landtagswahl-2026/wahlprogramm-2026-2/ and https://gruene-mv.de/landtagswahl-2026/wahlprogramm-2026-3/.
+- The party's program index and election navigation expose the full PDF, easy-language PDF, HTML program, climate ten-point program and seven-reason priorities page. They expose no separate short program or immediate-action program.
+- The coalition campaign page was published on 26 August and last modified on 15 September. The facts use the publication date because the page gives no separate date for the individual statements.
+- The standalone page titled "5 % Grüne im Landtag bedeutet 0% AfD-Regierung" contains an explanation of horse-race journalism in its extracted body. The campaign homepage contains the attributable coalition statements used for the facts.
+- The social-account extractor classifies links in the body of a `lead_candidate_page` as `linked_from: "lead_candidate"`. Because the official lead-candidate page is the full state-list overview, it also yielded accounts for candidates below the two lead positions. The record keeps the extractor's page-based classification.
+- The captured Instagram link for Ole Krüger contains an encoded leading space, `https://instagram.com/%20olekrueger`. It is recorded exactly as extracted and was not fetched.
+- Wayback save requests for the two PDFs, all three HTML program sections, the climate program and the seven-reason priorities page returned HTTP 500 or 523 without snapshot URLs. Every local archive capture succeeded.

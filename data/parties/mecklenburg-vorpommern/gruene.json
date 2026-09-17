@@ -109,6 +109,605 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://gruene-fraktion-mv.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/gruenemv"
+      },
+      "observed_at": "2026-09-17T10:19:54.182Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "https://www.instagram.com/gruenemv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@gruenemv"
+      },
+      "observed_at": "2026-09-17T10:19:54.182Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "https://www.tiktok.com/@gruenemv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/gruenemv"
+      },
+      "observed_at": "2026-09-17T10:19:54.182Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "https://www.facebook.com/gruenemv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "state_party",
+        "url": "https://bsky.app/profile/gruenemv.bsky.social"
+      },
+      "observed_at": "2026-09-17T10:19:54.182Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "https://bsky.app/profile/gruenemv.bsky.social",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/user/GRUENEMV"
+      },
+      "observed_at": "2026-09-17T10:19:54.182Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094627190Z_4020f6a5",
+          "quote": "https://www.youtube.com/user/GRUENEMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/gruenclaudia"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/gruenclaudia",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/%20olekrueger"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/%20olekrueger",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "lead_candidate",
+        "url": "https://bsky.app/profile/did:plc:ktfbua2nkeoeudfzeojhnbog"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://bsky.app/profile/did:plc:ktfbua2nkeoeudfzeojhnbog",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/ole.krueger"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.facebook.com/ole.krueger",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/jutta_wegner_mdl"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/jutta_wegner_mdl/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/jutta.wegner.18"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.facebook.com/jutta.wegner.18",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/sebastian_hueller"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/sebastian_hueller/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "lead_candidate",
+        "url": "https://tiktok.com/@sebastian_hueller"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.tiktok.com/@sebastian_hueller",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/gruene.maya"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/gruene.maya/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/rene.fuhrwerk"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/rene.fuhrwerk/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/rene.fuhrwerk"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.facebook.com/rene.fuhrwerk",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/anjaeggreen"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/anjaeggreen/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/jan_vdbosch"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/jan_vdbosch/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "lead_candidate",
+        "url": "https://tiktok.com/@jan_vdbosch"
+      },
+      "observed_at": "2026-09-17T10:19:54.194Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.tiktok.com/@jan_vdbosch",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/mirozahra.gruene.mv"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/mirozahra.gruene.mv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/thomas_likes_chocolate"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/thomas_likes_chocolate/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/clata999"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/clata999/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/philipp_luebbert"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/philipp_luebbert/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/philipp.luebbert.doemitz"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.facebook.com/philipp.luebbert.doemitz",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/martin_sorge"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/martin_sorge/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/clemens.wloczka"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/clemens.wloczka",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "lead_candidate",
+        "url": "https://bsky.app/profile/dragondrop.bsky.social"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://bsky.app/profile/dragondrop.bsky.social",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/kupferkopf06"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.instagram.com/kupferkopf06/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "lead_candidate",
+        "url": "https://tiktok.com/@bambusflieger6"
+      },
+      "observed_at": "2026-09-17T10:19:54.195Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "https://www.tiktok.com/@bambusflieger6",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://gruene-mv.de/?wpdmdl=33772",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101658091Z_a3ddd454",
+          "quote": "WAHLPROGRAMM VON BÜNDNIS 90/DIE GRÜNEN MV FÜR DIE LANDTAGSWAHL 2026",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://gruene-mv.de/?wpdmdl=34277",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101708391Z_5455dd0b",
+          "quote": "Das Wahl-Programm in\nLeichter Sprache",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://gruene-mv.de/landtagswahl-2026-2/wahlprogramm-2026-1/",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101826119Z_7a45641b",
+          "quote": "Unser Wahlprogramm für die Landtagswahl 2026",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://gruene-mv.de/klimaregierungsprogramm/",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101719181Z_e50220dd",
+          "quote": "10 konkrete Maßnahmen für konsequenten Klimaschutz in Mecklenburg-Vorpommern – der auch noch gut für unsere Wirtschaft und die Portmonees der Menschen ist.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://gruene-mv.de/landtagswahl-2026-2/7-gruende-gruen/",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101727470Z_b51bbeec",
+          "quote": "Es gibt viele gute Gründe, bei der Landtagswahl in MV Grün zu wählen.\nAber diese sieben Gründe solltest du unbedingt kennen:",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Claudia Müller",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "Spitzenkandidatin - Platz 1\nClaudia Müller",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Ole Krüger",
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101734907Z_e14ed905",
+          "quote": "Spitzenkandidat - Platz 2\nOle Krüger",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "BÜNDNIS 90/DIE GRÜNEN Mecklenburg-Vorpommern",
+        "speaker_role": "Landesverband",
+        "summary": "Seeks a red-red-green state government with Green participation."
+      },
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101825039Z_24af4f58",
+          "quote": "Rot-Rot-Grün gibt es nur mit uns — und Klimaschutz in der Regierung auch.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Claudia Müller",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Rules out AfD participation in the state government."
+      },
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101825039Z_24af4f58",
+          "quote": "5% für Grün heißt 0% AfD in der Regierung.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Ole Krüger",
+        "speaker_role": "Spitzenkandidat und Landesvorsitzender",
+        "summary": "Seeks a stable red-red-green majority."
+      },
+      "observed_at": "2026-09-17T10:25:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101825039Z_24af4f58",
+          "quote": "Sachsen-Anhalt hat gezeigt, was passiert, wenn die demokratischen Kräfte im Landtag keine Mehrheit mehr haben. In MV haben wir es noch in der Hand. Zweitstimme Grün — damit RRG eine stabile Mehrheit hat!",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []
