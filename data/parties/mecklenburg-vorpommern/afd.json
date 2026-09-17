@@ -109,6 +109,275 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://afd-fraktion-mv.de/"
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/afd.mv"
+      },
+      "observed_at": "2026-09-17T09:59:20.895Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "https://www.instagram.com/afd.mv/%20",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@afdmvlandesverband"
+      },
+      "observed_at": "2026-09-17T09:59:20.895Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "https://www.tiktok.com/@afdmvlandesverband",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/@AfDMecklenburgVorpommern"
+      },
+      "observed_at": "2026-09-17T09:59:20.895Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "https://www.youtube.com/@AfDMecklenburgVorpommern/videos%20",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/AfD.MV"
+      },
+      "observed_at": "2026-09-17T09:59:20.895Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "https://www.facebook.com/AfD.MV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://x.com/AfD_MV"
+      },
+      "observed_at": "2026-09-17T09:59:20.895Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619186Z_6771ac12",
+          "quote": "https://x.com/AfD_MV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/AfDFraktionMV"
+      },
+      "observed_at": "2026-09-17T09:59:20.914Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619698Z_045a3d64",
+          "quote": "https://www.facebook.com/AfDFraktionMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/c/AfDFraktionMV"
+      },
+      "observed_at": "2026-09-17T09:59:20.914Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619698Z_045a3d64",
+          "quote": "https://www.youtube.com/c/AfDFraktionMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/afdfraktion_mv"
+      },
+      "observed_at": "2026-09-17T09:59:20.914Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619698Z_045a3d64",
+          "quote": "https://www.instagram.com/afdfraktion_mv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "parliamentary_group",
+        "url": "https://twitter.com/afdfraktion_mv"
+      },
+      "observed_at": "2026-09-17T09:59:20.914Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094619698Z_045a3d64",
+          "quote": "https://twitter.com/afdfraktion_mv?lang=de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095643966Z_44087592",
+          "quote": "AfD-Regierungsprogramm zur Landtagswahl 2026",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/05/100-Tage-8-seitig-Flyer-FINAL.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095813531Z_06b57100",
+          "quote": "100 TAGE",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/05/FINALE-Flyer-Zielgruppen-Programm-2026.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095821050Z_8304f261",
+          "quote": "WIR PACKEN",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/09/Innenflyer-AfDMV.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095828596Z_c6765974",
+          "quote": "RECHT &",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/09/Sozialflyer-AfDMV.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095829967Z_3cd7252a",
+          "quote": "SOZIALE",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/09/Windkraft-Flyer-AfDMV.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095831290Z_9798a7b5",
+          "quote": "WINDKRAFTAUSBAU",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-mv.de/wp-content/uploads/2026/09/Kurzwahlprogramm-A5-Querformat-AfDMV.pdf",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095832638Z_51d7506c",
+          "quote": "KURZWAHL\nPROGRAMM",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Leif-Erik Holm",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095643430Z_85d4bd1c",
+          "quote": "Leif-Erik Holm",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Enrico Schult",
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095643430Z_85d4bd1c",
+          "quote": "Enrico Schult",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-11",
+        "speaker": "Leif-Erik Holm",
+        "speaker_role": "AfD-Kandidat für das Amt des Ministerpräsidenten",
+        "summary": "Ist bereit, mit allen Parteien über eine Koalition zu reden, und will alle Gesprächsbereiten einladen."
+      },
+      "observed_at": "2026-09-17T10:05:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095703831Z_c45fb012",
+          "quote": "«Wenn wir die Möglichkeit und die Option haben zu reden über eine Koalition, werde ich alle einladen, die gewillt sind, unser Land endlich voranzubringen.»",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

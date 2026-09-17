@@ -3698,5 +3698,125 @@
     "publisher_type": "press",
     "added_at": "2026-09-17T09:50:22.000Z",
     "found_on": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-schwesig-holm-tv-duell-100.html"
+  },
+  {
+    "url": "https://afd-mv.de/blaue-wende-2026/",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "candidate_list",
+    "label": "Blaue Wende 2026: Spitzenduo und Kandidaten",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:56:18.000Z",
+    "found_on": "https://afd-mv.de/"
+  },
+  {
+    "url": "https://afd-mv.de/aktuelles/presseveroeffentlichungen/",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "press_release",
+    "label": "Presseveroeffentlichungen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:56:18.000Z",
+    "found_on": "https://afd-mv.de/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "program_full",
+    "label": "AfD-Regierungsprogramm Mecklenburg-Vorpommern 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:56:18.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/05/AfD-Regierungsprogramm-zur-Landtagswahl-September-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "program_full",
+    "label": "AfD-Regierungsprogramm zur Landtagswahl September 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:56:18.000Z",
+    "found_on": "https://www.google.com/search?q=Mecklenburg-Vorpommern+AfD+Wahlprogramm+2026+Kurzprogramm+Sofortprogramm"
+  },
+  {
+    "url": "https://www.welt.de/regionales/mecklenburg-vorpommern/article6aa462d6240b302c8a841e1a/afd-kandidat-holm-in-mv-reiche-allen-die-hand.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "coalition_statement",
+    "label": "Holm zeigt sich offen fuer Koalitionsgespraeche mit allen Parteien",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T09:56:18.000Z",
+    "found_on": "https://www.google.com/search?q=Leif-Erik+Holm+Koalition+Mecklenburg-Vorpommern+September+2026"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/05/Flyer-erster-Druck-Blaue-Wende.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "other",
+    "label": "Bereit fuer die Blaue Wende",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/05/100-Tage-8-seitig-Flyer-FINAL.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "program_immediate",
+    "label": "Unser 100-Tage-Programm",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/05/FINALE-Flyer-Zielgruppen-Programm-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "points_list",
+    "label": "Wir packen jetzt an",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/09/Innenflyer-AfDMV.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "points_list",
+    "label": "Recht und Ordnung Themenflyer",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/09/Sozialflyer-AfDMV.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "points_list",
+    "label": "Soziale Heimat Themenflyer",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/09/Windkraft-Flyer-AfDMV.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "points_list",
+    "label": "Windkraftausbau stoppen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://afd-mv.de/wp-content/uploads/2026/09/Kurzwahlprogramm-A5-Querformat-AfDMV.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "afd",
+    "kind": "program_short",
+    "label": "Kurzwahlprogramm",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:00:00.000Z",
+    "found_on": "https://afd-mv.de/blaue-wende-2026/"
   }
 ]
