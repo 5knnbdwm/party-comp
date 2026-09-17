@@ -209,82 +209,102 @@
       "sources": [
         {
           "capture": "cap_20260916T211316417Z_6195e9f6",
-          "quote": "Wir gehen in Berlin mit einer Doppelspitze in den Wahlkampf: Alexander King, Landesvorsitzender und bisher einziger Berliner BSW-Abgeordneter und der Nahost-Experte Michael L\u00fcders (stellvertretender Parteivorsitzender) f\u00fchren die Berliner Landesliste an, die im September erstmals zu einer Abgeordnetenhauswahl antritt.",
+          "quote": "Wir gehen in Berlin mit einer Doppelspitze in den Wahlkampf: Alexander King, Landesvorsitzender und bisher einziger Berliner BSW-Abgeordneter und der Nahost-Experte Michael Lüders (stellvertretender Parteivorsitzender) führen die Berliner Landesliste an, die im September erstmals zu einer Abgeordnetenhauswahl antritt.",
           "page": null
         }
       ]
     },
     {
       "key": "lead_candidate",
-      "value": "Michael L\u00fcders",
+      "value": "Michael Lüders",
       "observed_at": "2026-09-16T21:13:20.000Z",
       "sources": [
         {
           "capture": "cap_20260916T211316417Z_6195e9f6",
-          "quote": "Wir gehen in Berlin mit einer Doppelspitze in den Wahlkampf: Alexander King, Landesvorsitzender und bisher einziger Berliner BSW-Abgeordneter und der Nahost-Experte Michael L\u00fcders (stellvertretender Parteivorsitzender) f\u00fchren die Berliner Landesliste an, die im September erstmals zu einer Abgeordnetenhauswahl antritt.",
+          "quote": "Wir gehen in Berlin mit einer Doppelspitze in den Wahlkampf: Alexander King, Landesvorsitzender und bisher einziger Berliner BSW-Abgeordneter und der Nahost-Experte Michael Lüders (stellvertretender Parteivorsitzender) führen die Berliner Landesliste an, die im September erstmals zu einer Abgeordnetenhauswahl antritt.",
           "page": null
         }
       ]
     },
     {
       "key": "coalition_position",
-      "value": "3. Oktober 2025: Will nur mit Partnern regieren, die gemeinsame Politik umsetzen; schlie\u00dft nach einem Einzug auch die Opposition nicht aus.",
+      "value": {
+        "stated_on": "2025-10-03",
+        "speaker": "Alexander King",
+        "speaker_role": "Landesvorsitzender",
+        "summary": "Will nur mit Partnern regieren, die gemeinsame Politik umsetzen; schließt nach einem Einzug auch die Opposition nicht aus."
+      },
       "observed_at": "2026-09-16T21:08:40.000Z",
       "sources": [
         {
           "capture": "cap_20260916T210833352Z_201c3f12",
-          "quote": "Wir wollen nur mitregieren, wenn wir Partner finden, die unsere Politik mit uns gemeinsam umsetzen wollen. Aktuellen Umfragen zufolge w\u00e4ren wir der kleinste Partner einer Koalition. Das sollte man als neue Partei nicht anstreben, weil man nicht viel durchsetzen kann. Au\u00dferdem ist die Gefahr, von den Koalitionspartnern \u00fcber den Tisch gezogen zu werden, zu gro\u00df.",
+          "quote": "Wir wollen nur mitregieren, wenn wir Partner finden, die unsere Politik mit uns gemeinsam umsetzen wollen. Aktuellen Umfragen zufolge wären wir der kleinste Partner einer Koalition. Das sollte man als neue Partei nicht anstreben, weil man nicht viel durchsetzen kann. Außerdem ist die Gefahr, von den Koalitionspartnern über den Tisch gezogen zu werden, zu groß.",
           "page": null
         },
         {
           "capture": "cap_20260916T210833352Z_201c3f12",
-          "quote": "Nein. Das ist schlicht die Erfahrung, die die beiden genannten Landesverb\u00e4nde gemacht haben. Es ist schwierig, als neue Partei sein Profil zu sch\u00e4rfen, wenn man wie in Th\u00fcringen und Brandenburg gleich in eine Regierung eingebunden ist. Ich schlie\u00dfe es f\u00fcr den Fall eines Einzugs ins Abgeordnetenhaus nicht aus, in Berlin nach der Wahl in die Opposition zu gehen.",
+          "quote": "Nein. Das ist schlicht die Erfahrung, die die beiden genannten Landesverbände gemacht haben. Es ist schwierig, als neue Partei sein Profil zu schärfen, wenn man wie in Thüringen und Brandenburg gleich in eine Regierung eingebunden ist. Ich schließe es für den Fall eines Einzugs ins Abgeordnetenhaus nicht aus, in Berlin nach der Wahl in die Opposition zu gehen.",
           "page": null
         }
       ]
     },
     {
       "key": "coalition_position",
-      "value": "3. Oktober 2025: Schlie\u00dft eine Koalition mit der AfD aus, kann sich eine Koalition mit den Gr\u00fcnen und, abgeschw\u00e4cht, mit der Linken nur schwer vorstellen; sieht die gr\u00f6\u00dften Schnittmengen mit der SPD, macht Sondierungen aber von Konstellation und Inhalten abh\u00e4ngig.",
+      "value": {
+        "stated_on": "2025-10-03",
+        "speaker": "Alexander King",
+        "speaker_role": "Landesvorsitzender",
+        "summary": "Schließt eine Koalition mit der AfD aus, kann sich eine Koalition mit den Grünen und, abgeschwächt, mit der Linken nur schwer vorstellen; sieht die größten Schnittmengen mit der SPD, macht Sondierungen aber von Konstellation und Inhalten abhängig."
+      },
       "observed_at": "2026-09-16T21:08:40.000Z",
       "sources": [
         {
           "capture": "cap_20260916T210833352Z_201c3f12",
-          "quote": "Eine Koalition mit der AfD ist f\u00fcr mich aus inhaltlichen Gr\u00fcnden ausgeschlossen. Was wir als Berliner BSW aber nicht haben, ist eine Brandmauer-Ideologie. Wenn die AfD zum Beispiel in der n\u00e4chsten Legislaturperiode im Abgeordnetenhaus einen Corona-Untersuchungsausschuss vorschl\u00e4gt, stimme ich selbstverst\u00e4ndlich zu. Und das werden wir alle so machen. Mehr aber auch nicht. Die AfD wird zunehmend auch ein Vehikel f\u00fcr Rassisten und das ist ein gro\u00dfes Problem.",
+          "quote": "Eine Koalition mit der AfD ist für mich aus inhaltlichen Gründen ausgeschlossen. Was wir als Berliner BSW aber nicht haben, ist eine Brandmauer-Ideologie. Wenn die AfD zum Beispiel in der nächsten Legislaturperiode im Abgeordnetenhaus einen Corona-Untersuchungsausschuss vorschlägt, stimme ich selbstverständlich zu. Und das werden wir alle so machen. Mehr aber auch nicht. Die AfD wird zunehmend auch ein Vehikel für Rassisten und das ist ein großes Problem.",
           "page": null
         },
         {
           "capture": "cap_20260916T210833352Z_201c3f12",
-          "quote": "Ich kann mir offen gesagt auch eine Koalition mit den Gr\u00fcnen nur schwer vorstellen. Mit den Gr\u00fcnen mag es \u00dcberschneidungen bei der Mietpolitik und bei der Sozialpolitik geben. Aber ihre Positionen bei der Friedenspolitik und bei der Wirtschaftspolitik teile ich \u00fcberhaupt nicht. Und bei der Einschr\u00e4nkung des Meinungskorridors sind die Gr\u00fcnen die Allerschlimmsten. Dasselbe gilt abgeschw\u00e4cht leider auch f\u00fcr die Linke.",
+          "quote": "Ich kann mir offen gesagt auch eine Koalition mit den Grünen nur schwer vorstellen. Mit den Grünen mag es Überschneidungen bei der Mietpolitik und bei der Sozialpolitik geben. Aber ihre Positionen bei der Friedenspolitik und bei der Wirtschaftspolitik teile ich überhaupt nicht. Und bei der Einschränkung des Meinungskorridors sind die Grünen die Allerschlimmsten. Dasselbe gilt abgeschwächt leider auch für die Linke.",
           "page": null
         },
         {
           "capture": "cap_20260916T210833352Z_201c3f12",
-          "quote": "Die gr\u00f6\u00dften Schnittmengen von allen Parteien aus dem Abgeordnetenhaus sehe ich zwischen dem BSW und der SPD. Doch auch hier sage ich: Ob es nach der Wahl Sondierungen gibt, w\u00e4re eine Frage der Gesamtkonstellation und der konkreten Inhalte.",
+          "quote": "Die größten Schnittmengen von allen Parteien aus dem Abgeordnetenhaus sehe ich zwischen dem BSW und der SPD. Doch auch hier sage ich: Ob es nach der Wahl Sondierungen gibt, wäre eine Frage der Gesamtkonstellation und der konkreten Inhalte.",
           "page": null
         }
       ]
     },
     {
       "key": "coalition_position",
-      "value": "21. August 2026: Schlie\u00dft eine Koalition mit der AfD aus; laut L\u00fcders ist sie im BSW-Parteiprogramm nicht vorgesehen und wird von niemandem auf F\u00fchrungsebene angestrebt.",
+      "value": {
+        "stated_on": "2026-08-21",
+        "speaker": "Michael Lüders",
+        "speaker_role": "Stellvertretender Bundesvorsitzender",
+        "summary": "Schließt eine Koalition mit der AfD aus; laut Lüders ist sie im BSW-Parteiprogramm nicht vorgesehen und wird von niemandem auf Führungsebene angestrebt."
+      },
       "observed_at": "2026-09-16T21:08:40.000Z",
       "sources": [
         {
           "capture": "cap_20260916T210825923Z_8659fd18",
-          "quote": "Eine Koalition mit der AfD entspricht daher nicht meinen politischen \u00dcberzeugungen. Sie ist im Parteiprogramm des BSW auch nicht vorgesehen. Niemand auf F\u00fchrungsebene tritt daf\u00fcr ein.",
+          "quote": "Eine Koalition mit der AfD entspricht daher nicht meinen politischen Überzeugungen. Sie ist im Parteiprogramm des BSW auch nicht vorgesehen. Niemand auf Führungsebene tritt dafür ein.",
           "page": null
         }
       ]
     },
     {
       "key": "coalition_position",
-      "value": "12. September 2026: Bezeichnet die inhaltlichen Schnittmengen mit der AfD als \u00fcberschaubar und lehnt deren Positionen zu Remigration, Mieten, Sozialpolitik und Milit\u00e4r ab; verteidigt zugleich sachbezogene Gespr\u00e4che mit der AfD in Sachsen-Anhalt.",
+      "value": {
+        "stated_on": "2026-09-12",
+        "speaker": "Alexander King",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Bezeichnet die inhaltlichen Schnittmengen mit der AfD als überschaubar und lehnt deren Positionen zu Remigration, Mieten, Sozialpolitik und Militär ab; verteidigt zugleich sachbezogene Gespräche mit der AfD in Sachsen-Anhalt."
+      },
       "observed_at": "2026-09-16T21:08:40.000Z",
       "sources": [
         {
           "capture": "cap_20260916T210749745Z_155922e7",
-          "quote": "Eine Woche vor der Berliner Abgeordnetenhauswahl hat sich der BSW-Spitzenkandidat Alexander King von der AfD distanziert. Die inhaltlichen Schnittmengen seien \"\u00fcberschaubar\", sagte er dem rbb. Die Androhung der sogenannten Remigration lehne er ebenso ab wie die AfD-Pl\u00e4ne bei der Mieten- und Sozialpolitik. Au\u00dferdem sei die AfD \"eine militaristische Partei\".\nGleichzeitig verteidigte er das Vorhaben des BSW in Sachsen-Anhalt, in einzelnen Sachfragen mit der dortigen AfD zusammenzuarbeiten. Durch das Wahlergebnis vom vergangenen Sonntag sei eine Situation entstanden, \"in der alle Kr\u00e4fte gezwungen sind, irgendwie miteinander ins Gespr\u00e4ch zu kommen\". Eine derart \"offene Diskussion\" k\u00f6nne dazu f\u00fchren, die Spaltung der Gesellschaft wieder zu \u00fcberwinden.",
+          "quote": "Eine Woche vor der Berliner Abgeordnetenhauswahl hat sich der BSW-Spitzenkandidat Alexander King von der AfD distanziert. Die inhaltlichen Schnittmengen seien \"überschaubar\", sagte er dem rbb. Die Androhung der sogenannten Remigration lehne er ebenso ab wie die AfD-Pläne bei der Mieten- und Sozialpolitik. Außerdem sei die AfD \"eine militaristische Partei\".\nGleichzeitig verteidigte er das Vorhaben des BSW in Sachsen-Anhalt, in einzelnen Sachfragen mit der dortigen AfD zusammenzuarbeiten. Durch das Wahlergebnis vom vergangenen Sonntag sei eine Situation entstanden, \"in der alle Kräfte gezwungen sind, irgendwie miteinander ins Gespräch zu kommen\". Eine derart \"offene Diskussion\" könne dazu führen, die Spaltung der Gesellschaft wieder zu überwinden.",
           "page": null
         }
       ]

@@ -321,7 +321,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-09: Will einen geeigneten unabhängigen Ministerpräsidenten und einen tragfähigen Weg nicht ausschlagen, wenn sich damit eine AfD-geführte Regierung und eine dauerhafte Blockade verhindern lassen.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Grüne",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Will einen geeigneten unabhängigen Ministerpräsidenten und einen tragfähigen Weg nicht ausschlagen, wenn sich damit eine AfD-geführte Regierung und eine dauerhafte Blockade verhindern lassen."
+      },
       "observed_at": "2026-09-16T20:45:07.104Z",
       "sources": [
         {
@@ -333,7 +338,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-09: Hält das BSW nicht für einen verlässlichen Partner und strebt weder eine Koalition noch weitergehende politische Verabredungen mit ihm an.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Grüne",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Hält das BSW nicht für einen verlässlichen Partner und strebt weder eine Koalition noch weitergehende politische Verabredungen mit ihm an."
+      },
       "observed_at": "2026-09-16T20:45:07.104Z",
       "sources": [
         {
@@ -345,7 +355,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-09: Lehnt Gespräche mit der AfD über die Zukunft Sachsen-Anhalts ab.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Susan Sziborra-Seidlitz",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Lehnt Gespräche mit der AfD über die Zukunft Sachsen-Anhalts ab."
+      },
       "observed_at": "2026-09-16T20:46:06.097Z",
       "sources": [
         {
@@ -357,7 +372,12 @@
     },
     {
       "key": "sondierung_status",
-      "value": "2026-09-09: Sondierungsgespräche mit der AfD über eine mögliche Regierungsbildung abgelehnt.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Grüne Sachsen-Anhalt",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Sondierungsgespräche mit der AfD über eine mögliche Regierungsbildung abgelehnt."
+      },
       "observed_at": "2026-09-16T20:46:06.097Z",
       "sources": [
         {

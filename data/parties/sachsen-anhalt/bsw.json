@@ -321,7 +321,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-07: Beteiligt sich nicht an einer Brandmauer und will sachbezogen mit allen Parteien sprechen.",
+      "value": {
+        "stated_on": "2026-09-07",
+        "speaker": "BSW Sachsen-Anhalt",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Beteiligt sich nicht an einer Brandmauer und will sachbezogen mit allen Parteien sprechen."
+      },
       "observed_at": "2026-09-16T19:39:36.669Z",
       "sources": [
         {
@@ -333,7 +338,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-07: Schließt eine Koalition mit der AfD aus, ist aber für Gespräche über Projekte und wechselnde Mehrheiten offen.",
+      "value": {
+        "stated_on": "2026-09-07",
+        "speaker": "Claudia Wittig",
+        "speaker_role": "BSW-Spitzenkandidatin",
+        "summary": "Schließt eine Koalition mit der AfD aus, ist aber für Gespräche über Projekte und wechselnde Mehrheiten offen."
+      },
       "observed_at": "2026-09-16T20:36:08.106Z",
       "sources": [
         {
@@ -345,7 +355,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-07: Erwägt im dritten Wahlgang eine Enthaltung bei Ulrich Siegmund und will zeitnah einen überparteilichen Kandidaten für das Amt des Ministerpräsidenten vorschlagen.",
+      "value": {
+        "stated_on": "2026-09-07",
+        "speaker": "Thomas Schulze",
+        "speaker_role": "BSW-Spitzenkandidat",
+        "summary": "Erwägt im dritten Wahlgang eine Enthaltung bei Ulrich Siegmund und will zeitnah einen überparteilichen Kandidaten für das Amt des Ministerpräsidenten vorschlagen."
+      },
       "observed_at": "2026-09-16T20:48:53.158Z",
       "sources": [
         {
@@ -357,7 +372,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-08: Will keinen AfD-Ministerpräsidenten unterstützen, sucht mit allen Parteien einen überparteilichen Ministerpräsidenten und ist für Zusammenarbeit in Sachfragen offen.",
+      "value": {
+        "stated_on": "2026-09-08",
+        "speaker": "Amira Mohamed Ali",
+        "speaker_role": "Co-Vorsitzende",
+        "summary": "Will keinen AfD-Ministerpräsidenten unterstützen, sucht mit allen Parteien einen überparteilichen Ministerpräsidenten und ist für Zusammenarbeit in Sachfragen offen."
+      },
       "observed_at": "2026-09-16T20:48:29.238Z",
       "sources": [
         {
@@ -374,7 +394,12 @@
     },
     {
       "key": "sondierung_status",
-      "value": "2026-09-09: Hat das Gesprächsangebot der AfD angenommen; bei dem geplanten Treffen soll es um Energieversorgung, Bildung und Friedenspolitik gehen. Ort und Zeitpunkt waren noch offen.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Sprecher des BSW",
+        "speaker_role": "Sprecher",
+        "summary": "Hat das Gesprächsangebot der AfD angenommen; bei dem geplanten Treffen soll es um Energieversorgung, Bildung und Friedenspolitik gehen. Ort und Zeitpunkt waren noch offen."
+      },
       "observed_at": "2026-09-16T20:36:16.462Z",
       "sources": [
         {

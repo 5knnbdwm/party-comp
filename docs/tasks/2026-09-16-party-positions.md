@@ -9,7 +9,7 @@ Today is 2026-09-16. Sachsen-Anhalt voted on 6 Sep 2026 and has no coalition yet
 1. **`coalition_position`**: what the party has said about which coalitions it seeks, accepts or rules out.
    - Sachsen-Anhalt: statements since election day, 6 Sep 2026. Add earlier statements only if the party has said nothing since.
    - Berlin: the latest statements before the election.
-   - The value is a short summary that stays close to the wording, such as "Schließt eine Zusammenarbeit mit der AfD aus; offen für Gespräche mit CDU und SPD", with the statement's date. The quote is the exact sentence or sentences it rests on.
+   - The value is `{stated_on, speaker, speaker_role, summary}` as defined in `docs/archive-format.md`. The summary stays close to the wording, such as "Schließt eine Zusammenarbeit mit der AfD aus; offen für Gespräche mit CDU und SPD", and carries no date. The quote is the exact sentence or sentences it rests on.
    - One fact per distinct statement. When the position shifted over time, record each dated statement.
 2. **`sondierung_status`**, Sachsen-Anhalt only: who the party is holding or has held exploratory or coalition talks with, as of today. Also record when the party has been invited, has declined, or talks have ended.
 3. **`lead_candidate`**, only if the party file has none: the party's lead candidate or candidates for this election.

@@ -408,7 +408,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "9. Juli 2026: Schließt nur eine Koalition mit der AfD aus.",
+      "value": {
+        "stated_on": "2026-07-09",
+        "speaker": "Steffen Krach",
+        "speaker_role": "Spitzenkandidat und Landesvorsitzender",
+        "summary": "Schließt nur eine Koalition mit der AfD aus."
+      },
       "observed_at": "2026-09-16T20:59:00.000Z",
       "sources": [
         {
@@ -420,7 +425,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "9. Juli 2026: Kai Wegner soll in keiner Konstellation einem künftigen Senat angehören.",
+      "value": {
+        "stated_on": "2026-07-09",
+        "speaker": "Steffen Krach",
+        "speaker_role": "Spitzenkandidat und Landesvorsitzender",
+        "summary": "Kai Wegner soll in keiner Konstellation einem künftigen Senat angehören."
+      },
       "observed_at": "2026-09-16T20:59:00.000Z",
       "sources": [
         {
@@ -432,7 +442,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "13. Juli 2026: Hält eine Zusammenarbeit mit der CDU unter Stefan Evers nach der Wahl für möglich.",
+      "value": {
+        "stated_on": "2026-07-13",
+        "speaker": "Steffen Krach",
+        "speaker_role": "SPD-Spitzenkandidat",
+        "summary": "Hält eine Zusammenarbeit mit der CDU unter Stefan Evers nach der Wahl für möglich."
+      },
       "observed_at": "2026-09-16T20:59:00.000Z",
       "sources": [
         {
@@ -444,7 +459,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "6. August 2026: Tritt in keine Koalition ein, die Enteignung zur Voraussetzung macht.",
+      "value": {
+        "stated_on": "2026-08-06",
+        "speaker": "Steffen Krach",
+        "speaker_role": "SPD-Spitzenkandidat",
+        "summary": "Tritt in keine Koalition ein, die Enteignung zur Voraussetzung macht."
+      },
       "observed_at": "2026-09-16T20:59:00.000Z",
       "sources": [
         {

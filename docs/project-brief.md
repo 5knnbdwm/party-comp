@@ -1,6 +1,6 @@
 # Project brief: party promise tracker
 
-Last updated 2026-09-16. This is the source of truth for what the project is, what it tracks, and the editorial rules everything must follow. When code or a later decision contradicts this brief, update the brief in the same change.
+Last updated 2026-09-17. This is the source of truth for what the project is, what it tracks, and the editorial rules everything must follow. When code or a later decision contradicts this brief, update the brief in the same change.
 
 ## Aim
 
@@ -19,6 +19,7 @@ The unit of the project is the **promise**, one assessable commitment. A party p
 |---|---|---|
 | Sachsen-Anhalt | Landtag election on 6 Sep 2026 | The original motivation. The AfD published a points-style program before the election. |
 | Berlin | Abgeordnetenhaus election on 20 Sep 2026 | Second state. Its parliament publishes machine-readable open data, which makes it the easiest pipeline to prototype. |
+| Mecklenburg-Vorpommern | Landtag election on 20 Sep 2026 | Votes the same day as Berlin. |
 
 The brief does not record election results or coalition outcomes yet. Check them and add them here once known. They decide which parties count as governing and which as opposition.
 
@@ -27,12 +28,12 @@ The brief does not record election results or coalition outcomes yet. Check them
 Deep research (lead candidates, social accounts, coalition statements, every program document) covers only core parties. All other admitted parties keep a basic record: name, admission and whatever the first pass found.
 
 - Sachsen-Anhalt: parties that won seats on 6 Sep 2026.
-- Berlin, until the election: parties in the outgoing Abgeordnetenhaus, plus any party at 3% or more in the latest poll of at least two institutes on wahlrecht.de.
-- Berlin, after 20 Sep 2026: parties that won seats.
+- Berlin and Mecklenburg-Vorpommern, until the election: parties in the outgoing parliament, plus any party at 3% or more in the latest poll of at least two institutes on wahlrecht.de.
+- Berlin and Mecklenburg-Vorpommern, after 20 Sep 2026: parties that won seats.
 
-After the Berlin election, run one sweep over every admitted party in both states to catch surprises. Then narrow Berlin to the parties that won seats.
+After 20 Sep 2026, run one sweep over every admitted party in all three states to catch surprises. Then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats.
 
-More states can follow once the process works for these two. The rules below stay the same for every state and every party.
+More states can follow once the process works for these three. The rules below stay the same for every state and every party.
 
 ## Neutrality
 
@@ -117,6 +118,7 @@ The priority order is below. Official records are the foundation. Social media o
 1. **Parliament documentation.**
    - Berlin: PARDOK, with open data as daily updated XML metadata for Drucksachen, Plenarprotokolle, Ausschussprotokolle and Schriftliche Anfragen. See https://parlament-berlin.de/dokumente/open-data.
    - Sachsen-Anhalt: PADOKA, which links Drucksachen, Plenarprotokolle and videos. See https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente. We know of no API or bulk export, so plan for a scraper.
+   - Mecklenburg-Vorpommern: the Landtag's parliamentary documentation system. Access method not yet checked.
 2. **Written and oral questions to the government**, Kleine and Große Anfragen. Opposition questions often force the government to state the exact status of a project in writing, which makes them the cheapest reliable status source.
 3. **Budgets**, both the Haushaltsplan and supplementary budgets. A promise with no money behind it rarely happens.
 4. **Official gazettes**, the Gesetz- und Verordnungsblatt. Much implementation happens by regulation, without a plenary vote.
@@ -188,9 +190,9 @@ Each phase ends on its completion criterion.
 
 ### Phase 0: archive every party, before 20 Sep 2026
 
-Neither state has a coalition yet, so any party could end up governing. Archive the core parties in both states in full: programs, lead candidates, official websites and social accounts, election results, and coalition statements. Keep a basic record for every other admitted party. Add Sondierungspapiere and coalition agreements as they appear. Store everything in the format in `docs/archive-format.md`, with timestamped captures and sources for every fact, so silent edits by parties show up on re-fetch.
+No state has a coalition yet, so any party could end up governing. Archive the core parties in all three states in full: programs, lead candidates, official websites and social accounts, election results, and coalition statements. Keep a basic record for every other admitted party. Add Sondierungspapiere and coalition agreements as they appear. Store everything in the format in `docs/archive-format.md`, with timestamped captures and sources for every fact, so silent edits by parties show up on re-fetch.
 
-Done when every admitted party in both states has a party file, every core party has a fact or a searched gap for each item, the validator passes, and `scripts/archive-fetch.ts` re-fetches all tracked URLs and reports changes.
+Done when every admitted party in all three states has a party file, every core party has a fact or a searched gap for each item, the validator passes, and `scripts/archive-fetch.ts` re-fetches all tracked URLs and reports changes.
 
 ### Phase 1: five-promise trial
 
@@ -233,7 +235,7 @@ Done when four consecutive weekly posts have gone out with review, and review ti
 - Selection rule if we track fewer promises than a full program.
 - How far to track opposition programs beyond their motions and votes.
 - Legal entity and the responsible person for Impressum and §18 MStV.
-- Election results and coalitions for both states, to be added to Scope.
+- Election results and coalitions for all three states, to be added to Scope.
 
 ## Glossary
 
@@ -249,4 +251,5 @@ Done when four consecutive weekly posts have gone out with review, and review ti
 | Haushaltsplan | State budget. |
 | Gesetz- und Verordnungsblatt | Official gazette where laws and regulations are published. |
 | PARDOK / PADOKA | Parliament documentation systems of Berlin and Sachsen-Anhalt. |
+| Landtag MV | The Landtag of Mecklenburg-Vorpommern in Schwerin. |
 | Brandmauer | The other parties' policy of refusing to cooperate with the AfD. |

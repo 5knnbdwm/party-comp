@@ -144,7 +144,12 @@
         }
       ],
       "key": "coalition_position",
-      "value": "Lehnt am 30. August 2026 die Unterstützung einer Regierung ab, die weiterhin Organisationen fördert, die Meyer dem legalistischen Islamismus zurechnet."
+      "value": {
+        "stated_on": "2026-08-30",
+        "speaker": "Christoph Meyer",
+        "speaker_role": "Landesvorsitzender und Spitzenkandidat",
+        "summary": "Lehnt die Unterstützung einer Regierung ab, die weiterhin Organisationen fördert, die Meyer dem legalistischen Islamismus zurechnet."
+      }
     },
     {
       "key": "social_account",

@@ -296,7 +296,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "28. August 2026: Ist zu Gesprächen mit allen Parteien bereit.",
+      "value": {
+        "stated_on": "2026-08-28",
+        "speaker": "Kristin Brinker",
+        "speaker_role": "AfD-Spitzenkandidatin",
+        "summary": "Ist zu Gesprächen mit allen Parteien bereit."
+      },
       "observed_at": "2026-09-16T21:05:33.510Z",
       "sources": [
         {
@@ -308,7 +313,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "28. August 2026: Lehnt die Brandmauer der anderen Parteien ab und erwartet, dass sie scheitert.",
+      "value": {
+        "stated_on": "2026-08-28",
+        "speaker": "Kristin Brinker",
+        "speaker_role": "AfD-Spitzenkandidatin",
+        "summary": "Lehnt die Brandmauer der anderen Parteien ab und erwartet, dass sie scheitert."
+      },
       "observed_at": "2026-09-16T21:05:33.510Z",
       "sources": [
         {

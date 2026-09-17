@@ -9,8 +9,8 @@ const bareUrl=(value:string)=>value.toLowerCase().replace(/^https?:\/\//,'').rep
 // Matches 43.8 as "43.8" or "43,8", and 22 as a whole number, never as part of 122.
 const hasNumber=(text:string,value:number)=>{const [whole,fraction]=String(value).split('.');return new RegExp(`(^|[^\\d])${whole}${fraction?`[.,]${fraction}`:'([.,]0+)?'}([^\\d]|$)`).test(text);};
 
-/** Why a fact's sources fail to show its value, or null. Judgement keys such as coalition_position are not checked. */
-function unsupported(fact:Party['facts'][number],quotes:string,urls:string[]):string|null{
+/** Why a fact's sources fail to show its value, or null. Statements are checked for speaker and date, not for the fairness of the summary. */
+function unsupported(fact:Party['facts'][number],quotes:string,urls:string[],pages:string,retrieved:string[]):string|null{
  const hasUrl=(value:string)=>urls.some(url=>bareUrl(url)===bareUrl(value))||quotes.includes(bareUrl(value));
  switch(fact.key){
   case 'name_full':case 'name_short':case 'lead_candidate':return quotes.includes(normal(fact.value))?null:`no quote contains "${fact.value}"`;
@@ -20,6 +20,13 @@ function unsupported(fact:Party['facts'][number],quotes:string,urls:string[]):st
   case 'election_result':return hasNumber(quotes,fact.value.second_vote_pct)&&hasNumber(quotes,fact.value.seats)?null:`quotes do not contain ${fact.value.second_vote_pct}% and ${fact.value.seats} seats`;
   case 'website':case 'state_association_website':case 'parliamentary_group_website':case 'program':return hasUrl(fact.value)?null:`neither a source URL nor a quote matches ${fact.value}`;
   case 'social_account':return hasUrl(fact.value.url)?null:`neither a source URL nor a quote matches ${fact.value.url}`;
+  case 'coalition_position':case 'sondierung_status':{
+   const surname=normal(fact.value.speaker).split(' ').at(-1)!;
+   if(!pages.includes(surname))return `speaker "${fact.value.speaker}" does not appear in any source`;
+   if(retrieved.every(at=>fact.value.stated_on>at.slice(0,10)))return `stated_on ${fact.value.stated_on} is after every source was retrieved`;
+   if(/^\d{4}-\d{2}-\d{2}|^\d{1,2}\. \p{L}+ \d{4}/u.test(fact.value.summary))return 'summary starts with a date; use stated_on';
+   return null;
+  }
   default:return null;
  }
 }
@@ -58,7 +65,7 @@ async function main(){
   check(path===`data/parties/${party.state}/${party.slug}.json`,`${path}: state or slug mismatch`);
   for(const fact of party.facts){
    if(fact.key==='program')check(tracked.some(t=>t.url===fact.value),`${path}: untracked program`);
-   const quotes:string[]=[];const urls:string[]=[];
+   const quotes:string[]=[];const urls:string[]=[];const sourceTexts:string[]=[];const retrieved:string[]=[];
    for(const source of fact.sources){const capture=byId.get(source.capture);check(capture,`${path}: unknown capture ${source.capture}`);if(!capture)continue;
     check(!capture.error,`${path}: source is failed capture`);
     check(fact.observed_at>=capture.retrieved_at,`${path}: fact predates capture`);
@@ -75,8 +82,9 @@ async function main(){
     const quoted=capture.pdf_info&&source.page?pages[source.page-1]??'':text;
     check(quoted.includes(source.quote)||raw.includes(source.quote),`${path}: quote absent from capture ${source.capture}: ${source.quote.slice(0,60)}`);
     quotes.push(normal(source.quote));urls.push(capture.url);if(capture.final_url)urls.push(capture.final_url);
+    sourceTexts.push(normal(text),normal(raw));retrieved.push(capture.retrieved_at);
    }
-   const problem=unsupported(fact,quotes.join('\n'),urls);
+   const problem=unsupported(fact,quotes.join('\n'),urls,sourceTexts.join('\n'),retrieved);
    check(!problem,`${path}: ${fact.key} not supported by its sources: ${problem}`);
   }
   for(const gap of party.gaps){

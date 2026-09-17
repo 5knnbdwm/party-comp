@@ -24,7 +24,7 @@ scripts/
   archive-fetch.ts           fetches tracked URLs and appends captures
 ```
 
-State slugs: `sachsen-anhalt`, `berlin`. Party slugs are lowercase ASCII, such as `afd`, `cdu`, `spd`, `gruene`, `linke`, `fdp`, `bsw`, `freie-waehler`, `tierschutzpartei`.
+State slugs: `sachsen-anhalt`, `berlin`, `mecklenburg-vorpommern`. Party slugs are lowercase ASCII, such as `afd`, `cdu`, `spd`, `gruene`, `linke`, `fdp`, `bsw`, `freie-waehler`, `tierschutzpartei`.
 
 All timestamps are ISO 8601 in UTC with a `Z` suffix, such as `2026-09-16T18:12:00Z`.
 
@@ -130,7 +130,7 @@ Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never
   - `ballot_list_number`, `seats_before_election`: a quote contains the number. Zero seats needs no number.
   - `election_result`: the quotes contain the vote share, as `43.8` or `43,8`, and the seat count.
   - URL keys and `social_account`: a source capture is of that URL, or a quote contains it.
-  - Judgement keys such as `coalition_position` and `sondierung_status` are checked by review, not by the validator.
+  - `coalition_position`, `sondierung_status`: the speaker's last name appears in a source capture, `stated_on` is no later than the newest source's retrieval date, and the summary does not start with a date. Whether the summary is fair is checked by review.
 - `bun scripts/extract-social-accounts.ts` adds `social_account` facts from captured official pages. It takes profile links from the site header, footer and navigation of state party and parliamentary group sites, and from the body of lead candidate pages, minus the party's own accounts. It skips posts, share buttons and feed widgets. Run it after capturing new official pages. It never adds a fact twice.
 - `gaps` records what we looked for and did not find. It keeps "not found on date X" separate from "never existed". Every gap lists at least one searched page, and each searched page has a capture from before `checked_at`, so the page as we saw it is on record. An item with neither a fact nor a gap has not been checked yet. The text files drop headers, footers and navigation, so links to social profiles, news pages and documents often exist only in the raw HTML blob. Search the blob before recording a gap.
 
@@ -149,8 +149,8 @@ Fact keys:
 | `seats_before_election` | Integer seat count immediately before the election, sourced separately from the previous election result. |
 | `ballot_scope` | `"Landesliste"`, `"Bezirkslisten"` or `"Nur Kreiswahlvorschläge"`. Distinguishes list admission from constituency-only admission. |
 | `election_result` | `{"second_vote_pct":…, "seats":…, "status":"preliminary"}`, or `"final"`. |
-| `coalition_position` | Short verbatim or near-verbatim statement on coalition options, with date. |
-| `sondierung_status` | Who the party is in exploratory or coalition talks with, as of `observed_at`. |
+| `coalition_position` | A statement on coalition options: `{"stated_on":"2026-09-12","speaker":"Werner Graf","speaker_role":"Spitzenkandidat","summary":"…"}`. `stated_on` is the day the statement was made, or the source's publication date when that is all we know. `speaker` is the named person, or the body that issued it when no person is named, such as `Landesvorstand CDU Sachsen-Anhalt` or `CDU-Sprecherin`. `speaker_role` is the role at the time. `summary` stays close to the quoted wording and carries no date. A person's statement stays that person's, even when they lead the party. |
+| `sondierung_status` | Who the party is in exploratory or coalition talks with. Same value shape as `coalition_position`. |
 
 When something important fits no key, add a key and document it in this table in the same change.
 

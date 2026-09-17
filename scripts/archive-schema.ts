@@ -1,5 +1,5 @@
 import { z } from 'zod';
-export const state = z.enum(['sachsen-anhalt', 'berlin']);
+export const state = z.enum(['sachsen-anhalt', 'berlin', 'mecklenburg-vorpommern']);
 const url = z.url().refine(v => /^https?:\/\//.test(v));
 const timestamp = z.iso.datetime();
 const slug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
@@ -10,11 +10,14 @@ export const captureSchema = z.strictObject({id:z.string(),url,final_url:url.nul
 export type Capture = z.infer<typeof captureSchema>;
 const sources = z.array(z.strictObject({capture:z.string(),quote:z.string().min(1),page:z.number().int().positive().nullable()})).min(1);
 const base = {observed_at:timestamp,sources};
-const textKeys = ['name_full','name_short','lead_candidate','coalition_position','sondierung_status','ballot_scope'] as const;
+const textKeys = ['name_full','name_short','lead_candidate','ballot_scope'] as const;
+// Who said what, when. A lead candidate's interview is not automatically the party's position.
+const statement = z.strictObject({stated_on:z.iso.date(),speaker:z.string().min(1),speaker_role:z.string().min(1),summary:z.string().min(1)});
 const urlKeys = ['website','state_association_website','parliamentary_group_website','program'] as const;
 export const factSchema = z.union([
  z.strictObject({...base,key:z.enum(textKeys),value:z.string().min(1)}),
  z.strictObject({...base,key:z.enum(urlKeys),value:url}),
+ z.strictObject({...base,key:z.enum(['coalition_position','sondierung_status']),value:statement}),
  z.strictObject({...base,key:z.literal('ballot_admitted'),value:z.boolean()}),
  z.strictObject({...base,key:z.literal('ballot_list_number'),value:z.number().int().positive()}),
  z.strictObject({...base,key:z.literal('in_parliament_before_election'),value:z.boolean()}),

@@ -312,7 +312,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "12. September 2026: Schließt eine Koalition mit der AfD aus.",
+      "value": {
+        "stated_on": "2026-09-12",
+        "speaker": "Elif Eralp",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Schließt eine Koalition mit der AfD aus."
+      },
       "observed_at": "2026-09-16T21:02:32.423Z",
       "sources": [
         {
@@ -324,7 +329,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "14. September 2026: Besteht bei einer Regierungsbeteiligung der Linken auf einer konkreten Umsetzungsvereinbarung zur Vergesellschaftung; Ziel ist ein Gesetzentwurf im ersten Jahr.",
+      "value": {
+        "stated_on": "2026-09-14",
+        "speaker": "Elif Eralp",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Besteht bei einer Regierungsbeteiligung der Linken auf einer konkreten Umsetzungsvereinbarung zur Vergesellschaftung; Ziel ist ein Gesetzentwurf im ersten Jahr."
+      },
       "observed_at": "2026-09-16T21:02:17.700Z",
       "sources": [
         {
@@ -336,7 +346,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "16. September 2026: Bevorzugt eine Koalition mit SPD und Grünen, besonders wegen der Schnittmengen in der Mietenpolitik.",
+      "value": {
+        "stated_on": "2026-09-16",
+        "speaker": "Elif Eralp",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Bevorzugt eine Koalition mit SPD und Grünen, besonders wegen der Schnittmengen in der Mietenpolitik."
+      },
       "observed_at": "2026-09-16T21:02:25.132Z",
       "sources": [
         {
@@ -348,7 +363,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "16. September 2026: Schließt eine Koalition mit dem BSW aus.",
+      "value": {
+        "stated_on": "2026-09-16",
+        "speaker": "Elif Eralp",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Schließt eine Koalition mit dem BSW aus."
+      },
       "observed_at": "2026-09-16T21:02:25.132Z",
       "sources": [
         {

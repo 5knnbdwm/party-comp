@@ -4,10 +4,10 @@ A public record of what German parties promise before a state election, and what
 
 The plan: take each party's program, roughly 100 concrete promises, and follow every promise into the coalition agreement, through parliament and the budget, to a status. Every status links to the document, page or timestamp that backs it. Weekly summaries on X and other platforms report what changed.
 
-It starts with two states:
+It starts with three states:
 
 - **Sachsen-Anhalt**, which voted on 6 September 2026 and has no coalition yet.
-- **Berlin**, which votes on 20 September 2026.
+- **Berlin** and **Mecklenburg-Vorpommern**, which both vote on 20 September 2026.
 
 The project is not affiliated with any party. It applies one method to every party.
 
@@ -15,7 +15,7 @@ The project is not affiliated with any party. It applies one method to every par
 
 Early. There is no website yet. This repo currently holds the evidence archive: what each party published before and just after the elections, stored so that later edits or deletions can be detected.
 
-- 37 parties admitted to the ballot in both states have a party file in `data/parties/`.
+- 37 parties admitted to the ballot in Sachsen-Anhalt and Berlin have a party file in `data/parties/`. Mecklenburg-Vorpommern is being added.
 - 641 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
 - 344 tracked URLs and 519 captures, each with a SHA-256 hash and retrieval time.
 
@@ -23,8 +23,9 @@ Deep research covers the core parties only:
 
 - Sachsen-Anhalt: the parties that won seats. AfD, CDU, SPD, Die Linke, Grüne, BSW.
 - Berlin, until the vote: CDU, SPD, Grüne, Die Linke, AfD, BSW, FDP.
+- Mecklenburg-Vorpommern, until the vote: parties in the outgoing Landtag plus parties polling at 3% or more.
 
-**Coalition positions and talks status are unreviewed.** An AI model extracted them. The validator confirms that every quote exists in its source, but no person has yet checked whether each summary is fair. Commits marked "unreviewed sol run" contain these facts. Some statements come from individual politicians in interviews, and the data does not yet record who said what. Treat them as leads, not as findings.
+Coalition positions and talks status record who said what, and when. Each statement has a date, a speaker and the speaker's role, so a lead candidate's interview is not presented as the party's decision. An AI model extracted the statements for Sachsen-Anhalt and Berlin, and a person reviewed them on 17 September 2026. The commits marked "unreviewed sol run" predate that review.
 
 ## How the data works
 

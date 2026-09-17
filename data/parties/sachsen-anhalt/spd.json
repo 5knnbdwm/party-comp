@@ -221,7 +221,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-07: Hält einen überparteilichen Ministerpräsidenten nicht für die erste Wahl, lehnt ihn aber nicht grundsätzlich ab, wenn er eine Blockade lösen könnte.",
+      "value": {
+        "stated_on": "2026-09-07",
+        "speaker": "Armin Willingmann",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Hält einen überparteilichen Ministerpräsidenten nicht für die erste Wahl, lehnt ihn aber nicht grundsätzlich ab, wenn er eine Blockade lösen könnte."
+      },
       "observed_at": "2026-09-16T20:40:28.815Z",
       "sources": [
         {
@@ -233,7 +238,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-09: Sieht keine Grundlage für Gespräche über eine Zusammenarbeit mit der AfD.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Juliane Kleemann und Andreas Schmidt",
+        "speaker_role": "Landesvorsitzende",
+        "summary": "Sieht keine Grundlage für Gespräche über eine Zusammenarbeit mit der AfD."
+      },
       "observed_at": "2026-09-16T20:32:03.194Z",
       "sources": [
         {
@@ -245,7 +255,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-11: Schließt eine politische Zusammenarbeit mit der AfD aus und verlangt vom BSW Klarheit zu dessen Gesprächen mit der AfD.",
+      "value": {
+        "stated_on": "2026-09-11",
+        "speaker": "Katja Pähle",
+        "speaker_role": "Vorsitzende der SPD-Landtagsfraktion",
+        "summary": "Schließt eine politische Zusammenarbeit mit der AfD aus und verlangt vom BSW Klarheit zu dessen Gesprächen mit der AfD."
+      },
       "observed_at": "2026-09-16T20:40:21.540Z",
       "sources": [
         {
@@ -262,7 +277,12 @@
     },
     {
       "key": "sondierung_status",
-      "value": "2026-09-09: Einladung der AfD zu Gesprächen über eine Regierungsbildung erhalten und abgelehnt.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "Juliane Kleemann und Andreas Schmidt",
+        "speaker_role": "Landesvorsitzende",
+        "summary": "Einladung der AfD zu Gesprächen über eine Regierungsbildung erhalten und abgelehnt."
+      },
       "observed_at": "2026-09-16T20:32:03.194Z",
       "sources": [
         {

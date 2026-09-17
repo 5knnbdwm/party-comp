@@ -305,7 +305,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-07: Sieht den Auftrag zur Bildung einer Landesregierung nicht bei der CDU.",
+      "value": {
+        "stated_on": "2026-09-07",
+        "speaker": "Landesvorstand CDU Sachsen-Anhalt",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Sieht den Auftrag zur Bildung einer Landesregierung nicht bei der CDU."
+      },
       "observed_at": "2026-09-16T19:39:20.774Z",
       "sources": [
         {
@@ -317,7 +322,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-09: Lehnt eine Zusammenarbeit mit der AfD ab und nimmt deren Gesprächsangebot nicht an.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "CDU-Sprecherin",
+        "speaker_role": "Sprecherin",
+        "summary": "Lehnt eine Zusammenarbeit mit der AfD ab und nimmt deren Gesprächsangebot nicht an."
+      },
       "observed_at": "2026-09-16T20:32:03.194Z",
       "sources": [
         {
@@ -329,7 +339,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "2026-09-15: Richtet sich auf Oppositionsarbeit ein; die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung.",
+      "value": {
+        "stated_on": "2026-09-15",
+        "speaker": "Sven Schulze",
+        "speaker_role": "Vorsitzender der CDU-Landtagsfraktion",
+        "summary": "Richtet sich auf Oppositionsarbeit ein; die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung."
+      },
       "observed_at": "2026-09-16T20:31:54.096Z",
       "sources": [
         {
@@ -341,7 +356,12 @@
     },
     {
       "key": "sondierung_status",
-      "value": "2026-09-09: Gesprächsangebot der AfD erhalten und abgelehnt.",
+      "value": {
+        "stated_on": "2026-09-09",
+        "speaker": "CDU-Sprecherin",
+        "speaker_role": "Sprecherin",
+        "summary": "Gesprächsangebot der AfD erhalten und abgelehnt."
+      },
       "observed_at": "2026-09-16T20:32:03.194Z",
       "sources": [
         {
@@ -353,7 +373,12 @@
     },
     {
       "key": "sondierung_status",
-      "value": "2026-09-15: Die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung.",
+      "value": {
+        "stated_on": "2026-09-15",
+        "speaker": "CDU-Fraktion Sachsen-Anhalt",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Die CDU-Fraktion beteiligt sich nicht an der Regierungsbildung."
+      },
       "observed_at": "2026-09-16T20:31:54.096Z",
       "sources": [
         {

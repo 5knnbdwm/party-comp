@@ -420,7 +420,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "26. August 2026: Bevorzugt eine Koalition mit Linken und SPD, kann sich auch eine Zusammenarbeit mit der CDU vorstellen und schließt nur eine Zusammenarbeit mit der AfD aus.",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Werner Graf",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Bevorzugt eine Koalition mit Linken und SPD, kann sich auch eine Zusammenarbeit mit der CDU vorstellen und schließt nur eine Zusammenarbeit mit der AfD aus."
+      },
       "observed_at": "2026-09-16T20:58:56.933Z",
       "sources": [
         {
@@ -437,7 +442,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "27. August 2026: Bevorzugt ein Bündnis mit SPD und Linken und will die CDU in die Opposition schicken.",
+      "value": {
+        "stated_on": "2026-08-27",
+        "speaker": "Werner Graf",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Bevorzugt ein Bündnis mit SPD und Linken und will die CDU in die Opposition schicken."
+      },
       "observed_at": "2026-09-16T20:59:11.792Z",
       "sources": [
         {
@@ -449,7 +459,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "10. September 2026: Erteilt einer Koalition mit der CDU eine Absage und spricht sich für ein Bündnis mit Linken und SPD aus.",
+      "value": {
+        "stated_on": "2026-09-10",
+        "speaker": "Werner Graf",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Erteilt einer Koalition mit der CDU eine Absage und spricht sich für ein Bündnis mit Linken und SPD aus."
+      },
       "observed_at": "2026-09-16T20:59:04.132Z",
       "sources": [
         {
@@ -461,7 +476,12 @@
     },
     {
       "key": "coalition_position",
-      "value": "15. September 2026: Schließt eine Koalition aus, an der Antisemiten beteiligt sind, sowie eine Regierung, die von Antisemiten oder deren Stimmen abhängig ist; verlangt einen Koalitionsvertrag, der den Kampf gegen Antisemitismus verstärkt.",
+      "value": {
+        "stated_on": "2026-09-15",
+        "speaker": "Werner Graf",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Schließt eine Koalition aus, an der Antisemiten beteiligt sind, sowie eine Regierung, die von Antisemiten oder deren Stimmen abhängig ist; verlangt einen Koalitionsvertrag, der den Kampf gegen Antisemitismus verstärkt."
+      },
       "observed_at": "2026-09-16T20:59:30.339Z",
       "sources": [
         {
