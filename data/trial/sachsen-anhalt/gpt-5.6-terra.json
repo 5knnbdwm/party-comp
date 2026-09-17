@@ -1,0 +1,252 @@
+{
+  "state": "sachsen-anhalt",
+  "mode": "trace",
+  "model": "gpt-5.6-terra",
+  "traced_at": "2026-09-17T10:58:48Z",
+  "promises": [
+    {
+      "id": "sachsen-anhalt-7000-police",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "und eine ausgewogene Altersstruktur wollen wir die Sollstärke von 7.000",
+          "capture": "cap_20260917T104214477Z_e577d9c1",
+          "page": 34
+        },
+        {
+          "party": "spd",
+          "quote": "die Zahl der Polizeivollzugsbeamten auf\n        7.000.",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "page": 45
+        },
+        {
+          "party": "fdp",
+          "quote": "• die Stellen im Polizeivollzugsdienst bis zum Ende der kommenden Wahlperiode auf 7000\n       erhöhen",
+          "capture": "cap_20260917T104148192Z_3d4275e3",
+          "page": 70
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "innere sicherheit",
+      "competence": "state",
+      "deadline": "binnen fünf Jahren",
+      "done_when": "Mindestens 7.000 Polizeivollzugsbeamtinnen und -beamte sind innerhalb von fünf Jahren im aktiven Dienst der Polizei Sachsen-Anhalt.",
+      "events": [
+        {
+          "date": "2025-09-01",
+          "type": "statistic",
+          "summary": "Das Innenministerium bezifferte den aktiven Bestand zum 1. April 2025 auf rund 6.400 PVB und erklärte die 7.000er Mindestzielzahl für in Überprüfung.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104629309Z_94cbcb68",
+              "quote": "Damals gab es 5.822 PVB, zum 1. April 2025 waren bereits rund 6.400 PVB in der Landespolizei tätig.",
+              "page": 2
+            },
+            {
+              "capture": "cap_20260917T104629309Z_94cbcb68",
+              "quote": "Mindestzielzahl von 7.000 Polizeivollzugsbeamten aktuell überprüft wird.",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "date": "2026-02-26",
+          "type": "announcement",
+          "summary": "Das Innenministerium hielt am Mindestziel fest, ohne einen aktualisierten Ist-Bestand zu nennen.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104639163Z_8c9a3acd",
+              "quote": "An der Mindestzielzahl von 7.000 Polizeivollzugsbeamtinnen und -beamten (PVB) wird unverändert festgehalten.",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "status": "partially_implemented",
+      "status_reasoning": "Der offizielle Bestand von rund 6.400 aktiven PVB belegt Fortschritt zum 7.000er Ziel, erfüllt den numerischen Test aber nicht. Die spätere Mitteilung bestätigt das Ziel, liefert jedoch keinen Bestand, der die Lücke schließen könnte.",
+      "open_questions": [
+        "Ein amtlicher Bestand zum Ende der fünf Jahre wurde in den gefundenen Unterlagen nicht ermittelt.",
+        "Die Vereinbarung nennt aktiven Dienst, während das FDP-Programm von Stellen spricht. Für die Bewertung zählt die engere Formulierung der Koalitionsvereinbarung."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-tariftreue-law",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "Deshalb halten wir am Ziel eines Tariftreue-",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "page": 10
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "arbeit und vergabe",
+      "competence": "state",
+      "deadline": "Mitte 2022",
+      "done_when": "Ein Tariftreue- und Vergabegesetz für Sachsen-Anhalt ist verabschiedet und in Kraft.",
+      "events": [
+        {
+          "date": "2022-05-12",
+          "type": "bill_introduced",
+          "summary": "Die drei Koalitionsfraktionen brachten den Gesetzentwurf in den Landtag ein.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104629626Z_a7f4d362",
+              "quote": "Entwurf eines Gesetzes zur Sicherung von Tariftreue, Sozialstandards und Wettbewerb bei\nder Vergabe öffentlicher Aufträge des Landes Sachsen-Anhalt (Tariftreue- und Vergabege-\nsetz Sachsen-Anhalt - TVergG LSA)",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2022-12-07",
+          "type": "law_passed",
+          "summary": "Die veröffentlichte erläuterte Fassung weist das TVergG LSA vom 7. Dezember 2022 aus.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104630038Z_1113ecbb",
+              "quote": "Tariftreue- und Vergabegesetz Sachsen-Anhalt (TVergG LSA)\n\n     vom 7. Dezember 2022 (GVBl. LSA 2022, S. 367)",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "Der Done-when-Test verlangt ein verabschiedetes und geltendes Gesetz. Das TVergG LSA wurde im Dezember 2022 veröffentlicht. Die Frist Mitte 2022 wurde verfehlt, ändert aber nicht die Erfüllung des gewählten Abschlusskriteriums.",
+      "open_questions": [
+        "Zu prüfen ist vor Veröffentlichung, ob die Zusage auch die einzelnen im Vertrag genannten Tarif- und Mindestlohnregeln umfasst. Dieser Trace bewertet nur die ausgewählte Zusage, ein Gesetz zu erarbeiten und zu verabschieden."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-culture-foundation-funding",
+      "program_sources": [],
+      "adoption": "not_in_programs",
+      "topic": "kultur",
+      "competence": "state",
+      "deadline": "ab Haushaltsjahr 2022",
+      "done_when": "Der Landeshaushalt sieht ab 2022 für die Kulturstiftung Sachsen-Anhalt mindestens 16,5 Millionen Euro jährliche Zuschüsse für laufende Zwecke vor und berücksichtigt Tarif- und Preisentwicklungen in den Folgejahren.",
+      "events": [
+        {
+          "date": "2022-05-18",
+          "type": "budget_line",
+          "summary": "Der Landtag beschloss den Haushalt 2022. Dessen Titel 685 74 setzte 16.882.800 Euro für Zuschüsse für laufende Zwecke der Kulturstiftung an.",
+          "sources": [
+            {
+              "capture": "cap_20260917T105107548Z_0e6c6937",
+              "quote": "Am Ende der Debatte wurden der Haushalt und das Haushaltsbegleitgesetz 2022 mit den Stimmen der Koalitionsfraktionen von CDU, SPD und FDP beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T105025958Z_231b9ee6",
+              "quote": "685 74   188   Zuschüsse für laufende Zwecke                                                                 11.676.700         16.882.800",
+              "page": 2541
+            }
+          ]
+        },
+        {
+          "date": "2025-02-20",
+          "type": "budget_line",
+          "summary": "Der Landtag beschloss den Haushalt 2025/2026. Er erhöhte den Ansatz für laufende Zuschüsse der Stiftung und nennt Tarif- und Betriebskostensteigerungen als Finanzierungsgrund.",
+          "sources": [
+            {
+              "capture": "cap_20260917T105030125Z_5cfe5750",
+              "quote": "Im Anschluss an die Debatte wurde den beiden Beschlussempfehlungen gefolgt und somit sowohl das Haushaltsgesetz als auch das Haushaltsbegleitgesetz beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T104708380Z_81967cce",
+              "quote": "685 74   188   Zuschüsse für laufende Zwecke                                               22.420.900             23.293.600       23.490.100",
+              "page": 2813
+            },
+            {
+              "capture": "cap_20260917T104708380Z_81967cce",
+              "quote": "Die Verpflichtungsermächtigung 2025 dient der Finanzierung der Tarif- und Betriebskostensteigerung.",
+              "page": 2813
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "Der 2022-Haushalt überschritt den zugesagten Mindestbetrag mit 16.882.800 Euro. Der beschlossene Haushalt 2025/2026 weist höhere laufende Zuschüsse aus und verbindet die Verpflichtungsermächtigung ausdrücklich mit Tarif- und Betriebskostensteigerungen.",
+      "open_questions": [
+        "Die Koalitionsformulierung spricht von einer an Tarif- und Preisentwicklung orientierten jährlichen Anpassung. Die vorliegenden Haushalte belegen höhere Ansätze und Tarif- sowie Betriebskosten, aber keine veröffentlichte Berechnungsformel für Preisentwicklung.",
+        "Für eine vollständige Jahresreihe müssten die Haushalte 2023 und 2024 noch gegen den jeweils geltenden Stiftungshaushalt geprüft werden."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-counter-extremism",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "Miteinander und tritt Rassismus, Anti-",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "page": 5
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "demokratie und extremismuspraevention",
+      "competence": "state",
+      "deadline": null,
+      "done_when": null,
+      "events": [
+        {
+          "date": "2026-05-18",
+          "type": "report",
+          "summary": "Die Regierungsbilanz beschreibt Zusammenarbeit und ein weiterentwickeltes Landesprogramm, benennt aber keinen messbaren Abschlusszustand für die breite Koalitionszusage.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104330199Z_0a7d0563",
+              "quote": "Auch bei der Bekämpfung von Rassismus, Demokratie-",
+              "page": 27
+            }
+          ]
+        }
+      ],
+      "status": "not_assessable",
+      "status_reasoning": "Die Formulierung nennt weder eine Maßnahme noch einen Umfang, Zeitpunkt oder erreichbaren Zustand. Die Regierungsbilanz belegt Aktivitäten, kann aber nicht zeigen, dass allen Formen von Extremismus, Rassismus und Antisemitismus der Boden entzogen wurde.",
+      "open_questions": [
+        "Die Zusage enthält auch den konkreteren Folgesatz zur Präventionsarbeit. Er müsste als eigene, enger zugeschnittene Promise verfolgt werden, statt ihn in dieses unprüfbare Ziel hineinzulesen."
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-bafoeg-bundesrat",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "• eine grundlegende BAfÖG-Reform, die auf",
+          "capture": "cap_20260917T104140268Z_59140aa1",
+          "page": 36
+        }
+      ],
+      "adoption": "changed",
+      "topic": "hochschulfinanzierung",
+      "competence": "federal",
+      "deadline": null,
+      "done_when": "Sachsen-Anhalt bringt im Bundesrat eine Initiative zur grundlegenden BAföG-Reform ein, die elternunabhängige Förderung und den Verzicht auf Rückzahlung empfangener Leistungen zum Ziel hat.",
+      "events": [
+        {
+          "date": "2026-03-06",
+          "type": "other",
+          "summary": "Sachsen-Anhalts Vertreter sprach zu einer BAföG-Entschließung, deren Antrag von Niedersachsen und Mecklenburg-Vorpommern stammte. Das belegt keine eigene Einbringung Sachsen-Anhalts.",
+          "sources": [
+            {
+              "capture": "cap_20260917T104633121Z_014b6927",
+              "quote": "13   Entschließung des Bundesrates für eine umfassende Reform des           - K - AIS - Fz -",
+              "page": 5
+            },
+            {
+              "capture": "cap_20260917T104633121Z_014b6927",
+              "quote": "Rede ST:\n        Minister Prof. Dr. Armin Willingmann",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "status": "no_evidence_found",
+      "status_reasoning": "Die gefundene Bundesratsunterlage betrifft eine Initiative anderer Länder. Sie zeigt eine Sachsen-Anhalt-Rede, aber keine von Sachsen-Anhalt eingebrachte Initiative und keine Belege für die zwei im Koalitionsvertrag genannten Reformziele.",
+      "open_questions": [
+        "Eine vollständige Prüfung erfordert eine Suche im Bundesrats-Dokumentenbestand nach Sachsen-Anhalt als Antragsteller oder Mitantragsteller während der Wahlperiode.",
+        "Es bleibt offen, ob die Koalition eine Mitwirkung an einer Initiative anderer Länder als ausreichende Umsetzung verstanden hätte. Der Wortlaut 'einbringen' spricht dagegen."
+      ]
+    }
+  ]
+}
