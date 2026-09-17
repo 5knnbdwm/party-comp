@@ -4438,5 +4438,165 @@
     "publisher_type": "party",
     "added_at": "2026-09-17T10:25:00.000Z",
     "found_on": "https://www.fdp-mv.de/articles"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/landtagswahl-2026/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/partei/programm/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Programmuebersicht",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/service/downloads/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Downloads",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/aktuelles/news/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Aktuelles und News",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/category/pressearchiv/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "other",
+    "label": "Pressearchiv",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "program_full",
+    "label": "Landeswahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/wp-content/uploads/2026/07/Kurzwahlprogramm-2026-1.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "program_short",
+    "label": "Kurzwahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/pressemitteilung-ohne-frieden-ist-alles-nichts/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "program_immediate",
+    "label": "Fuenf-Punkte-Sofortprogramm fuer ein friedliches Mecklenburg-Vorpommern",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/pressemitteilung-10-punkte-fuer-den-politischen-neubeginn-in-mv_bsw/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "program_immediate",
+    "label": "10 Punkte fuer den politischen Neubeginn in MV",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/unsere-listenkandidaten/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "lead_candidate_page",
+    "label": "Listenkandidaten zur Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/unsere-direktkandidaten/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "candidate_list",
+    "label": "Direktkandidaten zur Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:05:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/pressekonferenz-kampagnenvorstellung-des-bsw-zur-landtagswahl-in-mv/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "lead_candidate_page",
+    "label": "Kampagnenvorstellung mit den Spitzenkandidaten",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:10:00.000Z",
+    "found_on": "https://mv.bsw-vg.de/aktuelles/news/"
+  },
+  {
+    "url": "https://mv.bsw-vg.de/pressemitteilung-bsw-umfrage-ndr/",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "lead_candidate_page",
+    "label": "Peter Schabbel und Sabine Firnhaber als Spitzenkandidaten",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:10:00.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Amv.bsw-vg.de+Koalition+Peter+Schabbel+Landtagswahl+2026+BSW+Mecklenburg-Vorpommern"
+  },
+  {
+    "url": "https://digital.bsw-vg.de/klare-linie-2/landtagswahl-mecklenburg-vorpommern",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "Interview mit Peter Schabbel und Sabine Firnhaber",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:10:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Mecklenburg-Vorpommern+Koalition+AfD+SPD+CDU+2026+Schabbel"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/bsw-afd-sahra-wagenknecht-sachsen-anhalt-mecklenburg-vorpommern-100.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "BSW-Spitze in Mecklenburg-Vorpommern folgt Wagenknecht-Linie",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T12:10:00.000Z",
+    "found_on": "https://www.google.com/search?q=BSW+Mecklenburg-Vorpommern+Koalition+AfD+SPD+CDU+2026+Schabbel"
+  },
+  {
+    "url": "https://www.landtag-mv.de/dpa-ticker/dpa-mitteilung?cHash=9f228576d613d72df418c78db41b546f&tx_w3dpa_dpalist%5Baction%5D=detail&tx_w3dpa_dpalist%5Bcontroller%5D=Dpa&tx_w3dpa_dpalist%5Buid%5D=7361",
+    "state": "mecklenburg-vorpommern",
+    "party": "bsw",
+    "kind": "coalition_statement",
+    "label": "BSW in MV nach Sachsen-Anhalt-Wahl ermutigt",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T12:10:00.000Z",
+    "found_on": "https://www.google.com/search?q=Peter+Schabbel+Koalition+BSW+Mecklenburg-Vorpommern+Landtagswahl+2026"
   }
 ]

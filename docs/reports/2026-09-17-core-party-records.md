@@ -221,3 +221,37 @@ None. Each required item has at least one fact.
 - The 12 September report refers to the FDP representative at the election forum, while the same captured page's image description identifies that representative as Jakob Schirmer. The July statement remains the latest captured position on coalitions with the Linke and BSW.
 - The FDP MV HTML pages redirect the archive fetcher to cookie-consent pages. They remain captured as discovery evidence but do not back facts. The program PDFs and the federal party's pages produced usable local captures.
 - Wayback save requests for all three program documents and the election hub returned HTTP 500 without snapshot URLs. The local archive captures succeeded.
+
+## mecklenburg-vorpommern/bsw
+
+### Facts
+
+- 2026-09-17, `program` (`program_full`): "Frischer Wind in MV! Mit Vernunft. Für Gerechtigkeit.", the 94-page state election program. Source: https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf
+- 2026-09-17, `program` (`program_short`): "Programm Landtagswahl 2026, Kurzversion", a 24-page short program. Source: https://mv.bsw-vg.de/wp-content/uploads/2026/07/Kurzwahlprogramm-2026-1.pdf
+- 2026-09-01, `program` (`program_immediate`): "Das Fünf-Punkte-Sofortprogramm des BSW zum Antikriegstag für ein friedliches Mecklenburg-Vorpommern". Source: https://mv.bsw-vg.de/pressemitteilung-ohne-frieden-ist-alles-nichts/
+- 2026-09-15, `program` (`program_immediate`): "Das Arbeitsprogramm der BSW-Fraktion im Schweriner Landtag bis Weihnachten", a ten-point work program. Source: https://mv.bsw-vg.de/pressemitteilung-10-punkte-fuer-den-politischen-neubeginn-in-mv_bsw/
+- 2026-09-17, `lead_candidate`: Peter Schabbel. Source: https://mv.bsw-vg.de/pressekonferenz-kampagnenvorstellung-des-bsw-zur-landtagswahl-in-mv/
+- 2026-09-17, `lead_candidate`: Sabine Firnhaber. Source: https://mv.bsw-vg.de/pressekonferenz-kampagnenvorstellung-des-bsw-zur-landtagswahl-in-mv/
+- 2026-08-23, `coalition_position`: Sabine Firnhaber, BSW lead candidate, rules out coalitions with both the AfD and SPD and says the BSW would abstain in the minister-president vote, including a third ballot. Source: https://www.zdfheute.de/politik/deutschland/bsw-afd-sahra-wagenknecht-sachsen-anhalt-mecklenburg-vorpommern-100.html
+- 2026-08-23, `coalition_position`: Firnhaber considers cooperation with the AfD possible under a nonpartisan minister-president in an expert government. Source: https://www.zdfheute.de/politik/deutschland/bsw-afd-sahra-wagenknecht-sachsen-anhalt-mecklenburg-vorpommern-100.html
+- 2026-09-15, `coalition_position`: BSW Mecklenburg-Vorpommern advocates a nonpartisan minister-president, changing parliamentary majorities, and talks with every elected force. Source: https://mv.bsw-vg.de/pressemitteilung-10-punkte-fuer-den-politischen-neubeginn-in-mv_bsw/
+- 2026-09-17, `social_account`: YouTube, https://youtube.com/@bsw.mecklenburg-vorpommern. Source: https://mv.bsw-vg.de/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/bsw.mecklenburg.vorpommern. Source: https://mv.bsw-vg.de/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/bsw.mecklenburg_vorpommern. Source: https://mv.bsw-vg.de/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@bsw.mv. Source: https://mv.bsw-vg.de/
+- 2026-09-17, `social_account`: X, https://x.com/BSWLandMV. Source: https://mv.bsw-vg.de/
+
+### Gaps
+
+- `parliamentary_group_website`: The BSW was not represented in the outgoing Landtag and had no parliamentary group website. Pages searched: https://www.landtag-mv.de/landtag/grundsaetzliches/parlamentarische-gremien/fraktionen and https://mv.bsw-vg.de/
+
+### Unclear or noteworthy
+
+- The election hub links the full and short election programs. The program overview contains a 2024 founding resolution and a federal 2025 election program, not additional documents for this election. The downloads page contains logos only. No separate easy-language or HTML election program appears on those pages, the news index, or the press archive.
+- The homepage has a six-theme summary titled "Unsere Kernziele für ein starkes Mecklenburg-Vorpommern". It is introductory homepage copy, not a separate program document, so it remains part of the `party_website` capture rather than a second program fact.
+- The short program is a scanned PDF. Its program fact quotes the generated OCR text. The full program has a text layer, but its embedded font mapping drops letters from some words. Its quote is copied exactly from that text layer.
+- The party presents Schabbel and Firnhaber as joint lead candidates. The state-list page places them first and second; the 1 July campaign announcement explicitly calls both `Spitzenkandidaten`.
+- Firnhaber's 23 August statement distinguishes a formal coalition with the AfD, which she rules out, from cooperation with the AfD under a nonpartisan expert government, which she considers possible. The later 15 September state-party statement says the BSW will talk to every elected force and pursue changing majorities.
+- A 7 September dpa report also quotes Schabbel proposing a nonpartisan minister-president with changing majorities as an alternative to coalitions. The later 15 September party statement records the current version of the same position.
+- The official BSW interview page says the interview took place during the first weekend of June but gives no publication date. It supports the two lead-candidate identifications and Firnhaber's rejection of an AfD coalition, but the dated official campaign announcement and later ZDF report back the recorded facts.
+- Wayback save requests for both PDFs and both immediate-action program pages returned HTTP 500 without snapshot URLs. Every local archive capture succeeded.

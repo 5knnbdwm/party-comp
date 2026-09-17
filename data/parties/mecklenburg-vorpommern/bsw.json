@@ -85,6 +85,209 @@
       ],
       "key": "website",
       "value": "https://bsw-vg.de/"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103323358Z_062b284d",
+          "quote": "Frischer Wind in MV! –\nMit Vernun . Für Gerech gkeit.",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103332036Z_f2ed8299",
+          "quote": "Programm Landtagswahl 2026\n\nKurzversion",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://mv.bsw-vg.de/wp-content/uploads/2026/07/Kurzwahlprogramm-2026-1.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103623988Z_7670814c",
+          "quote": "Das Fünf-Punkte-Sofortprogramm des BSW zum Antikriegstag für ein friedliches Mecklenburg-Vorpommern",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://mv.bsw-vg.de/pressemitteilung-ohne-frieden-ist-alles-nichts/"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103631583Z_5232ebf1",
+          "quote": "Das Arbeitsprogramm der BSW-Fraktion im Schweriner Landtag bis Weihnachten",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://mv.bsw-vg.de/pressemitteilung-10-punkte-fuer-den-politischen-neubeginn-in-mv_bsw/"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103725876Z_ae02b6c3",
+          "quote": "Sabine Firnhaber und Peter Schabbel, Spitzenkandidaten des BSW in MV",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Peter Schabbel"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103725876Z_ae02b6c3",
+          "quote": "Sabine Firnhaber und Peter Schabbel, Spitzenkandidaten des BSW in MV",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Sabine Firnhaber"
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103726944Z_68dd42af",
+          "quote": "In Mecklenburg-Vorpommern folgen die Spitzenkandidaten Peter Schabbel und Sabine Firnhaber ebenfalls der Wagenknecht-Linie. Firnhaber kam über die Bauernproteste in die Politik. Sie schließt eine Koalition mit der AfD ebenso aus wie mit der SPD: \"Wir wählen keinen Ministerpräsidenten. Wir enthalten uns, und das auch im dritten Wahlgang.\"",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-23",
+        "speaker": "Sabine Firnhaber",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Schließt Koalitionen mit der AfD und der SPD aus und kündigt an, sich bei der Wahl des Ministerpräsidenten auch im dritten Wahlgang zu enthalten."
+      }
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103726944Z_68dd42af",
+          "quote": "Eine Zusammenarbeit mit der AfD unter einem \"überparteilichen\" Ministerpräsidenten in einer \"Expertenregierung\" hält sie dagegen für möglich.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-23",
+        "speaker": "Sabine Firnhaber",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Hält eine Zusammenarbeit mit der AfD unter einem überparteilichen Ministerpräsidenten in einer Expertenregierung für möglich."
+      }
+    },
+    {
+      "observed_at": "2026-09-17T10:40:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T103631583Z_5232ebf1",
+          "quote": "Unser Modell eines überparteilichen Ministerpräsidenten, das von der politischen Konkurrenz lange belächelt wurde, wird immer gefragter. Unabhängig davon wollen wir im neuen Landtag mit wechselnden Mehrheiten unsere Positionen parlamentarisch durchsetzen, die wir vor der Wahl angekündigt haben. Die Brandmauer ist undemokratisch. Man darf nicht 30 oder gar 40 Prozent der Wähler ausgrenzen. Wie in Sachsen-Anhalt werden wir auch in Mecklenburg-Vorpommern nach der Wahl mit allen gewählten Kräften reden.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-15",
+        "speaker": "BSW Mecklenburg-Vorpommern",
+        "speaker_role": "Pressemitteilung",
+        "summary": "Wirbt für einen überparteilichen Ministerpräsidenten, wechselnde Mehrheiten und Gespräche mit allen gewählten Kräften."
+      }
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/@bsw.mecklenburg-vorpommern"
+      },
+      "observed_at": "2026-09-17T10:38:51.797Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "https://www.youtube.com/@bsw.mecklenburg-vorpommern",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/bsw.mecklenburg.vorpommern"
+      },
+      "observed_at": "2026-09-17T10:38:51.797Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "https://www.facebook.com/bsw.mecklenburg.vorpommern",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/bsw.mecklenburg_vorpommern"
+      },
+      "observed_at": "2026-09-17T10:38:51.797Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "https://www.instagram.com/bsw.mecklenburg_vorpommern/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@bsw.mv"
+      },
+      "observed_at": "2026-09-17T10:38:51.797Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "https://www.tiktok.com/@bsw.mv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://x.com/BSWLandMV"
+      },
+      "observed_at": "2026-09-17T10:38:51.797Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094630759Z_086222a0",
+          "quote": "https://x.com/BSWLandMV",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [
