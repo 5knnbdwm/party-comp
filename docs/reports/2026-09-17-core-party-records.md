@@ -105,3 +105,33 @@ None. Each required item has at least one fact.
 - The party homepage links two separate YouTube profiles in its site chrome. Both are retained as separate `social_account` facts.
 - An older search result exposed https://cdu-mv.de/wp-content/uploads/2026/01/MVorne-Vertragsangebot-NEU-mit-HG.pdf, but the archive fetch returned HTTP 404. The current programs page links the successful February URL listed above.
 - Wayback save requests for all four current program documents returned HTTP 500 without a snapshot URL. The local archive captures succeeded.
+
+## mecklenburg-vorpommern/linke
+
+### Facts
+
+- 2026-09-17, `program` (`program_html`): Wahlprogramm zur Landtagswahl 2026, HTML version. Source: https://wahlprogramm26.die-linke-mv.de/
+- 2026-09-17, `program` (`program_full`): "Unser Programm zur Landtagswahl 2026", 30-page PDF. Source: https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf
+- 2026-09-17, `program` (`program_easy_language`): Wahlprogramm in Leichter Sprache, 8-page PDF. Source: https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/800709-LINKE-MV-LTW26-KWP-LeichteSprache-A5-4c_bf.pdf
+- 2026-09-17, `lead_candidate`: Simone Oldenburg. The party's candidate list identifies her as the lead candidate and number one on the state list. Sources: https://kampagne26.die-linke-mv.de/direktkandidierende/ and https://www.die-linke-mv.de/pressemeldungen/die-linke-mv-nominiert-simone-oldenburg-als-spitzenkandidatin-fuer-die-landtagswahl-2026-1/
+- 2026-09-16, `coalition_position`: Die Linke Mecklenburg-Vorpommern supports a continuation of the SPD-Linke coalition and urges voters to strengthen the Linke to prevent a CDU-led state government. Source: https://www.die-linke-mv.de/allgemein/wer-eine-cdu-regierung-verhindern-will-muss-die-linke-waehlen/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/LinkeMV. Source: https://www.die-linke-mv.de/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/dielinkemv. Source: https://www.die-linke-mv.de/
+- 2026-09-17, `social_account`: YouTube, https://youtube.com/LINKEmv. Source: https://www.die-linke-mv.de/
+- 2026-09-17, `social_account`: Facebook, https://facebook.com/LinksfraktionMV. Source: https://www.linksfraktionmv.de/
+- 2026-09-17, `social_account`: Bluesky, https://bsky.app/profile/die-linke.de. Source: https://www.linksfraktionmv.de/
+- 2026-09-17, `social_account`: Instagram, https://instagram.com/linksfraktionmv. Source: https://www.linksfraktionmv.de/
+- 2026-09-17, `social_account`: TikTok, https://tiktok.com/@linksfraktionmv. Source: https://www.linksfraktionmv.de/
+
+### Gaps
+
+None. Each required item has at least one fact.
+
+### Unclear or noteworthy
+
+- The campaign site's program link redirects to the HTML program site. It is tracked as the discovery URL but not recorded as a second program fact because both URLs expose the same document.
+- The program site links only the full PDF and the easy-language PDF. No separate short program, priorities list or immediate-action program appears on the captured campaign page, program site, party main page or press index.
+- The campaign homepage contains an interview and short biography for Oldenburg. The separate candidate overview is tracked as `lead_candidate_page` because it explicitly labels her `Spitzenkandidatin` and lists her first on the state list.
+- The 16 September coalition statement names no individual speaker, so the fact attributes it to the state party. An earlier 31 August report quotes federal chair Ines Schwerdtner saying it would be good for Mecklenburg-Vorpommern if the Linke continued governing, while Oldenburg says there is more to repair and develop. The later party statement is the current position.
+- The Ostsee-Zeitung page about the CDU-Linke coalition question returned HTTP 403 to the archive fetcher and does not back a fact.
+- Wayback save requests for the HTML program and both program PDFs returned HTTP 500 without snapshot URLs. The local archive captures succeeded.

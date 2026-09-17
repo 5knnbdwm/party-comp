@@ -4038,5 +4038,115 @@
     "publisher_type": "press",
     "added_at": "2026-09-17T10:05:02.000Z",
     "found_on": "https://www.welt.de/politik/deutschland/"
+  },
+  {
+    "url": "https://kampagne26.die-linke-mv.de/wahlprogramm/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "Landtagswahlprogramm 2026: Weiterleitung zur HTML-Version",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:30:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.die-linke-mv.de/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_html",
+    "label": "Landtagswahlprogramm 2026: HTML-Version",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:30:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/startseite/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "party_website",
+    "label": "Landesverband: Hauptseite",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:30:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_full",
+    "label": "Landtagswahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://wahlprogramm26.die-linke-mv.de/"
+  },
+  {
+    "url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/800709-LINKE-MV-LTW26-KWP-LeichteSprache-A5-4c_bf.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "program_easy_language",
+    "label": "Landtagswahlprogramm 2026 in Leichter Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://wahlprogramm26.die-linke-mv.de/"
+  },
+  {
+    "url": "https://kampagne26.die-linke-mv.de/direktkandidierende/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "lead_candidate_page",
+    "label": "Kandidierendenübersicht mit Simone Oldenburg",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/kategorie/pressemeldungen/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "press_release",
+    "label": "Landesverband: Pressemeldungen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/startseite/"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/pressemeldungen/die-linke-mv-nominiert-simone-oldenburg-als-spitzenkandidatin-fuer-die-landtagswahl-2026-1/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "lead_candidate_page",
+    "label": "Nominierung Simone Oldenburgs als Spitzenkandidatin",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/kategorie/pressemeldungen/"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/allgemein/wer-eine-cdu-regierung-verhindern-will-muss-die-linke-waehlen/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "Wer eine CDU-Regierung verhindern will, muss Die Linke wählen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.die-linke-mv.de/startseite/"
+  },
+  {
+    "url": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/landtagswahl-in-mv-warum-cdu-und-linke-trotz-uebereinstimmungen-eine-koalition-ablehnen-N5M6YJGZFFB7PFYRP2ABHNMDKE.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "OZ-Talk: CDU und Linke zu einer gemeinsamen Koalition",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/"
+  },
+  {
+    "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101403942/mecklenburg-vorpommern-die-linke-und-ihr-schwesig-problem.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "Die Linke und ihr Schwesig-Problem",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:35:00.000Z",
+    "found_on": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/"
   }
 ]

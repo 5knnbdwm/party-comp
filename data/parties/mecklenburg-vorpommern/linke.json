@@ -109,6 +109,183 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://www.linksfraktionmv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T10:20:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101202901Z_98e546d4",
+          "quote": "Wahlprogramm zur Landtagswahl 2026",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://wahlprogramm26.die-linke-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T10:20:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101308503Z_c26d2be5",
+          "quote": "Unser Programm zur\nLandtagswahl 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:20:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101315965Z_a632e594",
+          "quote": "Wahl-Programm\nin Leichter Sprache\nzur Landtags-Wahl\nam 20. September 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/800709-LINKE-MV-LTW26-KWP-LeichteSprache-A5-4c_bf.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T10:20:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101324399Z_00a4f522",
+          "quote": "Einstimmig hat der Landesvorstand im Rahmen der Klausur Simone Oldenburg als Spitzenkandidatin für die Landtagswahl 2026 nominiert.",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Simone Oldenburg"
+    },
+    {
+      "observed_at": "2026-09-17T10:20:00.000Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T101324841Z_a951278b",
+          "quote": "Die Mehrheit der Menschen in MV will Rot-Rot. Und die neue Umfrage zeigt: Dafür gibt es auch eine Mehrheit im Landtag.\nAllerdings hätte auch eine schwarz-rot-grüne Koalition eine Mehrheit.\nKlar ist: Wenn wir verhindern wollen, dass der Kürzungswahn der Merz-CDU auch in MV ankommt, braucht es jetzt eine starke Linke.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-16",
+        "speaker": "Die Linke Mecklenburg-Vorpommern",
+        "speaker_role": "Landesverband",
+        "summary": "Supports a continuation of the SPD-Linke coalition and urges voters to strengthen the Linke to prevent a CDU-led state government."
+      }
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/LinkeMV"
+      },
+      "observed_at": "2026-09-17T10:14:04.139Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094623656Z_1cee5ced",
+          "quote": "https://www.facebook.com/LinkeMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/dielinkemv"
+      },
+      "observed_at": "2026-09-17T10:14:04.139Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094623656Z_1cee5ced",
+          "quote": "https://www.instagram.com/dielinkemv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/LINKEmv"
+      },
+      "observed_at": "2026-09-17T10:14:04.139Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094623656Z_1cee5ced",
+          "quote": "https://www.youtube.com/LINKEmv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/LinksfraktionMV"
+      },
+      "observed_at": "2026-09-17T10:14:04.141Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094625747Z_42ebb552",
+          "quote": "https://www.facebook.com/LinksfraktionMV/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "parliamentary_group",
+        "url": "https://bsky.app/profile/die-linke.de"
+      },
+      "observed_at": "2026-09-17T10:14:04.141Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094625747Z_42ebb552",
+          "quote": "https://bsky.app/profile/die-linke.de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/linksfraktionmv"
+      },
+      "observed_at": "2026-09-17T10:14:04.141Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094625747Z_42ebb552",
+          "quote": "https://www.instagram.com/linksfraktionmv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@linksfraktionmv"
+      },
+      "observed_at": "2026-09-17T10:14:04.141Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094625747Z_42ebb552",
+          "quote": "https://www.tiktok.com/@linksfraktionmv",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []
