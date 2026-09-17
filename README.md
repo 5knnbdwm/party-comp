@@ -18,6 +18,7 @@ Early. There is no website yet. This repo currently holds the evidence archive: 
 - 56 parties admitted to the ballot in the three states have a party file in `data/parties/`.
 - 901 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
 - 516 tracked URLs and 699 captures, each with a SHA-256 hash and retrieval time.
+- 44 promises from the AfD Sachsen-Anhalt flyers "Kernpunkte" and "100 Tage für Sachsen-Anhalt", the first records in the promise model. Unreviewed.
 
 Deep research covers the core parties only:
 
@@ -49,9 +50,12 @@ archive/
   tracked-urls.json     URLs that back facts or hold party documents
   captures.jsonl        one line per fetch, append-only
 data/parties/           one JSON file per party per state
+data/promises/          promises extracted from party programs
+data/trial/             Phase 1 trial selections and traces
 docs/
   project-brief.md      aims, editorial rules, status model, roadmap
   archive-format.md     data format and validation rules
+  promise-format.md     promise record format
   tasks/                instructions given to AI agents, per run
   reports/              what each run found, plus review notes
 scripts/                fetch, OCR, validation, social account extraction
@@ -59,10 +63,10 @@ scripts/                fetch, OCR, validation, social account extraction
 
 ## Running it
 
-Requirements: [Bun](https://bun.sh), Poppler (`pdftotext`, `pdfinfo`, `pdftoppm`), Tesseract and `unzip`. On macOS:
+Requirements: [Bun](https://bun.sh), Poppler (`pdftotext`, `pdfinfo`, `pdftoppm`), Tesseract, ImageMagick and `unzip`. On macOS:
 
 ```sh
-brew install poppler tesseract
+brew install poppler tesseract imagemagick
 bun install
 mkdir -p vendor/tessdata
 curl -L -o vendor/tessdata/deu.traineddata https://github.com/tesseract-ocr/tessdata_best/raw/main/deu.traineddata
@@ -77,6 +81,8 @@ bun scripts/archive-fetch.ts --wayback       # also request an Internet Archive 
 bun scripts/archive-ocr.ts                   # OCR scanned PDFs that lack text
 bun scripts/extract-social-accounts.ts       # add social accounts linked from official pages
 bun scripts/archive-validate.ts              # check the archive and all facts
+bun scripts/promise-check.ts                 # check promise records against their sources
+bun scripts/trial-check.ts <state>           # check a Phase 1 trial
 bun test
 ```
 
@@ -91,8 +97,9 @@ AI agents find sources, extract facts and draft reports. The instructions for ea
 1. Archive every party before the 20 September elections. Done for core parties in all three states.
 2. After 20 September, sweep all admitted parties once, then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats.
 3. Trace five promises per state from the previous term with two AI models, to test the method. Done, see `docs/reports/trial/2026-09-17-trial-comparison.md`; statuses await review.
-4. Define the promise and status model from that trial.
-5. Build the website, then weekly summaries.
+4. Define the promise and status model from that trial. Done, see "Core model" in the project brief.
+5. Extract promises from the 2026 programs of the parties likely to govern.
+6. Build the website, then weekly summaries.
 
 ## Corrections
 

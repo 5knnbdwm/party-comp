@@ -475,6 +475,30 @@
           "page": 3
         }
       ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-lsa.de/wp-content/uploads/2026/07/Kernpunkte.pdf",
+      "observed_at": "2026-09-17T12:04:44.799Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "UNSERE KERNPUNKTE ZUR LANDTAGSWAHL",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://afd-lsa.de/wp-content/uploads/2026/07/100-Tage-Sofortprogramm.pdf",
+      "observed_at": "2026-09-17T12:04:44.799Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "WAS WIR SOFORT TUN WERDEN.",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": [
@@ -484,14 +508,6 @@
       "note": "Tracked sources did not establish this item.",
       "searched": [
         "https://afdfraktion-lsa.de/"
-      ]
-    },
-    {
-      "key": "points_list",
-      "checked_at": "2026-09-16T19:10:11.655Z",
-      "note": "Tracked sources did not establish this item.",
-      "searched": [
-        "https://afd-lsa.de/wp-content/uploads/2026/07/Kernpunkte.pdf"
       ]
     }
   ]

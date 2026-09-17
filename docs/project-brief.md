@@ -49,30 +49,37 @@ The project applies one method to every party. Starting with the AfD means both 
 
 A promise is a single commitment with one completion test. Each promise records:
 
-- Party, state and source program.
-- Original wording as a verbatim quote, with page number and a link to the archived copy.
-- Topic, such as housing, schools, transport, migration or security. Readers can follow topics.
+- Party, state and election.
+- **Sources**: every program document that states it, each with a verbatim quote, page and capture. When a flyer and the full program state the same commitment, it is one promise with two sources.
+- **Text**: a readable German rendering of the quote, without line breaks, hyphenation or capital-letter styling. The quote stays the evidence; the text is for display.
+- **Topic**, such as Bildung, Migration or Energie. Readers can follow topics.
 - **Competence**: state, federal, EU, municipal or mixed. A promise outside state competence is flagged, and the site never marks it as failed for that reason alone.
-- **Done-when**: a written criterion that says what counts as fulfilled, set before tracking starts. Example: "Budget funds at least 1,000 additional teaching positions" rather than "more teachers".
-- Deadline, if the program or coalition agreement names one.
+- **Commitment type**: `own_action` when the state can do it itself, `support_external` when the promise is to work towards something others decide, such as a Bundesrat initiative for a federal law. A `support_external` promise is judged only on the state's own action. The external outcome is shown next to it and never earns the status.
+- **Done-when**: a written German criterion that says what counts as fulfilled, set before tracking starts. Example: "Der Landeshaushalt finanziert mindestens 1.000 zusätzliche Lehrerstellen" rather than "mehr Lehrer".
+- **Measure**, for promises with a number: the unit, the target and the baseline. People, posts and full-time equivalents are different units.
+- **Deadline**, structured as a date, a recurring period ("jedes Jahr ab 2024"), a relative period with its anchor ("100 Tage nach Regierungsübernahme") or none.
+- **Parent**, when the promise is a concrete clause split out of a broader one.
 
-A promise too vague to write a done-when for gets status `not_assessable`. The AI leaves such promises vague and never invents a measurable version.
+A promise too vague to write a done-when for has no done-when, and gets status `not_assessable` once tracked. The AI leaves such promises vague and never invents a measurable version. A concrete clause inside a vague promise becomes its own promise with the vague one as parent.
+
+The JSON format is in `docs/promise-format.md`.
 
 ### Splitting rules
 
 - One promise holds one done-when. "More teachers and smaller classes" is two promises.
 - Use the same granularity for every party. When one program is written as broad goals and another as small tasks, split both to the same level.
+- A concrete, checkable clause inside a vague promise is split out, with the vague promise as its parent.
 - If the project tracks a selection rather than the full program, the site states the selection rule publicly. The rule itself is an open decision, see below.
 
 ### Adoption into the coalition
 
-Once a coalition agreement exists, each governing party's promise gets an adoption value:
+A coalition commitment is a quote from the coalition agreement. It records adoption per governing party, because one value cannot describe a compromise between two or three parties. For each governing party it holds either the matching promises with a value, or `not_in_program`, which means the party's program was checked and holds no match:
 
-- `pending`: no agreement yet.
 - `adopted`: taken over in substance.
 - `weakened`: taken over with a smaller target, a later date or softer wording.
 - `changed`: taken over in a different form.
-- `omitted`: not in the agreement.
+
+A party promise that no commitment takes over is `omitted`. Before an agreement exists, adoption is `pending`.
 
 Keep the party programs intact. Coalition commitments link to the promises they came from, many to many. This linking is how compromises become visible, so the tracker never merges programs into one list that replaces the originals.
 
@@ -80,25 +87,27 @@ Opposition parties keep their promise pages. For them the site tracks their moti
 
 ### Implementation status
 
-Status is a judgement of the evidence against the promise's done-when.
+Status is a judgement of the evidence against the done-when. It describes the current state, carries the date it was last confirmed, and the history of earlier statuses stays visible.
 
 | Status | Meaning |
 |---|---|
 | `not_assessable` | Too vague to have a done-when. |
 | `no_evidence_found` | We found nothing yet. This is not the same as "nothing happened". |
 | `announced` | A government member or party announced a step. |
-| `proposed` | Formally proposed: cabinet draft, bill introduced, motion tabled. |
-| `approved` | Passed or decided: law passed, regulation issued, budget line approved. |
+| `proposed` | Formally proposed: cabinet draft, bill introduced, motion tabled, budget draft. |
+| `approved` | Decided, but the done-when is not yet met: law passed but not in force, money appropriated but the promised result not delivered. |
 | `partially_implemented` | Part of the done-when is met. |
 | `implemented` | The done-when is met. |
+| `lapsed` | The done-when was met and no longer is, while the measure still exists. Example: a ticket introduced at the promised price that later costs more. |
 | `blocked` | Stopped by a court, a failed vote, a coalition veto or the federal level. |
 | `abandoned` | The government has said it will not pursue the promise, or it has clearly dropped it. |
 | `reversed` | It was implemented and then undone. |
 
 Rules for statuses:
 
-- `no_evidence_found` never becomes "broken" automatically. A missed deadline is recorded as an event next to the status.
-- Passing a law is `approved`, not `implemented`, when the done-when describes an outcome such as lower rents.
+- `implemented` is judged strictly against the done-when. When the done-when is "Gesetz in Kraft", a law in force is `implemented`. When the done-when describes an outcome such as lower rents, the law in force is `approved`.
+- `no_evidence_found` never becomes "broken" automatically.
+- A missed deadline is a `deadline_missed` event. The status stays what the evidence shows, and the site shows the missed deadline next to it.
 - Conflicting evidence stays visible on the promise page.
 
 ### Delivery
@@ -107,7 +116,7 @@ Delivery means measured outcomes, such as teachers actually employed or flats ac
 
 ### Events, sources, corrections
 
-- **Event**: a dated piece of evidence about a promise. It holds the source, an exact quote, page or timestamp, and the proposed status change with reasoning against the done-when. It also records who reviewed it and when.
+- **Event**: a dated piece of evidence about a promise. It holds the source, an exact quote, page or timestamp, and the proposed status change with reasoning against the done-when. It also records who reviewed it and when. Event types: `announcement`, `cabinet_decision`, `bill_introduced`, `law_passed`, `law_in_force`, `regulation_issued`, `budget_proposed`, `budget_appropriated`, `funds_spent`, `service_launched`, `government_answer`, `court_ruling`, `statistic`, `report`, `deadline_missed`, `other`. Money moves through proposed, appropriated and spent, and budget promises often turn on the difference.
 - **Source**: URL, archived copy, content hash and retrieval date. Parties and governments edit or delete pages, so every cited document gets its own stored copy.
 - **Correction**: a public entry when a published status or post was wrong. It says what changed and why. Corrections are never silently overwritten.
 
@@ -150,6 +159,13 @@ The AI gets these mix-ups wrong most often, so reviewers check for them:
 - A missed qualifier, such as "examine", "where possible" or "subject to funding".
 - Two politicians or two similar bills confused.
 - An announcement treated as a decision.
+
+Model choice, from the trial and the archive runs:
+
+- gpt-5.6-sol for research and tracing. In the trial it found evidence that gpt-5.6-terra missed.
+- gpt-5.6-luna for mechanical restructuring of existing data.
+- Plain scripts wherever the rule is deterministic, such as social account extraction.
+- A second model can check a trace and flag disagreements for review, but it does not replace review.
 
 The measure of the AI pipeline is review time per event. If review takes too long to sustain weekly, fix the pipeline or cut scope before publishing more.
 
@@ -196,16 +212,11 @@ Done when every admitted party in all three states has a party file, every core 
 
 ### Phase 1: five-promise trial
 
-1. Pick five promises of different kinds, including at least one vague promise, one outside state competence, and one with a number in it.
-2. Trace each by hand through real documents to a status.
-3. Have the AI trace the same five on its own.
-4. Compare the results.
-
-Done when there is a written trial report. It lists, per promise, the human result and the AI result, every disagreement with its cause, review minutes, missing or hard-to-reach sources, and the changes the core model needs.
+Done on 17 Sep 2026. Five promises per state from the previous term, each traced independently by two models instead of by hand. The findings are in `docs/reports/trial/2026-09-17-trial-comparison.md`, and the decisions they led to are in "Core model" above. The trial statuses have not been reviewed by a person.
 
 ### Phase 2: lock the model and method
 
-Apply the trial findings to this brief: statuses, splitting rules, done-when style, selection rule. Draft the public methodology page.
+The trial findings are applied to "Core model". Still open: the selection rule and the public methodology page.
 
 Done when the brief and the methodology draft agree and no open decision below blocks Phase 3.
 
@@ -229,7 +240,6 @@ Done when four consecutive weekly posts have gone out with review, and review ti
 
 ## Open decisions
 
-- Which state runs the Phase 1 trial, and which five promises.
 - Tech stack and hosting.
 - Project name. It should not name a single party.
 - Selection rule if we track fewer promises than a full program.

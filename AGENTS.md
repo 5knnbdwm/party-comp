@@ -8,4 +8,6 @@ Reports and write-ups stay as Markdown in `docs/reports/`. Upload nothing to ext
 
 Keep every file this project creates inside this folder. Scratch and temporary files go in `tmp/`. Agent run logs and transcripts go in `runs/`.
 
+Read `docs/promise-format.md` before extracting promises or reading or writing anything in `data/promises/`.
+
 Read `docs/archive-format.md` before scraping, fetching, or reading or writing anything in `archive/` or `data/`. It defines captures, party facts and their sources.

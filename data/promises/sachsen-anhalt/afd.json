@@ -1,0 +1,1166 @@
+{
+  "state": "sachsen-anhalt",
+  "party": "afd",
+  "election": "2026-09-06",
+  "promises": [
+    {
+      "id": "sachsen-anhalt-afd-001",
+      "text": "Die Rundfunkstaatsverträge kündigen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DEN RUNDFUNKSTAATSVERTRAG\nSS KÜNDIGEN",
+          "page": 2
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Rundfunkstaatsverträge kündigen, um\nechten Reformdruck zu erzeugen. Da-\ndurch werden die Rundfunkgebühren\nnicht sofort hinfällig, ein solcher Schritt\nist aber der Anfang vom Ende des GEZ-fi-\nnanzierten Zwangsrundfunks. Unser Ziel\nist cin schlankes, sparsamces und transpa-\nrentes Mediensystem",
+          "page": 2
+        }
+      ],
+      "topic": "medien",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Die Landesregierung hat die Kündigung der Rundfunkstaatsverträge erklärt.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "Als erste Amtshandlung, im 100-Tage-Programm",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "Das Sofortprogramm nennt die Kündigung als erste Amtshandlung und schreibt selbst, dass die Rundfunkgebühren dadurch nicht sofort entfallen. Beide Flyer sprechen teils von dem Staatsvertrag im Singular, teils von den Staatsverträgen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-002",
+      "text": "Politische Neutralität im Rundfunk durchsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "UND POLITISCHE\nNEUTRALITÄT DURCHSETZEN",
+          "page": 2
+        }
+      ],
+      "topic": "medien",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-003",
+      "text": "Positive Nationalidentität durch eine #deutschdenken-Kampagne fördern.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "POSITIVE NATIONALIDENTITÄT\nDURCH EINE #deutschdenken-\nKAMPAGNE FORDERN",
+          "page": 2
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Unsere Kampagne #deutschdenken wird\ndie schönsten Beispiele deutscher Ge-\nschichte, die Sachsen-Anhalt zu bieten\nhat, verknüpfen und selbstbewusst her-\nausstellen.",
+          "page": 1
+        }
+      ],
+      "topic": "kultur",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Die Landesregierung führt eine Kampagne unter dem Titel #deutschdenken durch.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "OCR liest im Kernpunkte-Flyer \"FORDERN\" statt \"FÖRDERN\". Das Sofortprogramm stellt die Kampagne der Landeskampagne #moderndenken gegenüber.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-004",
+      "text": "Die Kulturförderung an ein Bekenntnis zu unserem Land binden.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DIE KULTURFÖRDERUNG AN EIN BE-\nKENNTNIS ZU UNSEREM LAND BINDEN",
+          "page": 2
+        }
+      ],
+      "topic": "kultur",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Die Förderrichtlinien des Landes für Kultur machen ein Bekenntnis zu unserem Land zur Voraussetzung einer Förderung.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Offen, ob \"unserem Land\" Sachsen-Anhalt oder Deutschland meint und wie ein Bekenntnis nachzuweisen wäre.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-005",
+      "text": "Jede Form des Genderns zurückweisen und vernünftiges Deutsch durchsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "JEDE FORM DES GENDERNS_\nSS ZURÜCKWEISEN UND VERNUNFTIGES\nDEUTSCH DURCHSETZEN",
+          "page": 2
+        }
+      ],
+      "topic": "verwaltung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-006",
+      "text": "Dafür sorgen, dass die Behörden die bewährte Orthographie befolgen und keine speziellen Genderschreibweisen verwenden.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "sorgen, dass die Behörden\ndie bewährte Ortho-\ngraphie befolgen,",
+          "page": 1
+        }
+      ],
+      "topic": "verwaltung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Eine Vorschrift des Landes verpflichtet die Landesbehörden, keine Genderschreibweisen zu verwenden.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-005",
+      "notes": "Der Satzteil zu Genderschreibweisen ist im Flyer um eine Grafik gesetzt; die OCR liest ihn nur bruchstückhaft, daher zitiert die Quelle nur den ersten Teil.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-007",
+      "text": "Für kostenfreie Kitaplätze sorgen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "FÜR KOSTENFREIE KITAPLÄTZE UND",
+          "page": 2
+        }
+      ],
+      "topic": "familie",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "Eltern in Sachsen-Anhalt zahlen für Kitaplätze keine Elternbeiträge.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Elternbeiträge setzen die Träger und Kommunen auf Grundlage des Landesrechts fest.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-008",
+      "text": "Für kostenfreies Schulessen sorgen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "KOSTENFREIES SCHULESSEN SORGEN",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "Schülerinnen und Schüler an öffentlichen Schulen in Sachsen-Anhalt erhalten das Schulessen kostenfrei.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-009",
+      "text": "Zu Bindungsfähigkeit erziehen, statt Kinder zu sexualisieren.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "ZU BINDUNGSFÄHIGKEIT ERZIEHEN,\nSTATT KINDER ZU SEXUALISIEREN",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-010",
+      "text": "Die Ausbildung von Ärzten forcieren, statt Ärzte zu importieren.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DIE AUSBILDUNG VON ÄRZTEN FORCIE-\nREN, STATT ÄRZTE ZU IMPORTIEREN",
+          "page": 2
+        }
+      ],
+      "topic": "gesundheit",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Konkret prüfbar würde das erst mit einer Zahl, etwa zusätzlichen Medizinstudienplätzen. Das vollständige Regierungsprogramm könnte sie nennen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-011",
+      "text": "Die Notfallversorgung im ländlichen Raum erhalten.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DIE NOTFALLVERSORGUNG IM\nLÄNDLICHEN RAUM ERHALTEN",
+          "page": 2
+        }
+      ],
+      "topic": "gesundheit",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-012",
+      "text": "Asylbewerber nach § 5 Absatz 4 Asylbewerberleistungsgesetz zu gemeinnütziger Arbeit verpflichten und bei Arbeitsverweigerung Leistungen einschränken.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "ASYLANTEN UND FLÜCHTLINGE ZU GE-\nMEINNUTZIGER ARBEIT VERPFLICHTEN",
+          "page": 2
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Absatz 4 Asylbewerberleistungsagesetz\nverpflichten und im Falle einer Arbeits-\nverweigerung Leistungseinschränkungen\nvornehmen.",
+          "page": 2
+        }
+      ],
+      "topic": "migration",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "Das Land verpflichtet Asylbewerber nach § 5 Abs. 4 AsylbLG zu gemeinnütziger Arbeit, etwa per Erlass an die Leistungsbehörden, und bei Verweigerung werden Leistungen eingeschränkt.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "Das Asylbewerberleistungsgesetz ist Bundesrecht; Arbeitsgelegenheiten schaffen die Leistungsbehörden vor Ort. Der Kernpunkte-Flyer nennt auch Flüchtlinge, das Sofortprogramm nur Asylbewerber.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-013",
+      "text": "Asylbewerber so weit wie möglich zentral unterbringen; die Unterbringung im Heim soll der Regelfall sein.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "die zentrale Unterbringung ist, werden\nwir danach streben, so viele Asylbewerber\nwie möglich zentral unterzubringen. Die\nUnterbringung im Heim muss der Regel-\nfall sein, die Unterbringung in Privatwoh-\nnungen muss die Ausnahme bleiben.",
+          "page": 2
+        }
+      ],
+      "topic": "migration",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "Eine Regelung des Landes legt die Unterbringung von Asylbewerbern in Gemeinschaftsunterkünften als Regelfall fest.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-012",
+      "notes": "Das Sofortprogramm begründet die zentrale Unterbringung als Voraussetzung der Arbeitspflicht.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-014",
+      "text": "Remigration bei allen rechtlich Ausreisepflichtigen konsequent durchsetzen und alle Spielräume einschließlich der Abschiebehaft nutzen, um so viele illegale Einwanderer wie möglich abzuschieben.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "REMIGRATION BEI ALLEN RECHTLICH\nAUSREISEPFLICHTIGEN KONSEQUENT\nDURCHSETZEN",
+          "page": 2
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden alle Spielräume einschließ-\nlich der Abschiebehaft nutzen, um so\nviele illegale Einwanderer wie nur irgend\nmöglich abzuschieben",
+          "page": 2
+        }
+      ],
+      "topic": "migration",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "Keine Zielzahl. Das Sofortprogramm nennt als Ausgangswert für 2024 654 Abschiebungen und 1.252 gescheiterte Abschiebungen; ein späterer Vergleich ist möglich, aber kein Erfüllungskriterium.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-015",
+      "text": "Eine Arbeitsgruppe zwischen dem Land und den Kommunen zu Abschiebungen einrichten.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Arbeitsgruppe zwischen dem Land und\nden Kommunen einrichten.",
+          "page": 2
+        }
+      ],
+      "topic": "migration",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Eine Arbeitsgruppe von Land und Kommunen zu Abschiebungen ist eingerichtet.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-014",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-016",
+      "text": "Geltendes Recht konsequent durchsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "GELTENDES RECHT KONSEQUENT\nSS DURCHSETZEN UND",
+          "page": 2
+        }
+      ],
+      "topic": "justiz",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-017",
+      "text": "Die Strafmündigkeit auf 12 Jahre absenken.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "STRAFMUNDIGKEIT\nAUF 12 JAHRE ABSENKEN",
+          "page": 2
+        }
+      ],
+      "topic": "justiz",
+      "competence": "federal",
+      "commitment_type": "support_external",
+      "done_when": "Sachsen-Anhalt bringt im Bundesrat eine Initiative zur Absenkung der Strafmündigkeit auf 12 Jahre ein oder tritt einer solchen bei.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Die Strafmündigkeit regelt das Strafgesetzbuch des Bundes. Das Land kann nur über den Bundesrat tätig werden.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-018",
+      "text": "Die Polizei von überflüssiger Verwaltung befreien.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DIE POLIZEI VON ÜBERFLÜSSIGER VER-\nWALTUNG BEFREIEN",
+          "page": 2
+        }
+      ],
+      "topic": "innere_sicherheit",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-019",
+      "text": "Der Polizei den nötigen politischen Rückhalt geben.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "IHR DEN NÖTI-\nGEN POLITISCHEN RÜCKHALT GEBEN",
+          "page": 2
+        }
+      ],
+      "topic": "innere_sicherheit",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-020",
+      "text": "Alle überflüssigen, bürokratischen Regelungen des Landes streichen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "ALLE ÜBERFLÜSSIGEN,\nBS BÜROKRATISCHEN REGELUNGEN\nDES LANDES STREICHEN",
+          "page": 2
+        }
+      ],
+      "topic": "verwaltung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-021",
+      "text": "Den Bau von Windrädern stoppen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DEN BAU VON WINDRÄDERN\nSTOPPEN",
+          "page": 2
+        }
+      ],
+      "topic": "energie",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "In Sachsen-Anhalt werden keine neuen Windenergieanlagen mehr genehmigt.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Genehmigungen richten sich nach Bundesrecht; das Land steuert über Raumordnung und Flächenziele. Ob ein vollständiger Stopp rechtlich möglich ist, ist offen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-022",
+      "text": "Das Akzeptanzgesetz aufheben.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "STOPPEN UND DAS AKZEPTANZ-\nGESETZ AUFHEBEN",
+          "page": 2
+        }
+      ],
+      "topic": "energie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Das Akzeptanzgesetz des Landes ist aufgehoben.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": "Der Flyer nennt das Gesetz nur kurz \"Akzeptanzgesetz\"; der amtliche Titel ist bei der Prüfung festzustellen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-023",
+      "text": "Dafür kämpfen, dass die Russlandsanktionen enden.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "DAFÜR KÄMPFEN, DASS DIE\nRUSSLANDSANKTIONEN ENDEN",
+          "page": 2
+        }
+      ],
+      "topic": "wirtschaft",
+      "competence": "eu",
+      "commitment_type": "support_external",
+      "done_when": "Die Landesregierung setzt sich förmlich für ein Ende der Russlandsanktionen ein, etwa durch einen Antrag im Bundesrat.",
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-024",
+      "text": "Alle Staatsausgaben zur Förderung der Altparteien und ihrer Ideologie einstellen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden alle Staatsausgaben zur För-\nderung der Altparteien und ihrer Ideolo-\ngie einstellen.",
+          "page": 2
+        }
+      ],
+      "topic": "finanzen",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-025",
+      "text": "Alle Genderprojekte in den Ministerien ersatzlos streichen und die Finanzierung aller Genderprojekte einstellen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "ALLE GENDERPROJEKTE IN DEN MI-\nNISTERIEN ERSATZLOS STREICHEN",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "aller Projekte der Klimarettungsindustrie\nund aller Genderprojekte einstellen.",
+          "page": 2
+        }
+      ],
+      "topic": "finanzen",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": "Prüfbar erst mit einer Liste, welche Projekte als Genderprojekte gelten. Der Kernpunkte-Flyer nennt Projekte in den Ministerien, das Sofortprogramm alle Genderprojekte.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-026",
+      "text": "Allen Vereinen der Asyl- und Klimaindustrie beziehungsweise der Asyl- und Integrationsindustrie den Geldhahn zudrehen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "ALLEN VEREINEN DER ASYL- UND\nKLIMAINDUSTRIE DEN GELDHAHN\n\nZUDREHEN",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden der Asyl- und In-\ntegrationsindustrie den Geldhahn zudre-\nhen.",
+          "page": 2
+        }
+      ],
+      "topic": "migration",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": "Der Kernpunkte-Flyer nennt die \"Asyl- und Klimaindustrie\", das Sofortprogramm die \"Asyl- und Integrationsindustrie\". Welche Vereine gemeint sind, bleibt offen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-027",
+      "text": "Die Finanzierung aller Projekte der Klimarettungsindustrie einstellen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "schließlich werden wir die Finanzierung\naller Projekte der Klimarettungsindustrie\nund aller Genderprojekte einstellen.",
+          "page": 2
+        }
+      ],
+      "topic": "umwelt",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": "Prüfbar erst mit einer Liste, welche Projekte gemeint sind.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-028",
+      "text": "Keine Parteistiftungen mehr finanzieren, auch keine AfD-Stiftung.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "KEINE PARTEISTIFTUNGEN\nMEHR FINANZIEREN, AUCH KEINE\nAfD-STIFTUNG",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden den Parteistif-\ntungen - inklusive unserer eigenen - die\nMittel streichen",
+          "page": 2
+        }
+      ],
+      "topic": "demokratie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Der Landeshaushalt enthält keine Zuwendungen an parteinahe Stiftungen mehr.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-029",
+      "text": "Den Landesanteil aller aus dem Programm „Demokratie leben“ finanzierten Programme streichen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Ebenso werden wir den Landesanteil\naller aus dem Programm „Demokratie\nleben“ finanzierten Programme streichen,",
+          "page": 2
+        }
+      ],
+      "topic": "demokratie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Der Landeshaushalt enthält keinen Landesanteil mehr für Programme, die aus dem Bundesprogramm „Demokratie leben!“ finanziert werden.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-030",
+      "text": "Den Landeszuschuss für das Programm „Schule ohne Rassismus – Schule mit Courage“ einstellen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "den Landeszuschuss für das Programm\n„Schule ohne Rassismus - Schule mit\nCourage” einstellen,",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Das Land zahlt keinen Zuschuss mehr für das Programm „Schule ohne Rassismus – Schule mit Courage“.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-031",
+      "text": "Die Evangelische Akademie Sachsen-Anhalt e.V. nicht mehr fördern.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "die „Evangelische\nAkademie Sachsen-Anhalt e.V.” nicht\nmehr fördern",
+          "page": 2
+        }
+      ],
+      "topic": "demokratie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Das Land gewährt der Evangelischen Akademie Sachsen-Anhalt e.V. keine Förderung mehr.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-032",
+      "text": "Dem Verein „Miteinander e.V.“ jegliche Förderung entziehen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "dem „miteinander\n\neV.“ jegliche Förderung entziehen.",
+          "page": 2
+        }
+      ],
+      "topic": "demokratie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Das Land gewährt dem Miteinander e.V. keine Förderung mehr.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-024",
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-033",
+      "text": "Gewalt an Schulen mit Null Toleranz bekämpfen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "GEWALT AN SCHULEN MIT NULL\nTOLERANZ BEKÄMPFEN",
+          "page": 1
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-034",
+      "text": "An Schulen, an denen Gewaltprobleme auftreten, einen Wachdienst zum Schutz der Kinder einsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "werden wir dafür sorgen, dass an Schulen,\nan denen Gewaltprobleme auftreten, ein\nWachdienst unsere Kinder schützt.",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "An Schulen in Sachsen-Anhalt mit Gewaltproblemen ist ein vom Land veranlasster Wachdienst eingesetzt.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": "sachsen-anhalt-afd-033",
+      "notes": "Offen, nach welchem Kriterium eine Schule Gewaltprobleme hat. Schulträger sind meist die Kommunen.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-035",
+      "text": "Leistungsfreude statt Kuschelpädagogik verbreiten.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "LEISTUNGSFREUDE STATT\nKUSCHELPÄDAGOGIK VERBREITEN",
+          "page": 1
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-036",
+      "text": "Politische Neutralität an Schulen durchsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "POLITISCHE NEUTRALITÄT AN\nSCHULEN DURCHSETZEN",
+          "page": 1
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": null,
+      "measure": null,
+      "deadline": {
+        "type": "none"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-037",
+      "text": "Sonderklassen für Kinder von Flüchtlingen ohne Bleiberecht einrichten, für alle Kinder von Eltern, deren Aufenthalt in Deutschland befristet ist.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193913023Z_836be3e8",
+          "quote": "SONDERKLASSEN FÜR KINDER VON\nFLUCHTLINGEN OHNE BLEIBERECHT\nEINRICHTEN",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "derklassen für alle Kinder von Eltern ein-\nrichten, deren Aufenthalt in Deutschland\nbefristet ist,",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "An öffentlichen Schulen in Sachsen-Anhalt werden Kinder von Eltern mit befristetem Aufenthalt in eigenen Klassen unterrichtet.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "Die Flyer beschreiben die Gruppe unterschiedlich: \"Flüchtlinge ohne Bleiberecht\" im Kernpunkte-Flyer, \"Eltern, deren Aufenthalt in Deutschland befristet ist\" im Sofortprogramm. Als Vorbild nennt das Sofortprogramm die Willkommensklassen für ukrainische Kinder.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-038",
+      "text": "Das schuloffizielle Zeigen der Regenbogenflagge untersagen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "schuloffizielle Zeigen der Regenbogenflag-\nge untersagen",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Eine Vorschrift des Landes untersagt das schuloffizielle Zeigen der Regenbogenflagge an Schulen.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-039",
+      "text": "Dafür sorgen, dass an öffentlichen Schulen an jedem Schultag die Bundesflagge weht.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "gen, dass an öffentlichen Schulen an jedem\nSchultag die Bundesflagge weht.",
+          "page": 2
+        }
+      ],
+      "topic": "bildung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Eine Vorschrift des Landes schreibt vor, dass an öffentlichen Schulen an jedem Schultag die Bundesflagge weht.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-040",
+      "text": "Den Feuerwehrführerschein einführen, damit Angehörige von Feuerwehr, Rettungsdienst und Katastrophenschutz mit einem Führerschein der Klasse B Einsatzfahrzeuge bis 7,5 t fahren können.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden den Feuer-\nwehrführerschein ein-\nführen, damit Angehörige\nvon Feuerwehr, Rettungsdienst und\nKatastrophenschutz mit einem norma-\nlen PKW-Führerschein (Klasse B) auch\ngrößere Einsatzfahrzeuge bis 7,5 t fahren\nkönnen.",
+          "page": 2
+        }
+      ],
+      "topic": "innere_sicherheit",
+      "competence": "mixed",
+      "commitment_type": "own_action",
+      "done_when": "Eine Regelung des Landes erlaubt Angehörigen von Feuerwehr, Rettungsdienst und Katastrophenschutz mit Fahrerlaubnis Klasse B, Einsatzfahrzeuge bis 7,5 t zu fahren.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": "Die Ermächtigung für solche Fahrberechtigungen steht im Straßenverkehrsgesetz des Bundes. Bei der Prüfung ist festzustellen, ob Sachsen-Anhalt bereits eine Regelung für leichtere Fahrzeuge hat.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-041",
+      "text": "Den Erwerb von Fahrerlaubnissen ab 7,5 t für Mitglieder der kommunalen Feuerwehren aus Landesmitteln fördern.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden außerdem den Er-\nwerb von Fahrerlaubnissen ab 7,5t für\nMitglieder der kommunalen Feuerwehren\naus Landesmitteln fördern.",
+          "page": 2
+        }
+      ],
+      "topic": "innere_sicherheit",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Das Land fördert aus Landesmitteln den Erwerb von Fahrerlaubnissen für Fahrzeuge ab 7,5 t durch Mitglieder kommunaler Feuerwehren.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-042",
+      "text": "Einen Führerscheinzuschuss für Auszubildende in Höhe von 1.500 Euro einführen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "werden wir einen Führerscheinzuschuss für\nAuszubildende in Höhe von 1500 Euro ein-\nführen:",
+          "page": 2
+        }
+      ],
+      "topic": "arbeit",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Auszubildende in Sachsen-Anhalt können einen Zuschuss des Landes von 1.500 Euro zum Führerschein erhalten.",
+      "measure": {
+        "unit": "Euro je Auszubildendem",
+        "target": 1500,
+        "baseline": null
+      },
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-043",
+      "text": "Die Anzahl der Ministerien reduzieren.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Inklusive der Staatskanzlei umfasst die\naktuelle Landesregierung neun Mitglie-\nder im Ministerrang.",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "Wir werden mit dieser\nTradition brechen und die Anzahl der Mi-\nnisterien reduzieren.",
+          "page": 1
+        }
+      ],
+      "topic": "verwaltung",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Die Landesregierung hat weniger als neun Mitglieder im Ministerrang, die Staatskanzlei eingerechnet.",
+      "measure": {
+        "unit": "Mitglieder der Landesregierung im Ministerrang, inklusive Staatskanzlei",
+        "target": null,
+        "baseline": "9"
+      },
+      "deadline": {
+        "type": "relative",
+        "text": "100 Tage nach Regierungsübernahme",
+        "anchor": "government_start"
+      },
+      "parent": null,
+      "notes": null,
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    },
+    {
+      "id": "sachsen-anhalt-afd-044",
+      "text": "Unverzüglich nach der Konstituierung des neuen Landtags einen Corona-Untersuchungsausschuss einsetzen.",
+      "sources": [
+        {
+          "capture": "cap_20260916T193905361Z_11184187",
+          "quote": "aufzuarbeiten, die Schuldigen zu benennen\nund sie zur Rechenschaft zu ziehen, werden\nwir unverzüglich nach der Konstituierung\ndes neuen Landtags einen Untersuchungs-\nausschuss einsetzen.",
+          "page": 1
+        }
+      ],
+      "topic": "demokratie",
+      "competence": "state",
+      "commitment_type": "own_action",
+      "done_when": "Der Landtag hat einen Untersuchungsausschuss zur Corona-Politik eingesetzt.",
+      "measure": null,
+      "deadline": {
+        "type": "relative",
+        "text": "unverzüglich nach der Konstituierung des neuen Landtags",
+        "anchor": "other"
+      },
+      "parent": null,
+      "notes": "Die Einsetzung ist ein Minderheitenrecht des Landtags und hängt nicht von einer Regierungsbeteiligung ab.",
+      "extracted_by": "claude-opus-5",
+      "extracted_at": "2026-09-17T12:04:14.320Z",
+      "reviewed_at": null
+    }
+  ]
+}
