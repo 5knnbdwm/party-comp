@@ -1,0 +1,256 @@
+{
+  "state": "mecklenburg-vorpommern",
+  "mode": "trace",
+  "model": "gpt-5.6-terra",
+  "traced_at": "2026-09-17T11:38:20Z",
+  "promises": [
+    {
+      "id": "mecklenburg-vorpommern-1",
+      "program_sources": [
+        {
+          "party": "linke",
+          "quote": "- eine zusätzliche Lehrkraft an jeder Schule einstellen - um Schüler*innen",
+          "capture": "cap_20260917T112616356Z_160dad56",
+          "page": 5
+        }
+      ],
+      "adoption": "changed",
+      "topic": "education",
+      "competence": "state",
+      "deadline": "2026",
+      "done_when": "During the 2021-2026 legislative term, the programme \"Schule in MV – Aufbruch 2030\" has filled 1,000 positions in the listed school-staff categories.",
+      "events": [
+        {
+          "date": "2022-06-30",
+          "type": "budget_line",
+          "summary": "In the debate on the 2022 supplementary budget, a coalition speaker described the programme as filling, making permanent and expanding 1,000 positions.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112952207Z_e0a079d1",
+              "quote": "sollen 1.000 Stellen besetzt, entfristet und auch ausge-",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "date": "2024-11-13",
+          "type": "report",
+          "summary": "A plenary contribution reported that 1,167 people had already been newly hired or had posts made permanent through the programme.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112953247Z_91713fb2",
+              "quote": "besetzen, sichern, erweitern“ sind bereits jetzt 1.167 Per-",
+              "page": 48
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The completion test is numerical and term-bound. The November 2024 plenary record reports 1,167 people newly hired or with posts made permanent in the named programme, which exceeds 1,000 before the end of the term. The record should still be checked against a government staffing return because it is a plenary statement and describes people and posts together.",
+      "open_questions": [
+        "The coalition text says \"Stellen besetzt\" while the plenary statement aggregates newly hired people and posts made permanent. A reviewer should confirm that the programme's accounting counts all 1,167 toward the coalition target.",
+        "The captured material does not give a final end-of-term staffing table by the five programme categories."
+      ]
+    },
+    {
+      "id": "mecklenburg-vorpommern-2",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "Feiertagsgesetz Mecklenburg-Vorpommern (FTG M-V)",
+          "capture": "cap_20260917T112715853Z_c8c671c2",
+          "page": 15
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "equality",
+      "competence": "state",
+      "deadline": null,
+      "done_when": "The Feiertagsgesetz Mecklenburg-Vorpommern lists 8 March, Frauentag, as a statutory public holiday and the amendment is in force.",
+      "events": [
+        {
+          "date": "2022-02-23",
+          "type": "bill_introduced",
+          "summary": "SPD and DIE LINKE introduced a bill to make 8 March a statutory holiday, expressly referring to the coalition agreement.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112954053Z_d18ca4d1",
+              "quote": "In der Vereinbarung über die Bildung einer Koalitionsregierung für die achte Legislaturperiode",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2022-07-07",
+          "type": "law_passed",
+          "summary": "The official gazette published the Fourth Act amending the Public Holidays Act. It inserted Frauentag, 8 March, into the statutory list and provided entry into force on the day after publication.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112954459Z_8f3bba1c",
+              "quote": "„2. der Frauentag (8. März),“.",
+              "page": 3
+            },
+            {
+              "capture": "cap_20260917T112954459Z_8f3bba1c",
+              "quote": "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft.",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The completed legal amendment places Frauentag, 8 March, in the statutory holiday list. The gazette also states that the Act takes effect the day after promulgation, so the completion test is met.",
+      "open_questions": [
+        "The capture proves the enacted text and entry-into-force rule. A publication-history check would pin down the first practical public holiday date, but it is not needed for the legal completion test."
+      ]
+    },
+    {
+      "id": "mecklenburg-vorpommern-3",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "ein Seniorenticket einführen.",
+          "capture": "cap_20260917T112715853Z_c8c671c2",
+          "page": 4
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "transport",
+      "competence": "mixed",
+      "deadline": null,
+      "done_when": "An annual senior ticket is available to eligible residents for no more than 365 euros per year, equivalent to one euro per day, for local public transport throughout Mecklenburg-Vorpommern.",
+      "events": [
+        {
+          "date": "2023-06-27",
+          "type": "cabinet_decision",
+          "summary": "The transport minister presented the cabinet with the subsidised senior Deutschlandticket. It was available from 1 August 2023 for 29 euros per month, below the promised annual-price ceiling.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112954919Z_21cbc84c",
+              "quote": "Wirt­schafts- und Ver­kehrs­mi­nis­ter Rein­hard Mey­er hat dem Ka­bi­nett am 27.06.2023 die De­tails zur Ein­führung des sub­ven­tio­nier­ten Deutsch­land­ti­ckets für Se­nio­rin­nen und Se­nio­ren vor­ge­stellt.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T112954919Z_21cbc84c",
+              "quote": "Das Abo-Ticket ist zum Preis von 29 Euro für alle Anspruchs­berechtigten erhältlich.",
+              "page": null
+            }
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "type": "report",
+          "summary": "The transport ministry reported that the senior Deutschlandticket then cost 43 euros per month, above 365 euros per year, while the state still contributed 20 euros per ticket.",
+          "sources": [
+            {
+              "capture": "cap_20260917T113351254Z_b8ce38ae",
+              "quote": "Auszubildende sowie Seniorinnen und Senioren aus Mecklenburg-Vorpommern können ein vergünstigtes Deutschlandticket für derzeit 43 Euro im Monat erwerben. Das Land beteiligt sich mit einem Zuschuss von 20 Euro je Ticket.",
+              "page": null
+            }
+          ]
+        }
+      ],
+      "status": "reversed",
+      "status_reasoning": "At launch, 29 euros per month was 348 euros per year, so the price component of the completion test was met. By July 2026 the official price was 43 euros per month, 516 euros per year. The ticket itself remains available, but the implemented one-euro-per-day price was undone. This is a partial reversal, which the current single-status vocabulary cannot express.",
+      "open_questions": [
+        "The promise says \"im ganzen Land\". The launch product was a nationwide Deutschlandticket, which includes local transport in Mecklenburg-Vorpommern, but the sources here do not separately document every local operator's acceptance.",
+        "A reviewer should establish the exact date and legal or tariff decision that raised the price from 29 to 43 euros."
+      ]
+    },
+    {
+      "id": "mecklenburg-vorpommern-4",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "Eine klimaneutrale Wirtschaft erfordert nicht nur Veränderungen bei der Energieversorgung",
+          "capture": "cap_20260917T112715853Z_c8c671c2",
+          "page": 10
+        },
+        {
+          "party": "linke",
+          "quote": "- ein klimaneutrales und CO2-reduziertes Mecklenburg-Vorpommern bis 2035.",
+          "capture": "cap_20260917T112616356Z_160dad56",
+          "page": 38
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "climate and industry",
+      "competence": "mixed",
+      "deadline": null,
+      "done_when": null,
+      "events": [
+        {
+          "date": "2022-02-23",
+          "type": "other",
+          "summary": "SPD and DIE LINKE submitted a Landtag motion that repeated the aim of becoming a leading location for sustainable and eventually climate-neutral business and named green business parks.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112955290Z_2c5db1aa",
+              "quote": "führenden Standorte für nachhaltiges und mittelfristig klimaneutrales Wirtschaften",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "date": "2024-10-24",
+          "type": "government_answer",
+          "summary": "In an answer to a Kleine Anfrage, the state government reported three certified green business parks and no active applications, with preliminary examinations at two further locations.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112955639Z_0222735a",
+              "quote": "Derzeit haben drei Gewerbegebiete in Mecklenburg-Vorpommern von der Landesregierung die",
+              "page": 1
+            },
+            {
+              "capture": "cap_20260917T112955639Z_0222735a",
+              "quote": "Derzeit befinden sich keine Gewerbegebiete im Bewerbungsprozess, Vorprüfungen laufen in",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "status": "not_assessable",
+      "status_reasoning": "\"One of the leading locations\" supplies no comparison group, metric, date or required number of green business parks. The recorded steps are relevant evidence, but no non-invented completion test can decide the promise.",
+      "open_questions": [
+        "The agreement does not define \"führenden Standorte\", the relevant geography, or a ranking method.",
+        "The government answer gives a count of certified green business parks but does not say what number would demonstrate the promised leading position."
+      ]
+    },
+    {
+      "id": "mecklenburg-vorpommern-5",
+      "program_sources": [
+        {
+          "party": "spd",
+          "quote": "Mindestlohn in Höhe von 12 Euro.",
+          "capture": "cap_20260917T112715853Z_c8c671c2",
+          "page": 3
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "work and wages",
+      "competence": "federal",
+      "deadline": null,
+      "done_when": "The Mecklenburg-Vorpommern coalition documents an identifiable action in a federal legislative or Bundesrat process supporting a statutory nationwide minimum wage of 12 euros per hour.",
+      "events": [
+        {
+          "date": "2022-10-01",
+          "type": "law_passed",
+          "summary": "The Federal Ministry of Labour reported that the Bundestag approved the increase to 12 euros per hour and that it took effect on 1 October 2022. This proves the federal outcome, not an action by the state coalition.",
+          "sources": [
+            {
+              "capture": "cap_20260917T112958089Z_0994a3d6",
+              "quote": "Der Deutsche Bundestag hat am 3. Juni 2022 dem Gesetzentwurf der Bundesregierung zur Erhöhung des gesetzlichen Mindestlohns auf 12 Euro pro Stunde zugestimmt. Die Erhöhung geht auf eine Vereinbarung im Koalitionsvertrag zurück und tritt am 1. Oktober 2022 in Kraft.",
+              "page": null
+            }
+          ]
+        }
+      ],
+      "status": "no_evidence_found",
+      "status_reasoning": "The federal outcome occurred, but the available official source attributes it to the federal government's coalition agreement. It does not show a Land government initiative, Bundesrat action, or other documented support by this coalition. The state cannot be marked as having delivered its support commitment merely because the federal legislature reached the same result.",
+      "open_questions": [
+        "Search Bundesrat records, Mecklenburg-Vorpommern government statements and parliamentary material for a documented state action on the Minimum Wage Increase Act.",
+        "The model needs a standard for commitments to support an outcome outside state competence: documented advocacy, a vote, or the outcome itself."
+      ]
+    }
+  ]
+}
