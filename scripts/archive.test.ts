@@ -9,7 +9,7 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
   await mkdir(`${directory}/scripts`);
   await mkdir(`${directory}/archive`);
   await symlink(`${root}/node_modules`, `${directory}/node_modules`, 'dir');
-  for (const name of ['archive-fetch.ts', 'archive-ocr.ts', 'archive-schema.ts', 'archive-validate.ts']) {
+  for (const name of ['archive-fetch.ts', 'archive-ocr.ts', 'archive-quotes.ts', 'archive-schema.ts', 'archive-validate.ts']) {
     await copyFile(`${root}/scripts/${name}`, `${directory}/scripts/${name}`);
   }
   let version = 1;

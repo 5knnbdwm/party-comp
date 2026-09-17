@@ -1,6 +1,6 @@
 import { trackedSchema, captureSchema, partySchema } from './archive-schema';
 import { root, digest } from './archive-fetch';
-import { ocrPath } from './archive-ocr';
+import { captureTexts, quoteFound } from './archive-quotes';
 import type { Party } from './archive-schema';
 const errors:string[]=[];
 const check=(condition:unknown,message:string)=>{if(!condition)errors.push(message);};
@@ -70,17 +70,10 @@ async function main(){
     check(!capture.error,`${path}: source is failed capture`);
     check(fact.observed_at>=capture.retrieved_at,`${path}: fact predates capture`);
     check(capture.pdf_info?source.page!==null&&source.page<=capture.pdf_info.pages:source.page===null,`${path}: invalid source page`);
-    let text=capture.text?await Bun.file(`${root}/${capture.text}`).text():'';
     // Scanned PDFs have no text layer; quotes are checked against their OCR text instead.
-    if(capture.pdf_info&&capture.sha256&&!text.trim()){
-     const ocr=Bun.file(`${root}/${ocrPath(capture.sha256)}`);
-     check(await ocr.exists(),`${path}: scanned PDF ${source.capture} has no OCR text, run bun scripts/archive-ocr.ts`);
-     if(await ocr.exists())text=await ocr.text();
-    }
-    const raw=capture.blob?.endsWith('.html')?await Bun.file(`${root}/${capture.blob}`).text():'';
-    const pages = text.split('\f').filter((page, index) => index !== 0 || page.trim());
-    const quoted=capture.pdf_info&&source.page?pages[source.page-1]??'':text;
-    check(quoted.includes(source.quote)||raw.includes(source.quote),`${path}: quote absent from capture ${source.capture}: ${source.quote.slice(0,60)}`);
+    const texts=await captureTexts(capture);const {text,raw}=texts;
+    check(!texts.scanWithoutOcr,`${path}: scanned PDF ${source.capture} has no OCR text, run bun scripts/archive-ocr.ts`);
+    check(quoteFound(capture,texts,source.quote,source.page),`${path}: quote absent from capture ${source.capture}: ${source.quote.slice(0,60)}`);
     quotes.push(normal(source.quote));urls.push(capture.url);if(capture.final_url)urls.push(capture.final_url);
     sourceTexts.push(normal(text),normal(raw));retrieved.push(capture.retrieved_at);
    }

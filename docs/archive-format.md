@@ -20,6 +20,8 @@ archive/
   ocr/<sha256>.txt           OCR text for scanned PDFs with an empty text layer
 data/
   parties/<state>/<party-slug>.json
+  core-parties.json          core party slugs per state, see "Core parties" in the brief
+  trial/<state>/             Phase 1 trial: selection.json and one trace file per model
 scripts/
   archive-fetch.ts           fetches tracked URLs and appends captures
 ```
@@ -53,7 +55,9 @@ All timestamps are ISO 8601 in UTC with a `Z` suffix, such as `2026-09-16T18:12:
   - `candidate_list`, `lead_candidate_page`
   - `election_authority_page`, `election_result`
   - `coalition_statement`, `sondierungspapier`, `coalition_agreement`
-  - `position_paper`, `press_release`, `other`
+  - `position_paper`, `press_release`
+  - `drucksache`, `plenary_protocol`, `budget`, `gazette`, `government_statement`, `statistic`, for tracing promises through parliament and government
+  - `other`
 - `publisher_type` is one of `party`, `parliamentary_group`, `election_authority`, `parliament`, `government`, `press`.
 
 ## Captures
