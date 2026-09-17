@@ -15,15 +15,15 @@ The project is not affiliated with any party. It applies one method to every par
 
 Early. There is no website yet. This repo currently holds the evidence archive: what each party published before and just after the elections, stored so that later edits or deletions can be detected.
 
-- 37 parties admitted to the ballot in Sachsen-Anhalt and Berlin have a party file in `data/parties/`. Mecklenburg-Vorpommern is being added.
-- 641 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
-- 344 tracked URLs and 519 captures, each with a SHA-256 hash and retrieval time.
+- 56 parties admitted to the ballot in the three states have a party file in `data/parties/`.
+- 901 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
+- 516 tracked URLs and 699 captures, each with a SHA-256 hash and retrieval time.
 
 Deep research covers the core parties only:
 
 - Sachsen-Anhalt: the parties that won seats. AfD, CDU, SPD, Die Linke, Grüne, BSW.
 - Berlin, until the vote: CDU, SPD, Grüne, Die Linke, AfD, BSW, FDP.
-- Mecklenburg-Vorpommern, until the vote: parties in the outgoing Landtag plus parties polling at 3% or more.
+- Mecklenburg-Vorpommern, until the vote: SPD, AfD, CDU, Die Linke, Grüne, FDP, BSW.
 
 Coalition positions and talks status record who said what, and when. Each statement has a date, a speaker and the speaker's role, so a lead candidate's interview is not presented as the party's decision. An AI model extracted the statements for Sachsen-Anhalt and Berlin, and a person reviewed them on 17 September 2026. The commits marked "unreviewed sol run" predate that review.
 
@@ -88,9 +88,9 @@ AI agents find sources, extract facts and draft reports. The instructions for ea
 
 ## Roadmap
 
-1. Archive every party before the Berlin election. Done for core parties, review pending.
-2. After 20 September, sweep all admitted parties once, then narrow Berlin to the parties that won seats.
-3. Trace five promises from the previous term (Sachsen-Anhalt 2021–2026, Berlin since 2023) by hand and with AI, to test the method.
+1. Archive every party before the 20 September elections. Done for core parties in all three states.
+2. After 20 September, sweep all admitted parties once, then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats.
+3. Trace five promises per state from the previous term with two AI models, to test the method. Done, see `docs/reports/trial/2026-09-17-trial-comparison.md`; statuses await review.
 4. Define the promise and status model from that trial.
 5. Build the website, then weekly summaries.
 
