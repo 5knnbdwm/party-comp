@@ -1,0 +1,261 @@
+{
+  "state": "berlin",
+  "mode": "trace",
+  "model": "gpt-5.6-terra",
+  "traced_at": "2026-09-17T14:00:00Z",
+  "promises": [
+    {
+      "id": "berlin-steel-boats",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "Außerdem wollen wir für die Berliner Wasserschutzpolizei moderne\nPolizeiboote anschaffen.",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "page": 45
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "internal security",
+      "competence": "state",
+      "deadline": "2024 (jährlich ab)",
+      "done_when": "For every calendar year from 2024, Police Berlin has procured one new steel boat for the Water Police fleet.",
+      "events": [
+        {
+          "date": "2025-05-16",
+          "type": "government_answer",
+          "summary": "The Senate said no steel boat was procured in 2024 or 2025 because funds were unavailable; it described only preparatory market research for a possible procurement.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "Im Jahr 2024 wurde seitens der Polizei Berlin kein Stahlboot beschafft, da keine",
+              "page": 2
+            },
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "Auch im Jahr 2025 kann aufgrund fehlender Haushaltsmittel kein Stahlboot beschafft",
+              "page": 3
+            },
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "für die Wasserschutzpolizei bereits in der Vorbereitungsphase einer europaweiten",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "status": "announced",
+      "status_reasoning": "The government documented a preparatory market survey, which is an announced step. Its answer also expressly records that the annual procurements for 2024 and 2025 did not happen, so the done-when is not met. The answer does not establish an actual 2026 procurement.",
+      "open_questions": [
+        "Whether a steel boat was actually ordered, delivered, or accepted in 2026 is not settled by the records captured for this trace.",
+        "The matching CDU programme promise is broader than the coalition commitment; no matching SPD programme promise was located in the captured 2021 programme."
+      ]
+    },
+    {
+      "id": "berlin-administration-law",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "Wir werden das vielerorts herrschende Verwaltungs-Wirrwarr beenden und klare\nZuständigkeiten schaffen, um das ständig wiederkehrende Schwarze-Peter-Spiel\nzwischen Senat und Bezirken zu beenden.",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "page": 77
+        },
+        {
+          "party": "spd",
+          "quote": "der Bezirksverwaltungen und der Senatsverwaltungen müssen eindeutig geregelt und",
+          "capture": "cap_20260917T110723946Z_4ee84e96",
+          "page": 67
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "public administration",
+      "competence": "state",
+      "deadline": null,
+      "done_when": "A Berlin law replaces the Allgemeines Zuständigkeitsgesetz and the existing rules on responsibilities and task demarcation with a new law governing task allocation and cooperation in the Berlin administration.",
+      "events": [
+        {
+          "date": "2025-04-01",
+          "type": "bill_introduced",
+          "summary": "The Senate submitted the Verwaltungsstrukturreformgesetz, whose explanatory memorandum says the new Landesorganisationsgesetz would replace the former Allgemeines Zuständigkeitsgesetz and responsibility rules.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111131402Z_369e75fb",
+              "quote": "Dazu soll ein neues Landesorganisationsgesetz (LOG BE) geschaffen werden, welches das\nbisherige Allgemeine Zuständigkeitsgesetz und die verschiedenen Regelungen zu Zuständigkeiten\nund zur Aufgabenabgrenzung in Berlin ablöst.",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "date": "2025-07-10",
+          "type": "law_passed",
+          "summary": "The official gazette published the Gesetz zur Neuordnung der Beziehungen zwischen Senat und Bezirken, dated 10 July 2025.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111131993Z_07702e8b",
+              "quote": "Gesetz zur Neuordnung der Beziehungen zwischen Senat und Bezirken",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2026-01-01",
+          "type": "other",
+          "summary": "The gazette provides for the law to enter into force on 1 January 2026.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111131993Z_07702e8b",
+              "quote": "Dieses Gesetz tritt am 1. Januar 2026 in Kraft.",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The replacement-law completion test is met: the bill identifies the Landesorganisationsgesetz as the replacement for the AZG and the responsibility rules, the legislature enacted the reform, and the gazette records that it entered into force on 1 January 2026. This does not establish that all later administrative practice has improved.",
+      "open_questions": [
+        "The coalition wording also says the Rat der Bürgermeister would participate. The captured bill describes a broader participation process but does not by itself establish the precise extent of that body's participation.",
+        "The transitional provisions leave some older catalogue rules applicable until a regulation takes effect; a reviewer should check whether that affects the intended meaning of complete replacement."
+      ]
+    },
+    {
+      "id": "berlin-climate-special-fund",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "Wir werden den Nachhaltigkeits- und Investitionsfonds SIWANA auf Investitionen zur\nStärkung der Wirtschaftskraft Berlins hin überprüfen.",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "page": 44
+        },
+        {
+          "party": "spd",
+          "quote": "Das von uns geschaffene\nInstrument     „Sondervermögen         Infrastruktur der Wachsenden              Stadt und\nNachhaltigkeitsfonds (SIWANA)“ ist heute ein etabliertes und wirksames\nInvestitionsinstrument – eine Investitionsrücklage von mehr als drei Milliarden Euro.",
+          "capture": "cap_20260917T110723946Z_4ee84e96",
+          "page": 71
+        }
+      ],
+      "adoption": "changed",
+      "topic": "climate finance",
+      "competence": "state",
+      "deadline": null,
+      "done_when": "Berlin has established by law the Sondervermögen Klimaschutz, Resilienz und Transformation with an initial volume of five billion euros.",
+      "events": [
+        {
+          "date": "2023-07-25",
+          "type": "cabinet_decision",
+          "summary": "The Senate approved the bill to establish the special fund and stated the planned initial volume was five billion euros.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111133443Z_e7fbb1a0",
+              "quote": "Der Senat hat deshalb — wie im Koalitionsvertrag vorgesehen — den Gesetzentwurf von Finanzsenator Stefan Evers zur Errichtung eines Sondervermögens in seiner Sitzung am 25. Juli 2023 beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T111133443Z_e7fbb1a0",
+              "quote": "Das Sondervermögen wird ein Volumen von zunächst fünf Milliarden Euro haben.",
+              "page": null
+            }
+          ]
+        },
+        {
+          "date": "2023-08-03",
+          "type": "bill_introduced",
+          "summary": "The bill to establish the special fund was submitted to the Abgeordnetenhaus.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111132742Z_fbc9d16f",
+              "quote": "Gesetz über die Errichtung eines Sondervermögens Klimaschutz, Resilienz und\nTransformation",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2024-03-26",
+          "type": "government_answer",
+          "summary": "A Senate report said consideration of the establishment bill was paused following the Federal Constitutional Court's 15 November 2023 judgment, pending a legal opinion.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111132961Z_e5fda205",
+              "quote": "tischen Gutachtens (Rote Nummer 19/1355).",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "status": "blocked",
+      "status_reasoning": "The Senate approved and introduced the five-billion-euro establishment bill, but the government reported that its consideration was paused because of the Federal Constitutional Court judgment. No captured law establishes the fund, so the done-when is not met and the court-related pause supports blocked.",
+      "open_questions": [
+        "The captured pause report is from March 2024. A reviewer should check the parliamentary dossier and later budgets for a resumed, replacement, or withdrawn proposal.",
+        "The programme sources support the use of a special-fund instrument but not the coalition's specific climate, resilience, five-billion-euro fund."
+      ]
+    },
+    {
+      "id": "berlin-europe-tech-location",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "Ausgründungen\naus Hochschulen werden wir entbürokratisieren und insbesondere mit dem Fokus auf\nforschungsintensive Technologien unterstützen.",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "page": 39
+        },
+        {
+          "party": "spd",
+          "quote": "In Tegel wollen wir einen\ninternational vernetzten Spitzenstandort in der Forschung und Entwicklung urbaner\nTechnologien aufbauen.",
+          "capture": "cap_20260917T110723946Z_4ee84e96",
+          "page": 61
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "economic development",
+      "competence": "state",
+      "deadline": null,
+      "done_when": null,
+      "events": [],
+      "status": "not_assessable",
+      "status_reasoning": "The commitment supplies no measure for 'one of the most important' European economic and technology locations, no comparator set, and no deadline. Turning it into a rank, investment total, or company count would invent a completion test rather than trace the wording.",
+      "open_questions": [
+        "A human reviewer would need an editorial rule, fixed before assessment, for whether a comparative indicator could ever make a superlative location claim assessable.",
+        "No status event is proposed because the completion test is null; individual economic-policy measures cannot prove this claim as written."
+      ]
+    },
+    {
+      "id": "berlin-witness-threat-initiative",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "quote": "Über eine Bundesratsinitiative\nwerden wir weitere Verbesserungen bei der Vermögensabschöpfung, der Einziehung\nvon Gegenständen und der Bekämpfung der Geldwäsche anstoßen.",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "page": 50
+        }
+      ],
+      "adoption": "changed",
+      "topic": "justice",
+      "competence": "federal",
+      "deadline": null,
+      "done_when": "Berlin has submitted to the Bundesrat an initiative proposing an amendment to the Criminal Code addressing threats against witnesses and court personnel.",
+      "events": [
+        {
+          "date": "2024-09-12",
+          "type": "bill_introduced",
+          "summary": "Berlin submitted a Federal Council bill proposing amendments to the Criminal Code and Code of Criminal Procedure on threats against witnesses and court personnel.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111250630Z_294ef690",
+              "quote": "Gesetzesantrag\ndes Landes Berlin",
+              "page": 3
+            },
+            {
+              "capture": "cap_20260917T111250630Z_294ef690",
+              "quote": "der Senat von Berlin hat am 10. September 2024 beschlossen, dem Bundesrat den\nals Anlage mit Begründung beigefügten\n\n      Entwurf eines ... Gesetzes zur Änderung des Strafgesetzbuchs\n      und der Strafprozessordnung –\n      Bedrohung von Zeuginnen und Zeugen und Gerichtspersonen\n\nmit dem Antrag zuzuleiten, seine Einbringung beim Deutschen Bundestag zu\nbeschließen.",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The promise was to initiate a Bundesrat measure, rather than secure enactment of federal criminal law. The Bundesrat printed matter identifies it as a Berlin bill and records the Senate decision to submit it, meeting that limited done-when. Whether the federal legislature enacted the proposed amendment is a separate, unfulfilled federal step.",
+      "open_questions": [
+        "The captured CDU programme source supports a Federal Council criminal-law initiative in a related but different area. No matching SPD programme promise was located in the captured 2021 programme.",
+        "A reviewer should separately trace the Federal Council committees, plenary decision, Bundestag process, and any final federal law if the tracker later covers the initiative's downstream result."
+      ]
+    }
+  ]
+}
