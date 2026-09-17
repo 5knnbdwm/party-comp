@@ -1,0 +1,41 @@
+{
+  "state": "berlin",
+  "coalition_agreement_capture": "cap_20260917T110708218Z_213f53ce",
+  "promises": [
+    {
+      "id": "berlin-steel-boats",
+      "kind": "measurable",
+      "quote": "Für die Stahlbootflotte der\nWasserschutzpolizei schaffen wir ab 2024 jährlich ein neues Stahlboot an.",
+      "capture": "cap_20260917T110708218Z_213f53ce",
+      "page": 27
+    },
+    {
+      "id": "berlin-administration-law",
+      "kind": "law",
+      "quote": "Das Allgemeine Zuständigkeitsgesetz und der Zuständigkeitskatalog werden wir\nschnellstmöglich, unter der Beteiligung des Rats der Bürgermeister, durch ein neues Gesetz\nüber die Aufgabenverteilung und Zusammenarbeit in der Berliner Verwaltung ersetzen.",
+      "capture": "cap_20260917T110708218Z_213f53ce",
+      "page": 10
+    },
+    {
+      "id": "berlin-climate-special-fund",
+      "kind": "budget",
+      "quote": "Berlin wird ein Sondervermögen „Klimaschutz, Resilienz und Transformation“ mit einem\nVolumen von zunächst fünf Milliarden Euro schaffen.",
+      "capture": "cap_20260917T110708218Z_213f53ce",
+      "page": 130
+    },
+    {
+      "id": "berlin-europe-tech-location",
+      "kind": "vague",
+      "quote": "Wir wollen unsere Stadt zu einem der bedeutendsten Wirtschafts- und\n           Technologiestandorte Europas entwickeln.",
+      "capture": "cap_20260917T110708218Z_213f53ce",
+      "page": 8
+    },
+    {
+      "id": "berlin-witness-threat-initiative",
+      "kind": "federal",
+      "quote": "Wir leiten eine Bundesratsinitiative\nfür eine Ergänzung des Strafgesetzbuches wegen „Bedrohung von Zeugen und\nGerichtspersonen“ ein",
+      "capture": "cap_20260917T110708218Z_213f53ce",
+      "page": 29
+    }
+  ]
+}

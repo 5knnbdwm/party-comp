@@ -4838,5 +4838,165 @@
     "publisher_type": "parliament",
     "added_at": "2026-09-17T11:08:00Z",
     "found_on": "https://www.landtag.sachsen-anhalt.de/themen-und-dossiers/thema/finanzen/seite/3"
+  },
+  {
+    "url": "https://www.berlin.de/rbmskzl/_assets/dokumentation/koalitionsvertrag_2023-2026_.pdf?ts=1752710433",
+    "state": "berlin",
+    "party": null,
+    "kind": "coalition_agreement",
+    "label": "Koalitionsvertrag 2023-2026: Das Beste fuer Berlin",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:00:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/politik/senat/koalitionsvertrag/"
+  },
+  {
+    "url": "https://www.kas.de/documents/291599/12884283/2023+CDU+BLN_LTW_Wahlprogramm_Ein+besseres+Berlin+ist+m%C3%B6glich.pdf/a579a301-b26a-62ba-2d1f-2b0be2be1c6c?t=1677747316003",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "Ein besseres Berlin ist moeglich, CDU Berlin 2023",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00Z",
+    "found_on": "https://www.kas.de/en/web/geschichte-der-cdu/static-contents-detail/-/content/wahlprogramme-der-cdu-berlin"
+  },
+  {
+    "url": "https://spd.berlin/media/2021/05/SPD-Berlin_Landeswahlprogramm.pdf",
+    "state": "berlin",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "Ganz sicher Berlin, SPD Berlin 2021",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:00:00Z",
+    "found_on": "https://www.spd.de/aktuelles/berlin-wahl"
+  },
+  {
+    "url": "https://cdu.berlin/image/uploads/data/Berlin-Plan_CDU-Berlin_2021-2026.pdf",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "Unser Berlin. Mehr geht nur gemeinsam. Berlin-Plan 2021-2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:03:00Z",
+    "found_on": "https://www.abgeordnetenwatch.de/berlin/wiederholungswahl-2023/wahlprogramme"
+  },
+  {
+    "url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogrammahw2021_0.pdf",
+    "state": "berlin",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "Preserved CDU Berlin Plan 2021-2026 used for the 2023 repeat election",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T12:10:00Z",
+    "found_on": "https://www.abgeordnetenwatch.de/berlin/wiederholungswahl-2023/wahlprogramme"
+  },
+  {
+    "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/SchrAnfr/S19-22511.pdf",
+    "state": "berlin",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Written question 19/22511 on Water Police steel boat procurement",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://pardok.parlament-berlin.de/"
+  },
+  {
+    "url": "https://www.berlin.de/sen/finanzen/haushalt/downloads/haushaltsplan-2026-27/band05_2026_2027_epl-05.pdf?ts=1771256365",
+    "state": "berlin",
+    "party": null,
+    "kind": "budget",
+    "label": "Berlin budget 2026-2027, department 05",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/sen/finanzen/haushalt/haushaltsplan-2026-2027/"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2353.pdf",
+    "state": "berlin",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Bill 19/2353, Administrative Structure Reform Act",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://pardok.parlament-berlin.de/portala/browse.tt.html"
+  },
+  {
+    "url": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2025/ausgabe-nr-19-vom-2372025-s-265-304.pdf?ts=1764225167",
+    "state": "berlin",
+    "party": null,
+    "kind": "gazette",
+    "label": "Berlin Gazette 19/2025, Administrative Structure Reform Act",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2025/"
+  },
+  {
+    "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2025/pressemitteilung.1629077.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Administrative reform enters into force on 1 January 2026",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2025/"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-1099.pdf",
+    "state": "berlin",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Bill 19/1099 to establish the climate, resilience and transformation special fund",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://pardok.parlament-berlin.de/portala/browse.tt.html"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/adosservice/19/Haupt/vorgang/h19-1599-v.pdf",
+    "state": "berlin",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Official report on the paused climate special fund bill",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.parlament-berlin.de/dokumente/vorgangsuebersicht"
+  },
+  {
+    "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2023/pressemitteilung.1349675.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Senate approves climate, resilience and transformation special fund bill",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2023/"
+  },
+  {
+    "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2024/pressemitteilung.1514349.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Berlin joins Federal Council initiative to extend the rent brake",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2024/"
+  },
+  {
+    "url": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/der-bundesrat/berliner-bundesratsinitiativen-1616080.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "government_statement",
+    "label": "Official list of Berlin Federal Council initiatives",
+    "publisher_type": "government",
+    "added_at": "2026-09-17T12:20:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/der-bundesrat/"
+  },
+  {
+    "url": "https://dipbt.bundestag.de/dip21/brd/2024/0449-24.pdf",
+    "state": "berlin",
+    "party": null,
+    "kind": "drucksache",
+    "label": "Federal Council paper 449/24 on threats against witnesses and court personnel",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-17T12:28:00Z",
+    "found_on": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/der-bundesrat/berliner-bundesratsinitiativen-1616080.php"
   }
 ]

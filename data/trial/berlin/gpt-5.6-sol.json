@@ -1,0 +1,255 @@
+{
+  "state": "berlin",
+  "mode": "select",
+  "model": "gpt-5.6-sol",
+  "traced_at": "2026-09-17T11:30:00Z",
+  "promises": [
+    {
+      "id": "berlin-steel-boats",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "quote": "Außerdem wollen wir für die Berliner Wasserschutzpolizei moderne\nPolizeiboote anschaffen.",
+          "page": 45
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "water police equipment",
+      "competence": "state",
+      "deadline": "2024-2026",
+      "done_when": "Police Berlin takes delivery of at least one new steel-hulled Water Police boat in each calendar year from 2024 through 2026.",
+      "events": [
+        {
+          "date": "2025-05-16",
+          "type": "government_answer",
+          "summary": "The Senate reported that Police Berlin procured no steel boat in 2024 and could procure none in 2025 because no budget funds were available, although preparations for a market survey had begun.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "Im Jahr 2024 wurde seitens der Polizei Berlin kein Stahlboot beschafft, da keine\nHaushaltsmittel zur Beschaffung von Booten zur Verfügung standen.",
+              "page": 2
+            },
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "Auch im Jahr 2025 kann aufgrund fehlender Haushaltsmittel kein Stahlboot beschafft\nwerden.",
+              "page": 3
+            },
+            {
+              "capture": "cap_20260917T111128311Z_065364d7",
+              "quote": "Die Polizei Berlin befindet sich jedoch hinsichtlich der Beschaffung von Booten\nfür die Wasserschutzpolizei bereits in der Vorbereitungsphase einer europaweiten\nMarktschau. Auch werden landesübergreifende Beschaffungskooperationen geprüft.",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "date": "2025-12-18",
+          "type": "budget_line",
+          "summary": "The adopted 2026/2027 police budget provided EUR 1.25 million in each year for police boats, while recording no appropriation for 2025 and no expenditure in 2024.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111128609Z_db9e1f89",
+              "quote": "81110    042    Polizeiboote                                   1.250.000           1.250.000             —                   —",
+              "page": 141
+            }
+          ]
+        }
+      ],
+      "status": "approved",
+      "status_reasoning": "The annual delivery test was already missed in 2024 and 2025: the Senate explicitly reported that no steel boat was procured in either year. The 2026/2027 budget later approved money for police boats, which supports `approved`, but no captured source proves a contract or delivery. The budget also says a patrol-boat procurement normally spans two years, so the annual promise cannot be treated as partly delivered merely because funding exists.",
+      "open_questions": [
+        "Was any 2026 police-boat appropriation released, contracted or spent, and did Police Berlin take delivery before the term ended?",
+        "Did the coalition intend one boat to be ordered each year rather than delivered each year? The verb 'anschaffen' does not settle the procurement milestone.",
+        "Does every planned police boat have a steel hull and belong to the Water Police fleet? The budget line is broader than the promise."
+      ]
+    },
+    {
+      "id": "berlin-administration-law",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "quote": "Wir werden das vielerorts herrschende Verwaltungs-Wirrwarr beenden und klare\nZuständigkeiten schaffen, um das ständig wiederkehrende Schwarze-Peter-Spiel\nzwischen Senat und Bezirken zu beenden.",
+          "page": 77
+        },
+        {
+          "party": "spd",
+          "capture": "cap_20260917T110723946Z_4ee84e96",
+          "quote": "Deshalb werden wir\nBürger- und Unternehmensleistungen vereinheitlichen und vor allem Doppelzuständigkeiten\nsystematisch weiter abbauen.",
+          "page": 66
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "administrative reform",
+      "competence": "state",
+      "deadline": null,
+      "done_when": "Berlin enacts and brings into force a new law that replaces the General Jurisdiction Act and its jurisdiction catalogue with a framework for allocating tasks and cooperation between the Senate and districts.",
+      "events": [
+        {
+          "date": "2025-04-01",
+          "type": "bill_introduced",
+          "summary": "The Senate submitted the Administrative Structure Reform Act to the House of Representatives.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111131402Z_369e75fb",
+              "quote": "Gesetz zur Neuordnung der Beziehungen         zwischen   Senat   und   Bezirken\n(Verwaltungsstrukturreformgesetz – VStRefG)",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2025-07-10",
+          "type": "law_passed",
+          "summary": "The official gazette published the Administrative Structure Reform Act dated 10 July 2025.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111131993Z_07702e8b",
+              "quote": "Gesetz zur Neuordnung der Beziehungen zwischen Senat und Bezirken",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2026-01-01",
+          "type": "report",
+          "summary": "The new State Organisation Act took effect and supplied the legal framework for task allocation, citywide steering and district responsibilities.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111132393Z_7805a769",
+              "quote": "Am 1. Januar 2026 tritt die vom Abgeordnetenhaus in Berlin beschlossene Verwaltungsreform im Kraft.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T111132393Z_7805a769",
+              "quote": "Den rechtlichen Rahmen dafür bildet das neue Landesorganisationsgesetz (LOG). Es schafft klare Verantwortlichkeiten, eine transparente Aufgabenverteilung und verbessert die gesamtstädtische Steuerung. Gleichzeitig stärkt es die Bezirke in ihrer Aufgabenwahrnehmung.",
+              "page": null
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The Administrative Structure Reform Act was enacted, and its new State Organisation Act took effect on 2026-01-01. The legislation replaces the former jurisdiction framework and establishes the promised allocation and cooperation framework, so the done-when is met. The agreement's word 'schnellstmöglich' is not converted into a calendar deadline because it supplies no objective date.",
+      "open_questions": [
+        "The reform uses a State Organisation Act plus a comprehensive catalogue and implementing instruments. A legal reviewer should confirm that this package is equivalent to replacing both instruments 'through a new law' as the coalition phrased it.",
+        "The government release says the reform still had to be implemented operationally during 2026. That does not defeat a law-enactment done-when, but it matters if the promise is read as improved administrative performance."
+      ]
+    },
+    {
+      "id": "berlin-climate-special-fund",
+      "program_sources": [],
+      "adoption": "not_in_programs",
+      "topic": "climate finance",
+      "competence": "state",
+      "deadline": "2023",
+      "done_when": "A Berlin law establishes the named Climate Protection, Resilience and Transformation special fund with an initial volume of EUR 5 billion.",
+      "events": [
+        {
+          "date": "2023-07-25",
+          "type": "cabinet_decision",
+          "summary": "The Senate approved a draft law to establish the special fund with an initial volume of EUR 5 billion.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111133443Z_e7fbb1a0",
+              "quote": "Der Senat hat deshalb — wie im Koalitionsvertrag vorgesehen — den Gesetzentwurf von Finanzsenator Stefan Evers zur Errichtung eines Sondervermögens in seiner Sitzung am 25. Juli 2023 beschlossen.",
+              "page": null
+            },
+            {
+              "capture": "cap_20260917T111133443Z_e7fbb1a0",
+              "quote": "Das Sondervermögen wird ein Volumen von zunächst fünf Milliarden Euro haben.",
+              "page": null
+            }
+          ]
+        },
+        {
+          "date": "2023-08-03",
+          "type": "bill_introduced",
+          "summary": "The Senate submitted the special-fund bill to the House of Representatives.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111132742Z_fbc9d16f",
+              "quote": "Gesetz über die Errichtung eines Sondervermögens Klimaschutz, Resilienz und\nTransformation",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "date": "2023-11-15",
+          "type": "court_ruling",
+          "summary": "After the Federal Constitutional Court's judgment on the federal supplementary budget, parliamentary deliberations on Berlin's establishment bill were paused pending a legal opinion.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111132961Z_e5fda205",
+              "quote": "Aufgrund des Urteils des Bundesverfassungsgerichts vom 15. November 2023 zum zwei-\nten Bundesnachtragshaushaltsgesetz 2021 (BVerfG Urteil vom 15 November 2023, 2 BvF\n1/22) pausieren die Beratungen zum Errichtungsgesetzentwurf bis zur Vorlage eines juris-\ntischen Gutachtens (Rote Nummer 19/1355).",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "status": "blocked",
+      "status_reasoning": "Cabinet approved and introduced the EUR 5 billion fund bill, but an official parliamentary report says deliberations were paused because of the Federal Constitutional Court judgment. No captured gazette or parliamentary record shows the establishment law passing before the term ended. The court did not directly strike down Berlin's bill, but its judgment stopped the legislative path described in the evidence, which fits `blocked` better than `proposed`.",
+      "open_questions": [
+        "Was the bill formally withdrawn, rejected or allowed to lapse after deliberations were paused?",
+        "Did Berlin replace the proposed special fund with ordinary-budget climate financing that should be tracked as a changed promise rather than implementation of this fund?",
+        "The court ruled on federal borrowing, not on Berlin's draft itself. A public-law specialist should review whether `blocked` overstates the legal effect."
+      ]
+    },
+    {
+      "id": "berlin-europe-tech-location",
+      "program_sources": [
+        {
+          "party": "cdu",
+          "capture": "cap_20260917T110934422Z_813d0d08",
+          "quote": "Darüber hinaus wollen wir unsere Stadt zu einem der weltweit führenden\nForschungsstandorte für Künstliche Intelligenz, Gesundheits - und Biotechnologie\nentwickeln.",
+          "page": 118
+        },
+        {
+          "party": "spd",
+          "capture": "cap_20260917T110723946Z_4ee84e96",
+          "quote": "Wir entwickeln Berlin zur Smart City und fördern Modelllösungen urbaner Technologien und\nProzesse, um in Zukunft im Bereich Digitalisierung und Künstliche Intelligenz deutschland-\nund europaweit wettbewerbsfähig zu sein und zur Weltspitze zu gehören.",
+          "page": 11
+        }
+      ],
+      "adoption": "adopted",
+      "topic": "economy and technology",
+      "competence": "mixed",
+      "deadline": null,
+      "done_when": null,
+      "events": [],
+      "status": "not_assessable",
+      "status_reasoning": "The promise names an ambition but supplies no ranking, comparison group, sector boundary, metric or deadline for deciding when Berlin has become one of Europe's most significant economic and technology locations. Choosing venture capital, patents, employment or a city ranking would invent a narrower promise. It therefore has no defensible done-when.",
+      "open_questions": [
+        "Should the following sentences about supporting existing companies and attracting new firms be extracted as separate promises with action-based done-whens?",
+        "Competence is mixed because state policy can influence the location, while market actors, federal policy and European competition materially determine the stated outcome."
+      ]
+    },
+    {
+      "id": "berlin-witness-threat-initiative",
+      "program_sources": [],
+      "adoption": "not_in_programs",
+      "topic": "witness and court personnel protection",
+      "competence": "federal",
+      "deadline": null,
+      "done_when": "Berlin formally submits to the Bundesrat a draft that would amend the Criminal Code in response to threats against witnesses and court personnel.",
+      "events": [
+        {
+          "date": "2024-09-10",
+          "type": "cabinet_decision",
+          "summary": "The Berlin Senate resolved to submit to the Bundesrat a draft amending the Criminal Code and Code of Criminal Procedure concerning threats against witnesses and court personnel.",
+          "sources": [
+            {
+              "capture": "cap_20260917T111250630Z_294ef690",
+              "quote": "der Senat von Berlin hat am 10. September 2024 beschlossen, dem Bundesrat den\nals Anlage mit Begründung beigefügten\n\n      Entwurf eines ... Gesetzes zur Änderung des Strafgesetzbuchs\n      und der Strafprozessordnung –\n      Bedrohung von Zeuginnen und Zeugen und Gerichtspersonen\n\nmit dem Antrag zuzuleiten, seine Einbringung beim Deutschen Bundestag zu\nbeschließen.",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "status": "implemented",
+      "status_reasoning": "The coalition promised to initiate a Bundesrat measure, not to secure passage of the federal amendment. Bundesrat paper 449/24 states that the Berlin Senate resolved to submit the matching draft, so Berlin completed the action within its control. The outcome of the federal process is outside the done-when.",
+      "open_questions": [
+        "What action did the Bundesrat and Bundestag take after Berlin's submission? That affects policy outcome but not this filing-based done-when.",
+        "Neither captured governing-party program contains the specific criminal-law initiative. A broader synonym search could still uncover a less direct precursor."
+      ]
+    }
+  ]
+}
