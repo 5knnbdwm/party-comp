@@ -109,6 +109,208 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://www.spd-fraktion-mv.de/"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:37.533Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095037533Z_354baed1",
+          "quote": "Regierungsprogramm 2026–2031: Aufschwung, Zusammenhalt und Respekt",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031"
+    },
+    {
+      "observed_at": "2026-09-17T09:51:30.545Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095130545Z_b2ed331e",
+          "quote": "REGIERUNGSPROGRAMM\n2026 – 2031",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T09:51:38.199Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095138199Z_c8376ef4",
+          "quote": "AUFSCHWUNG, ZUSAMMENHALT\nUND RESPEKT\nKURZWAHLPROGRAMM DER SPD MV ZUR LANDTAGSWAHL AM 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Kurzwahlprogramm_2026.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T09:51:45.724Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095145724Z_08a4e3e5",
+          "quote": "Landtags-Wahl am 20. September 2026: Das Kurz-Wahlprogramm der SPD Mecklenburg-Vorpommern in Leichter Sprache",
+          "page": null
+        }
+      ],
+      "key": "program",
+      "value": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031/kurz-programm-in-leichter-sprache"
+    },
+    {
+      "observed_at": "2026-09-17T09:52:37.833Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095237833Z_493d65a0",
+          "quote": "Das Kurz-Wahlprogramm der SPD Mecklenburg-\nVorpommern in Leichter Sprache\nLandtagswahl am 20. September 2026",
+          "page": 1
+        }
+      ],
+      "key": "program",
+      "value": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPDMV_2026_Kurz-Programm_leichte-Sprache.pdf"
+    },
+    {
+      "observed_at": "2026-09-17T09:50:37.533Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095037533Z_354baed1",
+          "quote": "Mit Manuela Schwesig an der Spitze treten wir an, um erneut stärkste Kraft zu werden und unser Land weiter verantwortungsvoll zu führen.",
+          "page": null
+        }
+      ],
+      "key": "lead_candidate",
+      "value": "Manuela Schwesig"
+    },
+    {
+      "observed_at": "2026-09-17T09:52:45.316Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095245316Z_941a92a8",
+          "quote": "Schwesig sei offen dafür, \"mit Demokraten zu sprechen. Und ich habe in mehreren Regierungskonstellationen bewiesen, dass ich diejenige bin, die verschiedene politische Richtungen zusammenführt.\"",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-16",
+        "speaker": "Manuela Schwesig",
+        "speaker_role": "SPD-Spitzenkandidatin",
+        "summary": "Ist offen für Gespräche mit demokratischen Parteien und verweist auf ihre Erfahrung, verschiedene politische Richtungen zusammenzuführen."
+      }
+    },
+    {
+      "observed_at": "2026-09-17T09:52:45.316Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T095245316Z_941a92a8",
+          "quote": "SPD, Linke, CDU, Grüne und FDP haben allerdings bereits eine Zusammenarbeit mit der AfD ausgeschlossen.",
+          "page": null
+        }
+      ],
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-17",
+        "speaker": "SPD Mecklenburg-Vorpommern",
+        "speaker_role": "Partei",
+        "summary": "Schließt eine Zusammenarbeit mit der AfD aus."
+      }
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/spdmv"
+      },
+      "observed_at": "2026-09-17T09:53:14.899Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://facebook.com/spdmv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/spd_mv"
+      },
+      "observed_at": "2026-09-17T09:53:14.899Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://www.instagram.com/spd_mv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://x.com/spdmv"
+      },
+      "observed_at": "2026-09-17T09:53:14.899Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://x.com/spdmv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "state_party",
+        "url": "https://tiktok.com/@spd.mv"
+      },
+      "observed_at": "2026-09-17T09:53:14.899Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://www.tiktok.com/@spd.mv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/channel/UCwodWPPaPY3XQXooW7dBNVA"
+      },
+      "observed_at": "2026-09-17T09:53:14.899Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://www.youtube.com/channel/UCwodWPPaPY3XQXooW7dBNVA",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "bluesky",
+        "linked_from": "state_party",
+        "url": "https://bsky.app/profile/spdmv.bsky.social"
+      },
+      "observed_at": "2026-09-17T09:53:14.900Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094618026Z_1608359c",
+          "quote": "https://bsky.app/profile/spdmv.bsky.social",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

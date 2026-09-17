@@ -3598,5 +3598,105 @@
     "publisher_type": "party",
     "added_at": "2026-09-17T09:48:00.000Z",
     "found_on": "https://mv.bsw-vg.de/"
+  },
+  {
+    "url": "https://spd-mv.de/wahlen/landtagswahl-2026",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "other",
+    "label": "Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_html",
+    "label": "Regierungsprogramm 2026-2031",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://spd-mv.de/wahlen/landtagswahl-2026/kandidaten-landtagswahl-2026",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "candidate_list",
+    "label": "MV-Team 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://spd-mv.de/presse",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "press_release",
+    "label": "Pressemitteilungen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://spd-mv.de/downloads-presse",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "other",
+    "label": "Downloads für Presse und Medien",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_full",
+    "label": "SPD MV Programm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Kurzwahlprogramm_2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_short",
+    "label": "SPD MV Kurzwahlprogramm 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031"
+  },
+  {
+    "url": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031/kurz-programm-in-leichter-sprache",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_easy_language",
+    "label": "Kurz-Programm in leichter Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031"
+  },
+  {
+    "url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPDMV_2026_Kurz-Programm_leichte-Sprache.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "program_easy_language",
+    "label": "SPD MV Kurz-Programm in leichter Sprache",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://spd-mv.de/wahlen/landtagswahl-2026/regierungsprogramm-2026-2031/kurz-programm-in-leichter-sprache"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-schwesig-holm-tv-duell-100.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "TV-Duell: Schwesig zu Gesprächen nach der Wahl",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T09:50:22.000Z",
+    "found_on": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-schwesig-holm-tv-duell-100.html"
   }
 ]
