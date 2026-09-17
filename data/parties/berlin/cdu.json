@@ -262,6 +262,54 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/stefanevers.bln"
+      },
+      "observed_at": "2026-09-17T10:08:17.729Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205112414Z_3268b6a2",
+          "quote": "https://www.instagram.com/stefanevers.bln/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/stefanevers.cdu"
+      },
+      "observed_at": "2026-09-17T10:08:17.729Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205112414Z_3268b6a2",
+          "quote": "https://www.facebook.com/stefanevers.cdu",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "lead_candidate",
+        "url": "https://x.com/StefanEvers_Bln"
+      },
+      "observed_at": "2026-09-17T10:08:17.729Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T205112414Z_3268b6a2",
+          "quote": "https://x.com/StefanEvers_Bln",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

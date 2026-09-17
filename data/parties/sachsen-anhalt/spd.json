@@ -296,6 +296,70 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/SPDFraktionLSA"
+      },
+      "observed_at": "2026-09-17T10:08:17.973Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204018675Z_53078fc5",
+          "quote": "https://www.facebook.com/SPDFraktionLSA",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/spd_fraktion_lsa"
+      },
+      "observed_at": "2026-09-17T10:08:17.973Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204018675Z_53078fc5",
+          "quote": "https://www.instagram.com/spd_fraktion_lsa/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@spd_fraktion_lsa"
+      },
+      "observed_at": "2026-09-17T10:08:17.973Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204018675Z_53078fc5",
+          "quote": "https://www.tiktok.com/@spd_fraktion_lsa",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/channel/UCEjxPsOeznhHe3mpRloPpdA"
+      },
+      "observed_at": "2026-09-17T10:08:17.973Z",
+      "sources": [
+        {
+          "capture": "cap_20260916T204018675Z_53078fc5",
+          "quote": "https://www.youtube.com/channel/UCEjxPsOeznhHe3mpRloPpdA",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

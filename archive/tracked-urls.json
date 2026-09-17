@@ -3818,5 +3818,225 @@
     "publisher_type": "party",
     "added_at": "2026-09-17T10:00:00.000Z",
     "found_on": "https://afd-mv.de/blaue-wende-2026/"
+  },
+  {
+    "url": "https://cdu-mv.de/landtagswahl-2026/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/"
+  },
+  {
+    "url": "https://cdu-mv.de/programme/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Programme",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/"
+  },
+  {
+    "url": "https://cdu-mv.de/pressebereich/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "party_website",
+    "label": "Pressebereich",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/"
+  },
+  {
+    "url": "https://cdu-mv.de/landtagskandidaten2026cdumv/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "candidate_list",
+    "label": "Landtagskandidaten 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://cdu-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "program_full",
+    "label": "Wahlprogramm CDU MV 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://cdu-mv.de/wp-content/uploads/2026/08/Wahlprogramm-knapp-PLATT-Web.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "program_short",
+    "label": "Wahlprogramm knapp auf Platt",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://cdu-mv.de/wp-content/uploads/2026/07/CDUMV_100TageProgramm.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "program_immediate",
+    "label": "100-Tage-Sofortprogramm",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/landtagswahl-2026/"
+  },
+  {
+    "url": "https://cdu-mv.de/wp-content/uploads/2026/02/Vertragsangebot-CDU-MV-Verbindlich-fuer-einen-Politikwechsel.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "points_list",
+    "label": "MVorne: Verbindlich für einen Politikwechsel",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/programme/"
+  },
+  {
+    "url": "https://cdu-mv.de/wp-content/uploads/2026/01/MVorne-Vertragsangebot-NEU-mit-HG.pdf",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "other",
+    "label": "Obsolete MVorne program URL",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.google.com/search?q=site%3Acdu-mv.de+Wahlprogramm+2026+CDU+MV"
+  },
+  {
+    "url": "https://cdu-mv.de/2026/daniel-peters-mecklenburg-vorpommern-braucht-einen-politikwechsel-aus-der-mitte-heraus/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "press_release",
+    "label": "Daniel Peters: Mecklenburg-Vorpommern braucht einen Politikwechsel aus der Mitte heraus",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/pressebereich/"
+  },
+  {
+    "url": "https://cdu-mv.de/2026/daniel-peters-wir-zeigen-mit-diesem-programm-mecklenburg-vorpommern-kann-mehr-besser-nur-mit-uns/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "press_release",
+    "label": "Daniel Peters: Wir zeigen mit diesem Programm: Mecklenburg-Vorpommern kann mehr",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/pressebereich/"
+  },
+  {
+    "url": "https://cdu-mv.de/2026/daniel-peters-wer-demokraten-als-faschisten-bezeichnet-disqualifiziert-sich-fuer-zusammenarbeit/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters zur Zusammenarbeit mit der Linken",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cdu-mv.de/pressebereich/"
+  },
+  {
+    "url": "https://www.cdu.de/landtagswahlen-2026/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "lead_candidate_page",
+    "label": "Daniel Peters zur Landtagswahl 2026",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.cdu.de/"
+  },
+  {
+    "url": "https://www.cdu.de/aktuelles/landtagswahl-mecklenburg-vorpommern/daniel-peters-will-mecklenburg-vorpommern-voranbringen/",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "press_release",
+    "label": "Daniel Peters will Mecklenburg-Vorpommern voranbringen",
+    "publisher_type": "party",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.cdu.de/landtagswahlen-2026/"
+  },
+  {
+    "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/daniel-peters-cdu-das-interview-zur-landtagswahl-im-faktencheck,mvwahl-210.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters: Interview zur Landtagswahl im Faktencheck",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/"
+  },
+  {
+    "url": "https://www.ndr.de/radiomv/daniel-peters-cdu-das-interview-zur-landtagswahl,audio-3430472.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters: NDR-Interview zur Landtagswahl",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/daniel-peters-cdu-das-interview-zur-landtagswahl-im-faktencheck,mvwahl-210.html"
+  },
+  {
+    "url": "https://www.landtagswahl.tv/details/daniel-peters-cdu-im-klartext-interview-zur-landtagswahl-in-mecklenburg-vorpommern",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters im Klartext-Interview",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.landtagswahl.tv/"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-cdu-wahlkampf-100.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "CDU kämpft um die politische Mitte",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.zdfheute.de/politik/deutschland/"
+  },
+  {
+    "url": "https://cicero.podigee.io/251-neue-episode",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters im Cicero-Podcast",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://cicero.podigee.io/"
+  },
+  {
+    "url": "https://www.deutschlandfunk.de/spitzenkandidaten-in-mecklenburg-voprommern-debattieren-unter-anderem-ueber-koalitionsoptionen-106.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Wahlforum des Nordkurier zu Koalitionsoptionen",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.deutschlandfunk.de/"
+  },
+  {
+    "url": "https://www.n-tv.de/politik/CDU-Kreisvize-bringt-Buendnis-mit-der-AfD-ins-Spiel-id31304861.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Daniel Peters bekräftigt Absage an Linke und AfD",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.n-tv.de/politik/"
+  },
+  {
+    "url": "https://www.welt.de/politik/deutschland/article6aa78c34240b302c8a843d99/wahl-mecklenburg-vorpommern-2026-umfragen-koalitionen-kann-schwesig-weiterregieren.html",
+    "state": "mecklenburg-vorpommern",
+    "party": "cdu",
+    "kind": "coalition_statement",
+    "label": "Wahl Mecklenburg-Vorpommern 2026: Koalitionen",
+    "publisher_type": "press",
+    "added_at": "2026-09-17T10:05:02.000Z",
+    "found_on": "https://www.welt.de/politik/deutschland/"
   }
 ]

@@ -109,6 +109,380 @@
       ],
       "key": "parliamentary_group_website",
       "value": "https://www.cdu-fraktion.de/"
+    },
+    {
+      "key": "program",
+      "value": "https://cdu-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf",
+      "observed_at": "2026-09-17T10:05:54.382Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100554382Z_a33653bb",
+          "quote": "Dieses Wahlprogramm steht in der klaren Tradition des wegweisenden",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://cdu-mv.de/wp-content/uploads/2026/08/Wahlprogramm-knapp-PLATT-Web.pdf",
+      "observed_at": "2026-09-17T10:06:02.319Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100602319Z_65207e08",
+          "quote": "Uns Wahlprogramm\nknapp un kort",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://cdu-mv.de/wp-content/uploads/2026/07/CDUMV_100TageProgramm.pdf",
+      "observed_at": "2026-09-17T10:06:10.015Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100610015Z_418bfe58",
+          "quote": "Sofortprogramm „Wirtschaftsaufschwung in MV“",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "program",
+      "value": "https://cdu-mv.de/wp-content/uploads/2026/02/Vertragsangebot-CDU-MV-Verbindlich-fuer-einen-Politikwechsel.pdf",
+      "observed_at": "2026-09-17T10:07:01.414Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100701414Z_7d2cb469",
+          "quote": "Verbindlich für einen Politikwechsel",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "lead_candidate",
+      "value": "Daniel Peters",
+      "observed_at": "2026-09-17T10:06:37.381Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "Heute haben der CDU-Spitzenkandidat für Mecklenburg-Vorpommern, Daniel Peters, und die Landtagskandidatin Jeannette von Busse gemeinsam mit dem...",
+          "page": null
+        },
+        {
+          "capture": "cap_20260917T100637381Z_703d426e",
+          "quote": "Daniel Peters – „Politiker sein bedeutet zuzuhören.“",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-10",
+        "speaker": "Daniel Peters",
+        "speaker_role": "CDU-Spitzenkandidat",
+        "summary": "Hält eine Minderheitsregierung mit CDU-Beteiligung für möglich, toleriert aber keine Minderheitsregierung aus SPD und Linken."
+      },
+      "observed_at": "2026-09-17T10:06:42.702Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100642702Z_6c74e09e",
+          "quote": "Wir scheuen nicht eine Minderheitsregierung, an der wir beteiligt sind, aber wir werden natürlich nicht Rot-Rot tolerieren, weil das wäre ja die Fortsetzung der jetzigen Politik.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Daniel Peters",
+        "speaker_role": "CDU-Spitzenkandidat und Landesvorsitzender",
+        "summary": "Lehnt eine Koalition mit der Linken und die Tolerierung einer linken Regierung ab."
+      },
+      "observed_at": "2026-09-17T10:06:43.443Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100643443Z_31501734",
+          "quote": "Wir werden keine Koalition mit den linken eingehen und wir werden auch bestimmt keine linke Regierung tolerieren.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Daniel Peters",
+        "speaker_role": "CDU-Spitzenkandidat und Landesvorsitzender",
+        "summary": "Würde eine Zusammenarbeit mit der AfD neu bewerten, wenn sie sich inhaltlich stark an die CDU annähert und sich von radikalen Mitgliedern trennt; sieht beides derzeit nicht als erfüllt an."
+      },
+      "observed_at": "2026-09-17T10:06:43.443Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100643443Z_31501734",
+          "quote": "Wenn sie sich inhaltlich so stark auf die CDU einlassen würde, könnte man natürlich darüber reden. Aber es fehlt dann noch ein ganz wesentlicher Fakt. Sie muss sich eben auch von ihren Radikalinskis, um es mal so salopp zu formulieren, trennen. Dazu gehört ein Höcke, dazu gehören eben aber auch andere. Also ich kann nicht mit Menschen zusammenarbeiten, die offensichtlich noch vor wenigen Monaten mit Parteien oder in Parteien aktiv waren, wie der NPD, die also ganz offensichtlich auch noch dem Nationalsozialismus gehuldigt haben oder die rechtsextrem sind oder teilweise auch sich in ziemlich skurrilen Netzwerken aufhalten. All das wird ja geduldet und ich kann nicht erkennen, dass die AfD auch nur ansatzweise bereit ist, dieses Thema zu lösen, das andere Thema sich inhaltlich auf uns zuzubewegen, aber auch nicht. Wenn diese beiden Dinge. gelöst werden würden seitens der AfD, würde ich meine Meinung zur AfD auch gänzlich ändern. Das ist so. Aber im Moment ist das nicht Realität.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-08-26",
+        "speaker": "Daniel Peters",
+        "speaker_role": "CDU-Spitzenkandidat und Landesvorsitzender",
+        "summary": "Bezeichnet eine Koalition mit der FDP als Wunschkonstellation, falls sie möglich ist."
+      },
+      "observed_at": "2026-09-17T10:06:43.443Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100643443Z_31501734",
+          "quote": "00:16:25: Also klar ist dass wir das unsere natürlichen Koalitionspartner ein Stück weit weggebrochen sind.\n00:16:31: Ich nenne jetzt mal als Beispiel die FDP.\n00:16:33: Das ist eine Wunschkonstellation die ich als bürgerlich konservativer immer gehabt habe und haben würde, wenn es diese Option gibt.",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-14",
+        "speaker": "Daniel Peters",
+        "speaker_role": "CDU-Spitzenkandidat und Landesvorsitzender",
+        "summary": "Lehnt Koalitionen oder ähnliche Formen der Zusammenarbeit mit der Linken und der AfD ab."
+      },
+      "observed_at": "2026-09-17T10:06:44.355Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100644355Z_d7c5133d",
+          "quote": "Wir lehnen Koalitionen oder ähnliche Formen der Zusammenarbeit mit der Partei Die Linke und der AfD ab",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "state_party",
+        "url": "https://instagram.com/cdu_mv"
+      },
+      "observed_at": "2026-09-17T10:08:18.023Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "https://www.instagram.com/cdu_mv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "state_party",
+        "url": "https://facebook.com/CDU.Mecklenburg.Vorpommern"
+      },
+      "observed_at": "2026-09-17T10:08:18.023Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "https://www.facebook.com/CDU.Mecklenburg.Vorpommern/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "state_party",
+        "url": "https://twitter.com/CDUMV"
+      },
+      "observed_at": "2026-09-17T10:08:18.023Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "https://twitter.com/CDUMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/@cdu-mecklenburg-vorpommern"
+      },
+      "observed_at": "2026-09-17T10:08:18.023Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "https://www.youtube.com/@cdu-mecklenburg-vorpommern",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "state_party",
+        "url": "https://youtube.com/channel/UCFJPZnnN8L7h2sitD7b5x6g"
+      },
+      "observed_at": "2026-09-17T10:08:18.023Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621521Z_5d5dba4c",
+          "quote": "https://www.youtube.com/channel/UCFJPZnnN8L7h2sitD7b5x6g/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "parliamentary_group",
+        "url": "https://facebook.com/cdu.fraktion.mv.de"
+      },
+      "observed_at": "2026-09-17T10:08:18.027Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "https://www.facebook.com/cdu.fraktion.mv.de/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "parliamentary_group",
+        "url": "https://twitter.com/cdufraktionmv"
+      },
+      "observed_at": "2026-09-17T10:08:18.027Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "https://twitter.com/cdufraktionmv?lang=de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "youtube",
+        "linked_from": "parliamentary_group",
+        "url": "https://youtube.com/@cdufraktionmv"
+      },
+      "observed_at": "2026-09-17T10:08:18.027Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "https://www.youtube.com/@cdufraktionmv/featured",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "parliamentary_group",
+        "url": "https://instagram.com/cdufraktionmv"
+      },
+      "observed_at": "2026-09-17T10:08:18.027Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "https://www.instagram.com/cdufraktionmv/",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "parliamentary_group",
+        "url": "https://tiktok.com/@cdufraktionmv"
+      },
+      "observed_at": "2026-09-17T10:08:18.027Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T094621982Z_e259e755",
+          "quote": "https://www.tiktok.com/@cdufraktionmv",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "instagram",
+        "linked_from": "lead_candidate",
+        "url": "https://instagram.com/danielpeters_mv"
+      },
+      "observed_at": "2026-09-17T10:08:18.033Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100637381Z_703d426e",
+          "quote": "http://www.instagram.com/danielpeters_mv/?hl=de",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "x",
+        "linked_from": "lead_candidate",
+        "url": "https://x.com/danielpetersMV"
+      },
+      "observed_at": "2026-09-17T10:08:18.033Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100637381Z_703d426e",
+          "quote": "http://www.x.com/danielpetersMV",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "facebook",
+        "linked_from": "lead_candidate",
+        "url": "https://facebook.com/danielpeters.MdL"
+      },
+      "observed_at": "2026-09-17T10:08:18.033Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100637381Z_703d426e",
+          "quote": "http://www.facebook.com/danielpeters.MdL",
+          "page": null
+        }
+      ]
+    },
+    {
+      "key": "social_account",
+      "value": {
+        "platform": "tiktok",
+        "linked_from": "lead_candidate",
+        "url": "https://tiktok.com/@danielpeters_mv"
+      },
+      "observed_at": "2026-09-17T10:08:18.033Z",
+      "sources": [
+        {
+          "capture": "cap_20260917T100637381Z_703d426e",
+          "quote": "http://www.tiktok.com/@danielpeters_mv",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []
