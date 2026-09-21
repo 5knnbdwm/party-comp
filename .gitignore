@@ -1,10 +1,12 @@
 node_modules/
-# Scratch files and agent run logs stay local. Transcripts include personal agent instructions.
+# Scratch files are included in S3 snapshots, but not in Git.
 tmp/
-runs/
-# Raw captures stay out of git for now: 150 MB of third-party documents.
-# captures.jsonl keeps their hashes, so a restored copy can be verified.
-archive/blobs/
-archive/text/
-archive/ocr/
-vendor/
+# Credentials stay local, including in the private repository.
+.env
+.env.*
+!.env.example
+credentials
+credentials.*
+*.pem
+*.key
+.DS_Store

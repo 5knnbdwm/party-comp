@@ -96,7 +96,7 @@ Each fetch appends one line to `archive/captures.jsonl`. Earlier lines are never
 - `pdf_info` is `null` for non-PDFs. `wayback_url` is `null` when no snapshot was requested or the request failed.
 - Blobs are content-addressed, so identical bytes are stored once.
 - A scanned PDF has an empty text file. The fetch script then writes OCR text to `archive/ocr/<sha256>.txt`, with pages separated by form feeds, rendering pages at 400 dpi and running Tesseract with `vendor/tessdata/deu.traineddata` on the thresholded red channel, which recovers blue text on white that plain OCR misses. The capture record does not change; OCR text is derived and can be regenerated with `bun scripts/archive-ocr.ts`, or for one file with `--redo <sha256>`. Regenerating changes the text, so quotes taken from the old OCR text must be checked again. Quotes from scanned PDFs are copied from the OCR text, including its OCR spelling.
-- `archive/blobs`, `archive/text` and `archive/ocr` are not in git. `captures.jsonl` holds their hashes, so a restored copy can be verified.
+- `archive/blobs`, `archive/text` and `archive/ocr` are tracked in the private development repository. Blobs use Git LFS. The public export omits all three directories. `captures.jsonl` holds their hashes, so a restored copy can be verified.
 
 ## Party facts
 

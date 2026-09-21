@@ -41,7 +41,7 @@ Nothing goes into `data/` without a stored copy of its source.
 
 The full format is in [`docs/archive-format.md`](docs/archive-format.md).
 
-The raw captured files (`archive/blobs`, `archive/text`, `archive/ocr`) are not in this repo yet. Many are third-party documents, including press articles, and how to publish them is still open. `captures.jsonl` holds their hashes, so any copy can be verified against it.
+The raw captured files (`archive/blobs`, `archive/text`, `archive/ocr`) are tracked in the private development repository and omitted from the public export. Many are third-party documents, including press articles, and how to publish them is still open. `captures.jsonl` holds their hashes, so any copy can be verified against it.
 
 ## Repository layout
 
@@ -86,7 +86,9 @@ bun scripts/trial-check.ts <state>           # check a Phase 1 trial
 bun test
 ```
 
-The validator needs the raw captured files. On a fresh clone they are missing, so it reports missing blobs until they are restored or fetched again. A new fetch gives new captures with new timestamps.
+The validator needs the raw captured files. In the private development repository, install Git LFS and run `git lfs pull` after cloning. The public export omits these files, so its validator reports missing blobs until they are restored or fetched again. A new fetch gives new captures with new timestamps.
+
+Development, worktrees, S3 backups and public exports are described in [repository backups](docs/repository-backups.md).
 
 ## How AI is used
 
