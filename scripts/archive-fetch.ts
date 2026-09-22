@@ -1,8 +1,9 @@
-import { appendFile, mkdir, open, unlink } from 'node:fs/promises';
+import { appendFile, link, mkdir, open, unlink } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { parseHTML, DOMParser } from 'linkedom';
 import { Readability } from '@mozilla/readability';
 import { captureSchema, trackedSchema, type Capture } from './archive-schema';
+import { snapshotPage, imageRulesSchema, imageDecisionsSchema, type ImageRules, type ImageDecisions } from './archive-page';
 import { ocrPdf } from './archive-ocr';
 export const root = resolve(import.meta.dir, '..');
 export const digest = (bytes: Uint8Array | string) => new Bun.CryptoHasher('sha256').update(bytes).digest('hex');
@@ -10,14 +11,23 @@ export async function readCaptures(): Promise<Capture[]> {
  const file = Bun.file(`${root}/archive/captures.jsonl`);
  return await file.exists() ? (await file.text()).split('\n').filter(Boolean).map(line => captureSchema.parse(JSON.parse(line))) : [];
 }
-const hosts = new Map<string, number>();
-// Redirects also pass through the host limiter. Never follow social-media links.
+const hosts = new Map<string, { started: number; pending: Promise<void> }>();
+// Reserve request starts per host, including redirects. Different hosts can run independently.
+async function reserveHost(host: string) {
+ let state = hosts.get(host);
+ if (!state) { state = { started: 0, pending: Promise.resolve() }; hosts.set(host, state); }
+ const previous = state.pending;
+ const pending = previous.then(async () => {
+  const delay = 1050 - (Date.now() - state.started);
+  if (delay > 0) await Bun.sleep(delay);
+  state.started = Date.now();
+ });
+ state.pending = pending.catch(() => {});
+ await pending;
+}
 async function request(url: string, timeout = 45000): Promise<Response> {
  for (let redirects = 0; redirects <= 10; redirects++) {
-  const host = new URL(url).host;
-  const delay = 1050 - (Date.now() - (hosts.get(host) ?? 0));
-  if (delay > 0) await Bun.sleep(delay);
-  hosts.set(host, Date.now());
+  await reserveHost(new URL(url).host);
   const response = await fetch(url, {headers:{'User-Agent':'party-promise-tracker-archiver/0.1'},redirect:'manual',signal:AbortSignal.timeout(timeout)});
   if ([301,302,303,307,308].includes(response.status) && response.headers.has('location')) {url = new URL(response.headers.get('location')!,url).href; await response.body?.cancel(); continue;}
   return response;
@@ -41,12 +51,28 @@ export function htmlText(html: string): string {
  parsed.querySelectorAll('td,th').forEach(node => node.after('\t'));
  return (parsed.body.textContent ?? '').split('\n').map(line => line.replace(/[\t \u00a0]+/g,' ').trim()).filter(Boolean).join('\n')+'\n';
 }
+// Write out of the way and link into place, so a fetch running beside this one never reads half a file.
+// Link also fails with EEXIST rather than replacing, which keeps the first writer's copy.
 async function store(path: string, bytes: Uint8Array | string) {
- try {const file = await open(`${root}/${path}`,'wx'); try {await file.writeFile(bytes);} finally {await file.close();}}
+ if (await Bun.file(`${root}/${path}`).exists()) return;
+ const temporary = `${root}/tmp/store-${crypto.randomUUID()}`;
+ try {
+  const file = await open(temporary,'wx'); try {await file.writeFile(bytes);} finally {await file.close();}
+  await link(temporary,`${root}/${path}`);
+ }
  catch(error) {if (!(error instanceof Error && 'code' in error && error.code === 'EEXIST')) throw error;}
+ finally {await unlink(temporary).catch(() => {});}
 }
-async function capture(url:string, previous:Capture|undefined, wayback:boolean):Promise<Capture> {
- const retrieved_at = new Date().toISOString();
+// A capture id is its timestamp plus the first 8 hex of its sha256, and facts and promises cite it, so
+// two fetches that start in the same millisecond and return the same bytes must not share one. Give
+// every capture a millisecond of its own; concurrency can push a timestamp a few ms past the clock.
+let issued = 0;
+function issue() {
+ issued = Math.max(Date.now(), issued + 1);
+ return new Date(issued).toISOString();
+}
+export async function capture(url:string, previous:Capture|undefined, wayback:boolean, rules?:ImageRules, decisions?:ImageDecisions):Promise<Capture> {
+ const retrieved_at = issue();
  const result:Capture = {id:'',url,final_url:null,retrieved_at,http_status:null,content_type:null,bytes:null,sha256:null,text_sha256:null,blob:null,text:null,http_last_modified:null,http_etag:null,pdf_info:null,wayback_url:null,previous_capture:previous?.id??null,content_changed:null,text_changed:null,error:null};
  try {
   const response = await request(url);
@@ -76,11 +102,16 @@ async function capture(url:string, previous:Capture|undefined, wayback:boolean):
    text = pages.join('\n');
   } else text = html ? htmlText(new TextDecoder().decode(bytes)) : new TextDecoder().decode(bytes);
   const textPath = `archive/text/${sha}.txt`;
-  // A blob keeps its original extraction, even after parser versions change.
-  if (await Bun.file(`${root}/${textPath}`).exists()) text = await Bun.file(`${root}/${textPath}`).text();
+  // A blob keeps its original extraction, even after parser versions change: store keeps the stored
+  // copy when there is one, so reading back afterwards yields the extraction this blob already had.
   await store(textPath,text);
+  text = await Bun.file(`${root}/${textPath}`).text();
   if (pdf && !text.trim()) await ocrPdf(blob, sha);
   Object.assign(result,{sha256:sha,text_sha256:digest(text),blob,text:textPath,bytes:bytes.length,content_changed:previous?previous.sha256!==sha:null,text_changed:previous?previous.text_sha256!==digest(text):null});
+  if (html) {
+   try { result.page = await snapshotPage(new TextDecoder().decode(bytes), result.final_url || url, { request, store, rules, decisions }); }
+   catch (error) { result.page_error = String(error); console.error(`PAGE SNAPSHOT FAILED ${url}: ${error}`); }
+  }
  } catch(error) {result.error=String(error);result.pdf_info=null;}
  if (wayback) {
   try {
@@ -96,20 +127,40 @@ async function capture(url:string, previous:Capture|undefined, wayback:boolean):
  return captureSchema.parse(result);
 }
 async function main() {
- const args=process.argv.slice(2);let selected:string|undefined;let wayback=false;
- for(let i=0;i<args.length;i++){if(args[i]==='--wayback')wayback=true;else if(args[i]==='--url' && args[i+1]) selected=args[++i];else throw new Error(`Unknown or incomplete argument: ${args[i]}`);}
+ const args=process.argv.slice(2);let selected:string|undefined;let wayback=false;let htmlOnly=false;let concurrency=8;
+ for(let i=0;i<args.length;i++){if(args[i]==='--wayback')wayback=true;else if(args[i]==='--html')htmlOnly=true;else if(args[i]==='--url' && args[i+1]) selected=args[++i];else if(args[i]==='--concurrency' && args[i+1]) concurrency=Number(args[++i]);else throw new Error(`Unknown or incomplete argument: ${args[i]}`);}
+ if(!Number.isInteger(concurrency)||concurrency<1)throw new Error('--concurrency needs a whole number of at least 1');
+ const rulesFile=Bun.file(`${root}/archive/image-rules.json`);
+ const imageRules=await rulesFile.exists()?imageRulesSchema.parse(await rulesFile.json()):{};
+ const decisionsFile=Bun.file(`${root}/archive/image-decisions.json`);
+ const imageDecisions=await decisionsFile.exists()?imageDecisionsSchema.parse(await decisionsFile.json()):{};
  const tracked=trackedSchema.parse(await Bun.file(`${root}/archive/tracked-urls.json`).json());
  if(selected && !tracked.some(item=>item.url===selected))throw new Error('URL is not tracked');
  await mkdir(`${root}/tmp`,{recursive:true});await mkdir(`${root}/archive/blobs`,{recursive:true});await mkdir(`${root}/archive/text`,{recursive:true});
  const lock=await open(`${root}/tmp/archive-fetch.lock`,'wx');
  try {
  const captures=await readCaptures();let failed=false;
- for(const url of new Set(tracked.filter(item=>!selected||item.url===selected).map(item=>item.url))){
-  const previous=captures.findLast(item=>item.url===url);const current=await capture(url,previous,wayback);
-  await appendFile(`${root}/archive/captures.jsonl`,JSON.stringify(current)+'\n');captures.push(current);
+ const htmlUrls=new Set(captures.filter(item=>item.blob?.endsWith('.html')).map(item=>item.url));
+ const urls=[...new Set(tracked.filter(item=>(!selected||item.url===selected)&&(!htmlOnly||htmlUrls.has(item.url))).map(item=>item.url))];
+ // Tracked URLs arrive grouped per site, and a page's images and stylesheets sit on its own host and
+ // share its one-request-per-second budget. Taken in that order the workers would queue behind each
+ // other on one host while the rest of the web sat idle, so deal the hosts out round robin instead.
+ const byHost=new Map<string,string[]>();
+ for(const url of urls){const host=new URL(url).host;const queue=byHost.get(host);if(queue)queue.push(url);else byHost.set(host,[url]);}
+ const queues=[...byHost.values()];const ordered:string[]=[];
+ for(let round=0;ordered.length<urls.length;round++)for(const queue of queues)if(round<queue.length)ordered.push(queue[round]);
+ let appending:Promise<unknown>=Promise.resolve();let next=0;
+ const worker=async()=>{while(next<ordered.length){
+  const url=ordered[next++];
+  const previous=captures.findLast(item=>item.url===url);const current=await capture(url,previous,wayback,imageRules[url],imageDecisions);
+  // Appends go one at a time, because concurrent writes to a line-based log can interleave.
+  appending=appending.then(()=>appendFile(`${root}/archive/captures.jsonl`,JSON.stringify(current)+'\n'));
+  await appending;captures.push(current);
   console.log(`${current.error?'FAILED':current.text_changed?'TEXT CHANGED':current.content_changed?'BYTES CHANGED':'CAPTURED'} ${url} ${current.id}${current.error?' '+current.error:''}`);
+  if(current.page_error || current.page?.warnings.length)console.error(`PAGE WARNINGS ${url}: ${current.page_error || current.page!.warnings.join('; ')}`);
   failed ||= current.error!==null;
- }
+ }};
+ await Promise.all(Array.from({length:Math.min(concurrency,ordered.length)},worker));
  if(failed)process.exitCode=1;
  } finally {await lock.close();await unlink(`${root}/tmp/archive-fetch.lock`);}
 }

@@ -151,6 +151,15 @@
       "searched": [
         "https://mieterpartei-jetzt.de/index.php/zehn-punkte-sofort-programm-als-erste-hilfe-fuer-mieterinnen/"
       ]
+    },
+    {
+      "key": "election_result",
+      "checked_at": "2026-09-21T07:45:54.257Z",
+      "note": "Die Partei steht nicht in der Zweitstimmenliste des vorläufigen Ergebnisses vom 21. September 2026, also liegt für sie kein Zweitstimmenanteil vor. Die Sitzverteilung ist noch nicht festgestellt.",
+      "searched": [
+        "https://www.berlin.de/wahlen/pressemitteilungen/2026/20260921_vorlaeufiges-ergebnis-festgestellt.pdf?ts=1789950491",
+        "https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html"
+      ]
     }
   ]
 }

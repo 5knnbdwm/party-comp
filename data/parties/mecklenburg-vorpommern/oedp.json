@@ -61,6 +61,27 @@
       ],
       "key": "in_parliament_before_election",
       "value": false
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 0.1,
+        "seats": 0,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:44:07.458Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074140002Z_404e3cbf",
+          "quote": "ÖDP\n981\n0,1",
+          "page": null
+        },
+        {
+          "capture": "cap_20260921T074140498Z_8d814704",
+          "quote": "21.09.2026 00:01:10;103;99;Mecklenburg-Vorpommern;1974;1974;1311294;1024251;Insgesamt;29;32;0;5;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

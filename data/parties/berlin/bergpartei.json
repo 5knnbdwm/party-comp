@@ -73,6 +73,22 @@
       ],
       "key": "seats_before_election",
       "value": 0
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 0,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "bergpartei, die überpartei                                              80   0,0",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": []

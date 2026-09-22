@@ -9,7 +9,7 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
   await mkdir(`${directory}/scripts`);
   await mkdir(`${directory}/archive`);
   await symlink(`${root}/node_modules`, `${directory}/node_modules`, 'dir');
-  for (const name of ['archive-fetch.ts', 'archive-ocr.ts', 'archive-quotes.ts', 'archive-schema.ts', 'archive-validate.ts']) {
+  for (const name of ['archive-page.ts', 'archive-fetch.ts', 'archive-ocr.ts', 'archive-quotes.ts', 'archive-schema.ts', 'archive-validate.ts']) {
     await copyFile(`${root}/scripts/${name}`, `${directory}/scripts/${name}`);
   }
   let version = 1;
@@ -19,9 +19,10 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
     fetch(request) {
       starts.push(Date.now());
       const path = new URL(request.url).pathname;
+      if (path === '/style.css') return new Response('main {color: rgb(10, 20, 30)}', { headers: { 'Content-Type': 'text/css' } });
       if (path === '/missing') return new Response('Gone', { status: 404 });
       if (path === '/redirect') return Response.redirect(new URL('/document', request.url));
-      return new Response(`<html><body><nav>Chrome</nav><main><h1>Programm</h1><p>Version ${version}</p></main></body></html>`, {
+      return new Response(`<html><head><link rel="stylesheet" href="/style.css"></head><body><nav>Chrome</nav><main><h1>Programm</h1><p>Version ${version}</p></main></body></html>`, {
         headers: { 'Content-Type': 'text/html' },
       });
     },
@@ -45,22 +46,28 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
     expect((await run('archive-fetch.ts')).code).toBe(1);
     const first = await read();
     expect(first).toHaveLength(3);
-    expect(first[2].http_status).toBe(404);
-    expect(first[2].sha256).toBeNull();
-    expect(first[0].sha256).toBe(first[1].sha256);
+    // Workers append as each fetch finishes, so look the fixtures up by URL rather than by position.
+    const captureOf = (path: string) => first.find(item => item.url === new URL(path, server.url).href)!;
+    const [documentCapture, redirectCapture, missingCapture] = ['/document', '/redirect', '/missing'].map(captureOf);
+    expect(documentCapture.page?.resources[0]?.action).toBe('preserved');
+    expect(missingCapture.http_status).toBe(404);
+    expect(missingCapture.sha256).toBeNull();
+    expect(documentCapture.sha256).toBe(redirectCapture.sha256);
     for (let i = 1; i < starts.length; i++) expect(starts[i]! - starts[i - 1]!).toBeGreaterThanOrEqual(995);
     expect((await run('archive-fetch.ts', ['--url', document])).code).toBe(0);
     const second = await read();
     expect(second.slice(0, 3)).toEqual(first);
     expect(second[3].content_changed).toBe(false);
     expect(second[3].text_changed).toBe(false);
-    expect(second[3].blob).toBe(first[0].blob);
+    expect(second[3].blob).toBe(documentCapture.blob);
     version++;
     expect((await run('archive-fetch.ts', ['--url', document])).code).toBe(0);
     const third = await read();
     expect(third[4].content_changed).toBe(true);
     expect(third[4].text_changed).toBe(true);
-    expect((await run('archive-validate.ts')).code).toBe(0);
+    const validated = await run('archive-validate.ts');
+    expect(validated.stderr).toBe('');
+    expect(validated.code).toBe(0);
 
     // Facts must show their value in a quote, and gaps must name captured pages.
     const partyPath = `${directory}/data/parties/berlin/test.json`;
@@ -75,9 +82,14 @@ test('captures are append-only, deduplicated, rate-limited, and checked for corr
     expect((await run('archive-validate.ts')).stderr).toContain('lists no searched pages');
     await writeParty([], []);
 
+    const asset = third[4].page!.files.find(file => file.blob.endsWith('.css'))!;
+    const saved = await Bun.file(`${directory}/${asset.blob}`).text();
+    await Bun.write(`${directory}/${asset.blob}`, 'corrupted');
+    expect((await run('archive-validate.ts')).stderr).toContain('snapshot asset hash mismatch');
+    await Bun.write(`${directory}/${asset.blob}`, saved);
     await Bun.write(`${directory}/${third[4].blob}`, 'corrupted');
     expect((await run('archive-validate.ts')).code).toBe(1);
   } finally {
     server.stop(true);
   }
-}, 20000);
+}, 30000);

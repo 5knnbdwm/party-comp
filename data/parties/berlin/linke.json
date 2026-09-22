@@ -377,6 +377,39 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 25.7,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Die Linke                                                          468.060 25,7",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-20",
+        "speaker": "Elif Eralp",
+        "speaker_role": "Spitzenkandidatin",
+        "summary": "Beansprucht nach der Wahl die Regierungsbildung und sieht einen klaren Auftrag der Wählerinnen und Wähler für das Rote Rathaus."
+      },
+      "observed_at": "2026-09-21T10:07:18.491Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T100650243Z_7e19110f",
+          "quote": "Eralp formulierte am Wahlabend klar ihren Regierungsanspruch: \"Die Berlinerinnen und Berliner haben mir, haben uns, den klaren Auftrag fürs Rote Rathaus gegeben\", sagte sie in der ARD. Evers hingegen räumte ein, dass es aus Sicht seiner Partei nach \"nicht ganz einfachen Verhältnissen\" aussehe. Er warb in der ARD dennoch dafür, auszuloten, welche rechnerischen Optionen es gebe und ob sich daraus dann \"ein solches Bündnis der Stabilität\" schmieden lasse.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

@@ -478,6 +478,22 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 12.1,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Sozialdemokratische Partei Deutschlands                            220.939 12,1",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": [

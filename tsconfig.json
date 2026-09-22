@@ -1,1 +1,21 @@
-{"compilerOptions":{"target":"ESNext","module":"Preserve","moduleResolution":"bundler","strict":true,"noEmit":true,"types":["bun"],"lib":["ESNext","DOM"],"skipLibCheck":true},"include":["scripts/**/*.ts"]}
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "types": [
+      "bun"
+    ],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "scripts/**/*.ts",
+    "viewer/**/*.ts"
+  ]
+}

@@ -310,6 +310,39 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 18.8,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Christlich Demokratische Union Deutschlands                       342.516 18,8",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "coalition_position",
+      "value": {
+        "stated_on": "2026-09-20",
+        "speaker": "Stefan Evers",
+        "speaker_role": "Spitzenkandidat",
+        "summary": "Nennt die Verhältnisse nicht ganz einfach und wirbt dafür, die rechnerischen Optionen auszuloten und daraus ein Bündnis der Stabilität zu schmieden."
+      },
+      "observed_at": "2026-09-21T10:07:18.491Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T100650243Z_7e19110f",
+          "quote": "Eralp formulierte am Wahlabend klar ihren Regierungsanspruch: \"Die Berlinerinnen und Berliner haben mir, haben uns, den klaren Auftrag fürs Rote Rathaus gegeben\", sagte sie in der ARD. Evers hingegen räumte ein, dass es aus Sicht seiner Partei nach \"nicht ganz einfachen Verhältnissen\" aussehe. Er warb in der ARD dennoch dafür, auszuloten, welche rechnerischen Optionen es gebe und ob sich daraus dann \"ein solches Bündnis der Stabilität\" schmieden lasse.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

@@ -1304,7 +1304,7 @@
     "state": "sachsen-anhalt",
     "party": "afd",
     "kind": "program_immediate",
-    "label": "program_immediate",
+    "label": "100-Tage-Sofortprogramm zur Landtagswahl 2026",
     "publisher_type": "party",
     "added_at": "2026-09-16T18:59:20.820Z",
     "found_on": "https://afd-lsa.de/landtagswahl/"
@@ -1404,7 +1404,7 @@
     "state": "sachsen-anhalt",
     "party": "afd",
     "kind": "points_list",
-    "label": "program_full",
+    "label": "Kernpunkte zur Landtagswahl 2026",
     "publisher_type": "party",
     "added_at": "2026-09-16T19:00:27.914Z",
     "found_on": "https://afd-lsa.de/landtagswahl/"
@@ -5158,5 +5158,245 @@
     "publisher_type": "government",
     "added_at": "2026-09-17T11:25:00.000Z",
     "found_on": "https://www.wahlen-in-schwerin.de/"
+  },
+  {
+    "url": "https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_result",
+    "label": "Vorläufiges Ergebnis der Wahl zum 20. Abgeordnetenhaus von Berlin am 20. September 2026, Land Berlin",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.berlin.de/wahlen/"
+  },
+  {
+    "url": "https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/gewaehlte.html",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_result",
+    "label": "Gewählte der Wahl zum 20. Abgeordnetenhaus von Berlin am 20. September 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html"
+  },
+  {
+    "url": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1716422.php",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Pressemitteilung des Landeswahlleiters: Vorläufiges Ergebnis festgestellt, 21. September 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.berlin.de/wahlen/"
+  },
+  {
+    "url": "https://www.berlin.de/wahlen/pressemitteilungen/2026/20260921_vorlaeufiges-ergebnis-festgestellt.pdf?ts=1789950491",
+    "state": "berlin",
+    "party": null,
+    "kind": "election_result",
+    "label": "Vorläufiges Ergebnis Berliner Wahlen 2026 – Zweitstimmen (PDF zur Pressemitteilung)",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1716422.php"
+  },
+  {
+    "url": "https://wahlen.mvnet.de/dateien/ergebnisse.2026/landtagswahl/html/l_99.html",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_result",
+    "label": "Vorläufiges Ergebnis der Landtagswahl Mecklenburg-Vorpommern am 20. September 2026, Land",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.laiv-mv.de/Wahlen/Landtagswahlen/2026/Ergebnisse/"
+  },
+  {
+    "url": "https://wahlen.mvnet.de/dateien/ergebnisse.2026/landtagswahl/html/l_mandate.html",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_result",
+    "label": "Mandate der Parteien, Landtagswahl Mecklenburg-Vorpommern am 20. September 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://wahlen.mvnet.de/wahl/land"
+  },
+  {
+    "url": "https://wahlen.mvnet.de/dateien/ergebnisse.2026/landtagswahl/csv/l_mandate.csv",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_result",
+    "label": "Mandate der Parteien als CSV, Landtagswahl Mecklenburg-Vorpommern am 20. September 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://wahlen.mvnet.de/wahl/land"
+  },
+  {
+    "url": "https://wahlen.mvnet.de/wahl/land",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Ergebnisübersicht der Landeswahlleitung Mecklenburg-Vorpommern zur Landtagswahl 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-21T07:41:31.811Z",
+    "found_on": "https://www.laiv-mv.de/Wahlen/Landtagswahlen/2026/Ergebnisse/"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/opendata/pardok-wp20.xml",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "PARDOK Open Data, Metadaten der 20. Wahlperiode (erscheint mit der Konstituierung; vorher 404)",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.parlament-berlin.de/dokumente/open-data"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/appointments_plen_utf8.xml",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "Abgeordnetenhaus Berlin, Plenartermine als XML, täglich aktualisiert",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.parlament-berlin.de/dokumente/open-data"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/appointments_com_utf8.xml",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "Abgeordnetenhaus Berlin, Ausschusstermine als XML, täglich aktualisiert",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.parlament-berlin.de/dokumente/open-data"
+  },
+  {
+    "url": "https://www.dokumentation.landtag-mv.de/parldok/",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "ParlDok Mecklenburg-Vorpommern, Einstieg in die Parlamentsdokumentation",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/",
+    "state": "berlin",
+    "party": null,
+    "kind": "gazette",
+    "label": "Gesetz- und Verordnungsblatt für Berlin, Übersicht der Ausgaben",
+    "publisher_type": "government",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.berlin.de/sen/justiz/"
+  },
+  {
+    "url": "https://www.landesrecht-mv.de/bsmv/document/jlr-GVOBlMV2026",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "gazette",
+    "label": "Gesetz- und Verordnungsblatt für Mecklenburg-Vorpommern 2026",
+    "publisher_type": "government",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.landesrecht-mv.de/"
+  },
+  {
+    "url": "https://www.regierung-mv.de/Landesregierung/stk/",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Staatskanzlei Mecklenburg-Vorpommern, Ministerpräsidentin und Landesregierung",
+    "publisher_type": "government",
+    "added_at": "2026-09-21T09:00:44.898Z",
+    "found_on": "https://www.regierung-mv.de/"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/landtag/fraktionen",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "other",
+    "label": "Landtag Sachsen-Anhalt, Übersicht der Fraktionen",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/landtag/abgeordnete",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "other",
+    "label": "Landtag Sachsen-Anhalt, Übersicht der Abgeordneten",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/"
+  },
+  {
+    "url": "https://www.parlament-berlin.de/das-parlament/abgeordnete",
+    "state": "berlin",
+    "party": null,
+    "kind": "other",
+    "label": "Abgeordnetenhaus von Berlin, Übersicht der Abgeordneten",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://www.parlament-berlin.de/"
+  },
+  {
+    "url": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/fraktionen",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Landtag Mecklenburg-Vorpommern, Übersicht der Fraktionen",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://www.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.landtag-mv.de/abgeordnete-und-fraktionen/abgeordnete",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "other",
+    "label": "Landtag Mecklenburg-Vorpommern, Übersicht der Abgeordneten",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://www.landtag-mv.de/"
+  },
+  {
+    "url": "https://www.landesrecht-sachsen-anhalt.info/",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "gazette",
+    "label": "Landesrecht Sachsen-Anhalt, Portal mit den Ausgaben des GVBl. LSA",
+    "publisher_type": "government",
+    "added_at": "2026-09-21T09:03:10.386Z",
+    "found_on": "https://mj.sachsen-anhalt.de/service/recht-und-gesetz/landesrecht"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/wahl-berlin-wahlergebnisse-cdu-die-linke-evers-eralp-100.html",
+    "state": "berlin",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Reaktionen zur Abgeordnetenhauswahl am 20. September 2026, mehrere Parteien",
+    "publisher_type": "press",
+    "added_at": "2026-09-21T10:05:49.311Z",
+    "found_on": "https://www.zdfheute.de/politik/deutschland"
+  },
+  {
+    "url": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-wahlergebnisse-afd-spd-holm-schwesig-100.html",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Reaktionen zur Landtagswahl am 20. September 2026, mehrere Parteien",
+    "publisher_type": "press",
+    "added_at": "2026-09-21T10:05:49.311Z",
+    "found_on": "https://www.zdfheute.de/politik/deutschland"
+  },
+  {
+    "url": "https://www.t-online.de/nachrichten/deutschland/parteien/id_101444324/berlin-wahl-2026-diese-koalitionen-sind-nach-linken-wahlsieg-moeglich.html",
+    "state": "berlin",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Koalitionsoptionen nach der Abgeordnetenhauswahl 2026, mehrere Parteien",
+    "publisher_type": "press",
+    "added_at": "2026-09-21T10:06:50.139Z",
+    "found_on": "https://www.t-online.de/nachrichten/deutschland/parteien/"
   }
 ]

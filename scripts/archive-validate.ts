@@ -17,7 +17,12 @@ function unsupported(fact:Party['facts'][number],quotes:string,urls:string[],pag
   case 'ballot_list_number':return hasNumber(quotes,fact.value)?null:`no quote contains ${fact.value}`;
   // Zero seats means the party is absent from the member list, so there is no number to quote.
   case 'seats_before_election':return fact.value===0||hasNumber(quotes,fact.value)?null:`no quote contains ${fact.value}`;
-  case 'election_result':return hasNumber(quotes,fact.value.second_vote_pct)&&hasNumber(quotes,fact.value.seats)?null:`quotes do not contain ${fact.value.second_vote_pct}% and ${fact.value.seats} seats`;
+  // Vote shares are published on election night; the seat allocation can follow weeks later, so seats stay null until then.
+  case 'election_result':{
+   if(!hasNumber(quotes,fact.value.second_vote_pct))return `no quote contains ${fact.value.second_vote_pct}%`;
+   if(fact.value.seats!==null&&!hasNumber(quotes,fact.value.seats))return `no quote contains ${fact.value.seats} seats`;
+   return null;
+  }
   case 'website':case 'state_association_website':case 'parliamentary_group_website':case 'program':return hasUrl(fact.value)?null:`neither a source URL nor a quote matches ${fact.value}`;
   case 'social_account':return hasUrl(fact.value.url)?null:`neither a source URL nor a quote matches ${fact.value.url}`;
   case 'coalition_position':case 'sondierung_status':{
@@ -55,6 +60,17 @@ async function main(){
    check(capture.content_changed===(previous?previous.sha256!==capture.sha256:null),`${label}: wrong content_changed`);
    check(capture.text_changed===(previous?previous.text_sha256!==capture.text_sha256:null),`${label}: wrong text_changed`);
    check(Boolean(capture.pdf_info)===capture.blob?.endsWith('.pdf'),`${label}: invalid PDF metadata`);
+  }
+  if(capture.page){
+   check(capture.page.blob.endsWith('.html'),`${label}: page snapshot must be HTML`);
+   check(capture.page.files.some(file=>file.blob===capture.page!.blob&&file.sha256===capture.page!.sha256),`${label}: page missing from snapshot files`);
+   for(const asset of capture.page.files){
+    check(asset.blob.split('/').at(-1)?.startsWith(asset.sha256+'.'),`${label}: asset path/hash mismatch`);
+    const file=Bun.file(`${root}/${asset.blob}`);
+    check(await file.exists(),`${label}: missing snapshot asset ${asset.blob}`);
+    if(await file.exists())check(digest(new Uint8Array(await file.arrayBuffer()))===asset.sha256,`${label}: snapshot asset hash mismatch ${asset.blob}`);
+   }
+   for(const resource of capture.page.resources)if(resource.original)check(capture.page.files.some(file=>file.blob===resource.original!.blob&&file.sha256===resource.original!.sha256),`${label}: resource missing from snapshot files`);
   }
   byId.set(label,capture);latest.set(capture.url,capture);
  }

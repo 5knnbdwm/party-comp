@@ -4,21 +4,23 @@ A public record of what German parties promise before a state election, and what
 
 The plan: take each party's program, roughly 100 concrete promises, and follow every promise into the coalition agreement, through parliament and the budget, to a status. Every status links to the document, page or timestamp that backs it. Weekly summaries on X and other platforms report what changed.
 
-It starts with three states:
+It starts with three states, all of which have now voted and none of which has a coalition yet:
 
-- **Sachsen-Anhalt**, which voted on 6 September 2026 and has no coalition yet.
-- **Berlin** and **Mecklenburg-Vorpommern**, which both vote on 20 September 2026.
+- **Sachsen-Anhalt**, which voted on 6 September 2026.
+- **Berlin** and **Mecklenburg-Vorpommern**, which both voted on 20 September 2026.
+
+The preliminary results are recorded in `data/parties/` and summarised in the [project brief](docs/project-brief.md). In Mecklenburg-Vorpommern the CDU missed the 5% threshold by 0.1 points and is out of the Landtag; in Berlin Die Linke came first with 25.7%. Berlin has not yet published a seat allocation.
 
 The project is not affiliated with any party. It applies one method to every party.
 
 ## Status
 
-Early. There is no website yet. This repo currently holds the evidence archive: what each party published before and just after the elections, stored so that later edits or deletions can be detected.
+Early. There is no public website yet. A local archive viewer is available below. This repo currently holds the evidence archive: what each party published before and just after the elections, stored so that later edits or deletions can be detected.
 
 - 56 parties admitted to the ballot in the three states have a party file in `data/parties/`.
-- 901 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
-- 516 tracked URLs and 699 captures, each with a SHA-256 hash and retrieval time.
-- 44 promises from the AfD Sachsen-Anhalt flyers "Kernpunkte" and "100 Tage für Sachsen-Anhalt", the first records in the promise model. Unreviewed.
+- 939 facts: names, ballot positions, election results, programs, lead candidates, social media accounts, coalition statements and talks.
+- 537 tracked URLs and 1,225 captures, each with a SHA-256 hash and retrieval time.
+- 44 promises from the AfD Sachsen-Anhalt flyers "Kernpunkte" and "100 Tage für Sachsen-Anhalt", the first records in the promise model. All reviewed and approved on 21 September 2026.
 
 Deep research covers the core parties only:
 
@@ -90,6 +92,25 @@ The validator needs the raw captured files. In the private development repositor
 
 Development, worktrees, S3 backups and public exports are described in [repository backups](docs/repository-backups.md).
 
+## Local archive viewer
+
+```sh
+bun install
+bun run archive:view
+```
+
+Open http://127.0.0.1:4317. The viewer lists captured documents, groups repeat captures under each URL, and lets you filter by state, party, document kind and file format. Search covers titles, URLs and extracted text, including OCR when the original text layer is empty. Select a document to view its saved HTML or PDF, read its text, inspect capture metadata, or choose an earlier capture. Missing files and failed fetches remain visible.
+
+This is a read-only local tool. It loads the capture index at startup; restart it after adding captures. HTML documents display their saved HTML with external assets disabled. Sites that only reveal their content once JavaScript runs would otherwise sit on their loading screen forever, so the viewer drops the loading-state class and hides the spinner when it serves a page; downloads stay byte-for-byte identical to the stored blob. Capturing stylesheets and images is **not switched on yet**: `scripts/archive-page.ts` and the optional `page` record exist and are documented in [the archive format](docs/archive-format.md#html-page-snapshots), but the fetch script does not call them, so no capture carries a `page`. When that is enabled, the viewer shows the snapshot with local stylesheets instead, and says so per document. PDFs use the browser's built-in viewer. No archive files are changed or fetched by the viewer.
+
+In a Git worktree, missing blob, text and OCR files are read from the main checkout automatically. To use another checkout containing the raw files, set `ARCHIVE_FILES_ROOT` to its root directory. The capture index always comes from this checkout. To choose another port:
+
+```sh
+PORT=4321 bun run archive:view
+```
+
+The viewer uses Bun and TypeScript without a separate frontend framework or build step. It does not choose the stack for the future public site.
+
 ## How AI is used
 
 AI agents find sources, extract facts and draft reports. The instructions for each run are in `docs/tasks/`, and their reports are in `docs/reports/`, including what went wrong. A person reviews the results before anything is published beyond this repo. The editorial rules are in the [project brief](docs/project-brief.md). For example: "no evidence found" never becomes "promise broken", and the project publishes no single party score.
@@ -97,10 +118,10 @@ AI agents find sources, extract facts and draft reports. The instructions for ea
 ## Roadmap
 
 1. Archive every party before the 20 September elections. Done for core parties in all three states.
-2. After 20 September, sweep all admitted parties once, then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats.
-3. Trace five promises per state from the previous term with two AI models, to test the method. Done, see `docs/reports/trial/2026-09-17-trial-comparison.md`; statuses await review.
+2. After 20 September, sweep all admitted parties once, then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats. The re-fetch and the results are done, see `docs/reports/2026-09-21-post-election-sweep.md`; narrowing waits for the final results, because two parties are within 0.3 points of the threshold.
+3. Trace five promises per state from the previous term with two AI models, to test the method. Done, see `docs/reports/trial/2026-09-17-trial-comparison.md`; the statuses were reviewed and approved.
 4. Define the promise and status model from that trial. Done, see "Core model" in the project brief.
-5. Extract promises from the 2026 programs of the parties likely to govern.
+5. Extract promises from the full 2026 programs of the parties that end up governing, once the coalitions are formed. Opposition parties are archived and tracked through their motions and votes, but no promises are extracted from their programs.
 6. Build the website, then weekly summaries.
 
 ## Corrections

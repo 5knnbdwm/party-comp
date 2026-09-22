@@ -21,7 +21,17 @@ The unit of the project is the **promise**, one assessable commitment. A party p
 | Berlin | Abgeordnetenhaus election on 20 Sep 2026 | Second state. Its parliament publishes machine-readable open data, which makes it the easiest pipeline to prototype. |
 | Mecklenburg-Vorpommern | Landtag election on 20 Sep 2026 | Votes the same day as Berlin. |
 
-The brief does not record election results or coalition outcomes yet. Check them and add them here once known. They decide which parties count as governing and which as opposition.
+All three elections have been held. The results below are **preliminary**, as published by the election authorities, and no state has a coalition yet. The per-party figures are recorded as `election_result` facts in `data/parties/`.
+
+| State | Parties with seats, preliminary | Just below the 5% threshold |
+|---|---|---|
+| Sachsen-Anhalt, 6 Sep 2026 | AfD 43.8% / 39, CDU 17.2% / 15, SPD 9.3% / 8, Grüne 8.9% / 8, Linke 8.6% / 8, BSW 5.3% / 5 | — |
+| Berlin, 20 Sep 2026 | Linke 25.7%, CDU 18.8%, AfD 16.3%, Grüne 14.3%, SPD 12.1% | BSW 4.7%, FDP 2.5% |
+| Mecklenburg-Vorpommern, 20 Sep 2026 | AfD 38.2% / 32, SPD 35.5% / 29, Linke 6.5% / 5, Grüne 5.7% / 5 | CDU 4.9%, BSW 4.8% |
+
+Berlin seat counts are missing on purpose: the Landeswahlleitung published the second-vote result on 21 Sep 2026 but no seat allocation, so those facts carry `seats: null` until the Landeswahlausschuss determines it. Sachsen-Anhalt's final result is due from its Landeswahlausschuss on 22 Sep 2026. Checked again on 22 Sep 2026 at 13:49 CEST: the state results site still carries "Vorläufige Ergebnisse" stamped 8 Sep 2026, byte-identical to the previous capture, so the determination was not published yet.
+
+Two results sit close enough to the threshold that the final count can still change who holds seats: the CDU in Mecklenburg-Vorpommern at 4.9% and the BSW in Berlin at 4.7%. Until the final results are in, the core party lists stay as they were, so no party loses coverage on a margin that may move.
 
 ### Core parties
 
@@ -32,6 +42,8 @@ Deep research (lead candidates, social accounts, coalition statements, every pro
 - Berlin and Mecklenburg-Vorpommern, after 20 Sep 2026: parties that won seats.
 
 After 20 Sep 2026, run one sweep over every admitted party in all three states to catch surprises. Then narrow Berlin and Mecklenburg-Vorpommern to the parties that won seats.
+
+Narrowing waits for the final results, because two parties are within 0.3 points of the threshold, see Scope. Dropping them on the preliminary count risks losing coverage of a party that ends up in parliament. `data/core-parties.json` therefore still lists the pre-election core parties.
 
 More states can follow once the process works for these three. The rules below stay the same for every state and every party.
 
@@ -69,7 +81,8 @@ The JSON format is in `docs/promise-format.md`.
 - One promise holds one done-when. "More teachers and smaller classes" is two promises.
 - Use the same granularity for every party. When one program is written as broad goals and another as small tasks, split both to the same level.
 - A concrete, checkable clause inside a vague promise is split out, with the vague promise as its parent.
-- If the project tracks a selection rather than the full program, the site states the selection rule publicly. The rule itself is an open decision, see below.
+- Promises are extracted from the **full** program of every governing party, not from a selection. `not_in_program` and `omitted` both assert that nothing in the program matches, and neither is honest if only part of the program was read.
+- A selection rule governs what the site **publishes first**, not what is extracted. While fewer promises are published than were extracted, the site states the selection rule publicly. The rule itself is an open decision, see below.
 
 ### Adoption into the coalition
 
@@ -83,7 +96,11 @@ A party promise that no commitment takes over is `omitted`. Before an agreement 
 
 Keep the party programs intact. Coalition commitments link to the promises they came from, many to many. This linking is how compromises become visible, so the tracker never merges programs into one list that replaces the originals.
 
-Opposition parties keep their promise pages. For them the site tracks their motions, bills and votes, and it holds them to no delivery standard.
+Promises are extracted only from the programs of parties that end up governing, whether by majority or in a coalition. A party that does not govern cannot deliver, so there is nothing to trace its program against. For opposition parties the site tracks their motions, bills and votes, holds them to no delivery standard, and extracts no promises from their programs.
+
+Their programs are still archived in full at election time, because who governs is not known until the coalition is formed, and a party's program is edited or removed once the campaign is over. Archiving is cheap and irreversible if skipped; extraction is expensive and can wait.
+
+This makes party coverage differ by state: a party may have its promises tracked where it governs and only its motions tracked where it does not. That follows from one rule applied everywhere, and the methodology page has to say so plainly, because the asymmetry is visible and will be read as bias otherwise.
 
 ### Implementation status
 
@@ -169,6 +186,10 @@ Model choice, from the trial and the archive runs:
 
 The measure of the AI pipeline is review time per event. If review takes too long to sustain weekly, fix the pipeline or cut scope before publishing more.
 
+First measurement, 21 Sep 2026: **44 extracted promises reviewed in 40 minutes, about 55 seconds each**, using the sheet from `scripts/promise-review.ts`. At that rate a governing party's full program of roughly 100 promises costs about an hour and a half of review, and all governing parties in the three states come to something like a working week spread over the term. The format scales; extraction volume is not what limits it.
+
+The review changed two things in 44 records, which is the more useful signal: one systematic OCR fault, and two done-when tests that demanded evidence nobody could gather. Both are listed in `docs/reports/2026-09-21-afd-sachsen-anhalt-promise-review.md`.
+
 ## Publishing
 
 ### Website
@@ -212,7 +233,7 @@ Done when every admitted party in all three states has a party file, every core 
 
 ### Phase 1: five-promise trial
 
-Done on 17 Sep 2026. Five promises per state from the previous term, each traced independently by two models instead of by hand. The findings are in `docs/reports/trial/2026-09-17-trial-comparison.md`, and the decisions they led to are in "Core model" above. The trial statuses have not been reviewed by a person.
+Done on 17 Sep 2026. Five promises per state from the previous term, each traced independently by two models instead of by hand. The findings are in `docs/reports/trial/2026-09-17-trial-comparison.md`, and the decisions they led to are in "Core model" above. The project owner reviewed the trial statuses and approved them; recorded on 21 Sep 2026.
 
 ### Phase 2: lock the model and method
 
@@ -240,10 +261,9 @@ Done when four consecutive weekly posts have gone out with review, and review ti
 
 ## Open decisions
 
-- Tech stack and hosting.
+- Hosting. The site framework is decided: **Astro with static output**, chosen on 22 Sep 2026 because permanent URLs, feeds and share-images are core to the project and interactivity is limited to filters and search. Nothing is built yet.
 - Project name. It should not name a single party.
-- Selection rule if we track fewer promises than a full program.
-- How far to track opposition programs beyond their motions and votes.
+- Selection rule for which extracted promises the site publishes first, and in what order. Extraction itself is settled: full programs, governing parties only.
 - Legal entity and the responsible person for Impressum and §18 MStV.
 - Election results and coalitions for all three states, to be added to Scope.
 

@@ -173,6 +173,22 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 0.3,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Partei des Fortschritts                                              5.760   0,3",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": []

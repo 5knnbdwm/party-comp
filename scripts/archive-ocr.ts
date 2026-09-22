@@ -13,6 +13,13 @@ async function run(args: string[]) {
 }
 
 /**
+ * Tesseract reads the chevron bullet that starts each item on the AfD flyers as "SS". The documents
+ * contain no such letters, and leaving it in produces quotes like "SS KÜNDIGEN" that misrepresent what
+ * the party printed. Only a bullet at the start of a line is removed, so "SS" inside a sentence stays.
+ */
+export const withoutBulletArtefact = (text: string) => text.replace(/^SS (?=[A-ZÄÖÜ])/gm, '');
+
+/**
  * Writes OCR text for a scanned PDF blob unless it already exists, or always with `redo`.
  * Pages render at 400 dpi and OCR runs on the red channel, thresholded: party flyers often set text in blue,
  * which is dark in the red channel but too faint for Tesseract in colour or plain grayscale.
@@ -31,7 +38,7 @@ export async function ocrPdf(blob: string, sha256: string, redo = false) {
    await run(['magick',`${directory}/${image}`,'-channel','R','-separate','-threshold','60%',red]);
    pages.push(await run(['tesseract',red,'-','-l','deu','--tessdata-dir',`${root}/vendor/tessdata`]));
   }
-  await Bun.write(`${root}/${ocrPath(sha256)}`, pages.join('\f'));
+  await Bun.write(`${root}/${ocrPath(sha256)}`, withoutBulletArtefact(pages.join('\f')));
  } finally {await rm(directory,{recursive:true,force:true});}
 }
 

@@ -85,6 +85,22 @@
       ],
       "key": "website",
       "value": "https://dkp.de/"
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 0.1,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Deutsche Kommunistische Partei                                       2.070   0,1",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": []

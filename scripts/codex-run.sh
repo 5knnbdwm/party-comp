@@ -21,7 +21,22 @@ mkdir -p "$root/runs" "$root/tmp"
 log="$root/runs/$name.log"
 export TMPDIR="$root/tmp"
 
+# Requests go through the local CLIProxyAPI rather than a ChatGPT login, which is what the
+# desktop app uses too. The key is read from the proxy's own config unless it is already set.
+: "${CLIPROXY_BASE_URL:=http://127.0.0.1:8317/v1}"
+: "${CLIPROXY_CONFIG:=/opt/homebrew/etc/cliproxyapi.conf}"
+if [ -z "${CLIPROXY_API_KEY:-}" ] && [ -r "$CLIPROXY_CONFIG" ]; then
+  CLIPROXY_API_KEY=$(awk '/^api-keys:/{f=1;next} f&&/^[[:space:]]*-/{gsub(/^[[:space:]]*-[[:space:]]*"?|"?[[:space:]]*$/,"");print;exit} f&&/^[^[:space:]#-]/{exit}' "$CLIPROXY_CONFIG")
+fi
+export CLIPROXY_API_KEY
+
 set -- --skip-git-repo-check -m "$model" -c "model_reasoning_effort=\"$effort\"" \
+  -c "model_provider=\"cliproxyapi\"" \
+  -c "model_providers.cliproxyapi.name=\"CLIProxyAPI\"" \
+  -c "model_providers.cliproxyapi.base_url=\"$CLIPROXY_BASE_URL\"" \
+  -c "model_providers.cliproxyapi.wire_api=\"responses\"" \
+  -c "model_providers.cliproxyapi.env_key=\"CLIPROXY_API_KEY\"" \
+  -c "model_providers.cliproxyapi.requires_openai_auth=false" \
   -o "$root/runs/$name.last-message.md"
 
 cd "$root"

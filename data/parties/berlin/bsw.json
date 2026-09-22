@@ -308,6 +308,22 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 4.7,
+        "seats": null,
+        "status": "preliminary"
+      },
+      "observed_at": "2026-09-21T07:45:26.989Z",
+      "sources": [
+        {
+          "capture": "cap_20260921T074139638Z_e32a8c84",
+          "quote": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit              86.041   4,7",
+          "page": 1
+        }
+      ]
     }
   ],
   "gaps": [
