@@ -349,6 +349,33 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "sondierung_status",
+      "value": {
+        "stated_on": "2026-09-21",
+        "speaker": "SPD Mecklenburg-Vorpommern",
+        "speaker_role": "Landesvorstand",
+        "summary": "Der Landesvorstand hat einstimmig beschlossen, Sondierungsgespräche mit Die Linke und Bündnis 90/Die Grünen aufzunehmen. Die Gespräche führen Manuela Schwesig, Christian Pegel und Julian Barlen. Gespräche mit der AfD sind ausgeschlossen."
+      },
+      "observed_at": "2026-09-23T10:55:00Z",
+      "sources": [
+        {
+          "capture": "cap_20260923T105304432Z_7bd67e51",
+          "quote": "Der Landesvorstand der SPD Mecklenburg-Vorpommern hat einstimmig beschlossen, Sondierungsgespräche mit Die Linke und Bündnis 90/Die Grünen aufzunehmen.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260923T105304432Z_7bd67e51",
+          "quote": "Die Gespräche führen Manuela Schwesig, Christian Pegel und Julian Barlen.",
+          "page": null
+        },
+        {
+          "capture": "cap_20260923T105304432Z_7bd67e51",
+          "quote": "Gespräche mit der AfD sind ausgeschlossen.",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": []

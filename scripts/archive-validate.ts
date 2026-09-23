@@ -6,8 +6,9 @@ const errors:string[]=[];
 const check=(condition:unknown,message:string)=>{if(!condition)errors.push(message);};
 const normal=(value:string)=>value.normalize('NFKC').replace(/\u00ad/g,'').replace(/\s+/g,' ').toLowerCase();
 const bareUrl=(value:string)=>value.toLowerCase().replace(/^https?:\/\//,'').replace(/^www\./,'').replace(/[?#].*$/,'').replace(/\/+$/,'');
-// Matches 43.8 as "43.8" or "43,8", and 22 as a whole number, never as part of 122.
-const hasNumber=(text:string,value:number)=>{const [whole,fraction]=String(value).split('.');return new RegExp(`(^|[^\\d])${whole}${fraction?`[.,]${fraction}`:'([.,]0+)?'}([^\\d]|$)`).test(text);};
+// Matches 43.8 as "43.8" or "43,8", and 22 as a whole number, never as part of 122. Trailing zeros in
+// the document are allowed, so a value of 9.3 is still backed by a source printing "9,30 %".
+const hasNumber=(text:string,value:number)=>{const [whole,fraction]=String(value).split('.');return new RegExp(`(^|[^\\d])${whole}${fraction?`[.,]${fraction}0*`:'([.,]0+)?'}([^\\d]|$)`).test(text);};
 
 /** Why a fact's sources fail to show its value, or null. Statements are checked for speaker and date, not for the fairness of the summary. */
 function unsupported(fact:Party['facts'][number],quotes:string,urls:string[],pages:string,retrieved:string[]):string|null{
@@ -74,7 +75,14 @@ async function main(){
   }
   byId.set(label,capture);latest.set(capture.url,capture);
  }
- for(const item of tracked)check(latest.has(item.url),`No capture for ${item.url}`);
+ for(const item of tracked){
+  check(latest.has(item.url),`No capture for ${item.url}`);
+  // A document URL answering with HTML is a soft 404: the server served a page instead of the file.
+  // It never fails, so without this the homepage is archived as though it were the document.
+  const last=latest.get(item.url);
+  if(last&&!last.error&&!item.retired&&/\.(pdf|docx?|epub)(\?|$)/i.test(item.url))
+   check(!last.content_type?.includes('html'),`${item.url}: document URL served HTML from ${last.final_url}; replace it or retire it`);
+ }
  let parties=0;
  for await(const path of new Bun.Glob('data/parties/**/*.json').scan(root)){
   const party=partySchema.parse(await Bun.file(`${root}/${path}`).json());parties++;

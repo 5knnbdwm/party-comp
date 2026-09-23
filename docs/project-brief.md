@@ -21,17 +21,25 @@ The unit of the project is the **promise**, one assessable commitment. A party p
 | Berlin | Abgeordnetenhaus election on 20 Sep 2026 | Second state. Its parliament publishes machine-readable open data, which makes it the easiest pipeline to prototype. |
 | Mecklenburg-Vorpommern | Landtag election on 20 Sep 2026 | Votes the same day as Berlin. |
 
-All three elections have been held. The results below are **preliminary**, as published by the election authorities, and no state has a coalition yet. The per-party figures are recorded as `election_result` facts in `data/parties/`.
+All three elections have been held. Sachsen-Anhalt's result is **final**; Berlin's and Mecklenburg-Vorpommern's are still **preliminary**, as published by the election authorities. No state has a coalition yet. The per-party figures are recorded as `election_result` facts in `data/parties/`.
 
-| State | Parties with seats, preliminary | Just below the 5% threshold |
+| State | Parties with seats | Just below the 5% threshold |
 |---|---|---|
-| Sachsen-Anhalt, 6 Sep 2026 | AfD 43.8% / 39, CDU 17.2% / 15, SPD 9.3% / 8, Grüne 8.9% / 8, Linke 8.6% / 8, BSW 5.3% / 5 | — |
-| Berlin, 20 Sep 2026 | Linke 25.7%, CDU 18.8%, AfD 16.3%, Grüne 14.3%, SPD 12.1% | BSW 4.7%, FDP 2.5% |
-| Mecklenburg-Vorpommern, 20 Sep 2026 | AfD 38.2% / 32, SPD 35.5% / 29, Linke 6.5% / 5, Grüne 5.7% / 5 | CDU 4.9%, BSW 4.8% |
+| Sachsen-Anhalt, 6 Sep 2026, final | AfD 43.8% / 39, CDU 17.2% / 15, SPD 9.3% / 8, Grüne 8.9% / 8, Linke 8.6% / 8, BSW 5.3% / 5 | — |
+| Berlin, 20 Sep 2026, preliminary | Linke 25.7%, CDU 18.8%, AfD 16.3%, Grüne 14.3%, SPD 12.1% | BSW 4.7%, FDP 2.5% |
+| Mecklenburg-Vorpommern, 20 Sep 2026, preliminary | AfD 38.2% / 32, SPD 35.5% / 29, Linke 6.5% / 5, Grüne 5.7% / 5 | CDU 4.9%, BSW 4.8% |
 
-Berlin seat counts are missing on purpose: the Landeswahlleitung published the second-vote result on 21 Sep 2026 but no seat allocation, so those facts carry `seats: null` until the Landeswahlausschuss determines it. Sachsen-Anhalt's final result is due from its Landeswahlausschuss on 22 Sep 2026. Checked again on 22 Sep 2026 at 13:49 CEST: the state results site still carries "Vorläufige Ergebnisse" stamped 8 Sep 2026, byte-identical to the previous capture, so the determination was not published yet.
+Sachsen-Anhalt's Landeswahlausschuss determined the final result on 22 Sep 2026. The results site changed from "Vorläufige Ergebnisse" to "Endgültige Ergebnisse" between the captures of 22 and 23 Sep, and the seat distribution is unchanged from the preliminary count: AfD 39, CDU 15, SPD 8, Grüne 8, Linke 8, BSW 5, 83 in total. The new Landtag constitutes on 6 Oct 2026.
 
-Two results sit close enough to the threshold that the final count can still change who holds seats: the CDU in Mecklenburg-Vorpommern at 4.9% and the BSW in Berlin at 4.7%. Until the final results are in, the core party lists stay as they were, so no party loses coverage on a margin that may move.
+The six Sachsen-Anhalt `election_result` facts now carry `status: "final"`, sourced from the Landeswahlleiterin's announcement of 22 Sep 2026 and the official seat-distribution CSV. The final second-vote shares are more precise than the preliminary ones the table above rounds: CDU 17.23%, AfD 43.79%, SPD 9.30%, GRÜNE 8.93%, Die Linke 8.56%, BSW 5.27%.
+
+The results site itself is unquotable: it renders its tables in JavaScript, so a capture of it holds no figures. Prefer the files under its Downloads page and the Landeswahlleiterin's announcements, which extract to readable text. That announcement index, `wahlen.sachsen-anhalt.de/aktuelles`, is now tracked; nothing linked it before, which is why the sweep did not see the final result being published.
+
+Berlin seat counts are missing on purpose: the Landeswahlleitung published the second-vote result on 21 Sep 2026 but no seat allocation, so those facts carry `seats: null` until the Landeswahlausschuss determines it.
+
+Two results sit close enough to the threshold that the final count can still change who holds seats: the CDU in Mecklenburg-Vorpommern at 4.9% and the BSW in Berlin at 4.7%. Until the final results are in, the core party lists stay as they were, so no party loses coverage on a margin that may move. Both open cases are now outside Sachsen-Anhalt, whose final count changed nothing.
+
+Mecklenburg-Vorpommern's Landeswahlausschuss determines its final result on 30 Sep 2026, and its Landtag will have 71 members. Berlin has named no date yet.
 
 ### Core parties
 

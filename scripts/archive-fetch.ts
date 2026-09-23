@@ -126,6 +126,30 @@ export async function capture(url:string, previous:Capture|undefined, wayback:bo
  result.id = `cap_${retrieved_at.replace(/[-:.]/g,'')}_${result.sha256?.slice(0,8) ?? 'failed'}`;
  return captureSchema.parse(result);
 }
+const running = (pid: number) => {
+ // Signal 0 tests for the process without sending anything. EPERM means it exists but is not ours.
+ try {process.kill(pid, 0); return true;}
+ catch(error) {return error instanceof Error && 'code' in error && error.code === 'EPERM';}
+};
+/**
+ * Takes the fetch lock, which keeps two runs from appending to the same capture log.
+ * A run killed before its cleanup leaves the file behind, and every later run then refuses to start
+ * until somebody deletes it by hand, so the lock records its owner and a lock whose owner is gone
+ * is cleared rather than believed.
+ */
+async function takeLock() {
+ const path = `${root}/tmp/archive-fetch.lock`;
+ for (let attempt = 0; ; attempt++) {
+  try {const lock = await open(path,'wx'); await lock.writeFile(String(process.pid)); return lock;}
+  catch(error) {
+   if (!(error instanceof Error && 'code' in error && error.code === 'EEXIST') || attempt) throw error;
+   const owner = Number((await Bun.file(path).text().catch(() => '')).trim());
+   if (owner && running(owner)) throw new Error(`Another fetch holds the lock (pid ${owner}). Wait for it, or stop it first.`);
+   console.error(`Clearing a lock left by pid ${owner || 'unknown'}, which is no longer running.`);
+   await unlink(path).catch(() => {});
+  }
+ }
+}
 async function main() {
  const args=process.argv.slice(2);let selected:string|undefined;let wayback=false;let htmlOnly=false;let concurrency=8;
  for(let i=0;i<args.length;i++){if(args[i]==='--wayback')wayback=true;else if(args[i]==='--html')htmlOnly=true;else if(args[i]==='--url' && args[i+1]) selected=args[++i];else if(args[i]==='--concurrency' && args[i+1]) concurrency=Number(args[++i]);else throw new Error(`Unknown or incomplete argument: ${args[i]}`);}
@@ -137,11 +161,12 @@ async function main() {
  const tracked=trackedSchema.parse(await Bun.file(`${root}/archive/tracked-urls.json`).json());
  if(selected && !tracked.some(item=>item.url===selected))throw new Error('URL is not tracked');
  await mkdir(`${root}/tmp`,{recursive:true});await mkdir(`${root}/archive/blobs`,{recursive:true});await mkdir(`${root}/archive/text`,{recursive:true});
- const lock=await open(`${root}/tmp/archive-fetch.lock`,'wx');
+ const lock=await takeLock();
  try {
  const captures=await readCaptures();let failed=false;
  const htmlUrls=new Set(captures.filter(item=>item.blob?.endsWith('.html')).map(item=>item.url));
- const urls=[...new Set(tracked.filter(item=>(!selected||item.url===selected)&&(!htmlOnly||htmlUrls.has(item.url))).map(item=>item.url))];
+ // A retired URL is skipped by a sweep but still fetched when --url names it, so a retirement can be rechecked.
+ const urls=[...new Set(tracked.filter(item=>(!selected||item.url===selected)&&(!htmlOnly||htmlUrls.has(item.url))&&(!item.retired||item.url===selected)).map(item=>item.url))];
  // Tracked URLs arrive grouped per site, and a page's images and stylesheets sit on its own host and
  // share its one-request-per-second budget. Taken in that order the workers would queue behind each
  // other on one host while the rest of the web sat idle, so deal the hosts out round robin instead.

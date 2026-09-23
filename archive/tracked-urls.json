@@ -17,7 +17,11 @@
     "label": "Amtliche Wahlunterlagen 2026",
     "publisher_type": "election_authority",
     "added_at": "2026-09-16T18:52:52.367Z",
-    "found_on": "https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/allgemeine-informationen/artikel.1578239.php"
+    "found_on": "https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/allgemeine-informationen/artikel.1578239.php",
+    "retired": {
+      "at": "2026-09-23T10:50:00Z",
+      "reason": "Berlin removed the Amtsblatt notice after the election: since 21 Sep 2026 the URL answers HTTP 200 and redirects to https://www.berlin.de/wahlen/, and the page no longer links the file. The document itself is archived from the captures of 16 Sep 2026."
+    }
   },
   {
     "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html",
@@ -47,7 +51,11 @@
     "label": "Landesergebnis",
     "publisher_type": "election_authority",
     "added_at": "2026-09-16T18:53:33.535Z",
-    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html"
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html",
+    "retired": {
+      "at": "2026-09-23T11:10:00Z",
+      "reason": "Never existed: 404 on all 8 attempts. The state result lives at erg_land.html, which is tracked."
+    }
   },
   {
     "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html",
@@ -4767,7 +4775,11 @@
     "label": "Saxony-Anhalt supports Bundesrat BAfoeG reform resolution, 6 March 2026",
     "publisher_type": "government",
     "added_at": "2026-09-17T10:41:06Z",
-    "found_on": "https://mwu.sachsen-anhalt.de/"
+    "found_on": "https://mwu.sachsen-anhalt.de/",
+    "retired": {
+      "at": "2026-09-23T11:10:00Z",
+      "reason": "404 since first attempt. The ministry removed the March 2026 press item and no replacement was found."
+    }
   },
   {
     "url": "https://lv.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/Landesvertretung/LV/Bundesrat_Erlaeuterungen_Ergebnisse/2026/Ergebnisse_1062._BR___Abstimmungsverhalten_von_Sachsen-Anhalt.pdf",
@@ -4877,7 +4889,11 @@
     "label": "Unser Berlin. Mehr geht nur gemeinsam. Berlin-Plan 2021-2026",
     "publisher_type": "party",
     "added_at": "2026-09-17T12:03:00Z",
-    "found_on": "https://www.abgeordnetenwatch.de/berlin/wiederholungswahl-2023/wahlprogramme"
+    "found_on": "https://www.abgeordnetenwatch.de/berlin/wiederholungswahl-2023/wahlprogramme",
+    "retired": {
+      "at": "2026-09-23T10:50:00Z",
+      "reason": "Answers HTTP 200 but redirects to the CDU Berlin homepage, so it has never served the programme and every capture is a copy of that homepage. No replacement URL found yet."
+    }
   },
   {
     "url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogrammahw2021_0.pdf",
@@ -5137,7 +5153,11 @@
     "label": "Die Linke MV Wahlprogramm 2021 draft, attempted URL (404)",
     "publisher_type": "party",
     "added_at": "2026-09-17T11:25:00.000Z",
-    "found_on": "https://www.die-linke-mv.de/"
+    "found_on": "https://www.die-linke-mv.de/",
+    "retired": {
+      "at": "2026-09-23T11:10:00Z",
+      "reason": "404 since first attempt. The 2021 Wahlprogramm draft is no longer published by the party and no replacement was found, see docs/reports/2026-09-23-unreachable-documents.md."
+    }
   },
   {
     "url": "https://www.originalsozial.de/fileadmin/dokumente_2021/LPT_Jun_2021_HRO/A1_Entwurf_Wahlprogramm_neu__1_.pdf",
@@ -5147,7 +5167,11 @@
     "label": "Die Linke MV Wahlprogramm 2021 draft, attempted URL (404)",
     "publisher_type": "party",
     "added_at": "2026-09-17T11:25:00.000Z",
-    "found_on": "https://www.die-linke-mv.de/"
+    "found_on": "https://www.die-linke-mv.de/",
+    "retired": {
+      "at": "2026-09-23T11:10:00Z",
+      "reason": "404 since first attempt. Second attempted host for the same 2021 draft; also gone."
+    }
   },
   {
     "url": "https://www.wahlen-in-schwerin.de/sites/default/files/2021-09/Beschluss_LT_WP_2021.pdf",
@@ -5157,7 +5181,11 @@
     "label": "Schwerin election office document from 2021, attempted URL (404)",
     "publisher_type": "government",
     "added_at": "2026-09-17T11:25:00.000Z",
-    "found_on": "https://www.wahlen-in-schwerin.de/"
+    "found_on": "https://www.wahlen-in-schwerin.de/",
+    "retired": {
+      "at": "2026-09-23T11:10:00Z",
+      "reason": "404 since first attempt. The 2021 Schwerin election-office document is no longer published and no replacement was found."
+    }
   },
   {
     "url": "https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html",
@@ -5398,5 +5426,155 @@
     "publisher_type": "press",
     "added_at": "2026-09-21T10:06:50.139Z",
     "found_on": "https://www.t-online.de/nachrichten/deutschland/parteien/"
+  },
+  {
+    "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-wahl-agh-bvv-ergebnis-liveticker.html",
+    "state": "berlin",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Berlin-Wahl 2026: Liveticker zur Regierungsbildung",
+    "publisher_type": "press",
+    "added_at": "2026-09-23T10:50:00Z",
+    "found_on": "https://www.rbb24.de/politik/berlin-wahl-2026/"
+  },
+  {
+    "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/linke-sondierungen-koalitionsverhandlungen-antisemitismus-vorwurf.html",
+    "state": "berlin",
+    "party": "linke",
+    "kind": "coalition_statement",
+    "label": "Linke vor dem Parteitag über Sondierungen",
+    "publisher_type": "press",
+    "added_at": "2026-09-23T10:50:00Z",
+    "found_on": "https://www.rbb24.de/politik/berlin-wahl-2026/"
+  },
+  {
+    "url": "https://www.landtag.sachsen-anhalt.de/artikel/presse",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "press_release",
+    "label": "Presseakkreditierung zur Konstituierung des Landtags am 6. Oktober 2026",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-23T10:50:00Z",
+    "found_on": "https://www.landtag.sachsen-anhalt.de/themen-und-dossiers/thema/landtagswahl-2026"
+  },
+  {
+    "url": "https://www.n-tv.de/politik/AfD-und-BSW-pokern-um-Sachsen-Anhalts-Zukunft-id31337362.html",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Regierungsbildung in Magdeburg: AfD und BSW pokern um Sachsen-Anhalts Zukunft",
+    "publisher_type": "press",
+    "added_at": "2026-09-23T10:50:00Z",
+    "found_on": "https://www.n-tv.de/suche/?a=search&q=Sachsen-Anhalt"
+  },
+  {
+    "url": "https://spd-mv.de/meldungen/spd-mv-stimmt-fuer-sondierungsgespraeche-mit-linken-und-gruenen",
+    "state": "mecklenburg-vorpommern",
+    "party": "spd",
+    "kind": "coalition_statement",
+    "label": "SPD MV stimmt für Sondierungsgespräche mit Linken und Grünen",
+    "publisher_type": "party",
+    "added_at": "2026-09-23T10:50:00Z",
+    "found_on": "https://spd-mv.de/"
+  },
+  {
+    "url": "https://www.landtag-mv.de/aktuelles/artikel/landtagswahl-2026-vorlaeufiges-amtliches-endergebnis",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "election_result",
+    "label": "Landtagswahl 2026: Vorläufiges amtliches Endergebnis",
+    "publisher_type": "parliament",
+    "added_at": "2026-09-23T11:10:00Z",
+    "found_on": "https://www.landtag-mv.de/landtag/rund-um-wahlen/landtagswahl-2026"
+  },
+  {
+    "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/liveblog-wahl-mv-ruecktritte-bei-der-cdu-gespraechsangebote-fuer-sondierungen,mvwahl-liveticker-100.html",
+    "state": "mecklenburg-vorpommern",
+    "party": null,
+    "kind": "coalition_statement",
+    "label": "Liveticker MV Wahl 2026: AfD vor SPD, CDU nicht im Landtag",
+    "publisher_type": "press",
+    "added_at": "2026-09-23T11:10:00Z",
+    "found_on": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/index.html"
+  },
+  {
+    "url": "https://www.die-linke-mv.de/allgemein/neue-landtagsfraktion-konstituiert-hennis-herbst-zum-vorsitzenden-gewaehlt/",
+    "state": "mecklenburg-vorpommern",
+    "party": "linke",
+    "kind": "press_release",
+    "label": "Neue Landtagsfraktion konstituiert: Hennis Herbst zum Vorsitzenden gewählt",
+    "publisher_type": "party",
+    "added_at": "2026-09-23T11:10:00Z",
+    "found_on": "https://www.die-linke-mv.de/"
+  },
+  {
+    "url": "https://sachsen-anhalt.de/api/media/Koalitionsvertrag_2021-2026-e3b0c442.pdf?collection=document",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "coalition_agreement",
+    "label": "Koalitionsvertrag 2021-2026: Wir gestalten Sachsen-Anhalt",
+    "publisher_type": "government",
+    "added_at": "2026-09-23T11:10:00Z",
+    "found_on": "https://sachsen-anhalt.de/politik-verwaltung/page/die-landesregierung"
+  },
+  {
+    "url": "https://mf.sachsen-anhalt.de/api/media/Haushaltsplan%202024-e3b0c442.pdf?collection=document",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "budget",
+    "label": "Haushaltsplan 2024",
+    "publisher_type": "government",
+    "added_at": "2026-09-23T11:10:00Z",
+    "found_on": "https://mf.sachsen-anhalt.de/finanzen/page/haushaltsplaene"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads/DSB_LT_2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Datenblatt zur Landtagswahl 2026, endgültiges Ergebnis",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-23T11:25:00Z",
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads.html"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads/DSB_Sitzverteilung_LT_2026.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Datenblatt Sitzverteilung im Landtag 2026, endgültiges Ergebnis",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-23T11:25:00Z",
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads.html"
+  },
+  {
+    "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads/Sitzverteilung_LT_2026.csv",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Sitzverteilung im Landtag 2026 als CSV",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-23T11:25:00Z",
+    "found_on": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/downloads.html"
+  },
+  {
+    "url": "https://wahlen.sachsen-anhalt.de/aktuelles",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_authority_page",
+    "label": "Aktuelles der Landeswahlleiterin Sachsen-Anhalt",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-23T12:05:00Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/zu-den-wahlen/landtagswahl/"
+  },
+  {
+    "url": "https://wahlen.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MI/wahlen/Pressemitteilungen/2026_09_22_Endgueltiges_Ergebnis_der_Landtagswahl_festgestellt.pdf",
+    "state": "sachsen-anhalt",
+    "party": null,
+    "kind": "election_result",
+    "label": "Endgültiges Ergebnis der Landtagswahl festgestellt, 22. September 2026",
+    "publisher_type": "election_authority",
+    "added_at": "2026-09-23T12:05:00Z",
+    "found_on": "https://wahlen.sachsen-anhalt.de/aktuelles"
   }
 ]

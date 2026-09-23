@@ -641,6 +641,27 @@
           "page": null
         }
       ]
+    },
+    {
+      "key": "election_result",
+      "value": {
+        "second_vote_pct": 8.56,
+        "seats": 8,
+        "status": "final"
+      },
+      "observed_at": "2026-09-23T12:10:00Z",
+      "sources": [
+        {
+          "capture": "cap_20260923T120239878Z_b2423917",
+          "quote": "Die Linke (Die Linke)                          112.558     =     8,56 %",
+          "page": 1
+        },
+        {
+          "capture": "cap_20260923T115913019Z_8fc8a328",
+          "quote": "\"3\";\"Die Linke\";8;3;5",
+          "page": null
+        }
+      ]
     }
   ],
   "gaps": [

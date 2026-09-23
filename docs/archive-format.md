@@ -52,6 +52,7 @@ All timestamps are ISO 8601 in UTC with a `Z` suffix, such as `2026-09-16T18:12:
 
 - `party` is `null` for URLs that cover all parties, such as the official list of admitted parties.
 - `found_on` is the page that linked this URL, so the discovery path can be checked again later.
+- `retired` is optional, `{at, reason}`. It marks a URL that will not serve its document again, and a sweep skips it. The entry and its captures stay, because a dead URL is evidence of where a party published and that it is gone; removing the entry would make "we looked and it was gone" indistinguishable from "we never looked". Retire a URL only once that is established, not after one failure. `bun scripts/archive-fetch.ts --url <url>` still fetches a retired URL, so a retirement can be rechecked.
 - `kind` is one of:
   - `party_website`, `parliamentary_group_website`
   - `program_full`, `program_short`, `program_easy_language`, `program_html`, `points_list`, `program_immediate`
